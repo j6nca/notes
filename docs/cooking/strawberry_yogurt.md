@@ -1,10 +1,11 @@
 ---
 tags:
   - cooking
+  - dessert
+  - protein
+  - low carb
 ---
-# Strawberry Yogurt
-
-Tags: dessert, low_carb, protein
+# Strawberry Greek Yogurt
 
 # Notes
 

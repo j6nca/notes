@@ -1,10 +1,11 @@
 ---
 tags:
   - cooking
+  - snack
+  - protein
+  - airfryer
 ---
 # Chicken Nuggets
-
-Tags: airfryer, low_carb, protein, snack
 
 # Notes
 

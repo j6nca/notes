@@ -1,10 +1,11 @@
 ---
 tags:
   - cooking
+  - meal
+  - protein
+  - airfryer
 ---
 # Chicken Alfredo
-
-Tags: airfryer, meal, protein
 
 # Notes
 
