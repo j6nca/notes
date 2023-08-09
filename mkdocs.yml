@@ -1,6 +1,7 @@
 site_name: j6n | blog
 site_url: https://blog.j6n.ca
 repo_url: https://github.com/j6nca/blog
+repo_name: j6nca/blog
 copyright: Copyright &copy; 2023 Jonathan Ng
 extra:
   generator: false
@@ -26,6 +27,14 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
+plugins:
+  - tags:
+      tags_file: tags.md
+      # tags_allowed:
+      #   - cooking
+      #   - projects
+  - git-revision-date-localized:
+      enable_creation_date: true
 
 # nav:
 #   - Projects: "index.md"
