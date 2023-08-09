@@ -1,6 +1,6 @@
 site_name: j6n | blog
 site_url: https://blog.j6n.ca
-repo_url: https://github.com/j6nca/
+repo_url: https://github.com/j6nca/blog
 theme:
   name: material
   logo: assets/logo.gif
