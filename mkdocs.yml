@@ -17,6 +17,6 @@ theme:
         icon: material/toggle-switch
         name: Switch to dark mode
 
-nav:
-  - Projects: "index.md"
-  - Cooking: "index.md"
+# nav:
+#   - Projects: "index.md"
+#   - Cooking: "index.md"
