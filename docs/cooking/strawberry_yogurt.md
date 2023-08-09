@@ -1,3 +1,7 @@
+---
+tags:
+  - cooking
+---
 # Strawberry Yogurt
 
 Tags: dessert, low_carb, protein

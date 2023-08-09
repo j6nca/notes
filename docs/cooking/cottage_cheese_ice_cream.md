@@ -1,3 +1,7 @@
+---
+tags:
+  - cooking
+---
 # Cottage Cheese Ice Cream
 
 Tags: dessert, low_carb, protein

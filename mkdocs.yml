@@ -28,8 +28,14 @@ theme:
         icon: material/toggle-switch
         name: Switch to dark mode
 plugins:
+  # - meta
+  # - blog
+  - search
   - tags:
       tags_file: tags.md
+      # tags_slugify: !!python/object/apply:pymdownx.slugs.slugify
+      #   kwds:
+      #     case: lower
       # tags_allowed:
       #   - cooking
       #   - projects

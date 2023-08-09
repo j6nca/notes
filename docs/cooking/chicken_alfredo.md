@@ -1,3 +1,7 @@
+---
+tags:
+  - cooking
+---
 # Chicken Alfredo
 
 Tags: airfryer, meal, protein

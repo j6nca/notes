@@ -1,5 +1,1 @@
----
-tags:
-  - Cooking
-  - Projects
----
+# Welcome to my blog!
