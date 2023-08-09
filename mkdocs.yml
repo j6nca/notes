@@ -1,6 +1,16 @@
 site_name: j6n | blog
 site_url: https://blog.j6n.ca
 repo_url: https://github.com/j6nca/blog
+copyright: Copyright &copy; 2023 Jonathan Ng
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/j6nca
+    - icon: fontawesome/brands/linkedin 
+      link: https://www.linkedin.com/in/j6n
+    - icon: fontawesome/brands/discord 
+      link: https://discordapp.com/users/189118524784902146
 theme:
   name: material
   logo: assets/logo.gif
