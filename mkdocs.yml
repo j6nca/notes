@@ -1,5 +1,8 @@
-site_name: My Blog
+site_name: j6n | blog
 site_url: https://blog.j6n.ca
 repo_url: https://github.com/j6nca/
 theme:
   name: material
+nav:
+  - Projects:
+  - Cooking: 
