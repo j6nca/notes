@@ -42,6 +42,8 @@ plugins:
       #   - projects
   - git-revision-date-localized:
       enable_creation_date: true
+      timezone: Canada/Eastern
+      type: datetime
 
 # nav:
 #   - Projects: "index.md"
