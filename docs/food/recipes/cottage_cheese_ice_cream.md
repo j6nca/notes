@@ -1,6 +1,6 @@
 ---
 tags:
-  - cooking
+  - recipe
   - dessert
   - protein
   - low carb

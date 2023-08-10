@@ -1,6 +1,6 @@
 ---
 tags:
-  - cooking
+  - recipe
   - meal
   - protein
   - airfryer

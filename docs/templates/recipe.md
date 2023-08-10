@@ -1,3 +1,7 @@
+---
+tags:
+  - recipe
+---
 # Recipe Name
 
 # Notes
