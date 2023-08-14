@@ -7,11 +7,9 @@ tags:
 ---
 # Cottage Cheese Ice Cream
 
-# Notes
-
 Serving size: ~ 1 pint
 
-# Macros
+## Macros
 
 | Item | Carbs (g) | Proteins (g) | Fats (g) | Cals (kcal) |
 | --- | --- | --- | --- | --- |
@@ -21,22 +19,23 @@ Serving size: ~ 1 pint
 | Cocoa Powder | 12 | 4 | 2 | 40 |
 |  | 95 | 49 | 9.5 | 370 |
 
-# Ingredients
+## Ingredients
 
 - 16oz Cottage Cheese
 - 1/2 tsp Vanilla Extract
 - 1/3 cup Sweetener
 - 1/4 cup Cocoa Powder
 
-# Kitchen Items
+## Kitchen Items
 
-Blender
+- Blender
 
-# Preparation
+## Preparation
 
 - Toss all ingredients into blender, blend for 1.5 min
 - Throw in freezer overnight
 
-# References
+## Notes
 
-[Low Carb VIRAL Cottage Cheese Ice Cream? 🍦 FAST Keto Ice Cream Recipe! - YouTube](https://www.youtube.com/watch?v=2bixEVRPRno)
+## References
+- https://www.youtube.com/watch?v=2bixEVRPRno

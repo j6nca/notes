@@ -4,12 +4,13 @@ tags:
   - meal
   - protein
   - airfryer
+  - meal prep
 ---
 # Chicken Alfredo
 
-# Notes
+Serving size: One meal
 
-# Macros
+## Macros
 
 |  | Carbs (g) | Proteins (g) | Fats (g) | Cals (kcal) |
 | --- | --- | --- | --- | --- |
@@ -20,9 +21,7 @@ tags:
 | Egg | 0.2 | 2 | 1.5 | 23 |
 |  | 47.7 | 66 | 18.5 | 634 |
 
-# Ingredients
-
-Serving size: One meal
+## Ingredients
 
 - One chicken breast
 - One serving of fettucine (or pasta of choice)
@@ -34,14 +33,14 @@ Serving size: One meal
 - Salt & Black Pepper
 - 2 tbsp Parmesan
 
-# Kitchen Items
+## Kitchen Items
 
 - Air fryer
 - Pot
 - Saucepan
 - Strainer
 
-# Preparation
+## Preparation
 
 - Butterfly chicken to approx 3/4 in thickness
 - Season chicken with garlic powder, paprika, salt and pepper
@@ -59,6 +58,7 @@ While the chicken is cooking we prepare the pasta:
 - Once pasta is warm and coated, serve
 - Top with some more black pepper
 
-# References
+## Notes
 
-- [https://www.instagram.com/reel/CvHgBIduFa3/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==](https://www.instagram.com/reel/CvHgBIduFa3/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==)
+## References
+- https://www.instagram.com/reel/CvHgBIduFa3/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==

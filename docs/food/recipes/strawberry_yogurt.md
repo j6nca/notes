@@ -7,7 +7,7 @@ tags:
 ---
 # Strawberry Greek Yogurt
 
-# Notes
+Serving size: 1 bowl
 
 # Macros
 
@@ -17,8 +17,6 @@ tags:
 | Strawberries | 4.5 | 0.5 | 0.2 | 20 |
 
 # Ingredients
-
-Serving size: 1 bowl
 
 - 175g Vanilla greek yogurt
 - 5 strawberries
@@ -31,5 +29,7 @@ Serving size: 1 bowl
 # Preparation
 
 - Just mix ‘em, if you want customize and add more but be mindful of additional macros!
+
+# Notes
 
 # References

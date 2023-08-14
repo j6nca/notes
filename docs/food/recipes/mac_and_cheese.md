@@ -1,16 +1,8 @@
 ---
 tags:
   - recipe
-  - meal
-  - dessert
-  - drink
-  - snack
-  - low carb
-  - protein
-  - airfryer
-  - meal prep
 ---
-# Recipe Name
+# Mac and Cheese
 
 Serving size:
 

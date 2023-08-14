@@ -1,18 +1,11 @@
 ---
 tags:
   - recipe
-  - meal
-  - dessert
-  - drink
-  - snack
-  - low carb
-  - protein
-  - airfryer
-  - meal prep
+  - soup
 ---
-# Recipe Name
+# Egg Drop Soup
 
-Serving size:
+Serving size: 5-6 Bowls
 
 ## Macros
 
@@ -23,6 +16,11 @@ Serving size:
 
 ## Ingredients
 
+- 2 Whole Eggs
+- Egg Whites (Optional)
+- Chicken Broth
+- 1 L Water
+
 ## Kitchen Items
 
 ## Preparation
@@ -30,3 +28,5 @@ Serving size:
 ## Notes
 
 ## References
+
+- https://www.youtube.com/watch?v=Odez3uKwWOA&t=532s&pp=ygUNZWdnIGRyb3Agc291cA%3D%3D

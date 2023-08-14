@@ -1,18 +1,11 @@
 ---
 tags:
   - recipe
-  - meal
-  - dessert
   - drink
-  - snack
-  - low carb
-  - protein
-  - airfryer
-  - meal prep
 ---
-# Recipe Name
+# Matcha Latte
 
-Serving size:
+Serving size: 200/300 ml
 
 ## Macros
 
@@ -23,9 +16,20 @@ Serving size:
 
 ## Ingredients
 
+- 100/200 ml milk
+- 100 ml brewed matcha tea
+- 50 g Ice (Optional)
+
 ## Kitchen Items
 
+- Glass
+
 ## Preparation
+
+- Add ice to glass
+- Add milk
+- Slowly add matcha tea over drink
+- Stir and enjoy!
 
 ## Notes
 
