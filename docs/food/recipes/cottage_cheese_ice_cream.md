@@ -38,4 +38,4 @@ Serving size: ~ 1 pint
 ## Notes
 
 ## References
-- https://www.youtube.com/watch?v=2bixEVRPRno
+- [Low Carb VIRAL Cottage Cheese Ice Cream? 🍦 FAST Keto Ice Cream Recipe!](https://www.youtube.com/watch?v=2bixEVRPRno)
