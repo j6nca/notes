@@ -3,6 +3,7 @@ tags:
   - recipe
   - meal
   - dessert
+  - sides
   - drink
   - snack
   - low carb
