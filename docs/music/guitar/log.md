@@ -8,7 +8,7 @@
 ## 240105
 - Continuing previous days learning
 - Working through [Summer Breeze Tutorial]( https://www.youtube.com/watch?v=aWrGa6VWqv4)
-- Picking up a few new chords (E minor, A minor 7th, G major,  Dmajor)
+- Picking up a few new chords (E minor, A minor 7th, G major,  D major)
 
 ## 240106
 - Revisiting the "10 Day Guitar Starter Course" Series
@@ -32,3 +32,8 @@
 - My first guitar arrived! Yamaha FG800M
 - Learning about fretboard patterns
 - Revisiting "Summer Breeze Tutorial"
+
+## 240114
+- [Day 8](https://www.youtube.com/watch?v=dwVwAuO3NHA)
+- Learning Gmaj scale
+- Practicing strumming and switching between chords for "Summer Breeze Tutorial" verse
