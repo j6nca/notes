@@ -37,3 +37,5 @@
 - [Day 8](https://www.youtube.com/watch?v=dwVwAuO3NHA)
 - Learning Gmaj scale
 - Practicing strumming and switching between chords for "Summer Breeze Tutorial" verse
+- Started incorporating [spider crawl](https://www.youtube.com/watch?v=uJxtb8Ge-Ko) into warmup (it's hard)
+- Learning about [barre chords](https://www.youtube.com/watch?v=4ee3TE6fQ0E)
