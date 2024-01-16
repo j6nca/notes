@@ -34,8 +34,15 @@
 - Revisiting "Summer Breeze Tutorial"
 
 ## 240114
-- [Day 8](https://www.youtube.com/watch?v=dwVwAuO3NHA)
+- Played through [Day 8](https://www.youtube.com/watch?v=dwVwAuO3NHA)
 - Learning Gmaj scale
 - Practicing strumming and switching between chords for "Summer Breeze Tutorial" verse
 - Started incorporating [spider crawl](https://www.youtube.com/watch?v=uJxtb8Ge-Ko) into warmup (it's hard)
 - Learning about [barre chords](https://www.youtube.com/watch?v=4ee3TE6fQ0E)
+
+## 240115
+- Spider crawl warmup
+- Practicing some barre chords
+- Continued practicing strumming between Emaj -> Gmaj -> Dmaj -> Amaj for Summer Breeze verse
+- Started chorus for Summer Breeze (Amin7 -> Bmin7)
+- Played through [Day 9](https://www.youtube.com/watch?v=WjPLAkGjH_g)
