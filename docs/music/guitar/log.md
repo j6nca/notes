@@ -48,3 +48,10 @@
 - Continued practicing strumming between Emaj -> Gmaj -> Dmaj -> Amaj for Summer Breeze verse
 - Started chorus for Summer Breeze (Amin7 -> Bmin7)
 - Played through [Day 9](https://www.youtube.com/watch?v=WjPLAkGjH_g)
+
+### 240116
+- Practicing chorus and strumming for Summer Breeze (Amin7 -> Bmin7 -> Amin7 -> Gmaj)
+- Started looking at [Blackbird Fingerstyle](https://www.youtube.com/watch?v=1bCNj51cdNg)
+
+### 240117
+- More of the same
