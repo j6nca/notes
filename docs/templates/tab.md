@@ -1,0 +1,18 @@
+---
+tags:
+  - music
+---
+
+# Song Name by Artist
+
+```
+E|
+B|
+G|
+D|
+A|
+E|
+```
+
+References:
+- 
