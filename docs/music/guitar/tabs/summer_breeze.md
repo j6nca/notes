@@ -1,4 +1,4 @@
-# Summer Breeze - Seals & Crofts
+# Summer Breeze - Seals and Crofts
 Intro<br>
 ```
 E|-- -- -- -- -- 10 -- -7 -- -5 -- -3 -- -2 -- -0 -- -- -- -0 --
