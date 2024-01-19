@@ -55,3 +55,6 @@
 
 ### 240117
 - More of the same
+
+### 240118
+- Switching up [Summer Breeze](https://www.youtube.com/watch?v=0xLyPh1-qQ0) reference 
