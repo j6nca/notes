@@ -1,5 +1,5 @@
 # Summer Breeze - Seals & Crofts
-Intro\
+Intro<br>
 E|-----10-7-5-3-2-0---0--<br>
 B|---8----5-----3---3-1--<br>
 G|-9------5-----2-----2--<br>
