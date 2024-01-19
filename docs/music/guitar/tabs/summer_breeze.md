@@ -10,4 +10,4 @@ E|-- -0 -- -- -- -- -- -5 -- -- -- -- -- -- -- -- -- -- -- -- --
 ```
 
 References:
-[How to play “Summer breeze” by Seals and Crofts (acoustic guitar lesson) tabs](https://www.youtube.com/watch?v=0xLyPh1-qQ0)
+- [How to play “Summer breeze” by Seals and Crofts (acoustic guitar lesson) tabs](https://www.youtube.com/watch?v=0xLyPh1-qQ0)
