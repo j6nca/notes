@@ -1,3 +1,8 @@
+---
+tags:
+  - music
+---
+
 # Summer Breeze - Seals and Crofts
 
 Intro<br>
