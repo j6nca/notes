@@ -7,6 +7,7 @@ Put in an order for parts:<br>
 - Loaded pick guard for strat
 - Bridge w/ tremolo
 - Tuners 6L
+- Ernie ball super slinkies
 - Misc Hardware
 
 Still needed:
