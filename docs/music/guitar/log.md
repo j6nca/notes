@@ -57,4 +57,10 @@
 - More of the same
 
 ### 240118
-- Switching up [Summer Breeze](https://www.youtube.com/watch?v=0xLyPh1-qQ0) reference 
+- Switching up [Summer Breeze](https://www.youtube.com/watch?v=0xLyPh1-qQ0) reference
+
+### 240119 - 240121
+- Practicing [Summer Breeze](https://www.youtube.com/watch?v=0xLyPh1-qQ0)
+
+### 240122
+- Found a nice tutorial for [Love Yourself](https://youtu.be/yASMXbB2a6Y?si=esQv9_Fi8NO0g_qC)
