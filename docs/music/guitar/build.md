@@ -1,4 +1,6 @@
-# Building my first electric guitar
+# Electric Guitar Build
+
+This page will outline my thoughts building my very first electric guitar.
 
 ## Parts breakdown
 
@@ -15,8 +17,10 @@
 | Single coil pickup cover 48/52mm      | 18.36 | 24-01-20       |
 | Humbucker pickup cover 52mm           | 11.39 | 24-01-20       |
 | Guitar finish - Tru oil?              |       |                |
+| Some sort form of shielding on body   |       |                |
 
 ## 240120
+
 - Put in an order for parts:<br>
     - Unfinished strat guitar body
     - Guitar neck w/ inlay, should be compatible with strat
@@ -25,3 +29,7 @@
     - Tuners 6L
     - Ernie ball super slinkies
     - Misc Hardware
+
+## 240122
+
+- Spoke with seller for the neck to confirm that the neck fits a strat body (I probably should've done this before buying 😅), they gave their assurance that it does fit.
