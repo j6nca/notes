@@ -16,8 +16,9 @@ This page will outline my thoughts building my very first electric guitar.
 | String tree, neck plate, loaded jack  | 10.33 | 24-01-20       |
 | Single coil pickup cover 48/52mm      | 18.36 | 24-01-20       |
 | Humbucker pickup cover 52mm           | 11.39 | 24-01-20       |
+| Guitar strap lock x2                  |  8.66 | 24-01-24       |
 | Guitar finish - Tru oil?              |       |                |
-| Some sort form of shielding on body   |       |                |
+| Some sort form of grounding on body   |       |                |
 
 ## 240120
 
@@ -33,3 +34,7 @@ This page will outline my thoughts building my very first electric guitar.
 ## 240122
 
 - Spoke with seller for the neck to confirm that the neck fits a strat body (I probably should've done this before buying 😅), they gave their assurance that it does fit.
+
+## 240124
+
+- Purchased strap locks
