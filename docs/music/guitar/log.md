@@ -74,3 +74,4 @@
     - [Warmups](https://www.youtube.com/watch?v=b2XXzcQhPvc)
     - [Picking Techniques](https://www.youtube.com/watch?v=WmQWTOimz4k)
 - Watching a few computer amp guitar setups
+- Found tabs for [Pokemon Littleroot](https://www.youtube.com/watch?v=KLSXITpk854)
