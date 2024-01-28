@@ -64,3 +64,13 @@
 
 ### 240122
 - Found a nice tutorial for [Love Yourself](https://youtu.be/yASMXbB2a6Y?si=esQv9_Fi8NO0g_qC)
+
+### 240126
+- Learning about [pentatonic shapes, warmups](https://www.youtube.com/watch?v=dUYsYe0aqok)
+  
+### 240127
+- More exercises
+    - [Picking exercise](https://www.youtube.com/watch?v=siVefCtb9Ys)
+    - [Warmups](https://www.youtube.com/watch?v=b2XXzcQhPvc)
+    - [Picking Techniques](https://www.youtube.com/watch?v=WmQWTOimz4k)
+- Watching a few computer amp guitar setups
