@@ -3,7 +3,7 @@ tags:
   - music
 ---
 
-# [WIP] Love yourself - Justin Bieber
+# Love yourself - Justin Bieber
 
 Verse (x4)<br>
 ```
