@@ -1,19 +1,17 @@
 ---
 tags:
   - recipe
-  - meal
-  - dessert
-  - sides
-  - drink
-  - snack
-  - low carb
-  - protein
-  - airfryer
-  - meal prep
+  # - meal, dessert, sides, drink, snack
+  # - low carb
+  # - protein
+  # - airfryer, oven
+  # - meal prep
 ---
 # Recipe Name
 
 Serving size:
+Prep time:
+Cooking time:
 
 ## Macros
 
@@ -31,3 +29,5 @@ Serving size:
 ## Notes
 
 ## References
+
+- []()

@@ -2,7 +2,7 @@ site_name: j6n | docs
 site_url: https://docs.j6n.ca
 repo_url: https://github.com/j6nca/docs
 repo_name: j6nca/docs
-copyright: Copyright &copy; 2023 Jonathan Ng
+copyright: Copyright &copy; 2024 Jonathan Ng
 extra:
   generator: false
   social:
