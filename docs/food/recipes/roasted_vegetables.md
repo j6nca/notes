@@ -38,7 +38,9 @@ Cooking time: 15-20 mins
 - Prep vegetables for cooking, cutting them to desired size (I usually do 1cm strips for carrots and potatoes, and halve brocolli heads or brussels)
 - If vegetable is a starch, soak and dry in water before proceeding to next step
 - Line baking tray and place prepped vegetables on tray
-- Cook for 15-20 mins
+- Cook times:
+  - Carrots: 425 F 18 - 20 mins
+  - Potatoes: 450 F 15 - 20 mins, flip, 5 - 10 mins
 
 ## Notes
 
