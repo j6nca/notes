@@ -41,9 +41,9 @@ plugins:
       #   - cooking
       #   - projects
   - git-revision-date-localized:
-      enable_creation_date: true
-      timezone: Canada/Eastern
       type: datetime
+      locale: en
+  #    fallback_to_build_date: false
 markdown_extensions:
   - def_list
   - pymdownx.tasklist:
