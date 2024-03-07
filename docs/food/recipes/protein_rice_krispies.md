@@ -1,11 +1,8 @@
 ---
 tags:
   - recipe
-  # - meal, dessert, sides, drink, snack
-  # - low carb
-  # - protein
-  # - airfryer, oven
-  # - meal prep
+  - snack
+  - protein
 ---
 # Protein Rice Krispies
 
