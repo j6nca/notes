@@ -1,11 +1,18 @@
-name: cicd 
+name: cicd
+
 on:
   push:
     branches:
       - master 
       - main
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+
 permissions:
   contents: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
