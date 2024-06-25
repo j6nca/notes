@@ -13,7 +13,9 @@ This document goes over interesting tooling
 - Grafana
 - DataDog
 
-## 
+## Dashboards
+
+- kube-ops-view
 
 
 ## 
