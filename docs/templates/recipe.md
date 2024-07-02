@@ -6,6 +6,7 @@ tags:
   # - protein
   # - airfryer, oven
   # - meal prep
+  # - quick
 ---
 # Recipe Name
 

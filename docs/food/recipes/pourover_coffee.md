@@ -9,16 +9,16 @@ Serving size: 800 - 1000 ml
 
 ## Macros
 
-|  | Carbs (g) | Proteins (g) | Fats (g) | Cals (kcal) |
-| --- | --- | --- | --- | --- |
-|  |  |  |  |  |
-|  |  |  |  |  |
+|     | Carbs (g) | Proteins (g) | Fats (g) | Cals (kcal) |
+| --- | --------- | ------------ | -------- | ----------- |
+|     |           |              |          |             |
+|     |           |              |          |             |
 
 ## Ingredients
 
 - 800 - 1000 ml Water
 - 2-3 tbsp of Coffee Grounds
-- Ice (Optional)
+- Ice [Optional]
 
 ## Kitchen Items
 

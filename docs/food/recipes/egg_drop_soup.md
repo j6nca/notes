@@ -9,18 +9,18 @@ Serving size: 5-6 Bowls
 
 ## Macros
 
-|  | Carbs (g) | Proteins (g) | Fats (g) | Cals (kcal) |
-| --- | --- | --- | --- | --- |
-|  |  |  |  |  |
-|  |  |  |  |  |
+|     | Carbs (g) | Proteins (g) | Fats (g) | Cals (kcal) |
+| --- | --------- | ------------ | -------- | ----------- |
+|     |           |              |          |             |
+|     |           |              |          |             |
 
 ## Ingredients
 
 - 2 Whole eggs
-- Egg whites (Optional)
+- Egg whites [Optional]
 - Chicken broth
 - 1 L Water
-- 2-3 tsp Corn starch (Optional)
+- 2-3 tsp Corn starch [Optional]
 - Salt
 - White pepper
 

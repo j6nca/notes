@@ -4,6 +4,7 @@ tags:
   - dessert
   - protein
   - low carb
+  - quick
 ---
 # Strawberry Greek Yogurt
 
