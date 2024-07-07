@@ -7,9 +7,9 @@ tags:
 
 # Quick, easy and flexible cucumber salad
 
-Serving size: 
+Serving size: 1 bowl
 Prep time: 5 min
-Cooking time: 0 min
+Cooking time: N/A
 
 This is a quick and easy recipe to have a refreshing cucumber salad, note most of the ingredients are optional depending on what you may have in your pantry.
 

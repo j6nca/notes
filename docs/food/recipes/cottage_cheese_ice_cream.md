@@ -1,6 +1,7 @@
 ---
 tags:
   - recipe
+  - WIP
   - dessert
   - protein
   - low carb
@@ -9,6 +10,8 @@ tags:
 # Cottage Cheese Ice Cream
 
 Serving size: ~ 1 pint
+Prep time: 5 min
+Cooking time: N/A
 
 ## Macros
 

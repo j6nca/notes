@@ -11,8 +11,8 @@ Serving size: 800 - 1000 ml
 
 |     | Carbs (g) | Proteins (g) | Fats (g) | Cals (kcal) |
 | --- | --------- | ------------ | -------- | ----------- |
-|     |           |              |          |             |
-|     |           |              |          |             |
+|  Water   |           |              |          |             |
+|  Coffee Beans   |           |              |          |             |
 
 ## Ingredients
 

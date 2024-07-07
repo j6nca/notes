@@ -6,6 +6,8 @@ tags:
 # Matcha Latte
 
 Serving size: 200/300 ml
+Prep time: 5 min
+Cooking time: N/A
 
 ## Macros
 
@@ -25,9 +27,16 @@ Serving size: 200/300 ml
 
 - Glass
 - Cocktail muddler [Optional]
+- Matcha whisk / Regular whisk
+- Small bowl
 
 ## Preparation
 
+- Bring water to a boil (use a bit of extra water to prep other tools)
+- Pour a bit of boiled water into small bowl to warm up the matcha whisk
+- Empty the small bowl
+- Scoop and sift 1 or 2 scoops of matcha powder (depending on preferred strength) into the small bowl
+- Pour in 100 mL of boiling water into small bowl and whisk until no clumps
 - Mash strawberries on the bottom of the glass (or add jam) [Optional]
 - Add ice to glass
 - Add milk

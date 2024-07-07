@@ -6,6 +6,8 @@ tags:
 # Egg Drop Soup
 
 Serving size: 5-6 Bowls
+Prep time: N/A
+Cooking time: 15 min
 
 ## Macros
 

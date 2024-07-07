@@ -1,10 +1,19 @@
 ---
 tags:
   - recipe
+  - WIP
+  # - meal, dessert, sides, drink, snack
+  # - low carb
+  # - protein
+  # - airfryer, oven
+  # - meal prep
+  # - quick
 ---
 # Mac and Cheese
 
 Serving size:
+Prep time:
+Cooking time:
 
 ## Macros
 
@@ -22,3 +31,5 @@ Serving size:
 ## Notes
 
 ## References
+
+- []()
