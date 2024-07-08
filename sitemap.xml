@@ -16,7 +16,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.j6n.ca/food/additional_resources/</loc>
+         <loc>https://docs.j6n.ca/food/recipes/</loc>
          <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -107,6 +107,11 @@
     </url>
     <url>
          <loc>https://docs.j6n.ca/food/recipes/stuffed_mushrooms/</loc>
+         <lastmod>2024-07-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.j6n.ca/food/reviews/</loc>
          <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
