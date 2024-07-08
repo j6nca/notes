@@ -15,6 +15,8 @@ Serving size:
 Prep time:
 Cooking time:
 
+Warning, macros are not for the feint of heart. This is in no way healthy 😅.
+
 ## Macros
 
 |  | Carbs (g) | Proteins (g) | Fats (g) | Cals (kcal) |
@@ -34,4 +36,4 @@ Cooking time:
 
 ## References
 
-- []()
+- [Chef Tini's Viral Mac](https://www.tiktok.com/@tinekeyounger/video/7300777943238790443?lang=en)

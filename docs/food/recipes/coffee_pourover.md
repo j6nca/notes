@@ -3,7 +3,7 @@ tags:
   - recipe
   - drink
 ---
-# Pourover Coffee
+# Coffee (Pourover)
 
 Serving size: 800 - 1000 ml
 

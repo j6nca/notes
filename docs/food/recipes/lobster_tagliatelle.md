@@ -6,6 +6,10 @@ tags:
 # Lobster Tagliatelle
 
 Serving size:
+Prep time: 
+Cooking time: 
+
+I need to find a good recipe for this, it was so good.
 
 ## Macros
 
