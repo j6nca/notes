@@ -8,28 +8,26 @@
       
       
       
-        <link rel="canonical" href="https://docs.j6n.ca/projects/k8s_lab/jellyfin/">
+        <link rel="canonical" href="https://docs.j6n.ca/projects/software/k8s_lab/setup/">
       
       
-        <link rel="prev" href="../hardware/">
+        <link rel="prev" href="../jellyfin/">
       
       
-        <link rel="next" href="../../keyboards/j6n43/">
       
-      
-      <link rel="icon" href="../../../assets/favicon.ico">
+      <link rel="icon" href="../../../../assets/favicon.ico">
       <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.28">
     
     
       
-        <title>Jellyfin - j6n | docs</title>
+        <title>Setup - j6n | docs</title>
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.6543a935.min.css">
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.6543a935.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -48,7 +46,7 @@
       
     
     
-    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -74,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#jellyfin" class="md-skip">
+        <a href="#setup" class="md-skip">
           Skip to content
         </a>
       
@@ -90,9 +88,9 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../.." title="j6n | docs" class="md-header__button md-logo" aria-label="j6n | docs" data-md-component="logo">
+    <a href="../../../.." title="j6n | docs" class="md-header__button md-logo" aria-label="j6n | docs" data-md-component="logo">
       
-  <img src="../../../assets/logo.gif" alt="logo">
+  <img src="../../../../assets/logo.gif" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -109,7 +107,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Jellyfin
+              Setup
             
           </span>
         </div>
@@ -222,9 +220,9 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../.." title="j6n | docs" class="md-nav__button md-logo" aria-label="j6n | docs" data-md-component="logo">
+    <a href="../../../.." title="j6n | docs" class="md-nav__button md-logo" aria-label="j6n | docs" data-md-component="logo">
       
-  <img src="../../../assets/logo.gif" alt="logo">
+  <img src="../../../../assets/logo.gif" alt="logo">
 
     </a>
     j6n | docs
@@ -251,7 +249,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../.." class="md-nav__link">
+      <a href="../../../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -271,7 +269,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../tags/" class="md-nav__link">
+      <a href="../../../../tags/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -291,7 +289,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../theme/" class="md-nav__link">
+      <a href="../../../../theme/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -346,7 +344,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/" class="md-nav__link">
+      <a href="../../../../food/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -402,7 +400,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/recipes/" class="md-nav__link">
+      <a href="../../../../food/recipes/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -423,7 +421,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/recipes/beef_barbacoa/" class="md-nav__link">
+      <a href="../../../../food/recipes/beef_barbacoa/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -444,7 +442,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/recipes/breakfast_sandwich/" class="md-nav__link">
+      <a href="../../../../food/recipes/breakfast_sandwich/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -465,7 +463,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/recipes/brownies/" class="md-nav__link">
+      <a href="../../../../food/recipes/brownies/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -486,7 +484,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/recipes/brownies_baked_oat/" class="md-nav__link">
+      <a href="../../../../food/recipes/brownies_baked_oat/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -507,7 +505,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/recipes/burrito_bowl/" class="md-nav__link">
+      <a href="../../../../food/recipes/burrito_bowl/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -528,7 +526,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/recipes/chicken_alfredo/" class="md-nav__link">
+      <a href="../../../../food/recipes/chicken_alfredo/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -549,7 +547,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/recipes/chicken_nuggets/" class="md-nav__link">
+      <a href="../../../../food/recipes/chicken_nuggets/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -570,7 +568,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/recipes/coffee_espresso/" class="md-nav__link">
+      <a href="../../../../food/recipes/coffee_espresso/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -591,7 +589,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/recipes/coffee_pourover/" class="md-nav__link">
+      <a href="../../../../food/recipes/coffee_pourover/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -612,7 +610,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/recipes/cottage_cheese_ice_cream/" class="md-nav__link">
+      <a href="../../../../food/recipes/cottage_cheese_ice_cream/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -633,7 +631,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/recipes/cucumber_salad/" class="md-nav__link">
+      <a href="../../../../food/recipes/cucumber_salad/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -654,7 +652,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/recipes/egg_drop_soup/" class="md-nav__link">
+      <a href="../../../../food/recipes/egg_drop_soup/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -675,7 +673,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/recipes/french_fries/" class="md-nav__link">
+      <a href="../../../../food/recipes/french_fries/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -696,7 +694,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/recipes/lasagna/" class="md-nav__link">
+      <a href="../../../../food/recipes/lasagna/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -717,7 +715,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/recipes/lobster_tagliatelle/" class="md-nav__link">
+      <a href="../../../../food/recipes/lobster_tagliatelle/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -738,7 +736,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/recipes/mac_and_cheese/" class="md-nav__link">
+      <a href="../../../../food/recipes/mac_and_cheese/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -759,7 +757,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/recipes/matcha_latte/" class="md-nav__link">
+      <a href="../../../../food/recipes/matcha_latte/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -780,7 +778,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/recipes/protein_rice_krispies/" class="md-nav__link">
+      <a href="../../../../food/recipes/protein_rice_krispies/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -801,7 +799,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/recipes/roast_duck_breast/" class="md-nav__link">
+      <a href="../../../../food/recipes/roast_duck_breast/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -822,7 +820,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/recipes/roasted_vegetables/" class="md-nav__link">
+      <a href="../../../../food/recipes/roasted_vegetables/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -843,7 +841,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/recipes/steak/" class="md-nav__link">
+      <a href="../../../../food/recipes/steak/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -864,7 +862,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/recipes/strawberry_yogurt/" class="md-nav__link">
+      <a href="../../../../food/recipes/strawberry_yogurt/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -885,7 +883,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/recipes/stuffed_mushrooms/" class="md-nav__link">
+      <a href="../../../../food/recipes/stuffed_mushrooms/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -949,7 +947,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/reviews/" class="md-nav__link">
+      <a href="../../../../food/reviews/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -970,7 +968,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/reviews/at_origin_coffee/" class="md-nav__link">
+      <a href="../../../../food/reviews/at_origin_coffee/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -991,7 +989,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/reviews/cherrys_high_dive/" class="md-nav__link">
+      <a href="../../../../food/reviews/cherrys_high_dive/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1012,7 +1010,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/reviews/earls_kitchen_bar/" class="md-nav__link">
+      <a href="../../../../food/reviews/earls_kitchen_bar/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1033,7 +1031,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/reviews/fishbone_by_the_lake/" class="md-nav__link">
+      <a href="../../../../food/reviews/fishbone_by_the_lake/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1054,7 +1052,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/reviews/gals_sushi/" class="md-nav__link">
+      <a href="../../../../food/reviews/gals_sushi/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1075,7 +1073,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/reviews/il_postino/" class="md-nav__link">
+      <a href="../../../../food/reviews/il_postino/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1096,7 +1094,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/reviews/kelseys/" class="md-nav__link">
+      <a href="../../../../food/reviews/kelseys/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1117,7 +1115,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/reviews/lazeez/" class="md-nav__link">
+      <a href="../../../../food/reviews/lazeez/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1138,7 +1136,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/reviews/miku/" class="md-nav__link">
+      <a href="../../../../food/reviews/miku/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1159,7 +1157,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/reviews/next_door_restaurant/" class="md-nav__link">
+      <a href="../../../../food/reviews/next_door_restaurant/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1180,7 +1178,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/reviews/old_country_inn/" class="md-nav__link">
+      <a href="../../../../food/reviews/old_country_inn/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1201,7 +1199,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/reviews/osaka_sushi/" class="md-nav__link">
+      <a href="../../../../food/reviews/osaka_sushi/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1222,7 +1220,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/reviews/piano_piano/" class="md-nav__link">
+      <a href="../../../../food/reviews/piano_piano/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1243,7 +1241,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/reviews/planta_cocina/" class="md-nav__link">
+      <a href="../../../../food/reviews/planta_cocina/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1264,7 +1262,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/reviews/planta_queen/" class="md-nav__link">
+      <a href="../../../../food/reviews/planta_queen/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1285,7 +1283,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/reviews/rubirosa/" class="md-nav__link">
+      <a href="../../../../food/reviews/rubirosa/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1306,7 +1304,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/reviews/score_on_king/" class="md-nav__link">
+      <a href="../../../../food/reviews/score_on_king/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1327,7 +1325,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/reviews/shawarma_stop/" class="md-nav__link">
+      <a href="../../../../food/reviews/shawarma_stop/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1348,7 +1346,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/reviews/shelbys_kitchen/" class="md-nav__link">
+      <a href="../../../../food/reviews/shelbys_kitchen/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1369,7 +1367,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/reviews/smash_kitchen/" class="md-nav__link">
+      <a href="../../../../food/reviews/smash_kitchen/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1390,7 +1388,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/reviews/sugo/" class="md-nav__link">
+      <a href="../../../../food/reviews/sugo/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1411,7 +1409,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/reviews/sushi_umi/" class="md-nav__link">
+      <a href="../../../../food/reviews/sushi_umi/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1432,7 +1430,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/reviews/watercolour/" class="md-nav__link">
+      <a href="../../../../food/reviews/watercolour/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1453,7 +1451,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../food/reviews/wonton_hut/" class="md-nav__link">
+      <a href="../../../../food/reviews/wonton_hut/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1524,7 +1522,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../gaming/" class="md-nav__link">
+      <a href="../../../../gaming/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1580,7 +1578,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../gaming/valorant/resources/" class="md-nav__link">
+      <a href="../../../../gaming/valorant/resources/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1651,7 +1649,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../learning/" class="md-nav__link">
+      <a href="../../../../learning/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1672,7 +1670,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../learning/good_reads/" class="md-nav__link">
+      <a href="../../../../learning/good_reads/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1728,7 +1726,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../learning/aws/oidc_cicd/" class="md-nav__link">
+      <a href="../../../../learning/aws/oidc_cicd/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1792,7 +1790,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../learning/kubernetes/alb_controller_pod_rollout/" class="md-nav__link">
+      <a href="../../../../learning/kubernetes/alb_controller_pod_rollout/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1813,7 +1811,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../learning/kubernetes/argocd/" class="md-nav__link">
+      <a href="../../../../learning/kubernetes/argocd/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1834,7 +1832,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../learning/kubernetes/fluxcd/" class="md-nav__link">
+      <a href="../../../../learning/kubernetes/fluxcd/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1855,11 +1853,75 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../learning/kubernetes/tooling/" class="md-nav__link">
+      <a href="../../../../learning/kubernetes/tooling/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
     Tooling
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_5" id="__nav_6_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Security
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_5">
+            <span class="md-nav__icon md-icon"></span>
+            Security
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../learning/security/1password/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1password
   </span>
   
 
@@ -1926,7 +1988,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../music/" class="md-nav__link">
+      <a href="../../../../music/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1982,7 +2044,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../music/guitar/log/" class="md-nav__link">
+      <a href="../../../../music/guitar/log/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2038,7 +2100,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../music/guitar/tabs/blackbird/" class="md-nav__link">
+      <a href="../../../../music/guitar/tabs/blackbird/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2059,7 +2121,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../music/guitar/tabs/from_the_start/" class="md-nav__link">
+      <a href="../../../../music/guitar/tabs/from_the_start/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2080,7 +2142,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../music/guitar/tabs/hey_there_delilah/" class="md-nav__link">
+      <a href="../../../../music/guitar/tabs/hey_there_delilah/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2101,7 +2163,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../music/guitar/tabs/love_yourself/" class="md-nav__link">
+      <a href="../../../../music/guitar/tabs/love_yourself/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2122,7 +2184,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../music/guitar/tabs/summer_breeze/" class="md-nav__link">
+      <a href="../../../../music/guitar/tabs/summer_breeze/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2238,11 +2300,181 @@
   
   
     <li class="md-nav__item">
-      <a href="../../guitars/build/" class="md-nav__link">
+      <a href="../../../guitars/build/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
     Electric Guitar Build
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_2" id="__nav_8_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Keyboards
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_2">
+            <span class="md-nav__icon md-icon"></span>
+            Keyboards
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../keyboards/j6n43/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    j6n43 (WIP)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../keyboards/j6n47/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    j6n47 (WIP)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../keyboards/wooting_60he/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Wooting 60HE
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_3" id="__nav_8_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Pc builds
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_3">
+            <span class="md-nav__icon md-icon"></span>
+            Pc builds
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pc_builds/itx/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    My first ITX build
   </span>
   
 
@@ -2276,10 +2508,152 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_4" checked>
         
           
-          <label class="md-nav__link" for="__nav_8_2" id="__nav_8_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_8_4" id="__nav_8_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Software
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_8_4">
+            <span class="md-nav__icon md-icon"></span>
+            Software
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../free_game_notifier/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Free game notifier
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../macro_software/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Macro software
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../new_version_metrics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    New version metrics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../password_manager/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Password manager
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tab_maker/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tab maker
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_4_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_8_4_6" id="__nav_8_4_6_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -2290,8 +2664,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_2_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_8_2">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_4_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_8_4_6">
             <span class="md-nav__icon md-icon"></span>
             K8s lab
           </label>
@@ -2343,6 +2717,27 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../jellyfin/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Jellyfin
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -2355,15 +2750,54 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Setup
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    Jellyfin
+    Setup
   </span>
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      References
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -2373,168 +2807,6 @@
           </ul>
         </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_3" >
-        
-          
-          <label class="md-nav__link" for="__nav_8_3" id="__nav_8_3_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    Keyboards
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_8_3">
-            <span class="md-nav__icon md-icon"></span>
-            Keyboards
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../keyboards/j6n43/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    j6n43 (WIP)
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../keyboards/j6n47/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    j6n47 (WIP)
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../keyboards/wooting_60he/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Wooting 60HE
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_4" >
-        
-          
-          <label class="md-nav__link" for="__nav_8_4" id="__nav_8_4_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    Pc builds
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_4_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_8_4">
-            <span class="md-nav__icon md-icon"></span>
-            Pc builds
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../pc_builds/itx/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    My first ITX build
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -2575,6 +2847,23 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      References
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -2586,30 +2875,16 @@
               <article class="md-content__inner md-typeset">
                 
                   
-  
-<nav class="md-tags" >
-  
-    
-    
-    
-      <a href="../../../tags/#projects" class="md-tag">projects</a>
-    
-  
-    
-    
-    
-      <a href="../../../tags/#home-server" class="md-tag">home server</a>
-    
-  
-</nav>
-
 
   
   
 
 
-<h1 id="jellyfin">Jellyfin</h1>
-<p>I am using Jellyfin to self-host a media server to stream my media from various devices.</p>
+<h1 id="setup">Setup</h1>
+<h2 id="references">References</h2>
+<ul>
+<li>https://datavirke.dk/posts/bare-metal-kubernetes-part-1-talos-on-hetzner/</li>
+</ul>
 
 
 
@@ -2632,7 +2907,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">May 17, 2024 17:23:33</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">July 8, 2024 12:12:14</span>
   </span>
 
     
@@ -2642,7 +2917,7 @@
     <span class="md-icon" title="Created">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3h-2Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">August 9, 2023 22:03:39</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">July 8, 2024 12:12:14</span>
   </span>
 
     
@@ -2724,10 +2999,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../../..", "features": [], "search": "../../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
+      <script src="../../../../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
       
     
   </body>

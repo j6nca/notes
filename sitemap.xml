@@ -306,6 +306,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://docs.j6n.ca/learning/security/1password/</loc>
+         <lastmod>2024-07-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://docs.j6n.ca/music/</loc>
          <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
@@ -346,21 +351,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.j6n.ca/projects/k8s_lab/gatus/</loc>
-         <lastmod>2024-07-08</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://docs.j6n.ca/projects/k8s_lab/hardware/</loc>
-         <lastmod>2024-07-08</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://docs.j6n.ca/projects/k8s_lab/jellyfin/</loc>
-         <lastmod>2024-07-08</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://docs.j6n.ca/projects/keyboards/j6n43/</loc>
          <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
@@ -377,6 +367,51 @@
     </url>
     <url>
          <loc>https://docs.j6n.ca/projects/pc_builds/itx/</loc>
+         <lastmod>2024-07-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.j6n.ca/projects/software/free_game_notifier/</loc>
+         <lastmod>2024-07-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.j6n.ca/projects/software/macro_software/</loc>
+         <lastmod>2024-07-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.j6n.ca/projects/software/new_version_metrics/</loc>
+         <lastmod>2024-07-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.j6n.ca/projects/software/password_manager/</loc>
+         <lastmod>2024-07-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.j6n.ca/projects/software/tab_maker/</loc>
+         <lastmod>2024-07-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.j6n.ca/projects/software/k8s_lab/gatus/</loc>
+         <lastmod>2024-07-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.j6n.ca/projects/software/k8s_lab/hardware/</loc>
+         <lastmod>2024-07-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.j6n.ca/projects/software/k8s_lab/jellyfin/</loc>
+         <lastmod>2024-07-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.j6n.ca/projects/software/k8s_lab/setup/</loc>
          <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
