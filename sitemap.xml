@@ -146,7 +146,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://docs.j6n.ca/food/reviews/cherrys_high_dive/</loc>
+         <lastmod>2024-07-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.j6n.ca/food/reviews/earls_kitchen_bar/</loc>
+         <lastmod>2024-07-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://docs.j6n.ca/food/reviews/fishbone_by_the_lake/</loc>
+         <lastmod>2024-07-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.j6n.ca/food/reviews/gals_sushi/</loc>
          <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -176,6 +191,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://docs.j6n.ca/food/reviews/old_country_inn/</loc>
+         <lastmod>2024-07-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://docs.j6n.ca/food/reviews/osaka_sushi/</loc>
          <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
@@ -186,7 +206,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://docs.j6n.ca/food/reviews/planta_cocina/</loc>
+         <lastmod>2024-07-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.j6n.ca/food/reviews/planta_queen/</loc>
+         <lastmod>2024-07-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://docs.j6n.ca/food/reviews/rubirosa/</loc>
+         <lastmod>2024-07-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.j6n.ca/food/reviews/score_on_king/</loc>
          <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
