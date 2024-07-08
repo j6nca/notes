@@ -43,6 +43,8 @@ Cooking time: N/A
 - Slowly add matcha tea over drink
 - Stir and enjoy!
 
+## Photos
+
 ## Notes
 
 ## References

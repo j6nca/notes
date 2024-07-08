@@ -39,6 +39,8 @@ Cooking time: 15 min
 - Once evenly coated, transfer onto container for storage and set to cool
 - Cut to size
 
+## Photos
+
 ## Notes
 
 ## References

@@ -39,6 +39,8 @@ Cooking time: 15 min
 - Crack eggs into a bowl or cup (preferrably something with a pouring edge)
 - While stirring pot in one direction, slowly pour in egg mixture to create ribbons in soup
 
+## Photos
+
 ## Notes
 
 ## References

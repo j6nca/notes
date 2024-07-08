@@ -33,6 +33,8 @@ Cooking time: N/A
 
 - Just mix ‘em, if you want customize and add more but be mindful of additional macros!
 
+## Photos
+
 ## Notes
 
 ## References

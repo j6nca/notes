@@ -32,6 +32,8 @@ Cooking time: 30 min
 - Toss with light splash of olive oil, salt and seasonings of choice
 - Air fry twice at 330 F for 15 min until crispy
 
+## Photos
+
 ## Notes
 
 This is a lazy version, better results can likely be achieved with a bit more effort (see video resources) and will be explored in future iterations.

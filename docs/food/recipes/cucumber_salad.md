@@ -40,6 +40,8 @@ This is a quick and easy recipe to have a refreshing cucumber salad, note most o
 - Chop cucumber and any other veggies into bite-sized chunks
 - Add in sauces and toss! Adjust to taste.
 
+## Photos
+
 ## Notes
 
 ## References

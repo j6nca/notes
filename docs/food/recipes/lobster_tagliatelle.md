@@ -20,6 +20,8 @@ Serving size:
 
 ## Preparation
 
+## Photos
+
 ## Notes
 
 ## References

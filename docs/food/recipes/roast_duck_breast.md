@@ -28,6 +28,8 @@ Cooking time:
 
 ## Preparation
 
+## Photos
+
 ## Notes
 
 ## References

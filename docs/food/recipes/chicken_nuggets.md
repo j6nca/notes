@@ -39,6 +39,8 @@ Cooking time:
 - Dice chicken breast into nugget size pieces and put in mixing bowl
 - Add egg
 
+## Photos
+
 ## Notes
 
 ## References

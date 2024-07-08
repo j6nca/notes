@@ -36,6 +36,8 @@ Serving size: 800 - 1000 ml
 - Wait 30s
 - Pour the rest of your water over the grounds and let brew for ~5 min
 
+## Photos
+
 ## Notes
 
 ## References

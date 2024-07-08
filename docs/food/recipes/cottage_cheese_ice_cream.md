@@ -39,6 +39,8 @@ Cooking time: N/A
 - Toss all ingredients into blender, blend for 1.5 min
 - Throw in freezer overnight
 
+## Photos
+
 ## Notes
 
 ## References

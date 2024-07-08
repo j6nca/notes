@@ -60,6 +60,8 @@ While the chicken is cooking we prepare the pasta:
 - Once pasta is warm and coated, serve
 - Top with some more black pepper
 
+## Photos
+
 ## Notes
 
 ## References
