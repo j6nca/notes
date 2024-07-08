@@ -28,3 +28,7 @@ I recently decided to go for a minimal build, and try to de-clutter and better o
 ## Upgrade history
 
 I will document any upgrades to the system over time here.
+
+## Photos
+
+![Exterior](https://media.discordapp.net/attachments/1259711992847929372/1259747898439106661/A23FCB63-86D4-49BC-811B-D6A4E80E6A3D.jpg?ex=668ccf27&is=668b7da7&hm=609625971ea747e966232b07bc350949f1ec2348c9569cb6fc1f28e7e913ac2c&=&format=webp&width=810&height=1080)
