@@ -8,6 +8,8 @@ tags:
 
 ## Rating: ★★★★★ / ☆☆☆☆☆
 
+## Photos
+
 ## Links
 
 - [yelp]()
