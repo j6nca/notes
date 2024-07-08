@@ -6,7 +6,7 @@ tags:
   - ★★★★★
   - $$$
 ---
-# Restaurant Name
+# Sugo
 
 ## Rating: ★★★★★
 

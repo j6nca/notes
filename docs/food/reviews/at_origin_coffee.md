@@ -6,7 +6,7 @@ tags:
   - ★★☆☆☆
   - $$
 ---
-# Restaurant Name
+# At Origin Coffee
 
 📌: [687 Mt Pleasant Rd, Toronto, ON M4S 2N2](https://maps.app.goo.gl/AZsrwbtBjPeb11C96)
 💸: $$
