@@ -2,227 +2,277 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://docs.j6n.ca/</loc>
-         <lastmod>2024-07-07</lastmod>
+         <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.j6n.ca/theme/</loc>
-         <lastmod>2024-07-07</lastmod>
+         <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.j6n.ca/food/</loc>
-         <lastmod>2024-07-07</lastmod>
+         <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.j6n.ca/food/additional_resources/</loc>
-         <lastmod>2024-07-07</lastmod>
+         <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.j6n.ca/food/recipes/beef_barbacoa/</loc>
-         <lastmod>2024-07-07</lastmod>
+         <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.j6n.ca/food/recipes/brownies/</loc>
-         <lastmod>2024-07-07</lastmod>
+         <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.j6n.ca/food/recipes/burrito_bowl/</loc>
-         <lastmod>2024-07-07</lastmod>
+         <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.j6n.ca/food/recipes/chicken_alfredo/</loc>
-         <lastmod>2024-07-07</lastmod>
+         <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.j6n.ca/food/recipes/chicken_nuggets/</loc>
-         <lastmod>2024-07-07</lastmod>
+         <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.j6n.ca/food/recipes/cottage_cheese_ice_cream/</loc>
-         <lastmod>2024-07-07</lastmod>
+         <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.j6n.ca/food/recipes/cucumber_salad/</loc>
-         <lastmod>2024-07-07</lastmod>
+         <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.j6n.ca/food/recipes/egg_drop_soup/</loc>
-         <lastmod>2024-07-07</lastmod>
+         <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.j6n.ca/food/recipes/french_fries/</loc>
-         <lastmod>2024-07-07</lastmod>
+         <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.j6n.ca/food/recipes/lobster_tagliatelle/</loc>
-         <lastmod>2024-07-07</lastmod>
+         <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.j6n.ca/food/recipes/mac_and_cheese/</loc>
-         <lastmod>2024-07-07</lastmod>
+         <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.j6n.ca/food/recipes/matcha_latte/</loc>
-         <lastmod>2024-07-07</lastmod>
+         <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.j6n.ca/food/recipes/pourover_coffee/</loc>
-         <lastmod>2024-07-07</lastmod>
+         <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.j6n.ca/food/recipes/protein_rice_krispies/</loc>
-         <lastmod>2024-07-07</lastmod>
+         <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.j6n.ca/food/recipes/roast_duck_breast/</loc>
-         <lastmod>2024-07-07</lastmod>
+         <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.j6n.ca/food/recipes/roasted_vegetables/</loc>
-         <lastmod>2024-07-07</lastmod>
+         <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.j6n.ca/food/recipes/strawberry_yogurt/</loc>
-         <lastmod>2024-07-07</lastmod>
+         <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.j6n.ca/food/recipes/stuffed_mushrooms/</loc>
-         <lastmod>2024-07-07</lastmod>
+         <lastmod>2024-07-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.j6n.ca/food/reviews/il_postino/</loc>
+         <lastmod>2024-07-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.j6n.ca/food/reviews/lazeez/</loc>
+         <lastmod>2024-07-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.j6n.ca/food/reviews/miku/</loc>
+         <lastmod>2024-07-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.j6n.ca/food/reviews/next_door_restaurant/</loc>
+         <lastmod>2024-07-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.j6n.ca/food/reviews/osaka_sushi/</loc>
+         <lastmod>2024-07-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.j6n.ca/food/reviews/rubirosa/</loc>
+         <lastmod>2024-07-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.j6n.ca/food/reviews/shawarma_stop/</loc>
+         <lastmod>2024-07-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.j6n.ca/food/reviews/shelbys_kitchen/</loc>
+         <lastmod>2024-07-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.j6n.ca/food/reviews/smash_kitchen/</loc>
+         <lastmod>2024-07-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.j6n.ca/food/reviews/wonton_hut/</loc>
+         <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.j6n.ca/gaming/</loc>
-         <lastmod>2024-07-07</lastmod>
+         <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.j6n.ca/gaming/valorant/resources/</loc>
-         <lastmod>2024-07-07</lastmod>
+         <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.j6n.ca/learning/</loc>
-         <lastmod>2024-07-07</lastmod>
+         <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.j6n.ca/learning/good_reads/</loc>
-         <lastmod>2024-07-07</lastmod>
+         <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.j6n.ca/learning/aws/oidc_cicd/</loc>
-         <lastmod>2024-07-07</lastmod>
+         <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.j6n.ca/learning/kubernetes/alb_controller_pod_rollout/</loc>
-         <lastmod>2024-07-07</lastmod>
+         <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.j6n.ca/learning/kubernetes/argocd/</loc>
-         <lastmod>2024-07-07</lastmod>
+         <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.j6n.ca/learning/kubernetes/fluxcd/</loc>
-         <lastmod>2024-07-07</lastmod>
+         <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.j6n.ca/learning/kubernetes/tooling/</loc>
-         <lastmod>2024-07-07</lastmod>
+         <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.j6n.ca/music/</loc>
-         <lastmod>2024-07-07</lastmod>
+         <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.j6n.ca/music/guitar/log/</loc>
-         <lastmod>2024-07-07</lastmod>
+         <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.j6n.ca/music/guitar/tabs/blackbird/</loc>
-         <lastmod>2024-07-07</lastmod>
+         <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.j6n.ca/music/guitar/tabs/from_the_start/</loc>
-         <lastmod>2024-07-07</lastmod>
+         <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.j6n.ca/music/guitar/tabs/hey_there_delilah/</loc>
-         <lastmod>2024-07-07</lastmod>
+         <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.j6n.ca/music/guitar/tabs/love_yourself/</loc>
-         <lastmod>2024-07-07</lastmod>
+         <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.j6n.ca/music/guitar/tabs/summer_breeze/</loc>
-         <lastmod>2024-07-07</lastmod>
+         <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.j6n.ca/projects/guitars/build/</loc>
-         <lastmod>2024-07-07</lastmod>
+         <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.j6n.ca/projects/k8s_lab/gatus/</loc>
-         <lastmod>2024-07-07</lastmod>
+         <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.j6n.ca/projects/k8s_lab/hardware/</loc>
-         <lastmod>2024-07-07</lastmod>
+         <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.j6n.ca/projects/k8s_lab/jellyfin/</loc>
-         <lastmod>2024-07-07</lastmod>
+         <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.j6n.ca/projects/keyboards/j6n43/</loc>
-         <lastmod>2024-07-07</lastmod>
+         <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.j6n.ca/projects/keyboards/j6n47/</loc>
-         <lastmod>2024-07-07</lastmod>
+         <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.j6n.ca/tags/</loc>
-         <lastmod>2024-07-07</lastmod>
+         <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
