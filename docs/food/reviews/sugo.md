@@ -4,6 +4,7 @@ tags:
   - toronto
   - italian
   - ★★★★★
+  - $$$
 ---
 # Restaurant Name
 

@@ -1,0 +1,1 @@
+![A gorgeous sear a la cast iron](https://media.discordapp.net/attachments/1259711992847929372/1259724586631561328/FCAC689E-C904-4D2B-9D1D-3DFDCFF1F117.jpg?ex=668cb972&is=668b67f2&hm=5c2699b3632b8209f32ad9215af0a8f8399a7ae2669f0050a54a51745656bf28&=&format=webp&width=810&height=1013)

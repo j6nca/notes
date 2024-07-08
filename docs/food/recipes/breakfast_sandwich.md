@@ -1,0 +1,3 @@
+As a lifelong McDonalds #2 enjoyer, I wanted to be able to enjoy my favourite breakfast sandwich from the comfort of my home (even though theres a McD's 2 min away). This is my go-to breakfast sandwich meal prep, which offers flexibility in toppings and customizations.
+
+![Assembled sandwich](https://media.discordapp.net/attachments/1259711992847929372/1259739819844702218/image.png?ex=668cc7a1&is=668b7621&hm=8ca4e38f48bddd2eefeadf1940d534b75ce5b143da63259be0917b14d5e02e23&=&format=webp&quality=lossless&width=810&height=801)
