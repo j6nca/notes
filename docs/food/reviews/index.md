@@ -1,6 +1,6 @@
 # About
 
-This is a collection of food reviews from places I've visited. All opinions are my own and are subject to change.
+This is a collection of food reviews from places I've visited. All opinions are my own.
 
 ## Map
 
