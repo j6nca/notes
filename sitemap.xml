@@ -161,6 +161,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://docs.j6n.ca/food/reviews/umi/</loc>
+         <lastmod>2024-07-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://docs.j6n.ca/food/reviews/wonton_hut/</loc>
          <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
@@ -272,6 +277,16 @@
     </url>
     <url>
          <loc>https://docs.j6n.ca/projects/keyboards/j6n47/</loc>
+         <lastmod>2024-07-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.j6n.ca/projects/keyboards/wooting_60he/</loc>
+         <lastmod>2024-07-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.j6n.ca/projects/pc_builds/itx/</loc>
          <lastmod>2024-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
