@@ -2,12 +2,12 @@
 tags:
   - review
   - toronto
-  - brunch
-  - ★★★☆☆
+  - italian
+  - ★★★★★
 ---
-# Restaurant Name
+# Piano Piano
 
-## Rating: ★★★☆☆
+## Rating: ★★★★★
 
 ## Photos
 

@@ -2,12 +2,12 @@
 tags:
   - review
   - toronto
-  - brunch
-  - ★★★☆☆
+  - italian
+  - ★★★★★
 ---
 # Restaurant Name
 
-## Rating: ★★★☆☆
+## Rating: ★★★★★
 
 ## Photos
 
