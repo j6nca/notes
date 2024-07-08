@@ -4,6 +4,8 @@ I recently decided to go for a minimal build, and try to de-clutter and better o
 
 ## Parts
 
+View the build on [PCPartPicker](https://pcpartpicker.com/list/6tfjTY)
+
 | Components                          | Cost (CAD) |
 |-------------------------------------|------------|
 | Case        ||
