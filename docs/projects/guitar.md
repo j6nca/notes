@@ -48,13 +48,14 @@ This page will outline my thoughts building my very first electric guitar.
 ## Photos
 
 A rough sketch (using google images) of what the final product will look like:
-![Rough sketch](https://media.discordapp.net/attachments/1259711992847929372/1259712586946052157/image.png?ex=668cae45&is=668b5cc5&hm=65e1a6a23ff2a07d165e906301990ae180afadfb14bee4e299d5738ea775a354&=&format=webp&quality=lossless)
-
+![Rough sketch](https://drive.google.com/file/d/18WKOfmBKHDHVQEd7Gz7GfZGGUNla60uv/preview)
+*Rough sketch*
 Progress pics (excuse the mess, I turned my kitchen table into a workspace):
-![First day](https://media.discordapp.net/attachments/1259711992847929372/1259712964467101716/IMG_4924.png?ex=668cae9f&is=668b5d1f&hm=5075d4cdc44d0354394339e508891bf10ea93874775edf885bd3555375054c7c&=&format=webp&quality=lossless)
-
-![After a couple coats of oil](https://media.discordapp.net/attachments/1259711992847929372/1259712965427335198/IMG_4938.jpg?ex=668cae9f&is=668b5d1f&hm=33d42f33006ab1bdde681538ce7377e31536e05e6b90f05d2e17e8f06529a654&=&format=webp&width=810&height=1080)
-
-![Piecing it together](https://media.discordapp.net/attachments/1259711992847929372/1259712966706855977/IMG_4948.jpg?ex=668cae9f&is=668b5d1f&hm=cced43d1c282804f444b0db57c80a0513bb04e40c8893a737b96b51d25103915&=&format=webp&width=810&height=1080)
-
-![Final product](https://media.discordapp.net/attachments/1259711992847929372/1259712967696715866/IMG_4965.jpg?ex=668cae9f&is=668b5d1f&hm=c1d2371c0c5425d3d0e07371235dfe4954f466fb9bdad10e3cb1fa1d89768027&=&format=webp&width=810&height=1080)
+![Before](https://drive.google.com/file/d/1GYYZ0uo-V8DFJR5aFBo9-6b3ihXacWk2/preview)
+*First da*
+![After a couple coats of oil](https://drive.google.com/file/d/1hQx1k9E8UmuXIW4hpB0m_OkItV0Mk-b1/preview)
+*After a couple coats of oil*
+![Piecing it together](https://drive.google.com/file/d/15RBtppuOTghABNsy_PY-0KT5gP1a5DmR/preview)
+*Piecing it together*
+![Final product](https://drive.google.com/file/d/1w-gj7gEgmcyV8MK7wUPGCdkIE-0oZ6kH/preview)
+*Final product*
