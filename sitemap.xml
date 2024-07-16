@@ -411,17 +411,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.j6n.ca/projects/software/new_version_metrics/</loc>
-         <lastmod>2024-07-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://docs.j6n.ca/projects/software/password_manager/</loc>
          <lastmod>2024-07-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.j6n.ca/projects/software/tab_maker/</loc>
+         <lastmod>2024-07-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.j6n.ca/projects/software/whats_new/</loc>
          <lastmod>2024-07-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
