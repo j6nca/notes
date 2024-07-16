@@ -1,6 +1,7 @@
 ---
 tags:
   - review
+  - WIP
   # - city (i.e toronto, new york)
   # - cuisine (i.e italian, mexican)
   - ★★★★★ / ☆☆☆☆☆

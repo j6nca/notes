@@ -1,6 +1,7 @@
 ---
 tags:
   - review
+  - WIP
   - toronto
   - omakase
   - ★★★☆☆
