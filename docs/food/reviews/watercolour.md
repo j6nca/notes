@@ -2,7 +2,7 @@
 tags:
   - review
   - toronto
-  - brunch
+  - mediterranean
   - ★★★☆☆
   - $$$$$
 ---

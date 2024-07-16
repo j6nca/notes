@@ -1,8 +1,8 @@
 ---
 tags:
   - review
-  # - city (i.e toronto, new york)
-  # - cuisine (i.e italian, mexican)
+  - toronto
+  - brunch
   - ★★★★★ / ☆☆☆☆☆
   - $$$$
 ---
