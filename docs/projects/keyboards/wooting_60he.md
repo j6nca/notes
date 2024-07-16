@@ -14,5 +14,5 @@ This is likely going to be my endgame keyboard. Hall-effect seems to be the futu
 
 ## Photos
 
-![Wooting 60HE assembled](https://drive.google.com/file/d/11PFfGEfKIbmfNE5rthWUXoFoXG9fNmfz/preview)
+![Wooting 60HE assembled](https://res.cloudinary.com/drwjkxxud/image/upload/v1721106541/wooting_ok1qsh.png)
 *Wooting 60HE assembled w/ mods*
