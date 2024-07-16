@@ -17,7 +17,7 @@ Vibes in this store are immaculate, super cozy and honestly exactly what I would
 
 ## Photos
 
-![Iced americano (left), caramel chocolate chip cookie (middle), oat latte (right)](https://media.discordapp.net/attachments/1259711992847929372/1259724591904063488/E1D84FF5-819D-4ACF-BE35-A4B9D3D82B06.jpg?ex=668cb973&is=668b67f3&hm=695ac5d68e9e13d22da4c967d224985e15be58dad4c6e1aaf7b7b6955269b54f&=&format=webp&width=810&height=1080)
+![Iced americano (left), caramel chocolate chip cookie (middle), oat latte (right)](https://res.cloudinary.com/drwjkxxud/image/upload/v1721090830/E1D84FF5-819D-4ACF-BE35-A4B9D3D82B06_xdsye0.jpg)
 
 ## Links
 

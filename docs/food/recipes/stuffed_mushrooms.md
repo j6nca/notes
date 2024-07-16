@@ -47,9 +47,9 @@ Cooking time: 20 mins
 
 ## Photos
 
-![Not yet stuffed](https://media.discordapp.net/attachments/1259711992847929372/1259724590440255528/C0B41F3B-4250-46DC-87C6-DBA409B516C2.jpg?ex=668cb972&is=668b67f2&hm=12551b4b5d83d626b1528581f88432cb99dc4b983fd9c0cfec2f5d5340a578ff&=&format=webp&width=810&height=608)
-![Before baking](https://media.discordapp.net/attachments/1259711992847929372/1259724589462851698/6868C49B-4607-47F8-92B7-2035B64C4F95.jpg?ex=668cb972&is=668b67f2&hm=7bc16f187631c90dda9f950c1ba39175c7898ef91a991b9120abed90f6a23e50&=&format=webp&width=810&height=1080)
-![Finished product](https://media.discordapp.net/attachments/1259711992847929372/1259724588078727199/B9724B52-94C4-4C5F-B752-9A4B31330203.jpg?ex=668cb972&is=668b67f2&hm=dd10e85d8b92f077d917d54ec70d2e8053040df79d42778c09455c5652ccf7e6&=&format=webp&width=810&height=1080)
+![Not yet stuffed](https://res.cloudinary.com/drwjkxxud/image/upload/v1721090365/stuffed_mushrooms_prep_qkglyz.jpg)
+![Before baking](https://res.cloudinary.com/drwjkxxud/image/upload/v1721090384/stuffed_mushrooms_before_nqw6ic.jpg)
+![Finished product](https://res.cloudinary.com/drwjkxxud/image/upload/v1721090412/stuffed_mushrooms_after_l1f3th.jpg)
 
 ## Notes
 

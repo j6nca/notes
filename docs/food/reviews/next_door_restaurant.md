@@ -17,7 +17,7 @@ This place was great, we came here for father's day and were seated in the patio
 
 ## Photos
 
-![Avocado loaded bagel](https://media.discordapp.net/attachments/1259711992847929372/1259723164339015822/2AAB9F40-F86E-41B9-8631-75B15598AE02.jpg?ex=668cb81e&is=668b669e&hm=9ac6ae809466f6c00e474dae81dd998b4ee9939b8c621b51e60872f3e414323d&=&format=webp&width=810&height=608)
+![Avocado loaded bagel](https://res.cloudinary.com/drwjkxxud/image/upload/v1721090664/2AAB9F40-F86E-41B9-8631-75B15598AE02_e8h2xg.jpg)
 
 ## Links
 

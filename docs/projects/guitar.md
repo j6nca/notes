@@ -48,14 +48,14 @@ This page will outline my thoughts building my very first electric guitar.
 ## Photos
 
 A rough sketch (using google images) of what the final product will look like:
-![Rough sketch](https://drive.google.com/file/d/18WKOfmBKHDHVQEd7Gz7GfZGGUNla60uv/preview)
+![Rough sketch](https://res.cloudinary.com/drwjkxxud/image/upload/v1721089306/guitar_draft_xz2k2u.png)
 *Rough sketch*
 Progress pics (excuse the mess, I turned my kitchen table into a workspace):
-![Before](https://drive.google.com/file/d/1GYYZ0uo-V8DFJR5aFBo9-6b3ihXacWk2/preview)
+![Before](https://res.cloudinary.com/drwjkxxud/image/upload/v1721089306/guitar_before_wsnlce.jpg)
 *First da*
-![After a couple coats of oil](https://drive.google.com/file/d/1hQx1k9E8UmuXIW4hpB0m_OkItV0Mk-b1/preview)
+![After a couple coats of oil](https://res.cloudinary.com/drwjkxxud/image/upload/v1721089308/guitar_day1_tpmehe.jpg)
 *After a couple coats of oil*
-![Piecing it together](https://drive.google.com/file/d/15RBtppuOTghABNsy_PY-0KT5gP1a5DmR/preview)
+![Piecing it together](https://res.cloudinary.com/drwjkxxud/image/upload/v1721089306/guitar_day3_gyzhly.jpg)
 *Piecing it together*
-![Final product](https://drive.google.com/file/d/1w-gj7gEgmcyV8MK7wUPGCdkIE-0oZ6kH/preview)
+![Final product](https://res.cloudinary.com/drwjkxxud/image/upload/v1721089307/guitar_finished_ctywib.jpg)
 *Final product*

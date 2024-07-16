@@ -41,7 +41,7 @@ Cooking time: 15-20 mins
 
 ## Photos
 
-![Roast potatoes](https://media.discordapp.net/attachments/1259711992847929372/1259723163588362311/2B103B9C-BA94-47C1-96E8-CDE9D9341388.jpg?ex=668cb81e&is=668b669e&hm=7bc2436fde8eb5988888a0990b7bcd8defe329fc2072f04070fd6ddea42b2596&=&format=webp&width=810&height=1080)
+![Roast potatoes](https://res.cloudinary.com/drwjkxxud/image/upload/v1721090374/oven_roast_fries_yuhw4o.jpg)
 
 ## Notes
 

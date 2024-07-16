@@ -40,7 +40,7 @@ I will document any upgrades to the system over time here.
 
 ## Photos
 
-![Revision 1](https://drive.google.com/file/d/1t20MN5GX3_zlIoM1YPrE63LqedQlclzk/preview)
+![Revision 1](https://res.cloudinary.com/drwjkxxud/image/upload/v1721089309/itx_build_dpucum.jpg)
 *Revision 1*
 ![Revision 2]()
 *Revision 2*

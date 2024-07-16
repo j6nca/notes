@@ -16,7 +16,7 @@ Food is pretty good, the place can get busy for special occassions. Service is a
 
 ## Photos
 
-![Pulled pork eggs benedict](https://media.discordapp.net/attachments/1259711992847929372/1259724185299583087/1CC706FA-A78E-4180-8914-8AABA4941737.jpg?ex=668cb912&is=668b6792&hm=edadd47155ae70fa1e7fc47bdd3c06527534bd96c62c8fe26f19493ce62f596a&=&format=webp&width=810&height=1080)
+![Pulled pork eggs benedict](https://res.cloudinary.com/drwjkxxud/image/upload/v1721090825/smash_kitchen_bar_1_olhpjl.jpg)
 
 ## Links
 

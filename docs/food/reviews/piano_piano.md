@@ -13,12 +13,12 @@ tags:
 
 ## Rating: ★★★★★
 
-Wow, where do I even begin, this is one of my favourite pasta places in Toronto. The store is tucked away in a small corner of X. The pasta is homemade fresh and was delicious. 
+Wow, where do I even begin, this is one of my favourite pasta places in Toronto. The store is tucked away in a small corner of X. We were going to be in the area and heard that this place has a great lunch deal for $34. The pasta is homemade fresh and was delicious. Solid portions of pasta as well. The nutella tiramisu dessert was also tasty.
 
 ## Photos
 
-![Meatballs](https://media.discordapp.net/attachments/1259711992847929372/1259724595339067444/338B8676-F17B-4987-A05B-2956FDD47024.jpg?ex=668cb974&is=668b67f4&hm=69a10fc4f2e3e49eb3dc9f5557502c0b9819081e69aa22f23d8f92b951b51e94&=&format=webp&width=810&height=1080)
-![Nutella tiramisu](https://media.discordapp.net/attachments/1259711992847929372/1259724593854414898/7EC26276-7EA3-480E-BCA1-B2D617D41DCD.jpg?ex=668cb973&is=668b67f3&hm=2d9adc0f8c3e933be971e3e39d069b0bb7be01460901dccb37195397eb7962b7&=&format=webp&width=810&height=1080)
+![Meatballs](https://res.cloudinary.com/drwjkxxud/image/upload/v1721090823/piano_piano_1_mwfhk1.jpg)
+![Nutella tiramisu](https://res.cloudinary.com/drwjkxxud/image/upload/v1721090822/7EC26276-7EA3-480E-BCA1-B2D617D41DCD_af3o4c.jpg)
 
 ## Links
 
