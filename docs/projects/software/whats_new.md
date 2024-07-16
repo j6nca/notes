@@ -1,4 +1,4 @@
-# New version metrics
+# whats-new
 
 Something that comes up fairly often at work is that it would be nice to view software versions in a dashboard. Building on that, it would be nice to view what is up-to-date, and what needs to be updated.
 

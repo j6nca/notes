@@ -42,5 +42,5 @@ I will document any upgrades to the system over time here.
 
 ![Revision 1](https://res.cloudinary.com/drwjkxxud/image/upload/v1721089309/itx_build_dpucum.jpg)
 *Revision 1*
-![Revision 2]()
+![Revision 2](https://res.cloudinary.com/drwjkxxud/image/upload/v1721106959/IMG_5789_jhqmhz.jpg)
 *Revision 2*
