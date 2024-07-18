@@ -321,6 +321,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://docs.j6n.ca/learning/kubernetes/extensible_argocd_architecture/</loc>
+         <lastmod>2024-07-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://docs.j6n.ca/learning/kubernetes/fluxcd/</loc>
          <lastmod>2024-07-18</lastmod>
          <changefreq>daily</changefreq>
