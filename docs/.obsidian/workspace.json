@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:recipe",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -149,6 +149,17 @@
   },
   "active": "f866330c3e1294b9",
   "lastOpenFiles": [
+    "learning/kubernetes/extensible_argocd_architecture.md",
+    "projects/software/whats_new.md",
+    "projects/router.md",
+    "projects/pc_itx_build.md",
+    "projects/guitar.md",
+    "keyboards/9X.md",
+    "keyboards/8X.md",
+    "keyboards/7X.md",
+    "keyboards/6X.md",
+    "keyboards/4X.md",
+    "keyboards",
     "food/recipes/beef_barbacoa.md"
   ]
 }
