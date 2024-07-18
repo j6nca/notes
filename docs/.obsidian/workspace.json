@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f28d0bc6c87686c4",
+        "id": "e092b357527f7808",
         "type": "tabs",
         "children": [
           {
-            "id": "209b849dfd8bfde3",
+            "id": "958e83e8ed3d1b3a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "food/recipes/burrito_bowl.md",
+                "file": "food/recipes/egg_drop_soup.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "food/recipes/burrito_bowl.md",
+                "file": "food/recipes/egg_drop_soup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "food/recipes/burrito_bowl.md",
+                "file": "food/recipes/egg_drop_soup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "food/recipes/burrito_bowl.md"
+                "file": "food/recipes/egg_drop_soup.md"
               }
             }
           }
@@ -147,8 +146,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f866330c3e1294b9",
+  "active": "958e83e8ed3d1b3a",
   "lastOpenFiles": [
+    "Untitled 1.md",
+    "food/recipes/beef_barbacoa.md",
+    "templates/blog.md",
+    "Untitled.md",
+    "food/recipes/burrito_bowl.md",
     "learning/kubernetes/extensible_argocd_architecture.md",
     "projects/software/whats_new.md",
     "projects/router.md",
@@ -159,7 +163,6 @@
     "keyboards/7X.md",
     "keyboards/6X.md",
     "keyboards/4X.md",
-    "keyboards",
-    "food/recipes/beef_barbacoa.md"
+    "keyboards"
   ]
 }

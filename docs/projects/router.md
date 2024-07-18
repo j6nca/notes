@@ -6,4 +6,4 @@ This page will outline my process building deploying a homemade router, replacin
 
 | Item                                                         | Price  | Date Purchased |
 | ------------------------------------------------------------ | ------ | -------------- |
-| XCY Firewall Mini PC, Intel Celeron N2830, 4GB RAM, 32GB SSD | 155.67 | 24-07-15       |
+| XCY Firewall Mini PC, Intel Celeron N2830, 4GB RAM, 32GB SSD | 136.14 | 24-07-15       |

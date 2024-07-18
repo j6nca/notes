@@ -16,10 +16,10 @@ Cooking time:
 
 ## Macros
 
-|  | Carbs (g) | Proteins (g) | Fats (g) | Cals (kcal) |
-| --- | --- | --- | --- | --- |
-|  |  |  |  |  |
-|  |  |  |  |  |
+|     | Carbs (g) | Proteins (g) | Fats (g) | Cals (kcal) |
+| --- | --------- | ------------ | -------- | ----------- |
+|     |           |              |          |             |
+|     |           |              |          |             |
 
 ## Ingredients
 
