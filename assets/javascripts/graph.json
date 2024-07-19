@@ -1,0 +1,557 @@
+{
+  "nodes": [
+    {
+      "id": "0",
+      "name": "Home",
+      "symbolSize": 0,
+      "value": "/"
+    },
+    {
+      "id": "1",
+      "name": "Tags",
+      "symbolSize": 0,
+      "value": "/tags/"
+    },
+    {
+      "id": "2",
+      "name": "Theme",
+      "symbolSize": 0,
+      "value": "/theme/"
+    },
+    {
+      "id": "3",
+      "name": "About",
+      "symbolSize": 0,
+      "value": "/food/"
+    },
+    {
+      "id": "4",
+      "name": "About",
+      "symbolSize": 0,
+      "value": "/food/recipes/"
+    },
+    {
+      "id": "5",
+      "name": "Beef barbacoa",
+      "symbolSize": 0,
+      "value": "/food/recipes/beef_barbacoa/"
+    },
+    {
+      "id": "6",
+      "name": "Breakfast sandwich",
+      "symbolSize": 0,
+      "value": "/food/recipes/breakfast_sandwich/"
+    },
+    {
+      "id": "7",
+      "name": "Recipe Name",
+      "symbolSize": 0,
+      "value": "/food/recipes/brownies/"
+    },
+    {
+      "id": "8",
+      "name": "Recipe Name",
+      "symbolSize": 0,
+      "value": "/food/recipes/brownies_baked_oat/"
+    },
+    {
+      "id": "9",
+      "name": "Burrito bowl (Chipotle)",
+      "symbolSize": 0,
+      "value": "/food/recipes/burrito_bowl/"
+    },
+    {
+      "id": "10",
+      "name": "Chicken Alfredo",
+      "symbolSize": 0,
+      "value": "/food/recipes/chicken_alfredo/"
+    },
+    {
+      "id": "11",
+      "name": "Chicken Nuggets",
+      "symbolSize": 0,
+      "value": "/food/recipes/chicken_nuggets/"
+    },
+    {
+      "id": "12",
+      "name": "Coffee (Espresso)",
+      "symbolSize": 0,
+      "value": "/food/recipes/coffee_espresso/"
+    },
+    {
+      "id": "13",
+      "name": "Coffee (Pourover)",
+      "symbolSize": 0,
+      "value": "/food/recipes/coffee_pourover/"
+    },
+    {
+      "id": "14",
+      "name": "Cottage Cheese Ice Cream",
+      "symbolSize": 0,
+      "value": "/food/recipes/cottage_cheese_ice_cream/"
+    },
+    {
+      "id": "15",
+      "name": "Quick, easy and flexible cucumber salad",
+      "symbolSize": 0,
+      "value": "/food/recipes/cucumber_salad/"
+    },
+    {
+      "id": "16",
+      "name": "Egg Drop Soup",
+      "symbolSize": 0,
+      "value": "/food/recipes/egg_drop_soup/"
+    },
+    {
+      "id": "17",
+      "name": "French Fries",
+      "symbolSize": 0,
+      "value": "/food/recipes/french_fries/"
+    },
+    {
+      "id": "18",
+      "name": "Mac and Cheese",
+      "symbolSize": 0,
+      "value": "/food/recipes/lasagna/"
+    },
+    {
+      "id": "19",
+      "name": "Lobster Tagliatelle",
+      "symbolSize": 0,
+      "value": "/food/recipes/lobster_tagliatelle/"
+    },
+    {
+      "id": "20",
+      "name": "Mac and Cheese",
+      "symbolSize": 0,
+      "value": "/food/recipes/mac_and_cheese/"
+    },
+    {
+      "id": "21",
+      "name": "Matcha Latte",
+      "symbolSize": 0,
+      "value": "/food/recipes/matcha_latte/"
+    },
+    {
+      "id": "22",
+      "name": "Protein Rice Krispies",
+      "symbolSize": 0,
+      "value": "/food/recipes/protein_rice_krispies/"
+    },
+    {
+      "id": "23",
+      "name": "Oven roasted duck breast",
+      "symbolSize": 0,
+      "value": "/food/recipes/roast_duck_breast/"
+    },
+    {
+      "id": "24",
+      "name": "Roasted Veggies",
+      "symbolSize": 0,
+      "value": "/food/recipes/roasted_vegetables/"
+    },
+    {
+      "id": "25",
+      "name": "Steak",
+      "symbolSize": 0,
+      "value": "/food/recipes/steak/"
+    },
+    {
+      "id": "26",
+      "name": "Strawberry Greek Yogurt",
+      "symbolSize": 0,
+      "value": "/food/recipes/strawberry_yogurt/"
+    },
+    {
+      "id": "27",
+      "name": "Stuffed Mushrooms",
+      "symbolSize": 0,
+      "value": "/food/recipes/stuffed_mushrooms/"
+    },
+    {
+      "id": "28",
+      "name": "About",
+      "symbolSize": 0,
+      "value": "/food/reviews/"
+    },
+    {
+      "id": "29",
+      "name": "At Origin Coffee",
+      "symbolSize": 0,
+      "value": "/food/reviews/at_origin_coffee/"
+    },
+    {
+      "id": "30",
+      "name": "Cherrys high dive",
+      "symbolSize": 0,
+      "value": "/food/reviews/cherrys_high_dive/"
+    },
+    {
+      "id": "31",
+      "name": "Earls kitchen bar",
+      "symbolSize": 0,
+      "value": "/food/reviews/earls_kitchen_bar/"
+    },
+    {
+      "id": "32",
+      "name": "Fishbone by the Lake",
+      "symbolSize": 0,
+      "value": "/food/reviews/fishbone_by_the_lake/"
+    },
+    {
+      "id": "33",
+      "name": "Gals sushi",
+      "symbolSize": 0,
+      "value": "/food/reviews/gals_sushi/"
+    },
+    {
+      "id": "34",
+      "name": "Il postino",
+      "symbolSize": 0,
+      "value": "/food/reviews/il_postino/"
+    },
+    {
+      "id": "35",
+      "name": "Kelseys",
+      "symbolSize": 0,
+      "value": "/food/reviews/kelseys/"
+    },
+    {
+      "id": "36",
+      "name": "Lazeez",
+      "symbolSize": 0,
+      "value": "/food/reviews/lazeez/"
+    },
+    {
+      "id": "37",
+      "name": "Miku",
+      "symbolSize": 0,
+      "value": "/food/reviews/miku/"
+    },
+    {
+      "id": "38",
+      "name": "Nextdoor Restaurant",
+      "symbolSize": 0,
+      "value": "/food/reviews/next_door_restaurant/"
+    },
+    {
+      "id": "39",
+      "name": "Old country inn",
+      "symbolSize": 0,
+      "value": "/food/reviews/old_country_inn/"
+    },
+    {
+      "id": "40",
+      "name": "Osaka Sushi",
+      "symbolSize": 0,
+      "value": "/food/reviews/osaka_sushi/"
+    },
+    {
+      "id": "41",
+      "name": "Piano Piano",
+      "symbolSize": 0,
+      "value": "/food/reviews/piano_piano/"
+    },
+    {
+      "id": "42",
+      "name": "Planta cocina",
+      "symbolSize": 0,
+      "value": "/food/reviews/planta_cocina/"
+    },
+    {
+      "id": "43",
+      "name": "Planta queen",
+      "symbolSize": 0,
+      "value": "/food/reviews/planta_queen/"
+    },
+    {
+      "id": "44",
+      "name": "Rubirosa",
+      "symbolSize": 0,
+      "value": "/food/reviews/rubirosa/"
+    },
+    {
+      "id": "45",
+      "name": "Score on king",
+      "symbolSize": 0,
+      "value": "/food/reviews/score_on_king/"
+    },
+    {
+      "id": "46",
+      "name": "Shawarma stop",
+      "symbolSize": 0,
+      "value": "/food/reviews/shawarma_stop/"
+    },
+    {
+      "id": "47",
+      "name": "Shelbys kitchen",
+      "symbolSize": 0,
+      "value": "/food/reviews/shelbys_kitchen/"
+    },
+    {
+      "id": "48",
+      "name": "Smash Kitchen and Bar",
+      "symbolSize": 0,
+      "value": "/food/reviews/smash_kitchen/"
+    },
+    {
+      "id": "49",
+      "name": "Sugo",
+      "symbolSize": 0,
+      "value": "/food/reviews/sugo/"
+    },
+    {
+      "id": "50",
+      "name": "Sushi Umi",
+      "symbolSize": 0,
+      "value": "/food/reviews/sushi_umi/"
+    },
+    {
+      "id": "51",
+      "name": "Watercolour",
+      "symbolSize": 0,
+      "value": "/food/reviews/watercolour/"
+    },
+    {
+      "id": "52",
+      "name": "Wonton hut",
+      "symbolSize": 0,
+      "value": "/food/reviews/wonton_hut/"
+    },
+    {
+      "id": "53",
+      "name": "About",
+      "symbolSize": 0,
+      "value": "/gaming/"
+    },
+    {
+      "id": "54",
+      "name": "Resources",
+      "symbolSize": 0,
+      "value": "/gaming/valorant/resources/"
+    },
+    {
+      "id": "55",
+      "name": "4X",
+      "symbolSize": 0,
+      "value": "/keyboards/4X/"
+    },
+    {
+      "id": "56",
+      "name": "6X",
+      "symbolSize": 0,
+      "value": "/keyboards/6X/"
+    },
+    {
+      "id": "57",
+      "name": "7X",
+      "symbolSize": 0,
+      "value": "/keyboards/7X/"
+    },
+    {
+      "id": "58",
+      "name": "8X",
+      "symbolSize": 0,
+      "value": "/keyboards/8X/"
+    },
+    {
+      "id": "59",
+      "name": "9X",
+      "symbolSize": 0,
+      "value": "/keyboards/9X/"
+    },
+    {
+      "id": "60",
+      "name": "About",
+      "symbolSize": 0,
+      "value": "/learning/"
+    },
+    {
+      "id": "61",
+      "name": "Good reads",
+      "symbolSize": 0,
+      "value": "/learning/good_reads/"
+    },
+    {
+      "id": "62",
+      "name": "Setting up AWS authentication for CI/CD using OIDC",
+      "symbolSize": 0,
+      "value": "/learning/aws/oidc_cicd/"
+    },
+    {
+      "id": "63",
+      "name": "Alb controller pod rollout",
+      "symbolSize": 0,
+      "value": "/learning/kubernetes/alb_controller_pod_rollout/"
+    },
+    {
+      "id": "64",
+      "name": "Argocd",
+      "symbolSize": 0,
+      "value": "/learning/kubernetes/argocd/"
+    },
+    {
+      "id": "65",
+      "name": "Extensible argocd architecture",
+      "symbolSize": 0,
+      "value": "/learning/kubernetes/extensible_argocd_architecture/"
+    },
+    {
+      "id": "66",
+      "name": "Fluxcd",
+      "symbolSize": 0,
+      "value": "/learning/kubernetes/fluxcd/"
+    },
+    {
+      "id": "67",
+      "name": "Metadata labeling",
+      "symbolSize": 0,
+      "value": "/learning/kubernetes/metadata_labeling/"
+    },
+    {
+      "id": "68",
+      "name": "Tooling",
+      "symbolSize": 0,
+      "value": "/learning/kubernetes/tooling/"
+    },
+    {
+      "id": "69",
+      "name": "1password",
+      "symbolSize": 0,
+      "value": "/learning/security/1password/"
+    },
+    {
+      "id": "70",
+      "name": "About",
+      "symbolSize": 0,
+      "value": "/music/"
+    },
+    {
+      "id": "71",
+      "name": "My guitar learning journey",
+      "symbolSize": 0,
+      "value": "/music/guitar/log/"
+    },
+    {
+      "id": "72",
+      "name": "[WIP] Blackbird - The Beatles",
+      "symbolSize": 0,
+      "value": "/music/guitar/tabs/blackbird/"
+    },
+    {
+      "id": "73",
+      "name": "From the start",
+      "symbolSize": 0,
+      "value": "/music/guitar/tabs/from_the_start/"
+    },
+    {
+      "id": "74",
+      "name": "Hey there delilah",
+      "symbolSize": 0,
+      "value": "/music/guitar/tabs/hey_there_delilah/"
+    },
+    {
+      "id": "75",
+      "name": "Love yourself - Justin Bieber",
+      "symbolSize": 0,
+      "value": "/music/guitar/tabs/love_yourself/"
+    },
+    {
+      "id": "76",
+      "name": "[WIP] Summer Breeze - Seals and Crofts",
+      "symbolSize": 0,
+      "value": "/music/guitar/tabs/summer_breeze/"
+    },
+    {
+      "id": "77",
+      "name": "Electric Guitar Build",
+      "symbolSize": 0,
+      "value": "/projects/guitar/"
+    },
+    {
+      "id": "78",
+      "name": "My first ITX build",
+      "symbolSize": 0,
+      "value": "/projects/pc_itx_build/"
+    },
+    {
+      "id": "79",
+      "name": "Homemade Router Build",
+      "symbolSize": 0,
+      "value": "/projects/router/"
+    },
+    {
+      "id": "80",
+      "name": "j6n43 (WIP)",
+      "symbolSize": 0,
+      "value": "/projects/keyboards/j6n43/"
+    },
+    {
+      "id": "81",
+      "name": "j6n47 (WIP)",
+      "symbolSize": 0,
+      "value": "/projects/keyboards/j6n47/"
+    },
+    {
+      "id": "82",
+      "name": "Wooting 60HE",
+      "symbolSize": 0,
+      "value": "/projects/keyboards/wooting_60he/"
+    },
+    {
+      "id": "83",
+      "name": "Free game notifier",
+      "symbolSize": 0,
+      "value": "/projects/software/free_game_notifier/"
+    },
+    {
+      "id": "84",
+      "name": "Macro software",
+      "symbolSize": 0,
+      "value": "/projects/software/macro_software/"
+    },
+    {
+      "id": "85",
+      "name": "Password manager",
+      "symbolSize": 0,
+      "value": "/projects/software/password_manager/"
+    },
+    {
+      "id": "86",
+      "name": "Tab maker",
+      "symbolSize": 0,
+      "value": "/projects/software/tab_maker/"
+    },
+    {
+      "id": "87",
+      "name": "whats-new",
+      "symbolSize": 0,
+      "value": "/projects/software/whats_new/"
+    },
+    {
+      "id": "88",
+      "name": "Gatus",
+      "symbolSize": 0,
+      "value": "/projects/software/k8s_lab/gatus/"
+    },
+    {
+      "id": "89",
+      "name": "Hardware",
+      "symbolSize": 0,
+      "value": "/projects/software/k8s_lab/hardware/"
+    },
+    {
+      "id": "90",
+      "name": "Jellyfin",
+      "symbolSize": 0,
+      "value": "/projects/software/k8s_lab/jellyfin/"
+    },
+    {
+      "id": "91",
+      "name": "Setup",
+      "symbolSize": 0,
+      "value": "/projects/software/k8s_lab/setup/"
+    }
+  ],
+  "links": []
+}
