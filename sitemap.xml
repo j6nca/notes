@@ -111,12 +111,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://notes.j6n.ca/food/recipes/roast_duck_breast/</loc>
+         <loc>https://notes.j6n.ca/food/recipes/roasted_vegetables/</loc>
          <lastmod>2024-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://notes.j6n.ca/food/recipes/roasted_vegetables/</loc>
+         <loc>https://notes.j6n.ca/food/recipes/seared_duck_breast/</loc>
          <lastmod>2024-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -276,27 +276,37 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://notes.j6n.ca/keyboards/4X/</loc>
+         <loc>https://notes.j6n.ca/keyboards/my_keyboards/</loc>
          <lastmod>2024-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://notes.j6n.ca/keyboards/6X/</loc>
+         <loc>https://notes.j6n.ca/keyboards/recommendations/</loc>
          <lastmod>2024-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://notes.j6n.ca/keyboards/7X/</loc>
+         <loc>https://notes.j6n.ca/keyboards/recommendations/4X/</loc>
          <lastmod>2024-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://notes.j6n.ca/keyboards/8X/</loc>
+         <loc>https://notes.j6n.ca/keyboards/recommendations/6X/</loc>
          <lastmod>2024-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://notes.j6n.ca/keyboards/9X/</loc>
+         <loc>https://notes.j6n.ca/keyboards/recommendations/7X/</loc>
+         <lastmod>2024-07-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://notes.j6n.ca/keyboards/recommendations/8X/</loc>
+         <lastmod>2024-07-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://notes.j6n.ca/keyboards/recommendations/9X/</loc>
          <lastmod>2024-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
