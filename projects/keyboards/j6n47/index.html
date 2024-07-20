@@ -268,7 +268,7 @@
         
   
   <span class="md-ellipsis">
-    Home
+    Hello world
   </span>
   
 
@@ -304,11 +304,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../theme/" class="md-nav__link">
+      <a href="../../../test/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Theme
+    Test
   </span>
   
 
@@ -3232,8 +3232,12 @@
 </tbody>
 </table>
 <h2 id="layout">Layout</h2>
-<p>I initially found <a href="http://www.keyboard-layout-editor.com/">keyboard-layout-editor</a>, where I viewed existing layouts and played around with creating my own layouts. For this project, my goal was to create a smaller form factor keyboard than my current 60%.<br />
-<a class="glightbox" href="https://github.com/j6nca/keyboard/blob/main/qmk/j6n47/diagrams/layout.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="j6n58 keyboard layout" src="https://github.com/j6nca/keyboard/blob/main/qmk/j6n47/diagrams/layout.png" /></a></p>
+<p>I initially found <a href="http://www.keyboard-layout-editor.com/">keyboard-layout-editor</a>, where I viewed existing layouts and played around with creating my own layouts. For this project, my goal was to create a smaller form factor keyboard than my current 60%.</p>
+<figure markdown="span">
+  ![https://github.com/j6nca/keyboard/blob/main/qmk/j6n47/diagrams/layout.png](https://github.com/j6nca/keyboard/blob/main/qmk/j6n47/diagrams/layout.png)
+  <figcaption>j6n58 keyboard layout</figcaption>
+</figure markdown>
+
 <h2 id="working-with-qmk">Working with QMK</h2>
 <h3 id="setup">Setup</h3>
 <p>Setup of qmk was fairly straight-forward, following the available <a href="https://docs.qmk.fm/#/newbs_getting_started">documentation</a>.<br />
@@ -3245,33 +3249,54 @@ qmk compile -kb clueboard/66/rev3 -km default
 <h3 id="qmk-configuration">QMK Configuration</h3>
 <p>I realized I would not be able to reuse the raw data I created earlier in <code>keyboard-layout-editor</code>, so I looked to port over my layout to qmk configuration.</p>
 <p>I forked the <code>qmk_firmware</code> repo to include my new layout &amp; created a keyboard profile for myself, adding respective pins based on the rpi pico's pinout diagram.<br />
-<br><br />
-<a class="glightbox" href="https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/rpi_pico_pinout.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="rpi pico pinout diagram" src="https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/rpi_pico_pinout.webp" /></a><br />
-<div class="highlight"><pre><span></span><code>qmk new-keyboard
+<br></p>
+<figure markdown="span">
+  ![https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/rpi_pico_pinout.webp](https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/rpi_pico_pinout.webp)
+  <figcaption>rpi pico pinout diagram</figcaption>
+</figure markdown>
+<p><div class="highlight"><pre><span></span><code>qmk new-keyboard
 ...
 qmk compile -kb handwired/j6n47 -km default
 </code></pre></div><br />
 The changes I made can be viewed <a href="https://github.com/qmk/qmk_firmware/compare/master...j6nca:qmk_firmware:j6n47">here</a>.</p>
 <p>Update: 23/06/30<br />
-Went to the library to print the pcb plate! Had to tinker with the fill (make it much less dense than before) to get the print to fit the timeslot I had booked. <a href="https://res.cloudinary.com/drwjkxxud/video/upload/v1721089170/IMG_3058_smjnfj.mov">View a short clip of the print here</a><br />
-<a class="glightbox" href="https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/plate.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Plate" src="https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/plate.png" /></a><br />
-<em>Plate</em><br />
-Additionally did a test fitting with some spare switches I had lying around.<br />
-<a class="glightbox" href="https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/fitting.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Fitting into pcb" src="https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/fitting.jpg" /></a><br />
-<em>Fitting into pcb</em><br />
-<a class="glightbox" href="https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/pre-handwiring.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Pre-handwiring" src="https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/pre-handwiring.jpg" /></a><br />
-<em>Pre-handwiring</em><br />
+Went to the library to print the pcb plate! Had to tinker with the fill (make it much less dense than before) to get the print to fit the timeslot I had booked. <a href="https://res.cloudinary.com/drwjkxxud/video/upload/v1721089170/IMG_3058_smjnfj.mov">View a short clip of the print here</a></p>
+<figure markdown="span">
+  ![https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/plate.png](https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/plate.png)
+  <figcaption>Plate</figcaption>
+</figure markdown>
+<p><em>Plate</em><br />
+Additionally did a test fitting with some spare switches I had lying around.</p>
+<figure markdown="span">
+  ![https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/fitting.jpg](https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/fitting.jpg)
+  <figcaption>Fitting into pcb</figcaption>
+</figure markdown>
+<p><em>Fitting into pcb</em></p>
+<figure markdown="span">
+  ![https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/pre-handwiring.jpg](https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/pre-handwiring.jpg)
+  <figcaption>Pre-handwiring</figcaption>
+</figure markdown>
+<p><em>Pre-handwiring</em><br />
 Update: 23/07/04<br />
 After flashing the <br />
-I wanted the keyboard to also support VIA configuration (that way I won't need to reflash the mcu everytime I want to make changes), enabling support for VIA was surprisingly simple following a <a href="https://www.youtube.com/watch?v=7d5yzBOup9U">guide from youtuber Joe Scotto</a>.<br />
-<a class="glightbox" href="https://res.cloudinary.com/drwjkxxud/image/upload/v1721089169/j6n43via_jr26df.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="via config" src="https://res.cloudinary.com/drwjkxxud/image/upload/v1721089169/j6n43via_jr26df.png" /></a><br />
-<em>via config</em></p>
+I wanted the keyboard to also support VIA configuration (that way I won't need to reflash the mcu everytime I want to make changes), enabling support for VIA was surprisingly simple following a <a href="https://www.youtube.com/watch?v=7d5yzBOup9U">guide from youtuber Joe Scotto</a>.</p>
+<figure markdown="span">
+  ![https://res.cloudinary.com/drwjkxxud/image/upload/v1721089169/j6n43via_jr26df.png](https://res.cloudinary.com/drwjkxxud/image/upload/v1721089169/j6n43via_jr26df.png)
+  <figcaption>via config</figcaption>
+</figure markdown>
+<p><em>via config</em></p>
 <p>Update: 23/07/07<br />
-Completed the soldering for the keyboard matrix and microcontroller<br />
-<a class="glightbox" href="https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/handwiring.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Handwiring diagram" src="https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/handwiring.jpg" /></a><br />
-<em>Handwiring diagram</em><br />
-<a class="glightbox" href="https://res.cloudinary.com/drwjkxxud/image/upload/v1721089169/IMG_3082_tkfrx2.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Finished soldering" src="https://res.cloudinary.com/drwjkxxud/image/upload/v1721089169/IMG_3082_tkfrx2.jpg" /></a><br />
-<em>Finished Soldering</em><br />
+Completed the soldering for the keyboard matrix and microcontroller</p>
+<figure markdown="span">
+  ![https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/handwiring.jpg](https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/handwiring.jpg)
+  <figcaption>Handwiring diagram</figcaption>
+</figure markdown>
+<p><em>Handwiring diagram</em></p>
+<figure markdown="span">
+  ![https://res.cloudinary.com/drwjkxxud/image/upload/v1721089169/IMG_3082_tkfrx2.jpg](https://res.cloudinary.com/drwjkxxud/image/upload/v1721089169/IMG_3082_tkfrx2.jpg)
+  <figcaption>Finished soldering</figcaption>
+</figure markdown>
+<p><em>Finished Soldering</em><br />
 Update: 23/</p>
 <h2 id="references">References</h2>
 <ul>

@@ -2,8 +2,8 @@
   "nodes": [
     {
       "id": "0",
-      "name": "Home",
-      "symbolSize": 0,
+      "name": "Hello world",
+      "symbolSize": 7,
       "value": "/"
     },
     {
@@ -14,9 +14,9 @@
     },
     {
       "id": "2",
-      "name": "Theme",
-      "symbolSize": 0,
-      "value": "/theme/"
+      "name": "Test",
+      "symbolSize": 1,
+      "value": "/test/"
     },
     {
       "id": "3",
@@ -553,5 +553,22 @@
       "value": "/projects/software/k8s_lab/setup/"
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "0",
+      "target": "0"
+    },
+    {
+      "source": "0",
+      "target": "0"
+    },
+    {
+      "source": "0",
+      "target": "0"
+    },
+    {
+      "source": "2",
+      "target": "0"
+    }
+  ]
 }
