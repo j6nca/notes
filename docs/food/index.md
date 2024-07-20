@@ -1,4 +1,4 @@
-# About
+# Food
 
 This space is to share my love of food. I plan to include recipes that I've made or am interested in trying, as well as reviews of restaurants I've been to.
 

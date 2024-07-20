@@ -1,4 +1,4 @@
-# About
+# Reviews
 
 This is a collection of food reviews from places I've visited. All opinions are my own.
 
