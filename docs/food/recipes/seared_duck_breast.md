@@ -9,7 +9,7 @@ tags:
   # - meal prep
   # - quick
 ---
-# Oven roasted duck breast
+# Pan-seared duck breast
 
 Serving size: 1 breast
 Prep time: 50 min
@@ -32,7 +32,7 @@ Cooking time:
 
 I ended up making this for valentine's dinner. The presentation could've be better, it was my first time breaking down a whole bird (or cooking with duck in general) and it barely thawed in time but we had it with a side of mash, roasted carrots and a red wine reduction glaze.
 
-Don't worry, I used the rest of the duck later in the week!
+Don't worry, I used the rest of the duck later in the week to make other dishes and stock (recipes coming soon).
 
 ![Breaking down some duck](https://res.cloudinary.com/drwjkxxud/image/upload/v1721090366/carving_duck_nmb88u.jpg)
 

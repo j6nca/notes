@@ -15,24 +15,32 @@
               "state": {
                 "file": "food/reviews/wonton_hut.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           },
           {
-            "id": "6e6448cf5c39e5b3",
+            "id": "87cd8ee168e5d82f",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "ae4128ba568d5772",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "food/reviews/wonton_hut.md",
+                "file": "keyboards/my_keyboards.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "food/reviews/wonton_hut.md",
+                "file": "keyboards/my_keyboards.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "food/reviews/wonton_hut.md",
+                "file": "keyboards/my_keyboards.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "food/reviews/wonton_hut.md"
+                "file": "keyboards/my_keyboards.md"
               }
             }
           }
@@ -159,8 +167,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6e6448cf5c39e5b3",
+  "active": "ae4128ba568d5772",
   "lastOpenFiles": [
+    "keyboards/my_keyboards.md",
+    "index.md",
+    "projects/keyboards/wooting_60he.md",
+    "keyboards/recommendations/9X.md",
+    "food/recipes/seared_duck_breast.md",
+    "templates/blog.md",
+    "food/reviews/wonton_hut.md",
+    "keyboards/recommendations/4X.md",
+    "templates/recipe.md",
+    "keyboards/recommendations/index.md",
+    "food/reviews/at_origin_coffee.md",
+    "keyboards/recommendations",
     "food/reviews/kelseys.md",
     "food/reviews/miku.md",
     "food/reviews/index.md",
@@ -170,24 +190,13 @@
     "food/reviews/fishbone_by_the_lake.md",
     "food/reviews/earls_kitchen_bar.md",
     "food/reviews/cherrys_high_dive.md",
-    "food/reviews/at_origin_coffee.md",
-    "index.md",
     "food/reviews/Untitled.md",
     "Pasted image 20240719233858.png",
     "templates/tab.md",
-    "templates/blog.md",
     "templates/review.md",
-    "templates/recipe.md",
-    "food/reviews/wonton_hut.md",
     "food/reviews/piano_piano.md",
     "test.md",
     "food/index.md",
-    "learning/index.md",
-    "tags.md",
-    "food/recipes/egg_drop_soup.md",
-    "Untitled 1.md",
-    "food/recipes/beef_barbacoa.md",
-    "food/recipes/burrito_bowl.md",
     "keyboards"
   ]
 }
