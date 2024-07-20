@@ -1,5 +1,15 @@
-# Theme
-This page is just to play around with different colour schemes. Nothing set here is permanent.
+# Test
+
+This page is just to play around with different formatting. Nothing set here is permanent.
+
+## Callouts
+
+> [!info]
+> This is a callout block
+> [[test|link back here]]
+
+## Colours
+
 <div class="mdx-switch">
   <button data-md-color-primary="red"><code>red</code></button>
   <button data-md-color-primary="pink"><code>pink</code></button>

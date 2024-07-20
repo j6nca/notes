@@ -6,3 +6,5 @@ mkdocs-obsidian-bridge
 mkdocs-obsidian-support-plugin
 mkdocs-callouts
 mkdocs-glightbox
+mkdocs-ezlinks-plugin
+overrides

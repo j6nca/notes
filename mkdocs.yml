@@ -46,9 +46,10 @@ plugins:
       type: datetime
   - callouts
   - obsidian-interactive-graph
-  # - obsidian-support
+  - obsidian-support
   - obsidian-bridge
   - glightbox
+  - ezlinks
 extra_css:
   - assets/stylesheets/obsidian_tags.css
   - assets/stylesheets/interactive_graph.css
