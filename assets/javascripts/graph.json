@@ -21,7 +21,7 @@
     {
       "id": "3",
       "name": "About",
-      "symbolSize": 0,
+      "symbolSize": 1,
       "value": "/food/"
     },
     {
@@ -171,383 +171,389 @@
     {
       "id": "28",
       "name": "About",
-      "symbolSize": 0,
+      "symbolSize": 1,
       "value": "/food/reviews/"
     },
     {
       "id": "29",
-      "name": "At Origin Coffee",
+      "name": "Restaurant Name",
       "symbolSize": 0,
-      "value": "/food/reviews/at_origin_coffee/"
+      "value": "/food/reviews/Untitled/"
     },
     {
       "id": "30",
+      "name": "At Origin Coffee",
+      "symbolSize": 1,
+      "value": "/food/reviews/at_origin_coffee/"
+    },
+    {
+      "id": "31",
       "name": "Cherrys high dive",
       "symbolSize": 0,
       "value": "/food/reviews/cherrys_high_dive/"
     },
     {
-      "id": "31",
+      "id": "32",
       "name": "Earls kitchen bar",
       "symbolSize": 0,
       "value": "/food/reviews/earls_kitchen_bar/"
     },
     {
-      "id": "32",
+      "id": "33",
       "name": "Fishbone by the Lake",
       "symbolSize": 0,
       "value": "/food/reviews/fishbone_by_the_lake/"
     },
     {
-      "id": "33",
-      "name": "Gals sushi",
+      "id": "34",
+      "name": "Gals Sushi",
       "symbolSize": 0,
       "value": "/food/reviews/gals_sushi/"
     },
     {
-      "id": "34",
-      "name": "Il postino",
+      "id": "35",
+      "name": "Il Postino",
       "symbolSize": 0,
       "value": "/food/reviews/il_postino/"
     },
     {
-      "id": "35",
+      "id": "36",
       "name": "Kelseys",
       "symbolSize": 0,
       "value": "/food/reviews/kelseys/"
     },
     {
-      "id": "36",
+      "id": "37",
       "name": "Lazeez",
       "symbolSize": 0,
       "value": "/food/reviews/lazeez/"
     },
     {
-      "id": "37",
+      "id": "38",
       "name": "Miku",
       "symbolSize": 0,
       "value": "/food/reviews/miku/"
     },
     {
-      "id": "38",
+      "id": "39",
       "name": "Nextdoor Restaurant",
       "symbolSize": 0,
       "value": "/food/reviews/next_door_restaurant/"
     },
     {
-      "id": "39",
+      "id": "40",
       "name": "Old country inn",
       "symbolSize": 0,
       "value": "/food/reviews/old_country_inn/"
     },
     {
-      "id": "40",
+      "id": "41",
       "name": "Osaka Sushi",
       "symbolSize": 0,
       "value": "/food/reviews/osaka_sushi/"
     },
     {
-      "id": "41",
+      "id": "42",
       "name": "Piano Piano",
-      "symbolSize": 0,
+      "symbolSize": 1,
       "value": "/food/reviews/piano_piano/"
     },
     {
-      "id": "42",
+      "id": "43",
       "name": "Planta cocina",
       "symbolSize": 0,
       "value": "/food/reviews/planta_cocina/"
     },
     {
-      "id": "43",
+      "id": "44",
       "name": "Planta queen",
       "symbolSize": 0,
       "value": "/food/reviews/planta_queen/"
     },
     {
-      "id": "44",
+      "id": "45",
       "name": "Rubirosa",
       "symbolSize": 0,
       "value": "/food/reviews/rubirosa/"
     },
     {
-      "id": "45",
+      "id": "46",
       "name": "Score on king",
       "symbolSize": 0,
       "value": "/food/reviews/score_on_king/"
     },
     {
-      "id": "46",
+      "id": "47",
       "name": "Shawarma stop",
       "symbolSize": 0,
       "value": "/food/reviews/shawarma_stop/"
     },
     {
-      "id": "47",
+      "id": "48",
       "name": "Shelbys kitchen",
       "symbolSize": 0,
       "value": "/food/reviews/shelbys_kitchen/"
     },
     {
-      "id": "48",
+      "id": "49",
       "name": "Smash Kitchen and Bar",
       "symbolSize": 0,
       "value": "/food/reviews/smash_kitchen/"
     },
     {
-      "id": "49",
+      "id": "50",
       "name": "Sugo",
       "symbolSize": 0,
       "value": "/food/reviews/sugo/"
     },
     {
-      "id": "50",
+      "id": "51",
       "name": "Sushi Umi",
       "symbolSize": 0,
       "value": "/food/reviews/sushi_umi/"
     },
     {
-      "id": "51",
+      "id": "52",
       "name": "Watercolour",
       "symbolSize": 0,
       "value": "/food/reviews/watercolour/"
     },
     {
-      "id": "52",
+      "id": "53",
       "name": "Wonton hut",
       "symbolSize": 0,
       "value": "/food/reviews/wonton_hut/"
     },
     {
-      "id": "53",
+      "id": "54",
       "name": "About",
       "symbolSize": 0,
       "value": "/gaming/"
     },
     {
-      "id": "54",
+      "id": "55",
       "name": "Resources",
       "symbolSize": 0,
       "value": "/gaming/valorant/resources/"
     },
     {
-      "id": "55",
+      "id": "56",
       "name": "4X",
       "symbolSize": 0,
       "value": "/keyboards/4X/"
     },
     {
-      "id": "56",
+      "id": "57",
       "name": "6X",
       "symbolSize": 0,
       "value": "/keyboards/6X/"
     },
     {
-      "id": "57",
+      "id": "58",
       "name": "7X",
       "symbolSize": 0,
       "value": "/keyboards/7X/"
     },
     {
-      "id": "58",
+      "id": "59",
       "name": "8X",
       "symbolSize": 0,
       "value": "/keyboards/8X/"
     },
     {
-      "id": "59",
+      "id": "60",
       "name": "9X",
       "symbolSize": 0,
       "value": "/keyboards/9X/"
     },
     {
-      "id": "60",
+      "id": "61",
       "name": "About",
       "symbolSize": 0,
       "value": "/learning/"
     },
     {
-      "id": "61",
+      "id": "62",
       "name": "Good reads",
       "symbolSize": 0,
       "value": "/learning/good_reads/"
     },
     {
-      "id": "62",
+      "id": "63",
       "name": "Setting up AWS authentication for CI/CD using OIDC",
       "symbolSize": 0,
       "value": "/learning/aws/oidc_cicd/"
     },
     {
-      "id": "63",
+      "id": "64",
       "name": "Alb controller pod rollout",
       "symbolSize": 0,
       "value": "/learning/kubernetes/alb_controller_pod_rollout/"
     },
     {
-      "id": "64",
+      "id": "65",
       "name": "Argocd",
       "symbolSize": 0,
       "value": "/learning/kubernetes/argocd/"
     },
     {
-      "id": "65",
+      "id": "66",
       "name": "Extensible argocd architecture",
       "symbolSize": 0,
       "value": "/learning/kubernetes/extensible_argocd_architecture/"
     },
     {
-      "id": "66",
+      "id": "67",
       "name": "Fluxcd",
       "symbolSize": 0,
       "value": "/learning/kubernetes/fluxcd/"
     },
     {
-      "id": "67",
+      "id": "68",
       "name": "Metadata labeling",
       "symbolSize": 0,
       "value": "/learning/kubernetes/metadata_labeling/"
     },
     {
-      "id": "68",
+      "id": "69",
       "name": "Tooling",
       "symbolSize": 0,
       "value": "/learning/kubernetes/tooling/"
     },
     {
-      "id": "69",
+      "id": "70",
       "name": "1password",
       "symbolSize": 0,
       "value": "/learning/security/1password/"
     },
     {
-      "id": "70",
+      "id": "71",
       "name": "About",
       "symbolSize": 0,
       "value": "/music/"
     },
     {
-      "id": "71",
+      "id": "72",
       "name": "My guitar learning journey",
       "symbolSize": 0,
       "value": "/music/guitar/log/"
     },
     {
-      "id": "72",
+      "id": "73",
       "name": "[WIP] Blackbird - The Beatles",
       "symbolSize": 0,
       "value": "/music/guitar/tabs/blackbird/"
     },
     {
-      "id": "73",
+      "id": "74",
       "name": "From the start",
       "symbolSize": 0,
       "value": "/music/guitar/tabs/from_the_start/"
     },
     {
-      "id": "74",
+      "id": "75",
       "name": "Hey there delilah",
       "symbolSize": 0,
       "value": "/music/guitar/tabs/hey_there_delilah/"
     },
     {
-      "id": "75",
+      "id": "76",
       "name": "Love yourself - Justin Bieber",
       "symbolSize": 0,
       "value": "/music/guitar/tabs/love_yourself/"
     },
     {
-      "id": "76",
+      "id": "77",
       "name": "[WIP] Summer Breeze - Seals and Crofts",
       "symbolSize": 0,
       "value": "/music/guitar/tabs/summer_breeze/"
     },
     {
-      "id": "77",
+      "id": "78",
       "name": "Electric Guitar Build",
       "symbolSize": 0,
       "value": "/projects/guitar/"
     },
     {
-      "id": "78",
+      "id": "79",
       "name": "My first ITX build",
       "symbolSize": 0,
       "value": "/projects/pc_itx_build/"
     },
     {
-      "id": "79",
+      "id": "80",
       "name": "Homemade Router Build",
       "symbolSize": 0,
       "value": "/projects/router/"
     },
     {
-      "id": "80",
+      "id": "81",
       "name": "j6n43 (WIP)",
       "symbolSize": 0,
       "value": "/projects/keyboards/j6n43/"
     },
     {
-      "id": "81",
+      "id": "82",
       "name": "j6n47 (WIP)",
       "symbolSize": 0,
       "value": "/projects/keyboards/j6n47/"
     },
     {
-      "id": "82",
+      "id": "83",
       "name": "Wooting 60HE",
       "symbolSize": 0,
       "value": "/projects/keyboards/wooting_60he/"
     },
     {
-      "id": "83",
+      "id": "84",
       "name": "Free game notifier",
       "symbolSize": 0,
       "value": "/projects/software/free_game_notifier/"
     },
     {
-      "id": "84",
+      "id": "85",
       "name": "Macro software",
       "symbolSize": 0,
       "value": "/projects/software/macro_software/"
     },
     {
-      "id": "85",
+      "id": "86",
       "name": "Password manager",
       "symbolSize": 0,
       "value": "/projects/software/password_manager/"
     },
     {
-      "id": "86",
+      "id": "87",
       "name": "Tab maker",
       "symbolSize": 0,
       "value": "/projects/software/tab_maker/"
     },
     {
-      "id": "87",
+      "id": "88",
       "name": "whats-new",
       "symbolSize": 0,
       "value": "/projects/software/whats_new/"
     },
     {
-      "id": "88",
+      "id": "89",
       "name": "Gatus",
       "symbolSize": 0,
       "value": "/projects/software/k8s_lab/gatus/"
     },
     {
-      "id": "89",
+      "id": "90",
       "name": "Hardware",
       "symbolSize": 0,
       "value": "/projects/software/k8s_lab/hardware/"
     },
     {
-      "id": "90",
+      "id": "91",
       "name": "Jellyfin",
       "symbolSize": 0,
       "value": "/projects/software/k8s_lab/jellyfin/"
     },
     {
-      "id": "91",
+      "id": "92",
       "name": "Setup",
       "symbolSize": 0,
       "value": "/projects/software/k8s_lab/setup/"
@@ -569,6 +575,14 @@
     {
       "source": "2",
       "target": "0"
+    },
+    {
+      "source": "3",
+      "target": "28"
+    },
+    {
+      "source": "30",
+      "target": "42"
     }
   ]
 }
