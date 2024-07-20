@@ -8,7 +8,7 @@ tags:
   - $$$$
 created: 2024-07-19
 ---
-# Il Postino
+# Restaurant Name
 
 📌: [Address]()
 💸: $$$$

@@ -2,14 +2,9 @@
 tags:
   - recipe
   - WIP
-  # - meal, dessert, sides, drink, snack
-  # - low carb
-  # - protein
-  # - airfryer, oven
-  # - meal prep
-  # - quick
+created: "{{date}}"
 ---
-# Recipe Name
+# {{title}}
 
 Serving size:
 Prep time:

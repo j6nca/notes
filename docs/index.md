@@ -1,5 +1,5 @@
 ---
-created: "Aug. 9, 2023"
+created: 2023-08-09
 ---
 
 # Hello world

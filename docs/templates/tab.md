@@ -1,9 +1,10 @@
 ---
 tags:
   - music
+created: "{{date}}"
 ---
 
-# Song Name by Artist
+# {{title}}
 
 ```
 E | -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 

@@ -14,16 +14,20 @@ A general breakdown for my thoughts behind each value.
 
 ### Pricing
 
-- $:    <= $10/person
-- $$:   <= $30/person
-- $$$:  <= $50/person
-- $$$$: <= $100/person
-- $$$$$: > $100/person
+```
+$:    <= $10/person
+$$:   <= $30/person
+$$$:  <= $50/person
+$$$$: <= $100/person
+$$$$$: > $100/person
+```
 
 ### Rating
 
-- ★☆☆☆☆: don't go here
-- ★★☆☆☆: wouldn't recommend
-- ★★★☆☆: decent
-- ★★★★☆: really good, I recommend
-- ★★★★★: exceptional, must try
+```
+★☆☆☆☆: don't go here
+★★☆☆☆: wouldn't recommend / not enough info
+★★★☆☆: decent
+★★★★☆: really good, I recommend
+★★★★★: exceptional, must try
+```

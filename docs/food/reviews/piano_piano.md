@@ -6,6 +6,7 @@ tags:
   - italian
   - ★★★★★
   - $$$
+created: July 8, 2024
 ---
 # Piano Piano
 
@@ -18,8 +19,11 @@ Wow, where do I even begin, this is one of my favourite pasta places in Toronto.
 
 ## Photos
 
-![Meatballs](https://res.cloudinary.com/drwjkxxud/image/upload/v1721090823/piano_piano_1_mwfhk1.jpg)
+![](https://res.cloudinary.com/drwjkxxud/image/upload/v1721090823/piano_piano_1_mwfhk1.jpg)
+*Meatballs*
+
 ![Nutella tiramisu](https://res.cloudinary.com/drwjkxxud/image/upload/v1721090822/7EC26276-7EA3-480E-BCA1-B2D617D41DCD_af3o4c.jpg)
+*Nutella tiramisu*
 
 ## Links
 

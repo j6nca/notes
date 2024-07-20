@@ -1,10 +1,10 @@
 ---
 tags:
-  # - tools/concepts
   - WIP
+created: "{{date}}"
 ---
 
-# Blog Title
+# {{title}}
 
 ## References
 

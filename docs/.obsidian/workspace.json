@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "food/reviews/index.md",
+                "file": "food/reviews/wonton_hut.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6e6448cf5c39e5b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "food/reviews/wonton_hut.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "food/reviews/index.md",
+                "file": "food/reviews/wonton_hut.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "food/reviews/index.md",
+                "file": "food/reviews/wonton_hut.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "food/reviews/index.md"
+                "file": "food/reviews/wonton_hut.md"
               }
             }
           }
@@ -146,30 +159,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "958e83e8ed3d1b3a",
+  "active": "6e6448cf5c39e5b3",
   "lastOpenFiles": [
+    "food/reviews/kelseys.md",
+    "food/reviews/miku.md",
+    "food/reviews/index.md",
+    "food/reviews/il_postino.md",
+    "food/reviews/gals_sushi.md",
+    "food/reviews/lazeez.md",
+    "food/reviews/fishbone_by_the_lake.md",
+    "food/reviews/earls_kitchen_bar.md",
+    "food/reviews/cherrys_high_dive.md",
+    "food/reviews/at_origin_coffee.md",
+    "index.md",
+    "food/reviews/Untitled.md",
+    "Pasted image 20240719233858.png",
+    "templates/tab.md",
+    "templates/blog.md",
+    "templates/review.md",
+    "templates/recipe.md",
+    "food/reviews/wonton_hut.md",
+    "food/reviews/piano_piano.md",
     "test.md",
     "food/index.md",
-    "food/reviews/index.md",
-    "index.md",
-    "food/reviews/at_origin_coffee.md",
+    "learning/index.md",
     "tags.md",
     "food/recipes/egg_drop_soup.md",
     "Untitled 1.md",
     "food/recipes/beef_barbacoa.md",
-    "templates/blog.md",
-    "Untitled.md",
     "food/recipes/burrito_bowl.md",
-    "learning/kubernetes/extensible_argocd_architecture.md",
-    "projects/software/whats_new.md",
-    "projects/router.md",
-    "projects/pc_itx_build.md",
-    "projects/guitar.md",
-    "keyboards/9X.md",
-    "keyboards/8X.md",
-    "keyboards/7X.md",
-    "keyboards/6X.md",
-    "keyboards/4X.md",
     "keyboards"
   ]
 }
