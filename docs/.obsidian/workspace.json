@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "food/recipes/egg_drop_soup.md",
+                "file": "food/reviews/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "food/recipes/egg_drop_soup.md",
+                "file": "food/reviews/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "food/recipes/egg_drop_soup.md",
+                "file": "food/reviews/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "food/recipes/egg_drop_soup.md"
+                "file": "food/reviews/index.md"
               }
             }
           }
@@ -148,6 +148,13 @@
   },
   "active": "958e83e8ed3d1b3a",
   "lastOpenFiles": [
+    "test.md",
+    "food/index.md",
+    "food/reviews/index.md",
+    "index.md",
+    "food/reviews/at_origin_coffee.md",
+    "tags.md",
+    "food/recipes/egg_drop_soup.md",
     "Untitled 1.md",
     "food/recipes/beef_barbacoa.md",
     "templates/blog.md",
