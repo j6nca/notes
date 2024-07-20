@@ -48,6 +48,8 @@
       
     
     
+      <link rel="stylesheet" href="../../../../assets/stylesheets/obsidian_tags.css">
+    
       <link rel="stylesheet" href="../../../../assets/stylesheets/interactive_graph.css">
     
     <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
@@ -57,7 +59,16 @@
     
     
     
-  </head>
+   <link href="../../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -2964,23 +2975,23 @@
 
 
 <h1 id="wip-summer-breeze-seals-and-crofts">[WIP] Summer Breeze - Seals and Crofts</h1>
-<p>Intro<br></p>
-<pre><code>E| -- -- -- -- -- 10 -- -7 -- -5 -- -3 -- -2 -- -0 -- -- -- -0 --
+<p>Intro<br><br />
+<div class="highlight"><pre><span></span><code>E| -- -- -- -- -- 10 -- -7 -- -5 -- -3 -- -2 -- -0 -- -- -- -0 --
 B| -- -- -- -8 -- -- -- -5 -- -- -- -- -- -3 -- -- -- -3 -- -1 --
 G| -- -9 -- -- -- -- -- -5 -- -- -- -- -- -2 -- -- -- -- -- -2 --
 D| -- -- -- -- -- -- -- -5 -- -- -- -- -- -- -- -- -- -- -- -2 --
 A| -- -- -- -- -- -- -- -5 -- -- -- -- -- -- -- -- -- -- -- -0 --
 E| -- -0 -- -- -- -- -- -5 -- -- -- -- -- -- -- -- -- -- -- -- --
-</code></pre>
-<p>Chorus riff<br></p>
-<pre><code>E| -- -3 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+</code></pre></div></p>
+<p>Chorus riff<br><br />
+<div class="highlight"><pre><span></span><code>E| -- -3 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 B| -- -0 -- -0 -- -1 -- -3 -- -1 -- -0 -- -- -- -- -- 
 G| -- -0 -- -- -- -- -- -- -- -0 -- -- -- -0 -- -- -- 
 D| -- -0 -- -- -- -- -- -- -- -0 -- -- -- -- -- -0 -- 
 A| -- -2 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 E| -- -3 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
-</code></pre>
-<p>References:
+</code></pre></div></p>
+<p>References:<br />
 - <a href="https://www.youtube.com/watch?v=0xLyPh1-qQ0">How to play “Summer breeze” by Seals and Crofts (acoustic guitar lesson) tabs</a></p>
 
 
@@ -3105,8 +3116,12 @@ E| -- -3 -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
       
         <script src="https://fastly.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
       
+        <script src="../../../../assets/javascripts/obsidian_tags.js"></script>
+      
         <script src="../../../../assets/javascripts/interactive_graph.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

@@ -48,6 +48,8 @@
       
     
     
+      <link rel="stylesheet" href="../../../assets/stylesheets/obsidian_tags.css">
+    
       <link rel="stylesheet" href="../../../assets/stylesheets/interactive_graph.css">
     
     <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
@@ -57,7 +59,16 @@
     
     
     
-  </head>
+   <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -3078,13 +3089,13 @@
 
 
 <h1 id="kelseys">Kelseys</h1>
-<p>📌: <a href="https://maps.app.goo.gl/7pjGNEsDf5QxVSMw7">3131 Hwy 7, Markham, ON L3R 0J5</a>
+<p>📌: <a href="https://maps.app.goo.gl/7pjGNEsDf5QxVSMw7">3131 Hwy 7, Markham, ON L3R 0J5</a><br />
 💸: $$</p>
 <h2 id="rating">Rating: ★★★☆☆</h2>
 <p>Food is pretty good, I was a big fan of my roast chicken breast, however, my partners chicken alfredo was lacking and didn't really taste like a chicken alfredo. The dessert brownie was great.</p>
 <h2 id="photos">Photos</h2>
-<p><img alt="Chicken alfredo (top), Grilled chicken breast (bottom)" src="https://media.discordapp.net/attachments/1259711992847929372/1259723428043296819/5B1A3EAD-EA4D-4786-BA60-BA9148EB7B0C.jpg?ex=668cb85d&amp;is=668b66dd&amp;hm=cfb8afbce0bc01cc1279edab6ec91de53cf8cad2f85a35076b1f203a2b817902&amp;=&amp;format=webp&amp;width=810&amp;height=1080" />
-<img alt="Brownie" src="https://res.cloudinary.com/drwjkxxud/image/upload/v1721090827/kelseys_2_viiryr.jpg" /></p>
+<p><a class="glightbox" href="https://media.discordapp.net/attachments/1259711992847929372/1259723428043296819/5B1A3EAD-EA4D-4786-BA60-BA9148EB7B0C.jpg?ex=668cb85d&amp;is=668b66dd&amp;hm=cfb8afbce0bc01cc1279edab6ec91de53cf8cad2f85a35076b1f203a2b817902&amp;=&amp;format=webp&amp;width=810&amp;height=1080" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Chicken alfredo (top), Grilled chicken breast (bottom)" src="https://media.discordapp.net/attachments/1259711992847929372/1259723428043296819/5B1A3EAD-EA4D-4786-BA60-BA9148EB7B0C.jpg?ex=668cb85d&amp;is=668b66dd&amp;hm=cfb8afbce0bc01cc1279edab6ec91de53cf8cad2f85a35076b1f203a2b817902&amp;=&amp;format=webp&amp;width=810&amp;height=1080" /></a><br />
+<a class="glightbox" href="https://res.cloudinary.com/drwjkxxud/image/upload/v1721090827/kelseys_2_viiryr.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Brownie" src="https://res.cloudinary.com/drwjkxxud/image/upload/v1721090827/kelseys_2_viiryr.jpg" /></a></p>
 <h2 id="links">Links</h2>
 <ul>
 <li><a href="">yelp</a></li>
@@ -3213,8 +3224,12 @@
       
         <script src="https://fastly.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
       
+        <script src="../../../assets/javascripts/obsidian_tags.js"></script>
+      
         <script src="../../../assets/javascripts/interactive_graph.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

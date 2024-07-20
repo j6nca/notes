@@ -48,6 +48,8 @@
       
     
     
+      <link rel="stylesheet" href="../../../assets/stylesheets/obsidian_tags.css">
+    
       <link rel="stylesheet" href="../../../assets/stylesheets/interactive_graph.css">
     
     <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
@@ -57,7 +59,16 @@
     
     
     
-  </head>
+   <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -3078,12 +3089,12 @@
 
 
 <h1 id="nextdoor-restaurant">Nextdoor Restaurant</h1>
-<p>📌: <a href="https://maps.app.goo.gl/6Ui6iTxDwkK3xS8R6">139 Main St Unionville, Markham, ON L3R 2G6</a>
+<p>📌: <a href="https://maps.app.goo.gl/6Ui6iTxDwkK3xS8R6">139 Main St Unionville, Markham, ON L3R 2G6</a><br />
 💸: $$$$</p>
 <h2 id="rating">Rating: ★★★★☆</h2>
 <p>This place was great, we came here for father's day and were seated in the patio (luckily wonderful weather) and got the brunch tower special as well as a loaded avocado bagel.</p>
 <h2 id="photos">Photos</h2>
-<p><img alt="Avocado loaded bagel" src="https://res.cloudinary.com/drwjkxxud/image/upload/v1721090664/2AAB9F40-F86E-41B9-8631-75B15598AE02_e8h2xg.jpg" /></p>
+<p><a class="glightbox" href="https://res.cloudinary.com/drwjkxxud/image/upload/v1721090664/2AAB9F40-F86E-41B9-8631-75B15598AE02_e8h2xg.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Avocado loaded bagel" src="https://res.cloudinary.com/drwjkxxud/image/upload/v1721090664/2AAB9F40-F86E-41B9-8631-75B15598AE02_e8h2xg.jpg" /></a></p>
 <h2 id="links">Links</h2>
 <ul>
 <li><a href="">yelp</a></li>
@@ -3212,8 +3223,12 @@
       
         <script src="https://fastly.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
       
+        <script src="../../../assets/javascripts/obsidian_tags.js"></script>
+      
         <script src="../../../assets/javascripts/interactive_graph.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

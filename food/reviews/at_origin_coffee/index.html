@@ -48,6 +48,8 @@
       
     
     
+      <link rel="stylesheet" href="../../../assets/stylesheets/obsidian_tags.css">
+    
       <link rel="stylesheet" href="../../../assets/stylesheets/interactive_graph.css">
     
     <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
@@ -57,7 +59,16 @@
     
     
     
-  </head>
+   <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -3078,12 +3089,12 @@
 
 
 <h1 id="at-origin-coffee">At Origin Coffee</h1>
-<p>📌: <a href="https://maps.app.goo.gl/AZsrwbtBjPeb11C96">687 Mt Pleasant Rd, Toronto, ON M4S 2N2</a>
+<p>📌: <a href="https://maps.app.goo.gl/AZsrwbtBjPeb11C96">687 Mt Pleasant Rd, Toronto, ON M4S 2N2</a><br />
 💸: $$</p>
 <h2 id="rating">Rating: ★★☆☆☆</h2>
 <p>Vibes in this store are immaculate, super cozy and honestly exactly what I would picture when thinking of a cafe. The place was just down the street from Piano Piano. Unfortunately, I couldn't say the same about the coffee. I'm not sure if it was just an off-day but my drink (americano), and my partner's drink (oat latte) just didn't taste right. They were very watered down. The caramel chocolate chip cookie was fine though.</p>
 <h2 id="photos">Photos</h2>
-<p><img alt="Iced americano (left), caramel chocolate chip cookie (middle), oat latte (right)" src="https://res.cloudinary.com/drwjkxxud/image/upload/v1721090830/E1D84FF5-819D-4ACF-BE35-A4B9D3D82B06_xdsye0.jpg" /></p>
+<p><a class="glightbox" href="https://res.cloudinary.com/drwjkxxud/image/upload/v1721090830/E1D84FF5-819D-4ACF-BE35-A4B9D3D82B06_xdsye0.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Iced americano (left), caramel chocolate chip cookie (middle), oat latte (right)" src="https://res.cloudinary.com/drwjkxxud/image/upload/v1721090830/E1D84FF5-819D-4ACF-BE35-A4B9D3D82B06_xdsye0.jpg" /></a></p>
 <h2 id="links">Links</h2>
 <ul>
 <li><a href="">yelp</a></li>
@@ -3212,8 +3223,12 @@
       
         <script src="https://fastly.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
       
+        <script src="../../../assets/javascripts/obsidian_tags.js"></script>
+      
         <script src="../../../assets/javascripts/interactive_graph.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

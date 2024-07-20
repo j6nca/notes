@@ -48,6 +48,8 @@
       
     
     
+      <link rel="stylesheet" href="../../../assets/stylesheets/obsidian_tags.css">
+    
       <link rel="stylesheet" href="../../../assets/stylesheets/interactive_graph.css">
     
     <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
@@ -57,7 +59,16 @@
     
     
     
-  </head>
+   <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -3221,46 +3232,46 @@
 </tbody>
 </table>
 <h2 id="layout">Layout</h2>
-<p>I initially found <a href="http://www.keyboard-layout-editor.com/">keyboard-layout-editor</a>, where I viewed existing layouts and played around with creating my own layouts. For this project, my goal was to create a smaller form factor keyboard than my current 60%.
-<img alt="j6n58 keyboard layout" src="https://github.com/j6nca/keyboard/blob/main/qmk/j6n47/diagrams/layout.png" /></p>
+<p>I initially found <a href="http://www.keyboard-layout-editor.com/">keyboard-layout-editor</a>, where I viewed existing layouts and played around with creating my own layouts. For this project, my goal was to create a smaller form factor keyboard than my current 60%.<br />
+<a class="glightbox" href="https://github.com/j6nca/keyboard/blob/main/qmk/j6n47/diagrams/layout.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="j6n58 keyboard layout" src="https://github.com/j6nca/keyboard/blob/main/qmk/j6n47/diagrams/layout.png" /></a></p>
 <h2 id="working-with-qmk">Working with QMK</h2>
 <h3 id="setup">Setup</h3>
-<p>Setup of qmk was fairly straight-forward, following the available <a href="https://docs.qmk.fm/#/newbs_getting_started">documentation</a>.</p>
-<pre><code>pip3 install --user qmk
-echo 'PATH=&quot;$HOME/.local/bin:$PATH&quot;' &gt;&gt; $HOME/.zshrc &amp;&amp; source $HOME/.zshrc
+<p>Setup of qmk was fairly straight-forward, following the available <a href="https://docs.qmk.fm/#/newbs_getting_started">documentation</a>.<br />
+<div class="highlight"><pre><span></span><code>pip3 install --user qmk
+echo &#39;PATH=&quot;$HOME/.local/bin:$PATH&quot;&#39; &gt;&gt; $HOME/.zshrc &amp;&amp; source $HOME/.zshrc
 qmk setup
 qmk compile -kb clueboard/66/rev3 -km default
-</code></pre>
+</code></pre></div></p>
 <h3 id="qmk-configuration">QMK Configuration</h3>
 <p>I realized I would not be able to reuse the raw data I created earlier in <code>keyboard-layout-editor</code>, so I looked to port over my layout to qmk configuration.</p>
-<p>I forked the <code>qmk_firmware</code> repo to include my new layout &amp; created a keyboard profile for myself, adding respective pins based on the rpi pico's pinout diagram.
-<br>
-<img alt="rpi pico pinout diagram" src="https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/rpi_pico_pinout.webp" /></p>
-<pre><code>qmk new-keyboard
+<p>I forked the <code>qmk_firmware</code> repo to include my new layout &amp; created a keyboard profile for myself, adding respective pins based on the rpi pico's pinout diagram.<br />
+<br><br />
+<a class="glightbox" href="https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/rpi_pico_pinout.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="rpi pico pinout diagram" src="https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/rpi_pico_pinout.webp" /></a><br />
+<div class="highlight"><pre><span></span><code>qmk new-keyboard
 ...
 qmk compile -kb handwired/j6n47 -km default
-</code></pre>
-<p>The changes I made can be viewed <a href="https://github.com/qmk/qmk_firmware/compare/master...j6nca:qmk_firmware:j6n47">here</a>.</p>
-<p>Update: 23/06/30
-Went to the library to print the pcb plate! Had to tinker with the fill (make it much less dense than before) to get the print to fit the timeslot I had booked. <a href="https://res.cloudinary.com/drwjkxxud/video/upload/v1721089170/IMG_3058_smjnfj.mov">View a short clip of the print here</a>
-<img alt="Plate" src="https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/plate.png" />
-<em>Plate</em>
-Additionally did a test fitting with some spare switches I had lying around.
-<img alt="Fitting into pcb" src="https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/fitting.jpg" />
-<em>Fitting into pcb</em>
-<img alt="Pre-handwiring" src="https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/pre-handwiring.jpg" />
-<em>Pre-handwiring</em>
-Update: 23/07/04
-After flashing the 
-I wanted the keyboard to also support VIA configuration (that way I won't need to reflash the mcu everytime I want to make changes), enabling support for VIA was surprisingly simple following a <a href="https://www.youtube.com/watch?v=7d5yzBOup9U">guide from youtuber Joe Scotto</a>.
-<img alt="via config" src="https://res.cloudinary.com/drwjkxxud/image/upload/v1721089169/j6n43via_jr26df.png" />
+</code></pre></div><br />
+The changes I made can be viewed <a href="https://github.com/qmk/qmk_firmware/compare/master...j6nca:qmk_firmware:j6n47">here</a>.</p>
+<p>Update: 23/06/30<br />
+Went to the library to print the pcb plate! Had to tinker with the fill (make it much less dense than before) to get the print to fit the timeslot I had booked. <a href="https://res.cloudinary.com/drwjkxxud/video/upload/v1721089170/IMG_3058_smjnfj.mov">View a short clip of the print here</a><br />
+<a class="glightbox" href="https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/plate.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Plate" src="https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/plate.png" /></a><br />
+<em>Plate</em><br />
+Additionally did a test fitting with some spare switches I had lying around.<br />
+<a class="glightbox" href="https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/fitting.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Fitting into pcb" src="https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/fitting.jpg" /></a><br />
+<em>Fitting into pcb</em><br />
+<a class="glightbox" href="https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/pre-handwiring.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Pre-handwiring" src="https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/pre-handwiring.jpg" /></a><br />
+<em>Pre-handwiring</em><br />
+Update: 23/07/04<br />
+After flashing the <br />
+I wanted the keyboard to also support VIA configuration (that way I won't need to reflash the mcu everytime I want to make changes), enabling support for VIA was surprisingly simple following a <a href="https://www.youtube.com/watch?v=7d5yzBOup9U">guide from youtuber Joe Scotto</a>.<br />
+<a class="glightbox" href="https://res.cloudinary.com/drwjkxxud/image/upload/v1721089169/j6n43via_jr26df.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="via config" src="https://res.cloudinary.com/drwjkxxud/image/upload/v1721089169/j6n43via_jr26df.png" /></a><br />
 <em>via config</em></p>
-<p>Update: 23/07/07
-Completed the soldering for the keyboard matrix and microcontroller
-<img alt="Handwiring diagram" src="https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/handwiring.jpg" />
-<em>Handwiring diagram</em>
-<img alt="Finished soldering" src="https://res.cloudinary.com/drwjkxxud/image/upload/v1721089169/IMG_3082_tkfrx2.jpg" />
-<em>Finished Soldering</em>
+<p>Update: 23/07/07<br />
+Completed the soldering for the keyboard matrix and microcontroller<br />
+<a class="glightbox" href="https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/handwiring.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Handwiring diagram" src="https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/handwiring.jpg" /></a><br />
+<em>Handwiring diagram</em><br />
+<a class="glightbox" href="https://res.cloudinary.com/drwjkxxud/image/upload/v1721089169/IMG_3082_tkfrx2.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Finished soldering" src="https://res.cloudinary.com/drwjkxxud/image/upload/v1721089169/IMG_3082_tkfrx2.jpg" /></a><br />
+<em>Finished Soldering</em><br />
 Update: 23/</p>
 <h2 id="references">References</h2>
 <ul>
@@ -3393,8 +3404,12 @@ Update: 23/</p>
       
         <script src="https://fastly.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
       
+        <script src="../../../assets/javascripts/obsidian_tags.js"></script>
+      
         <script src="../../../assets/javascripts/interactive_graph.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

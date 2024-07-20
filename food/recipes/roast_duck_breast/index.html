@@ -48,6 +48,8 @@
       
     
     
+      <link rel="stylesheet" href="../../../assets/stylesheets/obsidian_tags.css">
+    
       <link rel="stylesheet" href="../../../assets/stylesheets/interactive_graph.css">
     
     <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
@@ -57,7 +59,16 @@
     
     
     
-  </head>
+   <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -3132,8 +3143,8 @@
 
 
 <h1 id="oven-roasted-duck-breast">Oven roasted duck breast</h1>
-<p>Serving size: 1 breast
-Prep time: 50 min
+<p>Serving size: 1 breast<br />
+Prep time: 50 min<br />
 Cooking time:</p>
 <h2 id="macros">Macros</h2>
 <table>
@@ -3169,11 +3180,11 @@ Cooking time:</p>
 <h2 id="photos">Photos</h2>
 <p>I ended up making this for valentine's dinner. The presentation could've be better, it was my first time breaking down a whole bird (or cooking with duck in general) and it barely thawed in time but we had it with a side of mash, roasted carrots and a red wine reduction glaze.</p>
 <p>Don't worry, I used the rest of the duck later in the week!</p>
-<p><img alt="Breaking down some duck" src="https://res.cloudinary.com/drwjkxxud/image/upload/v1721090366/carving_duck_nmb88u.jpg" /></p>
-<p><img alt="Finished product" src="https://res.cloudinary.com/drwjkxxud/image/upload/v1721090221/duck_breast_jjcip1.png" /></p>
-<p><img alt="Bonus: caesar salad appetizer" src="https://res.cloudinary.com/drwjkxxud/image/upload/v1721090282/valentines_appetizer_yce3qd.png" /></p>
-<p><img alt="Bonus: lovely cake made by Cece" src="https://res.cloudinary.com/drwjkxxud/image/upload/v1721090368/valentines_homemade_cake_2024_kmlgjr.jpg" /></p>
-<p><img alt="Bonus: drink for the night iykyk" src="https://res.cloudinary.com/drwjkxxud/image/upload/v1721090374/valentines_wine_2024_nibazr.jpg" /></p>
+<p><a class="glightbox" href="https://res.cloudinary.com/drwjkxxud/image/upload/v1721090366/carving_duck_nmb88u.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Breaking down some duck" src="https://res.cloudinary.com/drwjkxxud/image/upload/v1721090366/carving_duck_nmb88u.jpg" /></a></p>
+<p><a class="glightbox" href="https://res.cloudinary.com/drwjkxxud/image/upload/v1721090221/duck_breast_jjcip1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Finished product" src="https://res.cloudinary.com/drwjkxxud/image/upload/v1721090221/duck_breast_jjcip1.png" /></a></p>
+<p><a class="glightbox" href="https://res.cloudinary.com/drwjkxxud/image/upload/v1721090282/valentines_appetizer_yce3qd.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Bonus: caesar salad appetizer" src="https://res.cloudinary.com/drwjkxxud/image/upload/v1721090282/valentines_appetizer_yce3qd.png" /></a></p>
+<p><a class="glightbox" href="https://res.cloudinary.com/drwjkxxud/image/upload/v1721090368/valentines_homemade_cake_2024_kmlgjr.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Bonus: lovely cake made by Cece" src="https://res.cloudinary.com/drwjkxxud/image/upload/v1721090368/valentines_homemade_cake_2024_kmlgjr.jpg" /></a></p>
+<p><a class="glightbox" href="https://res.cloudinary.com/drwjkxxud/image/upload/v1721090374/valentines_wine_2024_nibazr.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Bonus: drink for the night iykyk" src="https://res.cloudinary.com/drwjkxxud/image/upload/v1721090374/valentines_wine_2024_nibazr.jpg" /></a></p>
 <h2 id="notes">Notes</h2>
 <h2 id="references">References</h2>
 <ul>
@@ -3302,8 +3313,12 @@ Cooking time:</p>
       
         <script src="https://fastly.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
       
+        <script src="../../../assets/javascripts/obsidian_tags.js"></script>
+      
         <script src="../../../assets/javascripts/interactive_graph.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>
