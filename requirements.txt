@@ -2,3 +2,7 @@ mkdocs
 mkdocs-material
 mkdocs-git-revision-date-localized-plugin
 mkdocs-obsidian-interactive-graph-plugin
+mkdocs-obsidian-bridge
+mkdocs-obsidian-support-plugin
+mkdocs-callouts
+mkdocs-glightbox
