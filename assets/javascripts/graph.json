@@ -20,13 +20,13 @@
     },
     {
       "id": "3",
-      "name": "About",
+      "name": "Food",
       "symbolSize": 2,
       "value": "/food/"
     },
     {
       "id": "4",
-      "name": "About",
+      "name": "Recipes",
       "symbolSize": 0,
       "value": "/food/recipes/"
     },
@@ -170,7 +170,7 @@
     },
     {
       "id": "28",
-      "name": "About",
+      "name": "Reviews",
       "symbolSize": 1,
       "value": "/food/reviews/"
     },
