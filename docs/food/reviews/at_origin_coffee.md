@@ -7,10 +7,11 @@ tags:
   - $$
 created: 2024-07-08
 ---
+
 # At Origin Coffee
 
 📌: [687 Mt Pleasant Rd, Toronto, ON M4S 2N2](https://maps.app.goo.gl/AZsrwbtBjPeb11C96)
-💸: $$
+💸: \$\$
 
 ## Rating: ★★☆☆☆
 
@@ -18,5 +19,4 @@ Vibes in this store are immaculate, super cozy and honestly exactly what I would
 
 ## Photos
 
-![Iced americano (left), caramel chocolate chip cookie (middle), oat latte (right)](https://res.cloudinary.com/drwjkxxud/image/upload/v1721090830/E1D84FF5-819D-4ACF-
-BE35-A4B9D3D82B06_xdsye0.jpg)
+![Iced americano (left), caramel chocolate chip cookie (middle), oat latte (right)](https://res.cloudinary.com/drwjkxxud/image/upload/v1721090830/E1D84FF5-819D-4ACF-BE35-A4B9D3D82B06_xdsye0.jpg)

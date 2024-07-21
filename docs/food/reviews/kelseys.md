@@ -6,10 +6,11 @@ tags:
   - ★★★☆☆
   - $$
 ---
+
 # Kelseys
 
 📌: [3131 Hwy 7, Markham, ON L3R 0J5](https://maps.app.goo.gl/7pjGNEsDf5QxVSMw7)
-💸: $$
+💸: \$\$
 
 ## Rating: ★★★☆☆
 

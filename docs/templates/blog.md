@@ -6,6 +6,8 @@ created: "{{date}}"
 
 # {{title}}
 
+## Media
+
 ## References
 
 - 

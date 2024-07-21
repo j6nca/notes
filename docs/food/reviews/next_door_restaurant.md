@@ -6,10 +6,11 @@ tags:
   - ★★★★★ / ☆☆☆☆☆
   - $$$$
 ---
+
 # Nextdoor Restaurant
 
 📌: [139 Main St Unionville, Markham, ON L3R 2G6](https://maps.app.goo.gl/6Ui6iTxDwkK3xS8R6)
-💸: $$$$
+💸: \$\$\$\$
 
 ## Rating: ★★★★☆
 

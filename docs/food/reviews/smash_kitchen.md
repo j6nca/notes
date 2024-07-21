@@ -5,10 +5,11 @@ tags:
   - brunch
   - ★★☆☆☆
 ---
+
 # Smash Kitchen and Bar
 
 📌: [4261 Hwy 7, Unionville, ON L3R 9W6](https://maps.app.goo.gl/c9sbjNaa5oJrw1dr6)
-💸: $$$
+💸: \$\$\$
 
 ## Rating: ★★☆☆☆
 

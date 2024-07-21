@@ -7,10 +7,11 @@ tags:
   - ★★★☆☆
   - $$$$$
 ---
+
 # Sushi Umi
 
 📌: [3621 Hwy 7 Unit 104-105, Markham, ON L3R 0G6](https://maps.app.goo.gl/7ASWPJjDH48aYgsM8)
-💸: $$$$$
+💸: \$\$\$\$\$
 
 ## Rating: ★★★☆☆
 
@@ -19,7 +20,9 @@ tags:
 ## Photos
 
 ![Menu](https://res.cloudinary.com/drwjkxxud/image/upload/v1721090823/sushi_umi_0_g3qqqp.jpg)
+
 ![Appetizer miso soup](https://media.discordapp.net/attachments/1259711992847929372/1259724596718993499/312DB27D-A7C9-46D2-AB8D-AFD9D397EAAA.jpg?ex=668cb974&is=668b67f4&hm=c539695d2eb9e3d42a98158157112edcd2350b497ddd2ef757f512559b6ec249&=&format=webp&width=810&height=1080)
+
 ![Uni martini](https://media.discordapp.net/attachments/1259711992847929372/1259724722896371793/0AFB1462-82F4-47DE-BE41-9C181D8BE266.jpg?ex=668cb992&is=668b6812&hm=ca2e3c03ddbf721d89ff58dd211e352c8cf5793d0c210d6aaf3638e932688559&=&format=webp&width=810&height=1080)
 ![Uni on shrimp](https://media.discordapp.net/attachments/1259711992847929372/1259724729389158520/CEF0DE48-5204-4116-AFAF-2C1DE1EDFDBC.jpg?ex=668cb994&is=668b6814&hm=870c03a95294fdaf5df3d8fc6b29f9e111df98db536f623231181e45875feb64&=&format=webp&width=810&height=1080)
 ![Something](https://media.discordapp.net/attachments/1259711992847929372/1259724727765831700/4F363132-792A-4A08-A8EF-22801E20236E.jpg?ex=668cb993&is=668b6813&hm=0e2f0f7158bbd9b5fb1e3c8965caa3ceb277fdf66ac59d022f314716258eef1b&=&format=webp&width=810&height=1080)

@@ -13,7 +13,7 @@ These are keyboards that I've purchased and built with.
 
 ### Wooting 60HE
 
-This is likely going to be my endgame keyboard. Hall-effect seems to be the future and until there is further innovation I don't think I will stray too far from this board (I may occasionally still build boards for the fun of it). Here's hoping that opensource keyboard firmware supports hall-effect switches soon 😊. List of mods:
+This is likely going to be my endgame keyboard for the foresee-able. Hall-effect seems to be the bleeding edge of this input technology and until there is further innovation I don't think I will stray too far from this board (I may occasionally still build boards for the fun of it). Here's hoping that opensource keyboard firmware supports hall-effect switches soon 😊. List of mods (heavily inspired by [Optimum's video](https://www.youtube.com/watch?v=EuULrGtbDy4)):
 
 - Tofu60 Redux case
 - Blank side-print shine-through keycaps (looks blank but has the option to light up just in case).
@@ -22,11 +22,13 @@ This is likely going to be my endgame keyboard. Hall-effect seems to be the futu
 ![Wooting 60HE assembled](https://res.cloudinary.com/drwjkxxud/image/upload/v1721106541/wooting_ok1qsh.png)
 *Wooting 60HE assembled w/ mods*
 
-%% TODO add build video here %%
+[My own build video](https://youtu.be/q0zwpSPiivQ)
 
 ### Epomaker TH40
 
 ### GMK67
+
+[Typing test](https://youtu.be/KAHYueb5evo)
 
 ## Designs
 

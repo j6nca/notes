@@ -37,10 +37,30 @@
                 "mode": "source",
                 "source": true
               }
-            }
+            },
+            "group": "0faf7779b56f44dd"
           }
         ],
         "currentTab": 2
+      },
+      {
+        "id": "66f2aa0ae010b142",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ea32d3c3e10be63c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "keyboards/my_keyboards.md",
+                "mode": "preview",
+                "source": true
+              }
+            },
+            "group": "0faf7779b56f44dd"
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -169,34 +189,35 @@
   },
   "active": "ae4128ba568d5772",
   "lastOpenFiles": [
-    "keyboards/my_keyboards.md",
-    "index.md",
-    "projects/keyboards/wooting_60he.md",
-    "keyboards/recommendations/9X.md",
-    "food/recipes/seared_duck_breast.md",
-    "templates/blog.md",
-    "food/reviews/wonton_hut.md",
-    "keyboards/recommendations/4X.md",
-    "templates/recipe.md",
     "keyboards/recommendations/index.md",
-    "food/reviews/at_origin_coffee.md",
-    "keyboards/recommendations",
-    "food/reviews/kelseys.md",
-    "food/reviews/miku.md",
-    "food/reviews/index.md",
-    "food/reviews/il_postino.md",
-    "food/reviews/gals_sushi.md",
-    "food/reviews/lazeez.md",
-    "food/reviews/fishbone_by_the_lake.md",
-    "food/reviews/earls_kitchen_bar.md",
-    "food/reviews/cherrys_high_dive.md",
-    "food/reviews/Untitled.md",
-    "Pasted image 20240719233858.png",
+    "keyboards/my_keyboards.md",
+    "keyboards/my_designs/j6n47.md",
+    "keyboards/my_designs/j6n43.md",
+    "templates/blog.md",
+    "music/guitar/log.md",
     "templates/tab.md",
     "templates/review.md",
+    "templates/recipe.md",
+    "keyboards/my_designs",
+    "food/reviews/at_origin_coffee.md",
+    "projects/keyboards/wooting_60he.md",
+    "food/reviews/wonton_hut.md",
+    "food/reviews/watercolour.md",
+    "food/reviews/Untitled.md",
+    "food/reviews/sushi_umi.md",
+    "food/reviews/sugo.md",
+    "food/reviews/smash_kitchen.md",
+    "food/reviews/shelbys_kitchen.md",
+    "food/reviews/shawarma_stop.md",
+    "food/reviews/score_on_king.md",
+    "food/reviews/rubirosa.md",
+    "food/reviews/planta_queen.md",
+    "food/reviews/planta_cocina.md",
     "food/reviews/piano_piano.md",
-    "test.md",
-    "food/index.md",
+    "food/reviews/osaka_sushi.md",
+    "food/reviews/old_country_inn.md",
+    "keyboards/recommendations",
+    "Pasted image 20240719233858.png",
     "keyboards"
   ]
 }

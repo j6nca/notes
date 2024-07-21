@@ -5,6 +5,7 @@ tags:
   # - cuisine (i.e italian, mexican)
   - ★★★★☆
 ---
+
 # Osaka Sushi
 
 ## Rating: ★★★★☆
