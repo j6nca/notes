@@ -45,11 +45,12 @@ plugins:
       timezone: Canada/Eastern
       type: datetime
   - callouts
-  - obsidian-interactive-graph
-  - obsidian-support
-  - obsidian-bridge
   - glightbox
-  - ezlinks
+  # - ezlinks
+  - obsidian-interactive-graph
+  # - obsidian-support
+  - obsidian-bridge
+  
 extra_css:
   - assets/stylesheets/obsidian_tags.css
   - assets/stylesheets/interactive_graph.css

@@ -19,7 +19,8 @@ This is likely going to be my endgame keyboard for the foresee-able. Hall-effect
 - Blank side-print shine-through keycaps (looks blank but has the option to light up just in case).
 - Hand-lubed stock magnetic switches
 
-![Wooting 60HE assembled](https://res.cloudinary.com/drwjkxxud/image/upload/v1721106541/wooting_ok1qsh.png)
+![](https://res.cloudinary.com/drwjkxxud/image/upload/v1721106541/wooting_ok1qsh.png)
+
 *Wooting 60HE assembled w/ mods*
 
 [My own build video](https://youtu.be/q0zwpSPiivQ)

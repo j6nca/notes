@@ -4,7 +4,7 @@ This space is to share my love of food. I plan to include recipes that I've made
 
 ## Map
 
-I enjoy measuring and recording my own data day-to-day, here is a map of all the entries listed under the [[./reviews/index|review section]]
+I enjoy measuring and recording my own data day-to-day, here is a map of all the entries listed under the [[food/reviews/index|review section]]
 
 ## Additonal Resources
 
