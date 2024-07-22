@@ -1,6 +1,6 @@
 # Homemade Router Build
 
-This page will outline my process building deploying a homemade router, replacing the one provided from ISP.
+This page will outline my process building deploying a homemade router, replacing the one provided from my ISP.
 
 ## Parts breakdown
 

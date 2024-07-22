@@ -1,4 +1,4 @@
-site_name: my notes
+site_name: My Notes
 site_url: https://notes.j6n.ca
 repo_url: https://github.com/j6nca/docs
 repo_name: j6nca/notes
@@ -70,5 +70,13 @@ markdown_extensions:
   - pymdownx.superfences
 
 # nav:
-#   - Projects: "index.md"
-#   - Cooking: "index.md"
+#   - Home: "index.md"
+#   - Food: "food/index.md"
+#   - Keyboards: "keyboards/index.md"
+#   - Learning: "learning/index.md"
+
+
+draft_docs: |
+  drafts/
+
+exclude_docs: |

@@ -20,7 +20,6 @@ This is likely going to be my endgame keyboard for the foresee-able. Hall-effect
 - Hand-lubed stock magnetic switches
 
 ![](https://res.cloudinary.com/drwjkxxud/image/upload/v1721106541/wooting_ok1qsh.png)
-
 *Wooting 60HE assembled w/ mods*
 
 [My own build video](https://youtu.be/q0zwpSPiivQ)
