@@ -16,7 +16,7 @@ created: July 8, 2024
 
 ## Rating: ★★★★★
 
-Wow, where do I even begin, this is one of my favourite pasta places in Toronto. The store is tucked away in a small corner of X. We were going to be in the area and heard that this place has a great lunch deal for $34. The pasta is homemade fresh and was delicious. Solid portions of pasta as well. We ordered the meatballs and . The nutella tiramisu dessert was also tasty.
+Wow, where do I even begin, this is one of my favourite #pasta places in Toronto. The store is tucked away in a small corner of X. We were going to be in the area and heard that this place has a great lunch deal for $34. The pasta is homemade fresh and was delicious. Solid portions of pasta as well. We ordered the meatballs and . The nutella tiramisu dessert was also tasty.
 
 ## Photos
 

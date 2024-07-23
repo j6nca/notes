@@ -2,6 +2,8 @@
 tags:
   - review
   - WIP
+  - location
+  - cuisine
   - ★★★★★/☆☆☆☆☆
   - $$$$
 created: "{{date}}"

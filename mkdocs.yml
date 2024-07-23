@@ -17,7 +17,6 @@ theme:
   logo: assets/logo.gif
   favicon: assets/favicon.ico
   palette: 
-  
     # Palette toggle for dark mode
     - scheme: slate
       toggle:
@@ -28,6 +27,20 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
+  features:
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    - content.tabs.link
+    - navigation.expand
+    - navigation.indexes
+    # navigation.instant      # WARN: breaks some javascripts
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.share
+    - search.suggest
 plugins:
   # - meta
   # - blog
@@ -46,9 +59,8 @@ plugins:
       type: datetime
   - callouts
   - glightbox
-  # - ezlinks
   - obsidian-interactive-graph
-  # - obsidian-support
+  - obsidian-support
   - obsidian-bridge
   
 extra_css:
@@ -60,6 +72,7 @@ extra_javascript:
   - https://fastly.jsdelivr.net/npm/echarts/dist/echarts.min.js
   - assets/javascripts/obsidian_tags.js
   - assets/javascripts/interactive_graph.js
+
 markdown_extensions:
   - def_list
   - pymdownx.tasklist:
@@ -68,6 +81,7 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - md_in_html
 
 # nav:
 #   - Home: "index.md"

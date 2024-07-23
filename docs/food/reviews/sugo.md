@@ -4,6 +4,7 @@ tags:
   - WIP
   - toronto
   - italian
+  - pasta
   - ★★★★★
   - $$$
 ---

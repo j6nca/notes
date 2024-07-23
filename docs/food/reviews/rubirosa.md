@@ -2,7 +2,7 @@
 tags:
   - review
   - WIP
-  - new york
+  - new_york
   - italian
   - ★★★★★
 ---
