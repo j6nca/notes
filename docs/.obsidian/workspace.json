@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "food/reviews/fishbone_by_the_lake.md",
+                "file": "food/reviews/gals_sushi.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "food/reviews/fishbone_by_the_lake.md",
+                "file": "food/reviews/gals_sushi.md",
                 "mode": "preview",
                 "source": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "food/reviews/fishbone_by_the_lake.md",
+                "file": "food/reviews/gals_sushi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "food/reviews/fishbone_by_the_lake.md",
+                "file": "food/reviews/gals_sushi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "food/reviews/fishbone_by_the_lake.md"
+                "file": "food/reviews/gals_sushi.md"
               }
             }
           }
@@ -168,11 +168,14 @@
   },
   "active": "ae4128ba568d5772",
   "lastOpenFiles": [
+    "food/reviews/cherrys_high_dive.md",
+    "food/reviews/at_origin_coffee.md",
+    "food/reviews/gals_sushi.md",
+    "food/reviews/fishbone_by_the_lake.md",
     "food/reviews/index.md",
     "2024-07-22.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
-    "food/reviews/fishbone_by_the_lake.md",
     "food/reviews/Untitled.md",
     "food/reviews/sushi_umi.md",
     "food/reviews/sugo.md",
@@ -191,10 +194,7 @@
     "food/reviews/lazeez.md",
     "food/reviews/miku.md",
     "food/reviews/il_postino.md",
-    "food/reviews/at_origin_coffee.md",
-    "food/reviews/cherrys_high_dive.md",
     "food/reviews/earls_kitchen_bar.md",
-    "food/reviews/gals_sushi.md",
     "drafts",
     "keyboards/my_designs",
     "keyboards/recommendations",
