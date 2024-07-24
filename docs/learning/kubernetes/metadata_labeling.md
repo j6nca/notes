@@ -7,7 +7,7 @@ tags:
 
 # Metadata labeling
 
-Recently I was tasked with implementing a metadata labeling standard across all of our kubernetes resources running in production. Currently we exclusively only deploy helm charts spread across ArgoCD and Waypoint. Thinking about ways to implement this I came up with a few, re-usable ideas which would need to be introduced to every Helm chart we are installing.
+Recently I was tasked with implementing a metadata labeling standard across all of our kubernetes resources. Currently we exclusively only deploy helm charts spread across ArgoCD and Waypoint. Thinking about ways to implement this I came up with a few, re-usable ideas which would need to be introduced to every Helm chart we are installing.
 
 ## Policy management
 
@@ -25,6 +25,7 @@ The problem on relying on helm to define these standardized labels, is that it w
 
 ## Here's where Kustomize comes in
 
+I haven't really had much exposure to Kustomize before, but looking at its features, it seems to be the right fit for this use-case. The ability to consistently apply standardized labels across various charts.
 ### Overcoming the hurdle with dynamic variables
 
 
