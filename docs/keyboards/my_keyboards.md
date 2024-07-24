@@ -26,6 +26,8 @@ This is likely going to be my endgame keyboard for the foresee-able. Hall-effect
 
 ### Epomaker TH40
 
+This is the first 40% keyboard that I have purchased. It's a solid budget keyboard for those looking for a small form factor. Comes with a slightly thinner Wooting-style strap as well for the portable typists.
+
 ### GMK67
 
 [Typing test](https://youtu.be/KAHYueb5evo)
