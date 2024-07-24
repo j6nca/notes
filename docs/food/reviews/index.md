@@ -21,20 +21,20 @@ A general breakdown for my thoughts behind each value.
 
 ### Pricing
 
-```
-$:    <= $10/person
-$$:   <= $30/person
-$$$:  <= $50/person
-$$$$: <= $100/person
-$$$$$: > $100/person
-```
+| Symbol    | Meaning |
+|-----------|---------|
+| 💸        | <= $10/person |
+| 💸💸      | <= $30/person |
+| 💸💸💸     | <= $50/person |
+| 💸💸💸💸   | <= $100/person |
+| 💸💸💸💸💸 | > $100/person |
 
 ### Rating
 
-```
-★☆☆☆☆: don't go here
-★★☆☆☆: wouldn't recommend / not enough info
-★★★☆☆: decent
-★★★★☆: really good, I recommend
-★★★★★: exceptional, must try
-```
+| Symbol    | Meaning |
+|-----------|---------|
+| ⭐        | don't go here |
+| ⭐⭐      | wouldn't recommend / not enough info |
+| ⭐⭐⭐     | pretty good |
+| ⭐⭐⭐⭐   | really good, I recommend |
+| ⭐⭐⭐⭐⭐ | exceptional, must try |

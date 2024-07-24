@@ -82,6 +82,24 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - md_in_html
+  - pymdownx.magiclink
+
+  # image link
+  - md_in_html
+  - attr_list
+
+  # content tab
+  - pymdownx.tabbed:
+      alternate_style: true
+
+  # Caret, Mark & Tilde
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+
+  # general
+  - toc:
+      permalink: true
 
 # nav:
 #   - Home: "index.md"
