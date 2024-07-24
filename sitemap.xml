@@ -266,12 +266,47 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://notes.j6n.ca/gaming/</loc>
+         <loc>https://notes.j6n.ca/hobbies/gaming/</loc>
          <lastmod>2024-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://notes.j6n.ca/gaming/valorant/resources/</loc>
+         <loc>https://notes.j6n.ca/hobbies/gaming/valorant/resources/</loc>
+         <lastmod>2024-07-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://notes.j6n.ca/hobbies/music/</loc>
+         <lastmod>2024-07-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://notes.j6n.ca/hobbies/music/guitar/log/</loc>
+         <lastmod>2024-07-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://notes.j6n.ca/hobbies/music/guitar/tabs/blackbird/</loc>
+         <lastmod>2024-07-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://notes.j6n.ca/hobbies/music/guitar/tabs/from_the_start/</loc>
+         <lastmod>2024-07-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://notes.j6n.ca/hobbies/music/guitar/tabs/hey_there_delilah/</loc>
+         <lastmod>2024-07-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://notes.j6n.ca/hobbies/music/guitar/tabs/love_yourself/</loc>
+         <lastmod>2024-07-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://notes.j6n.ca/hobbies/music/guitar/tabs/summer_breeze/</loc>
          <lastmod>2024-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -356,6 +391,16 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://notes.j6n.ca/learning/kubernetes/helm/</loc>
+         <lastmod>2024-07-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://notes.j6n.ca/learning/kubernetes/kustomize/</loc>
+         <lastmod>2024-07-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://notes.j6n.ca/learning/kubernetes/metadata_labeling/</loc>
          <lastmod>2024-07-24</lastmod>
          <changefreq>daily</changefreq>
@@ -367,41 +412,6 @@
     </url>
     <url>
          <loc>https://notes.j6n.ca/learning/security/1password/</loc>
-         <lastmod>2024-07-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://notes.j6n.ca/music/</loc>
-         <lastmod>2024-07-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://notes.j6n.ca/music/guitar/log/</loc>
-         <lastmod>2024-07-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://notes.j6n.ca/music/guitar/tabs/blackbird/</loc>
-         <lastmod>2024-07-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://notes.j6n.ca/music/guitar/tabs/from_the_start/</loc>
-         <lastmod>2024-07-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://notes.j6n.ca/music/guitar/tabs/hey_there_delilah/</loc>
-         <lastmod>2024-07-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://notes.j6n.ca/music/guitar/tabs/love_yourself/</loc>
-         <lastmod>2024-07-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://notes.j6n.ca/music/guitar/tabs/summer_breeze/</loc>
          <lastmod>2024-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
