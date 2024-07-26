@@ -1,0 +1,208 @@
+{
+  "main": {
+    "id": "b7bb4bcbbf61686b",
+    "type": "split",
+    "children": [
+      {
+        "id": "e092b357527f7808",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "958e83e8ed3d1b3a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "learning/kubernetes/metadata_labeling.md",
+                "mode": "source",
+                "source": true
+              }
+            },
+            "group": "76ae85af66143d2f"
+          }
+        ]
+      },
+      {
+        "id": "a96a0d0ab691cc5f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6c65a4ba901568a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "learning/kubernetes/metadata_labeling.md",
+                "mode": "preview",
+                "source": true
+              }
+            },
+            "group": "76ae85af66143d2f"
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d66961b54dc5cc23",
+    "type": "split",
+    "children": [
+      {
+        "id": "b94f95b2251d15b8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "226aa2d66b0ebceb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f866330c3e1294b9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6fa149de27b9474e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "608745f589463d5c",
+    "type": "split",
+    "children": [
+      {
+        "id": "80fad237b7823873",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "512147ca01522115",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "learning/kubernetes/metadata_labeling.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4e331f516abe2075",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "learning/kubernetes/metadata_labeling.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f7e82ffa33fb6930",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b62fdc7022cbcb31",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "learning/kubernetes/metadata_labeling.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "958e83e8ed3d1b3a",
+  "lastOpenFiles": [
+    "keyboards/my_keyboards.md",
+    "learning/kubernetes/helm.md",
+    "learning/kubernetes/kustomize.md",
+    "food/reviews/the_fourth_man_in_the_fire.md",
+    "music/guitar/tabs/summer_breeze.md",
+    "music/guitar/tabs/love_yourself.md",
+    "music/guitar/tabs/hey_there_delilah.md",
+    "music/guitar/tabs/from_the_start.md",
+    "music/guitar/tabs/blackbird.md",
+    "music/guitar/tabs",
+    "music/guitar/log.md",
+    "music/index.md",
+    "music/guitar",
+    "music",
+    "gaming/valorant/resources.md",
+    "gaming/valorant",
+    "gaming/index.md",
+    "gaming",
+    "learning/kubernetes/alb_controller_pod_rollout.md",
+    "Untitled",
+    "food/recipes/egg_drop_soup.md",
+    "hobbies/gaming/valorant/resources.md",
+    "hobbies/gaming/valorant",
+    "hobbies/gaming/index.md",
+    "hobbies/gaming",
+    "hobbies/music/guitar/tabs/summer_breeze.md",
+    "hobbies/music/guitar/tabs/love_yourself.md",
+    "hobbies/music/guitar/tabs/hey_there_delilah.md",
+    "hobbies/music/guitar/tabs/from_the_start.md",
+    "hobbies/music/guitar/tabs/blackbird.md",
+    "hobbies/music/guitar/tabs",
+    "hobbies/music/guitar/log.md",
+    "hobbies/music/index.md",
+    "hobbies/music/guitar",
+    "projects/code/k8s_lab/setup.md",
+    "projects/code/k8s_lab/jellyfin.md"
+  ]
+}
