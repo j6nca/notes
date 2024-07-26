@@ -3578,9 +3578,10 @@
 <div class="highlight"><pre><span></span><code>
 </code></pre></div>
 <h2 id="why-not-just-manage-common-labels-in-helm">Why not just manage common labels in helm?<a class="headerlink" href="#why-not-just-manage-common-labels-in-helm" title="Permanent link">&para;</a></h2>
-<p>The problem on relying on helm to define these standardized labels, is that it would be impossible to achieve consistency amongst all the third party helm charts we use. Different chart maintainers may have different ways of organizing and defining their helm charts.</p>
+<p>The problem on relying solely on helm to define these standardized labels, is that it would be impossible to achieve consistency amongst all the third party helm charts we use. Different chart maintainers may have different ways of organizing and defining their helm charts.</p>
 <h2 id="heres-where-kustomize-comes-in">Here's where Kustomize comes in<a class="headerlink" href="#heres-where-kustomize-comes-in" title="Permanent link">&para;</a></h2>
-<p>I haven't really had much exposure to Kustomize before, but looking at its features, it seems to be the right fit for this use-case. The ability to consistently apply standardized labels across various charts.</p>
+<p>I haven't really had much exposure to Kustomize before, but looking at its features, it seems to be the right fit for this use-case. The ability to consistently apply standardized overlays across various charts, with support for filtering resources. Kustomize seems to elegantly give use what we need. </p>
+<p>One thing I've neglected to mention is our current setup. While I haven't used Kustomize yet, after doing some research, it looks like it would be tricky to leverage Kustomize for labels that are more dynamic (i.e environment-based).</p>
 <h3 id="overcoming-the-hurdle-with-dynamic-variables">Overcoming the hurdle with dynamic variables<a class="headerlink" href="#overcoming-the-hurdle-with-dynamic-variables" title="Permanent link">&para;</a></h3>
 <h2 id="references">References<a class="headerlink" href="#references" title="Permanent link">&para;</a></h2>
 <ul>
@@ -3608,7 +3609,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">July 24, 2024 15:55:57</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">July 26, 2024 19:17:16</span>
   </span>
 
     
