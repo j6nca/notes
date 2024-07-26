@@ -2,16 +2,20 @@
 tags:
   - review
   - WIP
-  - ★★★★★
-  - $$$$
-created: 2024-07-21
+  - toronto
+  - cuisine
+  - ⭐⭐⭐⭐⭐
+  - 💸💸💸💸
+created: 2024-07-25
 ---
 
-# Cherrys high dive
+# Cherry's High Dive
 
-📌: [Address]()
-💸: \$\$\$\$\$
+> [!info]
+>📌: [Address]()
+>💲: 💸💸💸💸💸
 
-## Rating: ★★★★★
+## Rating: ⭐⭐⭐⭐⭐
 
 ## Photos
+

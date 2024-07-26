@@ -33,10 +33,10 @@ theme:
     - content.code.copy
     - content.code.select
     - content.tabs.link
-    - navigation.expand
+    # - navigation.expand
     - navigation.indexes
-    # navigation.instant      # WARN: breaks some javascripts
-    - navigation.sections
+    # - navigation.instant      # WARN: breaks some javascripts
+    # - navigation.sections
     - navigation.top
     - search.highlight
     - search.share

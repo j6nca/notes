@@ -14,7 +14,7 @@ tags:
 
 ## Rating: ★★★★☆
 
-This place was great, we came here for father's day and were seated in the patio (luckily wonderful weather) and got the brunch tower special as well as a loaded avocado bagel.
+Really great spot, get a seat outside on the patio if you get the opportunity. We came here for father's day and were seated in the patio (luckily wonderful weather) and got the brunch tower special as well as a loaded avocado bagel.
 
 ## Photos
 

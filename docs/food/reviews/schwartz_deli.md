@@ -2,19 +2,19 @@
 tags:
   - review
   - WIP
-  - location
-  - cuisine
+  - montreal
+  - deli
   - ⭐⭐⭐
-  - 💸💸💸💸💸
-created: 2024-07-26
+  - 💸💸
+created: 2024-07-25
 ---
 
-# Planta Queen
+# Schwartz's Deli
 
 > [!info]
 >📌: [Address]()
 >💲: 💸💸💸💸💸
 
-## Rating: ⭐⭐⭐
+## Rating: ⭐⭐⭐⭐⭐
 
 ## Photos

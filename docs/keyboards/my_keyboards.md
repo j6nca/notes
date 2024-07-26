@@ -19,18 +19,23 @@ This is likely going to be my endgame keyboard for the foresee-able. Hall-effect
 - Blank side-print shine-through keycaps (looks blank but has the option to light up just in case).
 - Hand-lubed stock magnetic switches
 
-![](https://res.cloudinary.com/drwjkxxud/image/upload/v1721106541/wooting_ok1qsh.png)
-*Wooting 60HE assembled w/ mods*
+![Wooting 60HE assembled w/ mods](https://res.cloudinary.com/drwjkxxud/image/upload/v1721106541/wooting_ok1qsh.png)
 
 [My own build video](https://youtu.be/q0zwpSPiivQ)
 
 ### Epomaker TH40
 
-This is the first 40% keyboard that I have purchased. It's a solid budget keyboard for those looking for a small form factor. Comes with a slightly thinner Wooting-style strap as well for the portable typists.
+This is the first 40% keyboard that I have purchased. It's a solid budget keyboard for those looking for a small form factor. Comes with a slightly thinner Wooting-style strap as well for the portable typists. With its gasket mounting and stock Wisteria linear switches, it sounds like a dream. The board also comes with VIA support making configuration a breeze to do on any machine.
+
+![Small but mighty](https://res.cloudinary.com/drwjkxxud/image/upload/v1721882291/IMG_5844_zfx1qx.jpg)
 
 ### GMK67
 
 [Typing test](https://youtu.be/KAHYueb5evo)
+
+### Iris rev. 8
+
+An split ortho-linear keyboard.
 
 ## Designs
 

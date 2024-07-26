@@ -13,7 +13,3 @@ tags:
 
 ## Photos
 
-## Links
-
-- [yelp]()
-- [google]()
