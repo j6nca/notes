@@ -1,14 +1,13 @@
 ---
 tags:
   - WIP
+  - photography
 created: 2024-07-26
 ---
 
-# sunsets
+# Sunsets
 
-## Media
-
-
+## Photos
 
 ![2022/07/01](https://res.cloudinary.com/drwjkxxud/image/upload/v1721966365/7MB-DVYnQ62cjPdLPgbcJg_lrzqcu.jpg)
 
