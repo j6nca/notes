@@ -511,6 +511,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://notes.j6n.ca/work/building_ephemeral_environments/</loc>
+         <lastmod>2024-07-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://notes.j6n.ca/work/extensible_argocd_architecture/</loc>
          <lastmod>2024-07-27</lastmod>
          <changefreq>daily</changefreq>

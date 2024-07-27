@@ -620,18 +620,24 @@
     },
     {
       "id": "103",
+      "name": "Building ephemeral environments",
+      "symbolSize": 0,
+      "value": "/work/building_ephemeral_environments/"
+    },
+    {
+      "id": "104",
       "name": "Extensible argocd architecture",
       "symbolSize": 0,
       "value": "/work/extensible_argocd_architecture/"
     },
     {
-      "id": "104",
+      "id": "105",
       "name": "Metadata labeling",
       "symbolSize": 0,
       "value": "/work/metadata_labeling/"
     },
     {
-      "id": "105",
+      "id": "106",
       "name": "Setting up AWS authentication for CI/CD using OIDC",
       "symbolSize": 0,
       "value": "/work/oidc_cicd/"
