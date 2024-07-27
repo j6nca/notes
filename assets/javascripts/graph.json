@@ -464,135 +464,177 @@
     },
     {
       "id": "77",
-      "name": "Setting up AWS authentication for CI/CD using OIDC",
-      "symbolSize": 0,
-      "value": "/learning/aws/oidc_cicd/"
-    },
-    {
-      "id": "78",
-      "name": "Releasing to services behind ALB controller",
-      "symbolSize": 0,
-      "value": "/learning/kubernetes/alb_controller_pod_rollout/"
-    },
-    {
-      "id": "79",
       "name": "Argocd",
       "symbolSize": 0,
       "value": "/learning/kubernetes/argocd/"
     },
     {
-      "id": "80",
-      "name": "Extensible argocd architecture",
-      "symbolSize": 0,
-      "value": "/learning/kubernetes/extensible_argocd_architecture/"
-    },
-    {
-      "id": "81",
+      "id": "78",
       "name": "Fluxcd",
       "symbolSize": 0,
       "value": "/learning/kubernetes/fluxcd/"
     },
     {
-      "id": "82",
+      "id": "79",
       "name": "Helm",
       "symbolSize": 0,
       "value": "/learning/kubernetes/helm/"
     },
     {
-      "id": "83",
+      "id": "80",
       "name": "Kustomize",
       "symbolSize": 0,
       "value": "/learning/kubernetes/kustomize/"
     },
     {
-      "id": "84",
-      "name": "Metadata labeling",
-      "symbolSize": 0,
-      "value": "/learning/kubernetes/metadata_labeling/"
-    },
-    {
-      "id": "85",
+      "id": "81",
       "name": "Tooling",
       "symbolSize": 0,
       "value": "/learning/kubernetes/tooling/"
     },
     {
-      "id": "86",
+      "id": "82",
       "name": "1password",
       "symbolSize": 0,
       "value": "/learning/security/1password/"
     },
     {
-      "id": "87",
+      "id": "83",
+      "name": "sunsets",
+      "symbolSize": 0,
+      "value": "/photography/sunsets/"
+    },
+    {
+      "id": "84",
       "name": "Electric Guitar Build",
       "symbolSize": 1,
       "value": "/projects/guitar/"
     },
     {
-      "id": "88",
+      "id": "85",
       "name": "My first ITX build",
       "symbolSize": 0,
       "value": "/projects/pc_itx_build/"
     },
     {
-      "id": "89",
-      "name": "Homemade Router Build",
+      "id": "86",
+      "name": "Home Networking setup",
+      "symbolSize": 1,
+      "value": "/projects/homelab/home_networking/"
+    },
+    {
+      "id": "87",
+      "name": "Homelab Hardware",
+      "symbolSize": 1,
+      "value": "/projects/homelab/homelab_hardware/"
+    },
+    {
+      "id": "88",
+      "name": "Gatus",
       "symbolSize": 0,
-      "value": "/projects/router/"
+      "value": "/projects/homelab/k8s_lab/gatus/"
+    },
+    {
+      "id": "89",
+      "name": "Jellyfin",
+      "symbolSize": 0,
+      "value": "/projects/homelab/k8s_lab/jellyfin/"
     },
     {
       "id": "90",
-      "name": "Free game notifier",
+      "name": "Setup",
       "symbolSize": 0,
-      "value": "/projects/code/free_game_notifier/"
+      "value": "/projects/homelab/k8s_lab/setup/"
     },
     {
       "id": "91",
-      "name": "Macro software",
+      "name": "Free game notifier",
       "symbolSize": 0,
-      "value": "/projects/code/macro_software/"
+      "value": "/projects/software/free_game_notifier/"
     },
     {
       "id": "92",
-      "name": "Password manager",
+      "name": "Macro software",
       "symbolSize": 0,
-      "value": "/projects/code/password_manager/"
+      "value": "/projects/software/macro_software/"
     },
     {
       "id": "93",
-      "name": "Tab maker",
+      "name": "Password manager",
       "symbolSize": 0,
-      "value": "/projects/code/tab_maker/"
+      "value": "/projects/software/password_manager/"
     },
     {
       "id": "94",
-      "name": "whats-new",
+      "name": "Tab maker",
       "symbolSize": 0,
-      "value": "/projects/code/whats_new/"
+      "value": "/projects/software/tab_maker/"
     },
     {
       "id": "95",
-      "name": "Gatus",
+      "name": "whats-new",
       "symbolSize": 0,
-      "value": "/projects/code/k8s_lab/gatus/"
+      "value": "/projects/software/whats_new/"
     },
     {
       "id": "96",
-      "name": "Hardware",
+      "name": "japan",
       "symbolSize": 0,
-      "value": "/projects/code/k8s_lab/hardware/"
+      "value": "/travel/2019/japan/"
     },
     {
       "id": "97",
-      "name": "Jellyfin",
+      "name": "montreal",
       "symbolSize": 0,
-      "value": "/projects/code/k8s_lab/jellyfin/"
+      "value": "/travel/2020/montreal/"
     },
     {
       "id": "98",
-      "name": "Setup",
+      "name": "New york",
       "symbolSize": 0,
-      "value": "/projects/code/k8s_lab/setup/"
+      "value": "/travel/2022/new_york/"
+    },
+    {
+      "id": "99",
+      "name": "Montreal",
+      "symbolSize": 0,
+      "value": "/travel/2023/montreal/"
+    },
+    {
+      "id": "100",
+      "name": "Boston",
+      "symbolSize": 0,
+      "value": "/travel/2024/boston/"
+    },
+    {
+      "id": "101",
+      "name": "Switzerland",
+      "symbolSize": 0,
+      "value": "/travel/2024/switzerland/"
+    },
+    {
+      "id": "102",
+      "name": "Releasing to services behind ALB controller",
+      "symbolSize": 0,
+      "value": "/work/alb_controller_pod_rollout/"
+    },
+    {
+      "id": "103",
+      "name": "Extensible argocd architecture",
+      "symbolSize": 0,
+      "value": "/work/extensible_argocd_architecture/"
+    },
+    {
+      "id": "104",
+      "name": "Metadata labeling",
+      "symbolSize": 0,
+      "value": "/work/metadata_labeling/"
+    },
+    {
+      "id": "105",
+      "name": "Setting up AWS authentication for CI/CD using OIDC",
+      "symbolSize": 0,
+      "value": "/work/oidc_cicd/"
     }
   ],
   "links": [
@@ -610,7 +652,7 @@
     },
     {
       "source": "0",
-      "target": "87"
+      "target": "84"
     },
     {
       "source": "2",
@@ -647,6 +689,10 @@
     {
       "source": "69",
       "target": "74"
+    },
+    {
+      "source": "86",
+      "target": "87"
     }
   ]
 }
