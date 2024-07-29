@@ -2,7 +2,7 @@
 created: 2023-08-09
 ---
 
-![Hello world](https://res.cloudinary.com/drwjkxxud/image/upload/v1722224535/om94ifxgpw3d1_1_utbfxr.png)
+![Hello world](https://res.cloudinary.com/drwjkxxud/image/upload/v1722226564/om94ifxgpw3d1_1_utbfxr_c_crop_ar_4_3_vbzoij.png)
 
 ##### Zettelkasten
 
