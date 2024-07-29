@@ -5,7 +5,7 @@ tags:
 created: 2024-07-27
 ---
 
-# japan
+# Japan
 
 > [!info]
 >📌: [Address]()

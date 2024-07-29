@@ -35,8 +35,7 @@ View the build on [PCPartPicker](https://pcpartpicker.com/list/6tfjTY)
 
 I will document any upgrades to the system over time here.
 
-- 24/07/08
-  - Decided to switch to an air-cooled set up with the NR200 as I liked the look/flexibility of the case more.
+- 24/07/08: Decided to switch to an air-cooled set up with the NR200 as I liked the look/flexibility of the case more.
 
 ## Photos
 
