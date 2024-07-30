@@ -1,12 +1,14 @@
+---
+tags:
+  - landing
+created: 2024-07-29
+---
+
 # Food
 
-This space is to share my love of food. I plan to include recipes that I've made or am interested in trying, as well as reviews of restaurants I've been to.
+This space is to share my love of food. I plan to include [[food/recipes/index|recipes]] that I've made or am interested in trying, as well as reviews of [[food/reviews/index|restaurants I've been to]].
 
-## Map
-
-I enjoy measuring and recording my own data day-to-day, here is a map of all the entries listed under the [[food/reviews/index|review section]]
-
-## Additonal Resources
+## Additional Resources
 
 Here is a list of general food-related resources I've found extremely insightful and useful.
 

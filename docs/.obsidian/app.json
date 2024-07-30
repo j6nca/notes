@@ -1,5 +1,6 @@
 {
   "defaultViewMode": "source",
   "newFileLocation": "current",
-  "livePreview": false
+  "livePreview": false,
+  "alwaysUpdateLinks": true
 }

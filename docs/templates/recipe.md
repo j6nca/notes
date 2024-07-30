@@ -7,9 +7,10 @@ created: "{{date}}"
 
 # {{title}}
 
-Serving size:
-Prep time:
-Cooking time:
+> [!info]
+> Serving size:
+> Prep time:
+> Cooking time:
 
 ## Macros
 
