@@ -15,13 +15,13 @@
     {
       "id": "2",
       "name": "Food",
-      "symbolSize": 2,
+      "symbolSize": 3,
       "value": "/food/"
     },
     {
       "id": "3",
       "name": "Recipes",
-      "symbolSize": 0,
+      "symbolSize": 1,
       "value": "/food/recipes/"
     },
     {
@@ -128,522 +128,546 @@
     },
     {
       "id": "21",
+      "name": "mixed_rice",
+      "symbolSize": 1,
+      "value": "/food/recipes/mixed_rice/"
+    },
+    {
+      "id": "22",
       "name": "Protein Rice Krispies",
       "symbolSize": 0,
       "value": "/food/recipes/protein_rice_krispies/"
     },
     {
-      "id": "22",
+      "id": "23",
       "name": "Roasted Veggies",
-      "symbolSize": 0,
+      "symbolSize": 1,
       "value": "/food/recipes/roasted_vegetables/"
     },
     {
-      "id": "23",
+      "id": "24",
       "name": "Pan-seared duck breast",
-      "symbolSize": 0,
+      "symbolSize": 1,
       "value": "/food/recipes/seared_duck_breast/"
     },
     {
-      "id": "24",
+      "id": "25",
       "name": "Steak",
-      "symbolSize": 0,
+      "symbolSize": 1,
       "value": "/food/recipes/steak/"
     },
     {
-      "id": "25",
+      "id": "26",
       "name": "Strawberry Greek Yogurt",
       "symbolSize": 0,
       "value": "/food/recipes/strawberry_yogurt/"
     },
     {
-      "id": "26",
+      "id": "27",
       "name": "Stuffed Mushrooms",
       "symbolSize": 0,
       "value": "/food/recipes/stuffed_mushrooms/"
     },
     {
-      "id": "27",
+      "id": "28",
       "name": "Reviews",
       "symbolSize": 1,
       "value": "/food/reviews/"
     },
     {
-      "id": "28",
+      "id": "29",
       "name": "Restaurant Name",
       "symbolSize": 0,
       "value": "/food/reviews/Untitled/"
     },
     {
-      "id": "29",
+      "id": "30",
       "name": "At Origin Coffee",
       "symbolSize": 1,
       "value": "/food/reviews/at_origin_coffee/"
     },
     {
-      "id": "30",
+      "id": "31",
       "name": "Cherry's High Dive",
       "symbolSize": 0,
       "value": "/food/reviews/cherrys_high_dive/"
     },
     {
-      "id": "31",
+      "id": "32",
       "name": "Earls kitchen bar",
       "symbolSize": 0,
       "value": "/food/reviews/earls_kitchen_bar/"
     },
     {
-      "id": "32",
+      "id": "33",
       "name": "elephant_grind_coffee",
       "symbolSize": 0,
       "value": "/food/reviews/elephant_grind_coffee/"
     },
     {
-      "id": "33",
+      "id": "34",
       "name": "Fishbone by the Lake",
       "symbolSize": 0,
       "value": "/food/reviews/fishbone_by_the_lake/"
     },
     {
-      "id": "34",
+      "id": "35",
       "name": "Gal's Sushi",
       "symbolSize": 0,
       "value": "/food/reviews/gals_sushi/"
     },
     {
-      "id": "35",
+      "id": "36",
       "name": "Il Postino",
       "symbolSize": 0,
       "value": "/food/reviews/il_postino/"
     },
     {
-      "id": "36",
+      "id": "37",
       "name": "Katz's Deli",
       "symbolSize": 1,
       "value": "/food/reviews/katzs_deli/"
     },
     {
-      "id": "37",
+      "id": "38",
       "name": "Kelsey's",
       "symbolSize": 0,
       "value": "/food/reviews/kelseys/"
     },
     {
-      "id": "38",
+      "id": "39",
       "name": "Lazeez",
       "symbolSize": 0,
       "value": "/food/reviews/lazeez/"
     },
     {
-      "id": "39",
+      "id": "40",
       "name": "Lucullus Bakers and Roasters",
       "symbolSize": 0,
       "value": "/food/reviews/lucullus_bakers_and_roasters/"
     },
     {
-      "id": "40",
+      "id": "41",
       "name": "Miku",
       "symbolSize": 0,
       "value": "/food/reviews/miku/"
     },
     {
-      "id": "41",
+      "id": "42",
       "name": "Nextdoor Restaurant",
       "symbolSize": 0,
       "value": "/food/reviews/next_door_restaurant/"
     },
     {
-      "id": "42",
+      "id": "43",
       "name": "Old country inn",
       "symbolSize": 0,
       "value": "/food/reviews/old_country_inn/"
     },
     {
-      "id": "43",
+      "id": "44",
       "name": "Osaka Sushi",
       "symbolSize": 0,
       "value": "/food/reviews/osaka_sushi/"
     },
     {
-      "id": "44",
+      "id": "45",
       "name": "Piano Piano",
       "symbolSize": 1,
       "value": "/food/reviews/piano_piano/"
     },
     {
-      "id": "45",
+      "id": "46",
       "name": "Planta Cocina",
       "symbolSize": 1,
       "value": "/food/reviews/planta_cocina/"
     },
     {
-      "id": "46",
+      "id": "47",
       "name": "Planta Queen",
       "symbolSize": 1,
       "value": "/food/reviews/planta_queen/"
     },
     {
-      "id": "47",
+      "id": "48",
       "name": "Rubirosa",
       "symbolSize": 0,
       "value": "/food/reviews/rubirosa/"
     },
     {
-      "id": "48",
+      "id": "49",
       "name": "Schwartz's Deli",
       "symbolSize": 1,
       "value": "/food/reviews/schwartz_deli/"
     },
     {
-      "id": "49",
+      "id": "50",
       "name": "Score on king",
       "symbolSize": 0,
       "value": "/food/reviews/score_on_king/"
     },
     {
-      "id": "50",
+      "id": "51",
       "name": "Shawarma stop",
       "symbolSize": 0,
       "value": "/food/reviews/shawarma_stop/"
     },
     {
-      "id": "51",
+      "id": "52",
       "name": "Shelbys kitchen",
       "symbolSize": 0,
       "value": "/food/reviews/shelbys_kitchen/"
     },
     {
-      "id": "52",
+      "id": "53",
       "name": "Smash Kitchen and Bar",
       "symbolSize": 0,
       "value": "/food/reviews/smash_kitchen/"
     },
     {
-      "id": "53",
+      "id": "54",
       "name": "Sugo",
       "symbolSize": 0,
       "value": "/food/reviews/sugo/"
     },
     {
-      "id": "54",
+      "id": "55",
       "name": "Sushi Umi",
       "symbolSize": 0,
       "value": "/food/reviews/sushi_umi/"
     },
     {
-      "id": "55",
+      "id": "56",
       "name": "The Fourth Man in the Fire Pizzeria",
       "symbolSize": 0,
       "value": "/food/reviews/the_fourth_man_in_the_fire/"
     },
     {
-      "id": "56",
+      "id": "57",
       "name": "Watercolour",
       "symbolSize": 0,
       "value": "/food/reviews/watercolour/"
     },
     {
-      "id": "57",
+      "id": "58",
       "name": "Wonton hut",
       "symbolSize": 0,
       "value": "/food/reviews/wonton_hut/"
     },
     {
-      "id": "58",
-      "name": "About",
-      "symbolSize": 0,
-      "value": "/hobbies/gaming/"
-    },
-    {
       "id": "59",
-      "name": "Resources",
+      "name": "Hobbies",
       "symbolSize": 0,
-      "value": "/hobbies/gaming/valorant/resources/"
+      "value": "/hobbies/"
     },
     {
       "id": "60",
       "name": "About",
       "symbolSize": 0,
-      "value": "/hobbies/music/"
+      "value": "/hobbies/gaming/"
     },
     {
       "id": "61",
+      "name": "Resources",
+      "symbolSize": 0,
+      "value": "/hobbies/gaming/valorant/resources/"
+    },
+    {
+      "id": "62",
+      "name": "About",
+      "symbolSize": 0,
+      "value": "/hobbies/music/"
+    },
+    {
+      "id": "63",
       "name": "My guitar learning journey",
       "symbolSize": 0,
       "value": "/hobbies/music/guitar/log/"
     },
     {
-      "id": "62",
+      "id": "64",
       "name": "[WIP] Blackbird - The Beatles",
       "symbolSize": 0,
       "value": "/hobbies/music/guitar/tabs/blackbird/"
     },
     {
-      "id": "63",
+      "id": "65",
       "name": "From the start",
       "symbolSize": 0,
       "value": "/hobbies/music/guitar/tabs/from_the_start/"
     },
     {
-      "id": "64",
+      "id": "66",
       "name": "Hey there delilah",
       "symbolSize": 0,
       "value": "/hobbies/music/guitar/tabs/hey_there_delilah/"
     },
     {
-      "id": "65",
+      "id": "67",
       "name": "Love yourself - Justin Bieber",
       "symbolSize": 0,
       "value": "/hobbies/music/guitar/tabs/love_yourself/"
     },
     {
-      "id": "66",
+      "id": "68",
       "name": "[WIP] Summer Breeze - Seals and Crofts",
       "symbolSize": 0,
       "value": "/hobbies/music/guitar/tabs/summer_breeze/"
     },
     {
-      "id": "67",
-      "name": "My keyboards",
-      "symbolSize": 1,
-      "value": "/keyboards/my_keyboards/"
+      "id": "69",
+      "name": "Keyboards",
+      "symbolSize": 2,
+      "value": "/keyboards/"
     },
     {
-      "id": "68",
+      "id": "70",
       "name": "j6n43",
       "symbolSize": 0,
       "value": "/keyboards/my_designs/j6n43/"
     },
     {
-      "id": "69",
+      "id": "71",
       "name": "j6n47",
       "symbolSize": 0,
       "value": "/keyboards/my_designs/j6n47/"
     },
     {
-      "id": "70",
+      "id": "72",
       "name": "Recommendations",
-      "symbolSize": 5,
+      "symbolSize": 6,
       "value": "/keyboards/recommendations/"
     },
     {
-      "id": "71",
+      "id": "73",
       "name": "4X",
       "symbolSize": 1,
       "value": "/keyboards/recommendations/4X/"
     },
     {
-      "id": "72",
+      "id": "74",
       "name": "6X",
       "symbolSize": 1,
       "value": "/keyboards/recommendations/6X/"
     },
     {
-      "id": "73",
+      "id": "75",
       "name": "7X",
       "symbolSize": 1,
       "value": "/keyboards/recommendations/7X/"
     },
     {
-      "id": "74",
+      "id": "76",
       "name": "8X",
       "symbolSize": 1,
       "value": "/keyboards/recommendations/8X/"
     },
     {
-      "id": "75",
+      "id": "77",
       "name": "9X",
       "symbolSize": 1,
       "value": "/keyboards/recommendations/9X/"
     },
     {
-      "id": "76",
+      "id": "78",
       "name": "About",
       "symbolSize": 1,
       "value": "/learning/"
     },
     {
-      "id": "77",
+      "id": "79",
       "name": "Good reads",
       "symbolSize": 0,
       "value": "/learning/good_reads/"
     },
     {
-      "id": "78",
+      "id": "80",
       "name": "Argocd",
       "symbolSize": 0,
       "value": "/learning/kubernetes/argocd/"
     },
     {
-      "id": "79",
+      "id": "81",
       "name": "Fluxcd",
       "symbolSize": 0,
       "value": "/learning/kubernetes/fluxcd/"
     },
     {
-      "id": "80",
+      "id": "82",
       "name": "Helm",
       "symbolSize": 0,
       "value": "/learning/kubernetes/helm/"
     },
     {
-      "id": "81",
+      "id": "83",
       "name": "Kustomize",
       "symbolSize": 0,
       "value": "/learning/kubernetes/kustomize/"
     },
     {
-      "id": "82",
+      "id": "84",
       "name": "Tooling",
       "symbolSize": 0,
       "value": "/learning/kubernetes/tooling/"
     },
     {
-      "id": "83",
+      "id": "85",
       "name": "1password",
       "symbolSize": 0,
       "value": "/learning/security/1password/"
     },
     {
-      "id": "84",
+      "id": "86",
       "name": "Sunsets",
       "symbolSize": 0,
       "value": "/photography/sunsets/"
     },
     {
-      "id": "85",
+      "id": "87",
+      "name": "Projects",
+      "symbolSize": 0,
+      "value": "/projects/"
+    },
+    {
+      "id": "88",
       "name": "Electric Guitar Build",
       "symbolSize": 1,
       "value": "/projects/guitar/"
     },
     {
-      "id": "86",
+      "id": "89",
       "name": "My first ITX build",
       "symbolSize": 0,
       "value": "/projects/pc_itx_build/"
     },
     {
-      "id": "87",
+      "id": "90",
       "name": "Home Networking setup",
       "symbolSize": 1,
       "value": "/projects/homelab/home_networking/"
     },
     {
-      "id": "88",
+      "id": "91",
       "name": "Homelab Hardware",
       "symbolSize": 1,
       "value": "/projects/homelab/homelab_hardware/"
     },
     {
-      "id": "89",
+      "id": "92",
       "name": "Gatus",
       "symbolSize": 0,
       "value": "/projects/homelab/k8s_lab/gatus/"
     },
     {
-      "id": "90",
+      "id": "93",
       "name": "Jellyfin",
       "symbolSize": 0,
       "value": "/projects/homelab/k8s_lab/jellyfin/"
     },
     {
-      "id": "91",
+      "id": "94",
       "name": "Setup",
       "symbolSize": 0,
       "value": "/projects/homelab/k8s_lab/setup/"
     },
     {
-      "id": "92",
+      "id": "95",
       "name": "Free game notifier",
       "symbolSize": 0,
       "value": "/projects/software/free_game_notifier/"
     },
     {
-      "id": "93",
+      "id": "96",
       "name": "Macro software",
       "symbolSize": 0,
       "value": "/projects/software/macro_software/"
     },
     {
-      "id": "94",
+      "id": "97",
       "name": "Password manager",
       "symbolSize": 0,
       "value": "/projects/software/password_manager/"
     },
     {
-      "id": "95",
+      "id": "98",
       "name": "Tab maker",
       "symbolSize": 0,
       "value": "/projects/software/tab_maker/"
     },
     {
-      "id": "96",
+      "id": "99",
       "name": "whats-new",
       "symbolSize": 0,
       "value": "/projects/software/whats_new/"
     },
     {
-      "id": "97",
+      "id": "100",
+      "name": "Travel",
+      "symbolSize": 0,
+      "value": "/travel/"
+    },
+    {
+      "id": "101",
       "name": "Japan",
       "symbolSize": 0,
       "value": "/travel/2019/japan/"
     },
     {
-      "id": "98",
+      "id": "102",
       "name": "Montreal",
       "symbolSize": 0,
       "value": "/travel/2020/montreal/"
     },
     {
-      "id": "99",
+      "id": "103",
       "name": "New York",
       "symbolSize": 0,
       "value": "/travel/2022/new_york/"
     },
     {
-      "id": "100",
+      "id": "104",
       "name": "montreal",
       "symbolSize": 0,
       "value": "/travel/2023/montreal/"
     },
     {
-      "id": "101",
+      "id": "105",
       "name": "Boston",
       "symbolSize": 0,
       "value": "/travel/2024/boston/"
     },
     {
-      "id": "102",
+      "id": "106",
       "name": "Switzerland",
       "symbolSize": 0,
       "value": "/travel/2024/switzerland/"
     },
     {
-      "id": "103",
+      "id": "107",
       "name": "Releasing to services behind ALB controller",
       "symbolSize": 0,
       "value": "/work/alb_controller_pod_rollout/"
     },
     {
-      "id": "104",
+      "id": "108",
       "name": "Building ephemeral environments",
       "symbolSize": 0,
       "value": "/work/building_ephemeral_environments/"
     },
     {
-      "id": "105",
+      "id": "109",
       "name": "Extensible argocd architecture",
       "symbolSize": 0,
       "value": "/work/extensible_argocd_architecture/"
     },
     {
-      "id": "106",
+      "id": "110",
       "name": "Metadata labeling",
       "symbolSize": 0,
       "value": "/work/metadata_labeling/"
     },
     {
-      "id": "107",
+      "id": "111",
       "name": "Setting up AWS authentication for CI/CD using OIDC",
       "symbolSize": 0,
       "value": "/work/oidc_cicd/"
@@ -652,7 +676,7 @@
   "links": [
     {
       "source": "0",
-      "target": "76"
+      "target": "78"
     },
     {
       "source": "0",
@@ -660,51 +684,67 @@
     },
     {
       "source": "0",
-      "target": "67"
+      "target": "69"
     },
     {
       "source": "0",
-      "target": "85"
+      "target": "88"
     },
     {
       "source": "2",
-      "target": "27"
+      "target": "3"
     },
     {
-      "source": "29",
-      "target": "44"
+      "source": "2",
+      "target": "28"
     },
     {
-      "source": "36",
-      "target": "48"
+      "source": "21",
+      "target": "25"
     },
     {
-      "source": "45",
-      "target": "46"
+      "source": "24",
+      "target": "23"
     },
     {
-      "source": "70",
-      "target": "71"
+      "source": "30",
+      "target": "45"
     },
     {
-      "source": "70",
+      "source": "37",
+      "target": "49"
+    },
+    {
+      "source": "46",
+      "target": "47"
+    },
+    {
+      "source": "69",
       "target": "72"
     },
     {
-      "source": "70",
+      "source": "72",
       "target": "73"
     },
     {
-      "source": "70",
+      "source": "72",
       "target": "74"
     },
     {
-      "source": "70",
+      "source": "72",
       "target": "75"
     },
     {
-      "source": "87",
-      "target": "88"
+      "source": "72",
+      "target": "76"
+    },
+    {
+      "source": "72",
+      "target": "77"
+    },
+    {
+      "source": "90",
+      "target": "91"
     }
   ]
 }
