@@ -8,9 +8,10 @@ tags:
 ---
 # Strawberry Greek Yogurt
 
-Serving size: 1 bowl
-Prep time: 2 min
-Cooking time: N/A
+> [!info]
+> Serving size: 1 bowl
+> Prep time: 2 min
+> Cooking time: N/A
 
 ## Macros
 

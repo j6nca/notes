@@ -8,9 +8,10 @@ tags:
 ---
 # Chicken Nuggets
 
-Serving size: 8-10 pcs
-Prep time: 15 min
-Cooking time: 
+> [!info]
+> Serving size: 8-10 pcs
+> Prep time: 15 min
+> Cooking time: 
 
 ## Macros
 

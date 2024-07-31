@@ -5,7 +5,10 @@ tags:
 ---
 # Coffee (Pourover)
 
-Serving size: 800 - 1000 ml
+> [!info]
+> Serving size: 800 - 1000 ml
+> Prep time:
+> Cooking time:
 
 ## Macros
 

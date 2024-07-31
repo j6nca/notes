@@ -10,9 +10,10 @@ tags:
 ---
 # Burrito bowl (Chipotle)
 
-Serving size:
-Prep time:
-Cooking time:
+> [!info]
+> Serving size:
+> Prep time:
+> Cooking time:
 
 ## Macros
 

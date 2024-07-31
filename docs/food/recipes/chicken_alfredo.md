@@ -8,9 +8,10 @@ tags:
 ---
 # Chicken Alfredo
 
-Serving size: 4 Meals
-Prep time: 15 min
-Cooking time: 20 min
+> [!info]
+> Serving size: 4 Meals
+> Prep time: 15 min
+> Cooking time: 20 min
 
 ## Macros
 

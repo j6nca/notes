@@ -1,3 +1,11 @@
+---
+tags:
+  - WIP
+  - aws
+  - cicd
+created: 2024-07-30
+---
+
 # Setting up AWS authentication for CI/CD using OIDC
 
 ## Why?
@@ -14,7 +22,6 @@ Our primary use-cases are:
 - Uploading static content to CDN
 - Running Terraform
 - Execute actions in EKS
-
 
 ## Provisioning permissions
 

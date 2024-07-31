@@ -6,9 +6,10 @@ tags:
 ---
 # Roasted Veggies
 
-Serving size: 1 Baking tray
-Prep time: 15 mins
-Cooking time: 15-20 mins
+> [!info]
+> Serving size: 1 Baking tray
+> Prep time: 15 mins
+> Cooking time: 15-20 mins
 
 ## Macros
 

@@ -24,8 +24,6 @@ This page will outline my thoughts building my very first electric guitar.
 | Multimeter                            |  27.11 | 24-02-03       |
 | Wood filler                           |   7.33 | 24-02-04       |
 
-
-
 ## 240120
 
 - Put in an order for parts:<br>
@@ -49,13 +47,12 @@ This page will outline my thoughts building my very first electric guitar.
 
 A rough sketch (using google images) of what the final product will look like:
 ![Rough sketch](https://res.cloudinary.com/drwjkxxud/image/upload/v1721089306/guitar_draft_xz2k2u.png)
-*Rough sketch*
+
 Progress pics (excuse the mess, I turned my kitchen table into a workspace):
-![Before](https://res.cloudinary.com/drwjkxxud/image/upload/v1721089306/guitar_before_wsnlce.jpg)
-*First da*
+![First day](https://res.cloudinary.com/drwjkxxud/image/upload/v1721089306/guitar_before_wsnlce.jpg)
+
 ![After a couple coats of oil](https://res.cloudinary.com/drwjkxxud/image/upload/v1721089308/guitar_day1_tpmehe.jpg)
-*After a couple coats of oil*
+
 ![Piecing it together](https://res.cloudinary.com/drwjkxxud/image/upload/v1721089306/guitar_day3_gyzhly.jpg)
-*Piecing it together*
+
 ![Final product](https://res.cloudinary.com/drwjkxxud/image/upload/v1721089307/guitar_finished_ctywib.jpg)
-*Final product*

@@ -2,7 +2,7 @@
 tags:
   - stub
   - WIP
-created: 2024-07-30
+created: "{{date}}"
 ---
 
-# 6X
+# {{title}}

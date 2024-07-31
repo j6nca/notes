@@ -6,9 +6,10 @@ tags:
 ---
 # Protein Rice Krispies
 
-Serving size: 1 batch
-Prep time: 10 min
-Cooking time: 15 min
+> [!info]
+> Serving size: 1 batch
+> Prep time: 10 min
+> Cooking time: 15 min
 
 ## Macros
 

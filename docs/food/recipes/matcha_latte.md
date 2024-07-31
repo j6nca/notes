@@ -2,12 +2,16 @@
 tags:
   - recipe
   - drink
+  - WIP
 ---
 # Matcha Latte
 
-Serving size: 200/300 ml
-Prep time: 5 min
-Cooking time: N/A
+> [!info]
+> Serving size: 200/300 ml
+> Prep time: 5 min
+> Cooking time: N/A
+
+I'm a firm believer of "strawberry jam makes everything sweet taste better" so you'll find I slip that in as an optional ingredient a lot of times
 
 ## Macros
 

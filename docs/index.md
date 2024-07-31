@@ -1,10 +1,9 @@
 ---
 created: 2023-08-09
 ---
+# Zettelkasten
 
-![Hello world](https://res.cloudinary.com/drwjkxxud/image/upload/v1722226564/om94ifxgpw3d1_1_utbfxr_c_crop_ar_4_3_vbzoij.png)
-
-##### Zettelkasten
+![](https://res.cloudinary.com/drwjkxxud/image/upload/v1722396606/the_simpsons_background_by_katrishasunny_dfsjtof-pre_m2toqv.jpg)
 
 **\[[ Zet‧tel‧kas‧ten ](https://zettelkasten.de/)\]**
 

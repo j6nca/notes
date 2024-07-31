@@ -49,7 +49,3 @@ These are keyboards I've designed from the ground up. With new innovations in th
 ### j6n43
 
 ### j6n47
-
-## References
-
-- 

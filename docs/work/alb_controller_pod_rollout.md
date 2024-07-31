@@ -2,7 +2,7 @@
 tags:
   - WIP
   - kubernetes
-  - 
+  - aws
 created: 2024-07-22
 ---
 

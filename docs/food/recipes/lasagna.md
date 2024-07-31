@@ -11,9 +11,10 @@ tags:
 ---
 # Mac and Cheese
 
-Serving size:
-Prep time:
-Cooking time:
+> [!info]
+> Serving size:
+> Prep time:
+> Cooking time:
 
 Thought this would be fun, though it ended up costing more than I would pay for a pre-made frozen lasagna 😅.
 

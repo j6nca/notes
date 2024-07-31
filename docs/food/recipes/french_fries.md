@@ -6,9 +6,10 @@ tags:
 ---
 # French Fries
 
-Serving size: 1 Potato
-Prep time: 10 min
-Cooking time: 30 min
+> [!info]
+> Serving size: 1 Potato
+> Prep time: 10 min
+> Cooking time: 30 min
 
 ## Macros
 

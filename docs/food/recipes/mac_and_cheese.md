@@ -11,9 +11,10 @@ tags:
 ---
 # Mac and Cheese
 
-Serving size:
-Prep time:
-Cooking time:
+> [!info]
+> Serving size:
+> Prep time:
+> Cooking time:
 
 Warning, macros are not for the feint of heart. This is in no way healthy 😅.
 

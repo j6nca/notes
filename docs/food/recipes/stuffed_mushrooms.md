@@ -6,9 +6,10 @@ tags:
 ---
 # Stuffed Mushrooms
 
-Serving size: 1 Baking tray
-Prep time: 30 mins
-Cooking time: 20 mins
+> [!info]
+> Serving size: 1 Baking tray
+> Prep time: 30 mins
+> Cooking time: 20 mins
 
 ## Macros
 
