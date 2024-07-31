@@ -518,156 +518,162 @@
     },
     {
       "id": "86",
+      "name": "Moments",
+      "symbolSize": 0,
+      "value": "/photography/moments/"
+    },
+    {
+      "id": "87",
       "name": "Sunsets",
       "symbolSize": 0,
       "value": "/photography/sunsets/"
     },
     {
-      "id": "87",
+      "id": "88",
       "name": "Projects",
       "symbolSize": 0,
       "value": "/projects/"
     },
     {
-      "id": "88",
+      "id": "89",
       "name": "Electric Guitar Build",
       "symbolSize": 1,
       "value": "/projects/guitar/"
     },
     {
-      "id": "89",
+      "id": "90",
       "name": "My first ITX build",
       "symbolSize": 0,
       "value": "/projects/pc_itx_build/"
     },
     {
-      "id": "90",
+      "id": "91",
       "name": "Home Networking setup",
       "symbolSize": 1,
       "value": "/projects/homelab/home_networking/"
     },
     {
-      "id": "91",
+      "id": "92",
       "name": "Homelab Hardware",
       "symbolSize": 1,
       "value": "/projects/homelab/homelab_hardware/"
     },
     {
-      "id": "92",
+      "id": "93",
       "name": "Gatus",
       "symbolSize": 0,
       "value": "/projects/homelab/k8s_lab/gatus/"
     },
     {
-      "id": "93",
+      "id": "94",
       "name": "Jellyfin",
       "symbolSize": 0,
       "value": "/projects/homelab/k8s_lab/jellyfin/"
     },
     {
-      "id": "94",
+      "id": "95",
       "name": "Setup",
       "symbolSize": 0,
       "value": "/projects/homelab/k8s_lab/setup/"
     },
     {
-      "id": "95",
+      "id": "96",
       "name": "Free game notifier",
       "symbolSize": 0,
       "value": "/projects/software/free_game_notifier/"
     },
     {
-      "id": "96",
+      "id": "97",
       "name": "Macro software",
       "symbolSize": 0,
       "value": "/projects/software/macro_software/"
     },
     {
-      "id": "97",
+      "id": "98",
       "name": "Password manager",
       "symbolSize": 0,
       "value": "/projects/software/password_manager/"
     },
     {
-      "id": "98",
+      "id": "99",
       "name": "Tab maker",
       "symbolSize": 0,
       "value": "/projects/software/tab_maker/"
     },
     {
-      "id": "99",
+      "id": "100",
       "name": "whats-new",
       "symbolSize": 0,
       "value": "/projects/software/whats_new/"
     },
     {
-      "id": "100",
+      "id": "101",
       "name": "Travel",
       "symbolSize": 0,
       "value": "/travel/"
     },
     {
-      "id": "101",
+      "id": "102",
       "name": "Japan",
       "symbolSize": 0,
       "value": "/travel/2019/japan/"
     },
     {
-      "id": "102",
+      "id": "103",
       "name": "Montreal",
       "symbolSize": 0,
       "value": "/travel/2020/montreal/"
     },
     {
-      "id": "103",
+      "id": "104",
       "name": "New York",
       "symbolSize": 0,
       "value": "/travel/2022/new_york/"
     },
     {
-      "id": "104",
+      "id": "105",
       "name": "montreal",
       "symbolSize": 0,
       "value": "/travel/2023/montreal/"
     },
     {
-      "id": "105",
+      "id": "106",
       "name": "Boston",
       "symbolSize": 0,
       "value": "/travel/2024/boston/"
     },
     {
-      "id": "106",
+      "id": "107",
       "name": "Switzerland",
       "symbolSize": 0,
       "value": "/travel/2024/switzerland/"
     },
     {
-      "id": "107",
+      "id": "108",
       "name": "Releasing to services behind ALB controller",
       "symbolSize": 0,
       "value": "/work/alb_controller_pod_rollout/"
     },
     {
-      "id": "108",
+      "id": "109",
       "name": "Building Ephemeral Environments",
       "symbolSize": 0,
       "value": "/work/building_ephemeral_environments/"
     },
     {
-      "id": "109",
+      "id": "110",
       "name": "Extensible ArgoCD Architecture",
       "symbolSize": 0,
       "value": "/work/extensible_argocd_architecture/"
     },
     {
-      "id": "110",
+      "id": "111",
       "name": "Metadata labeling",
       "symbolSize": 0,
       "value": "/work/metadata_labeling/"
     },
     {
-      "id": "111",
+      "id": "112",
       "name": "Setting up AWS authentication for CI/CD using OIDC",
       "symbolSize": 0,
       "value": "/work/oidc_cicd/"
@@ -688,7 +694,7 @@
     },
     {
       "source": "0",
-      "target": "88"
+      "target": "89"
     },
     {
       "source": "2",
@@ -743,8 +749,8 @@
       "target": "77"
     },
     {
-      "source": "90",
-      "target": "91"
+      "source": "91",
+      "target": "92"
     }
   ]
 }
