@@ -275,7 +275,7 @@
         
   
   <span class="md-ellipsis">
-    Home
+    Zettelkasten
   </span>
   
 
@@ -469,7 +469,7 @@
         
   
   <span class="md-ellipsis">
-    Beef barbacoa
+    Beef Barbacoa
   </span>
   
 
@@ -490,7 +490,7 @@
         
   
   <span class="md-ellipsis">
-    Breakfast sandwich
+    breakfast_sandwich
   </span>
   
 
@@ -4040,7 +4040,7 @@
         
   
   <span class="md-ellipsis">
-    Building ephemeral environments
+    Building Ephemeral Environments
   </span>
   
 
@@ -4061,7 +4061,7 @@
         
   
   <span class="md-ellipsis">
-    Extensible argocd architecture
+    Extensible ArgoCD Architecture
   </span>
   
 
@@ -4353,10 +4353,9 @@
 <p>I initially found <a href="http://www.keyboard-layout-editor.com/">keyboard-layout-editor</a>, where I viewed existing layouts and played around with creating my own layouts. For this project, my goal was to create a smaller form factor keyboard than my current 60%.</p>
 <figure><br />
 <a class="glightbox" href="https://res.cloudinary.com/drwjkxxud/image/upload/v1721597844/rpi_pico_pinout_k7qsms.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="https://res.cloudinary.com/drwjkxxud/image/upload/v1721597844/rpi_pico_pinout_k7qsms.webp" src="https://res.cloudinary.com/drwjkxxud/image/upload/v1721597844/rpi_pico_pinout_k7qsms.webp" /></a><br />
-<figcaption>j6n58 keyboard layout</figcaption>
+<figcaption>Pinout for the RPi Pico microcontroller</figcaption>
 <br />
 </figure>
-<p><em>Pinout for the RPi Pico microcontroller</em></p>
 <h2 id="working-with-qmk">Working with QMK<a class="headerlink" href="#working-with-qmk" title="Permanent link">&para;</a></h2>
 <h3 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">&para;</a></h3>
 <p>Setup of qmk was fairly straight-forward, following the available <a href="https://docs.qmk.fm/#/newbs_getting_started">documentation</a>.<br />
@@ -4383,9 +4382,9 @@ The changes I made can be viewed <a href="https://github.com/qmk/qmk_firmware/co
 Designed the layout for the keyboard using <a href="http://www.keyboard-layout-editor.com/">keyboard-layout-editor</a>. </p>
 <figure><br />
 <a class="glightbox" href="https://res.cloudinary.com/drwjkxxud/image/upload/v1721595259/layoutj6n47_ngccyp.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="https://res.cloudinary.com/drwjkxxud/image/upload/v1721595259/layoutj6n47_ngccyp.png" src="https://res.cloudinary.com/drwjkxxud/image/upload/v1721595259/layoutj6n47_ngccyp.png" /></a><br />
+<figcaption>The designed layout</figcaption>
 <br />
 </figure>
-<p><em>The designed layout</em></p>
 <p>I then tried a few different options to take this layout and generate a 3D-printable <code>.stl</code> file:</p>
 <ul>
 <li><a href="https://plate.keeb.io/">keebio's plate generator</a></li>
@@ -4397,32 +4396,28 @@ Designed the layout for the keyboard using <a href="http://www.keyboard-layout-e
 Went to the library to print the pcb plate! Had to tinker with the fill (make it much less dense than before) to get the print to fit the timeslot I had booked (we are only allotted max 2 hrs for a print). <a href="https://youtu.be/e6MvvLDK9dA">View a short clip of the print here</a></p>
 <figure><br />
 <a class="glightbox" href="https://res.cloudinary.com/drwjkxxud/image/upload/v1721595259/j6n47plate_s2ptuk.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="https://res.cloudinary.com/drwjkxxud/image/upload/v1721595259/j6n47plate_s2ptuk.png" src="https://res.cloudinary.com/drwjkxxud/image/upload/v1721595259/j6n47plate_s2ptuk.png" /></a><br />
-<figcaption>Plate</figcaption>
+<figcaption>3D printing the plate to hold all the key switches</figcaption>
 <br />
 </figure>
-<p><em>3D printing the plate to hold all the key switches</em></p>
 <p>Additionally did a test fitting with some spare switches I had lying around.</p>
 <figure><br />
 <a class="glightbox" href="https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/fitting.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/fitting.jpg" src="https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/fitting.jpg" /></a><br />
-<figcaption>Fitting into pcb</figcaption>
+<figcaption>Fitting switches into plate</figcaption>
 <br />
 </figure>
-<p><em>Fitting switches into plate</em></p>
 <figure><br />
 <a class="glightbox" href="https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/pre-handwiring.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/pre-handwiring.jpg" src="https://github.com/j6nca/keyboard/blob/main/qmk/j6n55/diagrams/pre-handwiring.jpg" /></a><br />
 <figcaption>Pre-handwiring</figcaption>
 <br />
 </figure>
-<p><em>Pre-handwiring</em></p>
 <p><strong>Update: 2023/07/04</strong><br />
 After flashing the <br />
 I wanted the keyboard to also support VIA configuration (that way I won't need to reflash the mcu everytime I want to make changes), enabling support for VIA was surprisingly simple following a <a href="https://www.youtube.com/watch?v=7d5yzBOup9U">guide from youtuber Joe Scotto</a>.</p>
 <figure><br />
 <a class="glightbox" href="https://res.cloudinary.com/drwjkxxud/image/upload/v1721089169/j6n43via_jr26df.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="https://res.cloudinary.com/drwjkxxud/image/upload/v1721089169/j6n43via_jr26df.png" src="https://res.cloudinary.com/drwjkxxud/image/upload/v1721089169/j6n43via_jr26df.png" /></a><br />
-<figcaption>via config</figcaption>
+<figcaption>VIA config</figcaption>
 <br />
 </figure>
-<p><em>VIA config</em></p>
 <p><strong>Update: 2023/07/07</strong><br />
 Completed the soldering for the keyboard matrix and microcontroller</p>
 <figure><br />
@@ -4430,13 +4425,11 @@ Completed the soldering for the keyboard matrix and microcontroller</p>
 <figcaption>Handwiring diagram</figcaption>
 <br />
 </figure>
-<p><em>Handwiring diagram</em></p>
 <figure><br />
 <a class="glightbox" href="https://res.cloudinary.com/drwjkxxud/image/upload/v1721089169/IMG_3082_tkfrx2.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="https://res.cloudinary.com/drwjkxxud/image/upload/v1721089169/IMG_3082_tkfrx2.jpg" src="https://res.cloudinary.com/drwjkxxud/image/upload/v1721089169/IMG_3082_tkfrx2.jpg" /></a><br />
 <figcaption>Finished soldering</figcaption>
 <br />
 </figure>
-<p><em>Finished Soldering</em></p>
 <h2 id="media">Media<a class="headerlink" href="#media" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="https://youtu.be/tz4L4KEGrUw">Typing test</a></li>
@@ -4471,7 +4464,7 @@ Completed the soldering for the keyboard matrix and microcontroller</p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">July 22, 2024 01:07:14</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">July 30, 2024 23:51:22</span>
   </span>
 
     

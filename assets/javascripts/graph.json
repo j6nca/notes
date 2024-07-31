@@ -2,7 +2,7 @@
   "nodes": [
     {
       "id": "0",
-      "name": "Home",
+      "name": "Zettelkasten",
       "symbolSize": 4,
       "value": "/"
     },
@@ -26,13 +26,13 @@
     },
     {
       "id": "4",
-      "name": "Beef barbacoa",
+      "name": "Beef Barbacoa",
       "symbolSize": 0,
       "value": "/food/recipes/beef_barbacoa/"
     },
     {
       "id": "5",
-      "name": "Breakfast sandwich",
+      "name": "breakfast_sandwich",
       "symbolSize": 0,
       "value": "/food/recipes/breakfast_sandwich/"
     },
@@ -650,13 +650,13 @@
     },
     {
       "id": "108",
-      "name": "Building ephemeral environments",
+      "name": "Building Ephemeral Environments",
       "symbolSize": 0,
       "value": "/work/building_ephemeral_environments/"
     },
     {
       "id": "109",
-      "name": "Extensible argocd architecture",
+      "name": "Extensible ArgoCD Architecture",
       "symbolSize": 0,
       "value": "/work/extensible_argocd_architecture/"
     },
