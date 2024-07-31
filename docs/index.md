@@ -1,4 +1,6 @@
 ---
+tags:
+  - landing
 created: 2023-08-09
 ---
 # Zettelkasten
