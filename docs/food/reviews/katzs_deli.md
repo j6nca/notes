@@ -22,4 +22,6 @@ We actually came back a few days later as we were trying to get a Lox bagel from
 
 ## Photos
 
-![First meal in NYC!](https://res.cloudinary.com/drwjkxxud/image/upload/v1721611811/0357EA36-036C-4025-A308-41D035441806_w52slp.jpg)
+![First meal in NYC!](https://res.cloudinary.com/drwjkxxud/image/upload/v1721611450/beb837bc-c398-484f-b40f-020d881e63a3_xocxfw.jpg)
+
+![Juicy](https://res.cloudinary.com/drwjkxxud/image/upload/v1721611811/0357EA36-036C-4025-A308-41D035441806_w52slp.jpg)

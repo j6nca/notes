@@ -9,7 +9,7 @@ tags:
 > [!info]
 > Serving size: 1 Baking tray
 > Prep time: 15 mins
-> Cooking time: 15-20 mins
+> Cooking time: 20-40 mins
 
 ## Macros
 
@@ -42,7 +42,7 @@ tags:
 
 ## Photos
 
-![Roast potatoes](https://res.cloudinary.com/drwjkxxud/image/upload/v1721090374/oven_roast_fries_yuhw4o.jpg)
+![Roast brussels sprouts and potatoes](https://res.cloudinary.com/drwjkxxud/image/upload/v1722404745/0cb3e24a-7bcf-4f3d-b802-7301fe071fbd_zz2fw7.jpg)
 
 ## Notes
 
