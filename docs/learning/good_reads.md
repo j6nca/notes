@@ -19,3 +19,7 @@ A list of insightful articles:
 - https://people.freebsd.org/~gallatin/talks/OpenFest2023.pdf
 - https://www.datanami.com/2023/05/30/why-roblox-picked-victoriametrics-for-observability-data-overhaul
 - https://grafana.com/blog/2023/04/25/multiple-players-one-stack-inside-robloxs-centralized-observability-stack
+
+## Blogs
+
+- https://matthewsanabria.dev/posts/observability-companies-to-watch-in-2024/
