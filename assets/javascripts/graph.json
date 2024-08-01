@@ -3,7 +3,7 @@
     {
       "id": "0",
       "name": "Zettelkasten",
-      "symbolSize": 4,
+      "symbolSize": 6,
       "value": "/"
     },
     {
@@ -357,7 +357,7 @@
     {
       "id": "59",
       "name": "Hobbies",
-      "symbolSize": 0,
+      "symbolSize": 1,
       "value": "/hobbies/"
     },
     {
@@ -519,7 +519,7 @@
     {
       "id": "86",
       "name": "Moments",
-      "symbolSize": 0,
+      "symbolSize": 1,
       "value": "/photography/moments/"
     },
     {
@@ -694,7 +694,15 @@
     },
     {
       "source": "0",
+      "target": "86"
+    },
+    {
+      "source": "0",
       "target": "89"
+    },
+    {
+      "source": "0",
+      "target": "59"
     },
     {
       "source": "2",
