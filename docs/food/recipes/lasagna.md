@@ -16,7 +16,7 @@ tags:
 > Prep time:
 > Cooking time:
 
-Thought this would be fun, though it ended up costing more than I would pay for a pre-made frozen lasagna 😅.
+Thought this would be fun, though it ended up costing more than I would pay for a pre-made frozen lasagna but it was tasty nonetheless😅.
 
 ## Macros
 

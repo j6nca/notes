@@ -5,11 +5,12 @@ tags:
 ---
 # Lobster Tagliatelle
 
-Serving size:
-Prep time: 
-Cooking time: 
+> [!info]
+> Serving size:
+> Prep time:
+> Cooking time:
 
-I need to find a good recipe for this, it was so good.
+I need to find a good recipe for this, we had it at Diana's Seafood and it was SO good.
 
 ## Macros
 
