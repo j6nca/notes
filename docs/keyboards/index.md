@@ -12,7 +12,7 @@ Here I discuss keyboards, including boards that I've purchased as well as boards
 
 ## Custom builds
 
-These are keyboards that I've built with.
+These are keyboards that I've built or purchased.
 
 ### Wooting 60HE
 
@@ -25,6 +25,10 @@ This is likely going to be my endgame keyboard for the foresee-able. Hall-effect
 ![Wooting 60HE assembled w/ mods](https://res.cloudinary.com/drwjkxxud/image/upload/v1721106541/wooting_ok1qsh.png)
 
 [My own build video](https://youtu.be/q0zwpSPiivQ)
+
+### Keebio Quefrency rev. 5 (Coming Soon)
+
+### Keebio Iris rev. 8
 
 ### Epomaker TH40
 
