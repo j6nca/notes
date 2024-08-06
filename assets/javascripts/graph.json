@@ -650,7 +650,7 @@
     },
     {
       "id": "108",
-      "name": "Releasing to services behind ALB controller",
+      "name": "Zero-downtime k8s deployments behind ALB controller",
       "symbolSize": 0,
       "value": "/work/alb_controller_pod_rollout/"
     },
