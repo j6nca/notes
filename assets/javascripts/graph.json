@@ -662,18 +662,30 @@
     },
     {
       "id": "110",
+      "name": "comprehensive_overview_dashboard",
+      "symbolSize": 0,
+      "value": "/work/comprehensive_overview_dashboard/"
+    },
+    {
+      "id": "111",
       "name": "Extensible ArgoCD Architecture",
       "symbolSize": 0,
       "value": "/work/extensible_argocd_architecture/"
     },
     {
-      "id": "111",
+      "id": "112",
       "name": "Metadata labeling",
       "symbolSize": 0,
       "value": "/work/metadata_labeling/"
     },
     {
-      "id": "112",
+      "id": "113",
+      "name": "observability_stack_on_kubernetes",
+      "symbolSize": 0,
+      "value": "/work/observability_stack_on_kubernetes/"
+    },
+    {
+      "id": "114",
       "name": "Setting up AWS authentication for CI/CD using OIDC",
       "symbolSize": 0,
       "value": "/work/oidc_cicd/"
