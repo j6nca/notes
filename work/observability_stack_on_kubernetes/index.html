@@ -22,7 +22,7 @@
     
     
       
-        <title>observability_stack_on_kubernetes - My Notes</title>
+        <title>Observability stack on k8s - My Notes</title>
       
     
     
@@ -87,7 +87,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#observability_stack_on_kubernetes" class="md-skip">
+        <a href="#observability-stack-on-k8s" class="md-skip">
           Skip to content
         </a>
       
@@ -122,7 +122,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              observability_stack_on_kubernetes
+              Observability stack on k8s
             
           </span>
         </div>
@@ -4022,7 +4022,7 @@
           
   
   <span class="md-ellipsis">
-    observability_stack_on_kubernetes
+    Observability stack on k8s
   </span>
   
 
@@ -4033,7 +4033,7 @@
         
   
   <span class="md-ellipsis">
-    observability_stack_on_kubernetes
+    Observability stack on k8s
   </span>
   
 
@@ -4055,9 +4055,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#media" class="md-nav__link">
+  <a href="#stateful-vs-stateless" class="md-nav__link">
     <span class="md-ellipsis">
-      Media
+      Stateful vs Stateless
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#planning-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      Planning work
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-synthetic-testing-w-k6" class="md-nav__link">
+    <span class="md-ellipsis">
+      - Synthetic testing w/ K6
     </span>
   </a>
   
@@ -4136,9 +4154,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#media" class="md-nav__link">
+  <a href="#stateful-vs-stateless" class="md-nav__link">
     <span class="md-ellipsis">
-      Media
+      Stateful vs Stateless
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#planning-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      Planning work
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-synthetic-testing-w-k6" class="md-nav__link">
+    <span class="md-ellipsis">
+      - Synthetic testing w/ K6
     </span>
   </a>
   
@@ -4190,8 +4226,36 @@
   
 
 
-<h1 id="observability_stack_on_kubernetes">observability_stack_on_kubernetes<a class="headerlink" href="#observability_stack_on_kubernetes" title="Permanent link">&para;</a></h1>
-<h2 id="media">Media<a class="headerlink" href="#media" title="Permanent link">&para;</a></h2>
+<h1 id="observability-stack-on-k8s">Observability stack on k8s<a class="headerlink" href="#observability-stack-on-k8s" title="Permanent link">&para;</a></h1>
+<p>Our observability stack currently runs on a series of EC2 nodes. In an effort to improve scalability and management of the various components for Grafana we are moving to deploy this via Kubernetes</p>
+<h2 id="stateful-vs-stateless">Stateful vs Stateless<a class="headerlink" href="#stateful-vs-stateless" title="Permanent link">&para;</a></h2>
+<p>One prominent question that I wanted to visit was the idea of managing Grafana resources statefully vs stateless. While I do prefer the stateless strategy here (managing alerts, dashboards other resources in code versus using storage, and because everything is in code we only need to worry about storage for our metrics/logging data), I believe the goal for this stack down the road is to enable teams to set their own alerting and dashboards. With that, it would make more sense for teams to interact with the UI to make these changes.</p>
+<h2 id="planning-work">Planning work<a class="headerlink" href="#planning-work" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Set up a testing environment for deploying and testing changes quick</li>
+<li>Deploy our stack on k8s (no data involved)</li>
+<li>Grafana OnCall<ul>
+<li><figure markdown="span"><br />
+<a class="glightbox" href="https://raw.githubusercontent.com/grafana/oncall/dev/docs/img/architecture_diagram.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="https://raw.githubusercontent.com/grafana/oncall/dev/docs/img/architecture_diagram.png" src="https://raw.githubusercontent.com/grafana/oncall/dev/docs/img/architecture_diagram.png" /></a><br />
+<br />
+<figcaption>oncall architecture</figcaption></li>
+</ul>
+</li>
+</ul>
+<p></figure markdown><br />
+  - Grafana Alerting<br />
+  - Grafana Server<br />
+  - VictoriaMetrics Operator<br />
+  - Loki<br />
+  - Mimir<br />
+- Migrate less-involved services to k8s first<br />
+  - Deploy and configure chart for k8s<br />
+  - Test data storage, backups and restore from backups<br />
+  - Migration from Prometheus alerts to Grafana alerts</p>
+<ul>
+<li>Additional services to integrate in the future<h2 id="-synthetic-testing-w-k6">- Synthetic testing w/ K6<a class="headerlink" href="#-synthetic-testing-w-k6" title="Permanent link">&para;</a></h2>
+</li>
+</ul>
 <h2 id="references">References<a class="headerlink" href="#references" title="Permanent link">&para;</a></h2>
 <ul>
 <li></li>
@@ -4218,7 +4282,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">August 19, 2024 20:44:08</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">August 21, 2024 11:07:37</span>
   </span>
 
     

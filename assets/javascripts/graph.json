@@ -680,7 +680,7 @@
     },
     {
       "id": "113",
-      "name": "observability_stack_on_kubernetes",
+      "name": "Observability stack on k8s",
       "symbolSize": 0,
       "value": "/work/observability_stack_on_kubernetes/"
     },
