@@ -26,3 +26,7 @@ I grabbed a fairly budget secondary switch as I needed PoE to power my Unifi AP.
 ![My current home networking setup](https://res.cloudinary.com/drwjkxxud/image/upload/v1722051055/home_networking.drawio_drfiqj.png)
 
 Currently everything is sitting on my [[hardware|server rack]] on the same network, I will need to play around with VLANs to properly segment the network and isolate guest, IoT and server traffic.
+
+## References
+
+- [HomeNetworkGuy](https://homenetworkguy.com/how-to/set-up-a-fully-functioning-home-network-using-opnsense)
