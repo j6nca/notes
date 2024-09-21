@@ -3,7 +3,6 @@ name: cicd
 on:
   push:
     branches:
-      - master 
       - main
 
 concurrency:
@@ -20,6 +19,7 @@ defaults:
 
 jobs:
   deploy:
+    if: ${{ false }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
