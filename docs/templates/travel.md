@@ -17,4 +17,3 @@ created: "{{date}}"
 
 ## Photos
 
-## Packing
