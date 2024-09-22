@@ -13,4 +13,4 @@ created: 2023-08-09
 
 Welcome to my digital garden. I've created this space as a second brain for myself to document and share [[learning/index|notes]], [[food/index|food]], [[keyboards/index|keyboards]], [[moments|photos]], [[projects/guitar|projects]], and [[hobbies/index|hobbies]]. Hope you enjoy your stay!
 
-This site is generated via [mkdocs](https://www.mkdocs.org/). I use [obsidian.md](https://obsidian.md) to write and organize my notes.
+This site is generated via [quartz](https://quartz.jzhao.xyz). I use [obsidian.md](https://obsidian.md) to write and organize my notes.
