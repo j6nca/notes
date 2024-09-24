@@ -1,11 +1,12 @@
 ---
 tags:
   - WIP
-created: "{{date}}"
-title: {{title}}
+created: 2024-09-24
+title: alerting
 ---
+test
 
-# {{title}}
+# alerting
 
 ## Media
 

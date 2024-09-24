@@ -3,6 +3,7 @@ tags:
   - travel
   - WIP
 created: 2024-09-02
+title: {{title}}
 ---
 
 # Packing  List

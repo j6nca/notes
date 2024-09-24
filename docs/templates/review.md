@@ -7,6 +7,7 @@ tags:
   - ⭐⭐⭐⭐⭐
   - 💸💸💸💸💸
 created: "{{date}}"
+title: {{title}}
 ---
 
 # {{title}}

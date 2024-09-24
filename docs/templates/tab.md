@@ -2,6 +2,7 @@
 tags:
   - music
 created: "{{date}}"
+title: {{title}}
 ---
 
 # {{title}}

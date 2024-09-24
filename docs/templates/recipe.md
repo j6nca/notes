@@ -7,6 +7,7 @@ tags:
   # - airfryer, oven
   # - meal prep
 created: "{{date}}"
+title: {{title}}
 ---
 
 # {{title}}
