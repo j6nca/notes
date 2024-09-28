@@ -4,9 +4,8 @@ tags:
   - landing
   - keyboards
 created: 2024-07-20
+title: Keyboards
 ---
-
-# Keyboards
 
 Here I discuss keyboards, including boards that I've purchased as well as boards I have designed from scratch. I also try to provide some buying [[keyboards/recommendations/index|recommendations]] for those in the market for a new keyboard.
 

@@ -34,3 +34,7 @@
 	- [x] lv 50 firemaking
 	- [x] 500 cakes
 - [ ] Graceful outfit
+
+# References
+
+- https://www.osrsguide.com/osrs-efficient-ironman-guide/

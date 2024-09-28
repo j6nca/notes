@@ -15,7 +15,8 @@ title: Montreal
 ## Planning
 
 - [x] Book AirBnB
-- [ ] Book train tickets
+- [x] Book train tickets
+- [ ] Build itinerary
 
 ## Overview
 
