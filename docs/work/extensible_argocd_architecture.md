@@ -3,9 +3,8 @@ tags:
   - WIP
   - kubernetes
 created: 2024-07-30
+title: Extensible ArgoCD Architecture
 ---
-
-# Extensible ArgoCD Architecture
 
 ## Goals
 

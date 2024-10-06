@@ -2,9 +2,9 @@
 tags:
   - WIP
 created: 2024-08-08
+title: Observability Stack on K8s
 ---
 
-# Observability stack on k8s
 
 Our observability stack currently runs on a series of EC2 nodes. In an effort to improve scalability and management of the various components for Grafana we are moving to deploy this via Kubernetes
 

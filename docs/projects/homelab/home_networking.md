@@ -4,9 +4,9 @@ tags:
   - projects
   - networking
 created: 2024-07-26
+title: Home Networking Setup
 ---
 
-# Home Networking setup
 
 This page will outline my networking setup at home, building deploying a homemade router, replacing the one provided from my ISP.
 

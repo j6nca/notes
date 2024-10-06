@@ -6,9 +6,9 @@ tags:
   - ⭐⭐⭐⭐⭐
   - 💸💸💸💸💸
 created: 2024-07-25
+title: Planta Cocina
 ---
 
-# Planta Cocina
 
 > [!info]
 >📌: [10 Temperance Street, First Floor,  Toronto, ON M5H 1Y4](https://maps.app.goo.gl/AzKPM2t1dLvUiDos7)

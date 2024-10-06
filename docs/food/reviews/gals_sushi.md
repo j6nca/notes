@@ -7,9 +7,8 @@ tags:
   - ⭐⭐⭐⭐
   - 💸💸
 created: 2024-07-19
+title: Gal's Sushi
 ---
-
-# Gal's Sushi
 
 > [!info]
 >📌: [3621 Hwy 7 #106, Markham, ON L3R 0G6](https://maps.app.goo.gl/NcGAPKFkiRehSWA89)

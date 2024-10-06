@@ -3,9 +3,9 @@ tags:
   - travel
   - WIP
 created: 2024-07-27
+title: Montreal
 ---
 
-# Montreal
 
 > [!info]
 >📌: [Address]()

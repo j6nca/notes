@@ -3,9 +3,8 @@ tags:
   - recipe
   - WIP
 created: 2024-07-30
+title: Beef Barbacoa
 ---
-
-# Beef Barbacoa
 
 > [!info]
 > Serving size:

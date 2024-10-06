@@ -6,9 +6,8 @@ tags:
   - ⭐⭐⭐⭐
   - 💸
 created: 2024-07-28
+title: Lucullus Bakers and Roasters
 ---
-
-# Lucullus Bakers and Roasters
 
 > [!info]
 >📌: [169 Enterprise Blvd, Unionville, ON L6G 0A2](https://maps.app.goo.gl/z8EeH5PgbniuBYyUA)

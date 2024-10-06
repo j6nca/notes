@@ -7,9 +7,9 @@ tags:
   - ⭐⭐⭐
   - 💸💸
 created: 2024-07-25
+title: Schwartz Deli
 ---
 
-# Schwartz's Deli
 
 > [!info]
 >📌: [Address]()

@@ -6,9 +6,8 @@ tags:
   - ⭐⭐⭐⭐
   - 💸💸
 created: 2024-07-25
+title: Katz's Deli
 ---
-
-# Katz's Deli
 
 > [!info]
 >📌: [205 E Houston St New York, NY 10002 United States](https://maps.app.goo.gl/4FqZa4wquZyHkRWn6)

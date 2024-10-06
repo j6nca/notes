@@ -6,9 +6,8 @@ tags:
   - ⭐⭐⭐⭐⭐
   - 💸💸💸
 created: July 8, 2024
+title: Piano Piano
 ---
-
-# Piano Piano
 
 > [!info]
 >📌: [623 Mt Pleasant Rd, Toronto, ON M4S 2M9](https://maps.app.goo.gl/iYT4qZSUsxBx9BKR7)

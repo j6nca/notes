@@ -6,9 +6,8 @@ tags:
   - ⭐⭐
   - 💸💸
 created: 2024-07-08
+title: At Origin Coffee
 ---
-
-# At Origin Coffee
 
 > [!info]
 >📌: [687 Mt Pleasant Rd, Toronto, ON M4S 2N2](https://maps.app.goo.gl/AZsrwbtBjPeb11C96)

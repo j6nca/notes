@@ -3,9 +3,9 @@ tags:
   - WIP
   - photography
 created: 2024-07-26
+title: Sunsets
 ---
 
-# Sunsets
 
 ## Photos
 

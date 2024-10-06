@@ -3,9 +3,9 @@ tags:
   - photography
   - WIP
 created: 2024-07-31
+title: Moments
 ---
 
-# Moments
 
 ## Photos
 

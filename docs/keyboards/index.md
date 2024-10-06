@@ -17,6 +17,8 @@ If you're looking for typing tests, my go-to and favourite site to cure boredom 
 
 These are keyboards that I've built or purchased.
 
+### \[Coming Soon\] Corne Wireless
+
 ### Wooting 60HE
 
 This is likely going to be my endgame keyboard for the foresee-able. Hall-effect seems to be the bleeding edge of this input technology and until there is further innovation I don't think I will stray too far from this board (I may occasionally still build boards for the fun of it). Here's hoping that opensource keyboard software supports hall-effect switches soon 😊. List of mods (heavily inspired by [Optimum's video](https://www.youtube.com/watch?v=EuULrGtbDy4)):

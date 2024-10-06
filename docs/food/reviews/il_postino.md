@@ -7,9 +7,8 @@ tags:
   - ★★★★★/☆☆☆☆☆
   - $$$$
 created: 2024-07-19
+title: Il Postino
 ---
-
-# Il Postino
 
 📌: [Address]()
 💸: \$\$\$\$

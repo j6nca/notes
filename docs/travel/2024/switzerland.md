@@ -3,9 +3,9 @@ tags:
   - travel
   - WIP
 created: 2024-07-28
+title: Switzerland
 ---
 
-# Switzerland
 
 > [!info]
 >📌: [Address]()

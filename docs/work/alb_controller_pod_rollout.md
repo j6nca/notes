@@ -4,9 +4,9 @@ tags:
   - kubernetes
   - aws
 created: 2024-07-22
+title: Zero-downtime deployments behind AWS ALB Controller
 ---
 
-# Zero-downtime k8s deployments behind ALB controller
 
 This post dives into the initial setup for k8s releases as well as finally solving a long-present issue that has been present when rolling out changes.
 

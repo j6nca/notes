@@ -3,9 +3,8 @@ tags:
   - recipe
   - WIP
 created: 2024-07-30
+title: Breakfast Sandwich
 ---
-
-# breakfast_sandwich
 
 > [!info]
 > Serving size: 1 Sandwich

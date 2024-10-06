@@ -2,9 +2,9 @@
 tags:
   - WIP
 created: 2024-08-08
+title: Dashboarding
 ---
 
-# comprehensive_overview_dashboard
 
 ## Media
 

@@ -5,9 +5,8 @@ tags:
   - ★★★★★/☆☆☆☆☆
   - $$$$
 created: 2024-07-19
+title: Restaurant Name
 ---
-
-# Restaurant Name
 
 📌: [Address]()
 💸: \$\$\$\$

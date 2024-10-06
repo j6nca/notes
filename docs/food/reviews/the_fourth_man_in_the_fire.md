@@ -7,9 +7,9 @@ tags:
   - ⭐⭐⭐⭐
   - 💸💸💸
 created: 2024-07-23
+title: The Fourth Man in the Fire
 ---
 
-# The Fourth Man in the Fire Pizzeria
 
 > [!info]
 >📌: [832 Dundas St W, Toronto, ON M6J 1V3](https://maps.app.goo.gl/vqqtRNA1zYZN4bVR6)

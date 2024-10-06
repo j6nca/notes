@@ -6,9 +6,8 @@ tags:
   - ⭐⭐⭐⭐
   - 💸💸💸💸💸
 created: 2024-07-08
+title: Fishbone by the Lake
 ---
-
-# Fishbone by the Lake
 
 > [!info]
 >📌: [155 Cedarvale Blvd, Whitchurch-Stouffville, ON L4A 7X3](https://maps.app.goo.gl/7MbmabLp646KaCcd6)

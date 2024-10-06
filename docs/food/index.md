@@ -2,9 +2,8 @@
 tags:
   - landing
 created: 2024-07-29
+title: Food
 ---
-
-# Food
 
 This space is to share my love of food. I plan to include [[food/recipes/index|recipes]] that I've made or am interested in trying, as well as reviews of [[food/reviews/index|restaurants I've been to]].
 

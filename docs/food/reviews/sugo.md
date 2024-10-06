@@ -6,10 +6,9 @@ tags:
   - ⭐⭐⭐⭐⭐
   - 💸💸💸
 created: 2024-07-25
+title: Sugo
 ---
 
-
-# Sugo
 
 > [!info]
 >📌: [1281 Bloor St W, Toronto, ON M6H 1N7](https://maps.app.goo.gl/cKtN3NJNeqtFyYcH7)

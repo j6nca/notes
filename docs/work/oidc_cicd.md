@@ -4,9 +4,8 @@ tags:
   - aws
   - cicd
 created: 2024-07-30
+title: Setting up AWS authentication for CI/CD using OIDC
 ---
-
-# Setting up AWS authentication for CI/CD using OIDC
 
 ## Why?
 
