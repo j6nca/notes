@@ -6,4 +6,3 @@ created: "{{date}}"
 title: {{title}}
 ---
 
-# {{title}}

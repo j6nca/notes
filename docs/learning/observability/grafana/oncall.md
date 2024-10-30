@@ -23,7 +23,7 @@ Oncall is Grafana's incident response management (IRM) solution. It acts as an a
 - Shift: Period of time when a user/team is actively on-call
 - Notification policy: Rules determining how alert notifications are propagated to the user
 - Alert rules: 
-- Integrations:
+- Integrations: Integrations are entry points for alerts. Each integration has a unique URL and routed accordingly
 
 
 ## Media

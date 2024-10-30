@@ -5,8 +5,6 @@ created: "{{date}}"
 title: {{title}}
 ---
 
-# {{title}}
-
 ## Media
 
 ## References

@@ -10,8 +10,6 @@ created: "{{date}}"
 title: {{title}}
 ---
 
-# {{title}}
-
 > [!info]
 > Serving size:
 > Prep time:
