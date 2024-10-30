@@ -2,7 +2,7 @@
 tags:
   - landing
 created: 2023-08-09
-title: Home
+title: hello world
 ---
 
 ![](https://res.cloudinary.com/drwjkxxud/image/upload/v1722396606/the_simpsons_background_by_katrishasunny_dfsjtof-pre_m2toqv.jpg)
