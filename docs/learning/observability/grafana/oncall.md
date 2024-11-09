@@ -11,11 +11,15 @@ title: Oncall
 
 # Oncall
 
-Oncall is Grafana's incident response management (IRM) solution. It acts as an alternative to Prometheus' [AlertManager](../prometheus/alertmanager).
+Oncall is Grafana's incident response management (IRM) solution. It acts as an alternative to other on-call solutions such as PagerDuty and Splunk.
+
+![Oncall component overview](https://grafana.com/static/img/docs/oncall/oncall-alert-workflow.png)
 
 ## Terminology
 
-- Alert group: Set of related alerts grouped by a common attribute
+A list of common terms when referencing Grafana Oncall.
+
+- Alert group: Set of related alerts grouped by common attributes and routed via escalation chains. Grouping reduces alert noise, reducing toil for IREs
 - Escalation chain: Set of steps defining how alerts are directed to on-call schedules and users
 - Routes: Configuration to route alerts to responders or channels
 - On-call schedule: Calendar schedule to determine who is on-call at a given time
@@ -25,8 +29,6 @@ Oncall is Grafana's incident response management (IRM) solution. It acts as an a
 - Alert rules: 
 - Integrations: Integrations are entry points for alerts. Each integration has a unique URL and routed accordingly
 
-
-## Media
 
 ## References
 
