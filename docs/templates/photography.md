@@ -6,4 +6,4 @@ created: "{{date}}"
 title: {{title}}
 ---
 
-## Photos
+# Photos

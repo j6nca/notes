@@ -15,23 +15,23 @@ title: {{title}}
 > Prep time:
 > Cooking time:
 
-## Macros
+# Macros
 
 |  | Carbs (g) | Proteins (g) | Fats (g) | Cals (kcal) |
 | --- | --- | --- | --- | --- |
 |  |  |  |  |  |
 |  |  |  |  |  |
 
-## Ingredients
+# Ingredients
 
-## Kitchen Items
+# Kitchen Items
 
-## Preparation
+# Preparation
 
-## Photos
+# Photos
 
-## Notes
+# Notes
 
-## References
+# References
 
 - []()
