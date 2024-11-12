@@ -1,6 +1,9 @@
 ---
 tags:
   - WIP
+  - helm
+  - kubernetes
+  - automation
 created: 2024-11-11
 title: Automating Helm Dependency Versioning
 ---
@@ -28,4 +31,8 @@ The cadence for syncing between main and stable and is stable and production is 
 
 # References
 
-- 
+- https://docs.renovatebot.com/modules/manager/helmv3/
+- https://docs.renovatebot.com/modules/manager/helm-values/
+- https://docs.renovatebot.com/getting-started/installing-onboarding/
+- https://docs.renovatebot.com/key-concepts/presets/
+- https://docs.renovatebot.com/key-concepts/dashboard/
