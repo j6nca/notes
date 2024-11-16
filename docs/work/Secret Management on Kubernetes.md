@@ -4,7 +4,7 @@ tags:
   - homelab
   - kubernetes
   - gitops
-created: 2024-11-09
+date: 2024-11-09
 title: Secret Management on Kubernetes
 ---
 
@@ -20,6 +20,7 @@ You can create the secret and then copy the manifest to your repo (make sure you
 kubectl create secret generic op-credentials-test -n secret-ops --from-literal=1password-credentials.json="$(cat /path/to/1password-credentials.json | base64)"
 ```
 
+Now that we've deployed Connect, we will deploy external-secrets to setup and handle secret retrieval. For simplicity's sake, we will use a single ClusterSecretStore to handle retrieving secrets across the cluster.
 
 # References
 

@@ -3,7 +3,7 @@ tags:
   - WIP
   - projects
   - networking
-created: 2024-07-26
+date: 2024-07-26
 title: Home Networking Setup
 ---
 

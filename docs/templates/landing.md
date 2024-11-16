@@ -1,7 +1,7 @@
 ---
 tags:
   - landing
-created: "{{date}}"
+date: "{{date}}"
 title: {{title}}
 ---
 

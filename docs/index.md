@@ -1,7 +1,7 @@
 ---
 tags:
   - landing
-created: 2023-08-09
+date: 2023-08-09
 title: hello world
 ---
 

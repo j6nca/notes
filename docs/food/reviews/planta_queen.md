@@ -6,7 +6,7 @@ tags:
   - cuisine
   - ⭐⭐⭐
   - 💸💸💸💸💸
-created: 2024-07-26
+date: 2024-07-26
 title: Planta Queen
 ---
 

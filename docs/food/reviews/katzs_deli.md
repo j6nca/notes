@@ -5,7 +5,7 @@ tags:
   - deli
   - ⭐⭐⭐⭐
   - 💸💸
-created: 2024-07-25
+date: 2024-07-25
 title: Katz's Deli
 ---
 

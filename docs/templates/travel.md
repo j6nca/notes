@@ -2,7 +2,7 @@
 tags:
   - travel
   - WIP
-created: "{{date}}"
+date: "{{date}}"
 title: {{title}}
 ---
 

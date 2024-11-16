@@ -6,7 +6,7 @@ tags:
   # - low carb, protein
   # - airfryer, oven
   # - meal prep
-created: "{{date}}"
+date: "{{date}}"
 title: {{title}}
 ---
 

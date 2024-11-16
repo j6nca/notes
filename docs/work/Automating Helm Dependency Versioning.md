@@ -4,7 +4,7 @@ tags:
   - helm
   - kubernetes
   - automation
-created: 2024-11-11
+date: 2024-11-11
 title: Automating Helm Dependency Versioning
 ---
 

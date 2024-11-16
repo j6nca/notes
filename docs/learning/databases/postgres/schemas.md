@@ -1,7 +1,7 @@
 ---
 tags:
   - WIP
-created: 2024-10-11
+date: 2024-10-11
 title: Schemas
 ---
 

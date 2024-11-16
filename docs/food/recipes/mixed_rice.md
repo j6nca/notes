@@ -2,7 +2,7 @@
 tags:
   - recipe
   - WIP
-created: 2024-07-29
+date: 2024-07-29
 title: Mixed Rice
 ---
 

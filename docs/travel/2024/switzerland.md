@@ -2,7 +2,7 @@
 tags:
   - travel
   - WIP
-created: 2024-07-28
+date: 2024-07-28
 title: Switzerland
 ---
 

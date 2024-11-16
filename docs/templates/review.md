@@ -6,7 +6,7 @@ tags:
   - cuisine
   - ⭐⭐⭐⭐⭐
   - 💸💸💸💸💸
-created: "{{date}}"
+date: "{{date}}"
 title: {{title}}
 ---
 

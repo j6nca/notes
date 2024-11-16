@@ -1,7 +1,7 @@
 ---
 tags:
   - WIP
-created: 2024-10-31
+date: 2024-10-31
 title: Enabling metrics for VPC CNI
 ---
 

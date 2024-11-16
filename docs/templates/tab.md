@@ -1,7 +1,7 @@
 ---
 tags:
   - music
-created: "{{date}}"
+date: "{{date}}"
 title: {{title}}
 ---
 

@@ -2,7 +2,7 @@
 tags:
   - WIP
   - kubernetes
-created: 2024-07-30
+date: 2024-07-30
 title: Building Ephemeral Environments
 ---
 

@@ -5,7 +5,7 @@ tags:
   - vegan
   - ⭐⭐⭐⭐⭐
   - 💸💸💸💸💸
-created: 2024-07-25
+date: 2024-07-25
 title: Planta Cocina
 ---
 

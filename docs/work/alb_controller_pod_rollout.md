@@ -3,7 +3,7 @@ tags:
   - WIP
   - kubernetes
   - aws
-created: 2024-07-22
+date: 2024-07-22
 title: Zero-downtime deployments behind AWS ALB Controller
 ---
 

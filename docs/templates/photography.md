@@ -2,7 +2,7 @@
 tags:
   - photography
   - WIP
-created: "{{date}}"
+date: "{{date}}"
 title: {{title}}
 ---
 

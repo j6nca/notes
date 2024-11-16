@@ -6,7 +6,7 @@ tags:
   - korean
   - ⭐⭐⭐⭐
   - 💸💸
-created: 2024-07-19
+date: 2024-07-19
 title: Gal's Sushi
 ---
 

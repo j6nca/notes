@@ -1,7 +1,7 @@
 ---
 tags:
   - WIP
-created: 2024-10-24
+date: 2024-10-24
 title: EKS Networking
 ---
 

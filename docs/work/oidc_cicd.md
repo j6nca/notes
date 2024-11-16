@@ -3,7 +3,7 @@ tags:
   - WIP
   - aws
   - cicd
-created: 2024-07-30
+date: 2024-07-30
 title: Setting up AWS authentication for CI/CD using OIDC
 ---
 

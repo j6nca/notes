@@ -2,7 +2,7 @@
 tags:
   - recipe
   - WIP
-created: 2024-07-30
+date: 2024-07-30
 title: Beef Barbacoa
 ---
 

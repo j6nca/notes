@@ -4,7 +4,7 @@ tags:
   - WIP
   - ★★★★★/☆☆☆☆☆
   - $$$$
-created: 2024-07-19
+date: 2024-07-19
 title: Restaurant Name
 ---
 

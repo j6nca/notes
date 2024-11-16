@@ -1,7 +1,7 @@
 ---
 tags:
   - WIP
-created: 2024-11-12
+date: 2024-11-12
 title: Building a Personal Blog Site
 ---
 

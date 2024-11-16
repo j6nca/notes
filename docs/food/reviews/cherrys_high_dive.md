@@ -6,7 +6,7 @@ tags:
   - cuisine
   - ⭐⭐⭐⭐⭐
   - 💸💸💸💸
-created: 2024-07-25
+date: 2024-07-25
 title: Cherry's High Dive
 ---
 
