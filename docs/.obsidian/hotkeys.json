@@ -1,0 +1,11 @@
+{
+  "obsifetch:show-obsifetch": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "\\"
+    }
+  ]
+}
