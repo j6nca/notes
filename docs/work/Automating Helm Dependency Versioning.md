@@ -22,7 +22,9 @@ There are a few options to host renovatebot
 
 - Mend offers an easy to set up GitHub application to get started with renovatebot for free
 	- I believe we already use this setup and frankly don't see the need to self-host this at the moment
-- We can also self-host renovatebot on our own infrastructure with various options for deployment
+- We can also self-host renovatebot on our own infrastructure with various options for deployment, notably:
+	- kubernetes cronjob
+	- github workflow
 
 ## Considerations
 
