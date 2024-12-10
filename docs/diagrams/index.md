@@ -1,0 +1,1 @@
+Tracking diagrams used within the blog. The file structure here should mimic the folder directories of the notes (atleast those that need diagrams).

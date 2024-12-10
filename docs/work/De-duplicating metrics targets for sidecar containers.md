@@ -58,6 +58,41 @@ Ideally we could look at combining this check to see if the port exposed is equa
 
 # Understanding the Discovery.relabel alloy component
 
+The resulting block takes targets in and de-duplicates targets from the same pod, where the exposed annotation port number doesnt match the containers port.
+
+```
+// Drop sidecar pods from target list to prevent metric duplication.
+// This works by checking the containers exposed ports with the port defined in the scrape annotation.
+
+discovery.relabel "annotation_autodiscovery_pods_drop_sidecars" {
+	targets = discovery.relabel.annotation_autodiscovery_pods.output
+	
+	rule {
+		// List of labels whose values to select upon
+		source_labels = ["__meta_kubernetes_pod_annotation_{{ include "escape_label" .Values.metrics.autoDiscover.annotations.metricsPortNumber }}"]
+		
+		// match label@value to regex
+		regex = "(.+)"
+		
+		//write to temp label
+		target_label = "__tmp_port_number"
+	}
+	
+	rule {
+		// only keep targets in which container port matches __tmp_port_number
+		source_labels = ["__meta_kubernetes_pod_container_port_number"]
+		action = "keepequal"
+		target_label = "__tmp_port_number"
+	}
+	
+	rule {
+		action = "labeldrop"
+		regex = "__tmp_port_number"
+	}
+}
+```
+
+In hindsight we actually see something similar applied in the k8s-monitoring chart, but only towards portName (not sure why portNumber is excluded here). Which indicates we were on the right track!
 
 # References
 
