@@ -20,3 +20,7 @@ Below is a list of hardware used in my current home lab set up.
 | POE Switch | |
 | Rack mountable UPS | |
 | Rack mountable PC cases | |
+
+![Server rack](../../diagrams/homelab_hardware.drawio)
+
+![[../../diagrams/homelab_hardware.drawio]]
