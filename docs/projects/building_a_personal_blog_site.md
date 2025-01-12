@@ -2,7 +2,7 @@
 tags:
   - WIP
 date: 2024-11-12
-title: Building a Personal Blog Site
+title: Building A Personal Blog Site
 ---
 
 # Background
@@ -11,7 +11,19 @@ I've always liked the idea of keeping notes organized and together (whether that
 
 ## Requirements
 
-I needed a static site generator that could easily integrate with my notes and ideally bring some functionality from Obsidian itself. I initially started with a barebones mkdocs setup, eventually adding some Obsidian-esque plugins to make the experience browsing the site as similar. I eventually came across Quartz
+I needed something that could:
+- Easily integrate with my notes
+	- Ideally my notes can be kept separate, and all I need to d
+- Ideally bring some functionality from Obsidian itself
+	- Namely the visualizations and tagging, I liked how the graph drew links between relevant notes
+
+## Rev. 1
+
+I initially started with a barebones mkdocs setup, a popular static site generator for documentation. I eventually added some Obsidian-esque plugins to make the experience browsing the site as similar.
+
+## Rev. 2
+
+I eventually came across Quartz which does some of the visualizations out of the box. I was also a fan of its design and decided to switch SSGs.
 
 # Media
 

@@ -7,11 +7,11 @@ date: 2024-07-30
 title: Setting up AWS authentication for CI/CD using OIDC
 ---
 
-## Why?
+# Background
 
 Remove reliance on long-lived keys for AWS access with on-demand temporary access.
 
-## Setup
+# Setup
 
 We create an OIDC identity provider in AWS:
 

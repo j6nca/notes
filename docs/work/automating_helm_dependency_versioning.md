@@ -12,7 +12,7 @@ title: Automating Helm Dependency Versioning
 
 As we deploy more and more services to kubernetes, there is additional effort required to maintain charts and services to ensure regular cadence of upgrades to get the latest changes for new features and security updates. Currently this process is largely manual with no automated direct channel for new versions.
 
-# Automating
+# "Automate the things!"
 
 Here is where renovate/renovatebot comes in. Renovate is an OSS alternative to dependabot with support for helm charts (not yet available with dependabot) and allows us to configure a powerful yet flexible automation for continuously upgrading our helm chart dependencies.
 

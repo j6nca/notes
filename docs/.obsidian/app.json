@@ -2,5 +2,8 @@
   "defaultViewMode": "source",
   "newFileLocation": "current",
   "livePreview": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "showLineNumber": true,
+  "tabSize": 2,
+  "vimMode": false
 }

@@ -2,7 +2,7 @@
 tags:
   - WIP
 created: 2024-11-28
-title: Deduplicating metrics targets for sidecar containers
+title: Deduplicating Metrics Targets For Sidecar Containers
 ---
 
 # Background
