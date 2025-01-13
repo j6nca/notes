@@ -3,7 +3,7 @@ tags:
   - travel
   - WIP
 date: 2024-07-27
-title: Japan
+title: 08 Japan
 ---
 
 

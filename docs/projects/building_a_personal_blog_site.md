@@ -25,8 +25,6 @@ I initially started with a barebones mkdocs setup, a popular static site generat
 
 I eventually came across Quartz which does some of the visualizations out of the box. I was also a fan of its design and decided to switch SSGs.
 
-# Media
-
 # References
 
 - 

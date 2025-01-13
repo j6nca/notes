@@ -3,7 +3,7 @@ tags:
   - travel
   - WIP
 date: 2025-01-12
-title: 03 japan
+title: 03 Japan
 ---
 
 > [!info]
