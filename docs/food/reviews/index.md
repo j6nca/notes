@@ -14,19 +14,17 @@ This is a collection of food reviews from places I've visited. All opinions are 
 - atmosphere
 - value
 
-## Map
+# Map
 
 I'm a data hoarder, so here is a map of all tracking all those places (I'll try to keep it up-to-date):
 
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1NR-pbPHQSmeQwVRv62w4s1GTbKFDNtY&ehbc=2E312F" width="640" height="480"></iframe>
 
-Note: If the above widget does not work, try [here](https://www.google.com/maps/d/u/0/edit?mid=1NR-pbPHQSmeQwVRv62w4s1GTbKFDNtY&usp=sharing)
-
-## Legend
+# Legend
 
 A general breakdown for my thoughts behind each value.
 
-### Pricing
+## Pricing
 
 | Symbol    | Meaning |
 |-----------|---------|
@@ -36,7 +34,7 @@ A general breakdown for my thoughts behind each value.
 | 💸💸💸💸   | <= $100/person |
 | 💸💸💸💸💸 | > $100/person |
 
-### Rating
+## Rating
 
 | Symbol    | Meaning |
 |-----------|---------|
