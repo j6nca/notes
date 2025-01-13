@@ -1,4 +1,11 @@
-# Reviews
+---
+tags:
+  - review
+  - food
+  - landing
+date: 2024-07-19
+title: Reviews
+---
 
 This is a collection of food reviews from places I've visited. All opinions are subjective and my own. I've based these decisions based on the following factors:
 
