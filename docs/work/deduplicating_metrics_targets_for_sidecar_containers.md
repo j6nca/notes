@@ -62,7 +62,7 @@ Ideally we could look at combining this check to see if the port exposed is equa
 
 # Understanding the Discovery.relabel alloy component
 
-The resulting block takes targets in and de-duplicates targets from the same pod, where the exposed annotation port number doesnt match the containers port.
+The resulting block takes targets in and de-duplicates targets from the same pod, where the exposed annotation port number doesn't match the containers port.
 
 ```
 // Drop sidecar pods from target list to prevent metric duplication.
@@ -70,7 +70,12 @@ The resulting block takes targets in and de-duplicates targets from the same pod
 
 discovery.relabel "annotation_autodiscovery_pods_drop_sidecars" {
 	targets = discovery.relabel.annotation_autodiscovery_pods.output
-	
+
+	rule {
+		source_labels = ["__meta_kubernetes_pod_container_port_number"]
+		target_label = "__tmp_port_number"
+	}
+
 	rule {
 		// List of labels whose values to select upon
 		source_labels = ["__meta_kubernetes_pod_annotation_{{ include "escape_label" .Values.metrics.autoDiscover.annotations.metricsPortNumber }}"]
@@ -96,7 +101,7 @@ discovery.relabel "annotation_autodiscovery_pods_drop_sidecars" {
 }
 ```
 
-In hindsight we actually see something similar applied in the k8s-monitoring chart, but only towards portName (not sure why portNumber is excluded here). Which indicates we were on the right track!
+In hindsight we actually see something similar applied in the k8s-monitoring chart, but only towards portName (not sure why portNumber is excluded here). Which indicates we were on the right track! Applying the above change resolved our issue of duplicate metric scraping. You can find the fix in [this PR opened in the k8s-monitoring chart](https://github.com/grafana/k8s-monitoring-helm/pull/988).
 
 # References
 
