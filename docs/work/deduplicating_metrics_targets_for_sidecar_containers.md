@@ -1,6 +1,7 @@
 ---
 tags:
   - WIP
+  - kubernetes
 created: 2024-11-28
 title: Deduplicating Metrics Targets For Sidecar Containers
 ---
@@ -8,6 +9,9 @@ title: Deduplicating Metrics Targets For Sidecar Containers
 # Background
 
 After rolling out Grafana Alloy to collect metrics across our kubernetes infrastructure, we observed duplication of metrics coming from containers running additional sidecars (i.e for vault secret injection). This was deduced when we checked alloy UI and it displayed each container from the same pod as a scrape target. This resulting in metric duplication seen when querying the metrics via Grafana.
+
+> [!info]
+> You can port-forward the alloy ui service to assist in debugging what targets are being registered
 
 ```
 // Targets registered under `discovery.relabel.annotation_autodiscovery_pods`

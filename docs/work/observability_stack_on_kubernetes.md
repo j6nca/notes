@@ -5,7 +5,6 @@ date: 2024-08-08
 title: Observability Stack on K8s
 ---
 
-
 > [!faq]- Disclaimer: 
 > This isn't a guide, this post just outlines my approach at achieving a solution.
 
