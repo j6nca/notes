@@ -22,6 +22,14 @@ Our goals for this trip are the following:
 - Shopping and eating 😋
 - Seeing attractions and amusement parks 🗻
 
+Some of the things I'm hoping to pickup while we are in Japan:
+
+- [ ] A pair of Onitsuka Tiger Mexico 66
+- [ ] Locally roasted coffee
+- [ ] Some small souvenirs for friends
+- [ ] Japanese denim
+- [ ] A gyuto knife (Chef's knife)
+
 # Planning
 
 ## JR Travel
@@ -61,6 +69,10 @@ For this trip we decided to try out a tool called [wanderlog](https://wanderlog.
 ### Leg 1 - Tokyo
 
 #### Day 1-3
+
+#### Day 2
+
+The 
 
 ### Leg 2 - Osaka and Kyoto
 
