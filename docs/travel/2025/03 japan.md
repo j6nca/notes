@@ -18,9 +18,9 @@ title: 03 Japan
 
 Our goals for this trip are the following:
 
-- See the cherry blossoms
+- See the cherry blossoms 🌸
 - Shopping and eating 😋
-- Seeing some attractions and amusement parks
+- Seeing attractions and amusement parks 🗻
 
 # Planning
 
@@ -30,23 +30,23 @@ With the changes to JR Pass in 2023, buying the full JR Pass is no longer the be
 
 ![Hokuriku Arch Pass Coverage](https://www.japan-guide.com/g23/map_pass_10.png)
 
-However, the trade-off is that the Hokuriku line passes through Kanazawa, which is not a direct path to Osaka and doubles the trip length (~2.5 hrs -> 5 hrs). Due to this difference in travel time, we re-evaluated and are deciding to purchase individual travel tickets through Japan.
-
 > [!info]
 > You can book the Hokuriku Arch Pass up to one month in advance
 
 ```markdown
-| Pass               | Price (JPY) |
-|--------------------|-------------|
-| JR Pass            | 50000       |
-| Hokuriku Arch Pass | 24500       |
+| Pass               | Price (JPY) | Duration (hr) |
+|--------------------|-------------|---------------|
+| JR Pass            | 50000       | 2.5           |
+| Hokuriku Arch Pass | 24500       | 5             |
 ```
 
+However, the trade-off is that the Hokuriku line passes through Kanazawa, which is not a direct path to Osaka and doubles the trip length (~2.5 hrs -> 5 hrs). Due to this difference in travel time, we re-evaluated and are deciding to purchase individual travel tickets through Japan. This comes out to a bit more than the Hokuriku Arch pass (round trip for individual tickets would be around 29000 JPY).
+
 ```markdown
-| Trip           | Price (JPY) |
-|----------------|-------------|
-| Tokyo -> Osaka |             |
-| Osaka -> Kyoto |             |
+| Trip           | Price (JPY) | Duration (hr) |
+|----------------|-------------|---------------|
+| Tokyo -> Osaka | 14000       | 2.5           |
+| Osaka -> Kyoto |   500       | 0.5           |
 ```
 
 Some useful tools we used to crunch numbers and understand pass coverage:
@@ -75,6 +75,10 @@ We want to be in Kyoto in the early morning to take advantage of the quieter env
 ### Leg 3 - Tokyo
 
 #### Day 9-14
+
+#### Day 10 - Cecile's Birthday! 🎉
+
+The plan is to start the day off exploring the Tsukiji market and get food. In the afternoon we will head over to TeamLabs Borderless for their interactive art installation, and then go to a character cafe for one of Cece's favourites - Miffy. We'll probably spend some more time shopping and exploring the area before we head back to the area around our hotel for dinner at Primo Passo and live jazz at Cotton Club. 
 
 # Map
 
