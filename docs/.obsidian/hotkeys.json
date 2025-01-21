@@ -26,22 +26,22 @@
       "key": "-"
     }
   ],
-  "change-case:snake": [
-    {
-      "modifiers": [
-        "Alt",
-        "Shift"
-      ],
-      "key": "-"
-    }
-  ],
   "change-case:capital": [
     {
       "modifiers": [
-        "Alt",
+        "Ctrl",
         "Shift"
       ],
       "key": "="
+    }
+  ],
+  "change-case:snake": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "-"
     }
   ]
 }
