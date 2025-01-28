@@ -1,14 +1,8 @@
 ---
 tags:
-  - WIP
+  - bookmarks
 date: "{{date}}"
 title: {{title}}
 ---
 
-# Background
-
-# Media
-
-# References
-
-- 
+- [ ] []()

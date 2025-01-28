@@ -25,6 +25,7 @@ Goals:
 - extends to multiple aws regions
 - main representative of production / source of truth
 - componentization
+- releases/deployments are tracked in code as well as "live state"
 
 Additional features:
 - support for gatus scraping out-of-the-box
@@ -39,6 +40,8 @@ It was important that each `component` encapsulated everything needed for that c
 Most of these were a matter of bundling additional security groups and/or other resources to facilitate the ability for parts of the observability stack to collect metrics on services.
 
 # Exploration
+
+## WYSIWYG
 
 After jotting out some of the big ideas we wanted for this repo, it was time to start building it out and testing what ideas are possible and what drawbacks we may expect to see come forward with different approaches. There were two primary trains of thought that were identified each with their own advantages and disadvantages.
 
@@ -59,6 +62,47 @@ terraform
 		- gatus
 	- eu-central-1
 - staging
+```
+
+However, WYSIWYG had the downside of not really scaling if our responsibilities gradually grew over time. We decided to go back to the drawing board. After some more bouncing of ideas - we landed on something promising. Deciding to incorporate modularization (to address the issue mentioned above) as well as a release branching strategy, allowing us to capture the state of an environment as a version and managing changes in production by promoting said versions. Versioning like this, allows us to have both states of staging and production in code which is a huge plus.
+
+```
+terraform
+- modules
+	- ecs-cluster
+	- ecs-service
+	...
+- production
+	- us-east-1
+		- gatus
+		...
+	- eu-central-1
+	...
+- staging
+```
+
+## Release branching
+
+```
+|  x (release-n): -> production
+| /
+x (main): staging
+|
+|  x (release-1): -> previously production
+| /
+x
+```
+
+## Ignore: just some rough work
+
+```
+|  x release branch: 
+| /
+x hotfix   x release-v2.1.1
+|        /
+|      x release-v2.1.0
+|     /
+x ---
 ```
 
 # References
