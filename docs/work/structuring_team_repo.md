@@ -93,6 +93,8 @@ x (main): staging
 x
 ```
 
+We will eventually also need to lock down these release branches. They should only be created via automation.
+
 ## Ignore: just some rough work
 
 ```
