@@ -14,7 +14,7 @@ title: Managing IRM As Code
 
 We use Grafana Oncall to manage our IRE rotations. In the case of DR and for convenience - we want to have the ability to manage and configure what we can in code - this allows us to formally review access changes before they are rolled out.
 
-# Setting up your team
+# Setting up your team in Grafana Oncall
 
 We are using terraform, setup with Grafana's providers to manage these resources. Currently in order to setup a new team with alerting/escalation chain we add the following files:
 
@@ -91,6 +91,10 @@ resource "grafana_oncall_escalation" "teamA_step_0" {
 	position = 0
 }
 ```
+
+# Creating alerts
+
+
 
 # References
 
