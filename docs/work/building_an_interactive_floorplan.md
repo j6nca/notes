@@ -51,7 +51,7 @@ Another thing to note is when creating the renders, the time of day plays a big 
 
 Next I loaded up the light layer renders into GIMP (you can use any photo editor of your choosing that supports transparency) and started cropping out each room/section illuminated by light. By the end of this you should have a working prototype of the floorplan that you can toggle the lights on based on their layer visibility. For my example, this took a lot more time and effort since there were a lot of areas that overlapped (den, foyer, living room, kitchen). This is a bit more tricky as light bleeds out in various areas that we need to crop and account for as well, if you have doors properly segmenting all these areas, this should be no issue at all.
 
-## Configuration Home Assitant
+## Configuring Home Assistant
 
 Once all the images are rendered and cropped, we are ready to put it all together in Home Assistant.
 
