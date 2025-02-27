@@ -3,6 +3,7 @@ tags:
   - kubernetes
   - kustomize
   - WIP
+  - work
 date: 2024-07-30
 title: Metadata Labeling
 ---

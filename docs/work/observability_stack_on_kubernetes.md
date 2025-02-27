@@ -5,7 +5,7 @@ date: 2024-08-08
 title: Observability Stack on K8s
 ---
 
-> [!faq]- Disclaimer: 
+> [!faq] Disclaimer: 
 > This isn't a guide, this post just outlines my approach at achieving a solution.
 
 Our observability stack currently runs on a series of EC2 nodes. In an effort to improve scalability and management of the various components for Grafana we are moving to deploy this via Kubernetes

@@ -6,7 +6,7 @@ date: 2024-07-30
 title: Building Ephemeral Environments
 ---
 
-> [!faq]- Disclaimer: 
+> [!faq] Disclaimer: 
 > This isn't a guide, this post just outlines my approach at achieving a solution.
 
 # Background

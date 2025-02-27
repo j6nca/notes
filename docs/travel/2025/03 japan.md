@@ -32,6 +32,14 @@ Some of the things I'm hoping to pickup while we are in Japan:
 
 # Planning
 
+## TODOs
+
+- [x] Purchase flights
+- [x] Decide which cities we will be on which days
+- [x] Book hotels
+- [ ] Buy train tickets
+- [ ] Make reservations
+
 ## JR Travel
 
 With the changes to JR Pass in 2023, buying the full JR Pass is no longer the best option for flexibility and budget when travelling within Japan. Luckily there are new passes introduced that still meet our use-case (roughly the golden path). During our time in Japan this year, we will be visiting Tokyo, Osaka and Kyoto. The Hokuriku Arch Pass covers all these stops for about half the price of the full JR Pass. Another benefit of getting one of these rail passes is that it covers travel along the Yamanote line. 

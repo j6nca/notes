@@ -1,11 +1,15 @@
 ---
 tags:
   - WIP
+  - work
+  - terraform
+  - cicd
+  - gitops
 date: 2025-01-13
 title: Structuring Team Repo
 ---
 
-> [!faq]- Disclaimer: 
+> [!faq] Disclaimer: 
 > This isn't a guide, this post just outlines my thought process and resulting approach.
 
 # Background
@@ -49,11 +53,11 @@ After jotting out some of the big ideas we wanted for this repo, it was time to 
 	1. There was also an idea to version modules using git refs but a good point was raised where multiple terraform modules within one git repo along with code that consumes it doesn't really work and presents a chicken vs egg situation when trying to pull said versioned modules. 
 2. Another approach was more focused on keeping environments in-line with each other, using `.tfvars` files to layer environmental changes. 
 	1. The benefit of this is also its drawback - that is flexibility within the environment. If additional resources needed to be deployed to staging - this would add a layer of complexity to this approach.
-	2. Additionally, there was no solid way to manage backend using this approach as variables are not permitted in the backend block and having to introduce a parameter to set the correct state everytime terraform is run against it can be cumbersome in addition to error-prone (I've done something similar in the past working with [[building_ephemeral_environments]] and it was a painpoint then, the only consolidation being those were with ephemeral environments where a mistake could just be wiped and recreated, I would definitely not want to introduce this pattern into a staging -> production scenario.
+	2. Additionally, there was no solid way to manage backend using this approach as variables are not permitted in the backend block and having to introduce a parameter to set the correct state everytime terraform is run against it can be cumbersome in addition to error-prone (I've done something similar in the [[building_ephemeral_environments | past ]] and it was a painpoint then, the only consolidation being those were with ephemeral environments where a mistake could just be wiped and recreated, I would definitely not want to introduce this pattern into a staging -> production scenario.
 
 Both approaches had the benefit of keeping things DRY. Both also contradict our goal of keeping main a representation of live state in production. 
 
-In the end, we settled on a simple, WYSIWYG approach for the structure. Landing on a commonly used structure following a `account/env > region > component` pattern for organizing terraform configuration.
+In the end, we settled on a simple, WYSIWYG approach for the structure. Landing on a commonly used structure following a `account/env > region > component` pattern for organizing terraform configuration. Each directory has its own state - and changes are applied on merge.
 
 ```
 terraform

@@ -5,7 +5,7 @@ date: 2024-10-31
 title: Enabling metrics for VPC CNI
 ---
 
-> [!faq]- Disclaimer: 
+> [!faq] Disclaimer: 
 > This isn't a guide, this post just outlines my approach at achieving a solution.
 
 ## Background
