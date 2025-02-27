@@ -14,4 +14,16 @@ Just collecting some of my thoughts and ideas for the interview process.
 promql
 scripting
 PR review?
+terraform
 
+# Question bank
+
+How would you setup terraform in a collaborative/team environment?
+
+See if hes familiar with monitoring/observability tools
+
+What are some key metrics you would look at to gauge the health of  a service
+
+Four golden signals...
+
+Difference between daemonset, statefulset, deployment

@@ -13,7 +13,10 @@ This document goes over interesting tooling
 - Grafana
 - DataDog
 
-## 
+## Development / Testing
+
+- Telepresence
+- mirrord
 
 
 ## 

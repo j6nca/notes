@@ -4,7 +4,7 @@ tags:
   - grafana oncall
   - irm
 date: 2025-01-22
-title: Managing IRM As Code
+title: Managing IRM System
 ---
 
 > [!faq]- Disclaimer: 
@@ -94,6 +94,12 @@ resource "grafana_oncall_escalation" "teamA_step_0" {
 
 # Creating alerts
 
+- Ideally we continue manage alerts-as-code
+
+# Alert Routing
+
+- Primarily done via Slack for general alerts
+- Phone call routing for critical alerts \[TODO\]
 
 
 # References

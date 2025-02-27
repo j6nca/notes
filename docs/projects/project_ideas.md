@@ -13,3 +13,4 @@ Wanted to keep track of various ideas for projects. Hopefully I find some time t
 - Fun reskin of kube-ops-view
 - Static site generator for Obsidian
 - Guitar tab builder
+- Tab auto grouper
