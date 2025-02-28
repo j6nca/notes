@@ -85,7 +85,7 @@ elements:
 
 Anddd... voila! After adding a few more lights to the configuration, I ended up with something like this:
 
-![Floorplan](https://res.cloudinary.com/drwjkxxud/image/upload/v1740634360/2025-02-2700-29-24-ezgif.com-crop_dwyora.gif)
+![Floorplan](https://res.cloudinary.com/drwjkxxud/image/upload/v1740711754/ezgif-648ae16309c97c_slxemr.gif)
 
 # References
 
