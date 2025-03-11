@@ -18,7 +18,7 @@ terraform
 
 # Question bank
 
-How would you setup terraform in a collaborative/team environment?
+How would you setup terraform in a collaborative/team environment? What are some considerations?
 
 See if hes familiar with monitoring/observability tools
 
