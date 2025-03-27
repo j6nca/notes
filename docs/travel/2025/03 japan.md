@@ -10,10 +10,6 @@ title: 03 Japan
 >📌: [Address]()
 >📅: `2025-03-29` ➡️ `2025-04-11`
 
-# Overview
-
-
-
 # Goals
 
 Our goals for this trip are the following:
@@ -24,11 +20,16 @@ Our goals for this trip are the following:
 
 Some of the things I'm hoping to pickup while we are in Japan:
 
-- [ ] A pair of Onitsuka Tiger Mexico 66
+- [ ] ~~A pair of Onitsuka Tiger Mexico 66~~ They're too expensive, and I'm not too into that style of shoes
 - [ ] Locally roasted coffee
 - [ ] Some small souvenirs for friends
 - [ ] Japanese denim
-- [ ] A gyuto knife (Chef's knife)
+- [ ] A gyu-to knife (all-purpose chef's knife)
+- [ ] Check out thrift stores (clothes, guitars + pedals, etc.)
+
+## Cafes
+
+Some popular cafes I'll try to check out if in the neighbourhood and time permits.
 
 # Planning
 
@@ -37,8 +38,18 @@ Some of the things I'm hoping to pickup while we are in Japan:
 - [x] Purchase flights
 - [x] Decide which cities we will be on which days
 - [x] Book hotels
+	- [x] Tokyo (part 1)
+	- [x] Osaka
+	- [x] Tokyo (part 2)
 - [ ] Buy train tickets
+	- [x] Tokyo -> Osaka
+	- [ ] Osaka -> Kyoto (will book these closer to the date, they are short trips)
+	- [ ] Kyoto -> Osaka
+	- [x] Osaka -> Tokyo
 - [ ] Make reservations
+	- [x] Shibuya Sky
+	- [x] teamLab Borderless
+	- [x] La Brianza
 
 ## JR Travel
 
@@ -72,7 +83,7 @@ Some useful tools we used to crunch numbers and understand pass coverage:
 
 ## Itinerary
 
-For this trip we decided to try out a tool called [wanderlog](https://wanderlog.com/) to help build out our itinerary. Its quite a helpful tool as it combines mapping and organisation of POI with useful location information and recommendations.
+For this trip we decided to try out a tool called [wanderlog](https://wanderlog.com/) to help build out our itinerary. Its quite a helpful tool as it combines mapping and organization of POI with useful location information and recommendations.
 
 ### Leg 1 - Tokyo
 
