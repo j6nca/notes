@@ -3,10 +3,8 @@ tags:
   - travel
   - WIP
 date: 2024-09-02
-title: {{title}}
+title: Packing List
 ---
-
-# Packing  List
 
 ## Baggage
 
