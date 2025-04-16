@@ -11,6 +11,6 @@ title: hello world
 
 *(noun) system of small items of information stored on paper slips or cards, used for organizing knowledge and taking notes*
 
-Welcome to my digital garden. I've created this space as a second brain for myself to document and share [[learning/index|notes]], [[food/index|food]], [[keyboards/index|keyboards]], [[moments|photos]], [[guitar|projects]], and [[hobbies/index|hobbies]]. Hope you enjoy your stay!
+Welcome to my digital garden. I've created this space as a second brain for myself to document and share [[learning|notes]], [[food|food]], [[keyboards|keyboards]], [[moments|photos]], [[guitar|projects]], and [[hobbies|hobbies]]. Hope you enjoy your stay!
 
 This site is generated via [quartz](https://quartz.jzhao.xyz). I use [obsidian.md](https://obsidian.md) to write and organize my notes.
