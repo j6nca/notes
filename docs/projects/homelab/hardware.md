@@ -1,5 +1,3 @@
-# Homelab Hardware
-
 Below is a list of hardware used in my current home lab set up.
 
 | Components                  | Cost (CAD) |
