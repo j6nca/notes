@@ -11,6 +11,18 @@ title: Food
 >- **[[reviews]]**
 >
 >%% End Waypoint %%
+>- **[[recipes]]**
+>- **[[reviews]]**
+>
+>%% End Waypoint %%
+>- **[[recipes]]**
+>- **[[reviews]]**
+>
+>%% End Waypoint %%
+>- **[[recipes]]**
+>- **[[reviews]]**
+>
+>%% End Waypoint %%
 
 This space is to share my love of food. I plan to include [[recipes|recipes]] that I've made or am interested in trying, as well as reviews of [[reviews|restaurants I've been to]].
 
