@@ -36,7 +36,7 @@ title: Reviews
 >- [[sugo]]
 >- [[sushi_umi]]
 >- [[the_fourth_man_in_the_fire]]
->- [[Untitled]]
+>- [[food/reviews/Untitled]]
 >- [[watercolour]]
 >- [[wonton_hut]]
 >

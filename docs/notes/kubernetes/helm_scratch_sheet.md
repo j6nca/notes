@@ -1,5 +1,9 @@
 Helm templating works off the Golang Sprig library. Documenting here some handy templating usecases:
 
+# Handy tools
+
+You can use `helm template` in conjunction with [helm-playground](https://helm-playground.com/) for a variety of testing needs to check your rendered yaml.
+
 # Reusing values (keep it DRY)
 
 Lets say your values file requires several references to a name of a service. You can leverage yaml anchors to keep this DRY as to make updates more manageable and simple.
