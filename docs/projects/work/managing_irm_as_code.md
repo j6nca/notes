@@ -101,6 +101,7 @@ resource "grafana_oncall_escalation" "teamA_step_0" {
 - Primarily done via Slack for general alerts
 - Phone call routing for critical alerts \[TODO\]
 
+With a previous alerting setup centered around PromAlerts and AlertManager we wanted to create a new framework that enabled developers to easily reuse their existing Prometheus alert configs. The reason we are moving to Grafana Alerting is due to the additional features from Grafana alerting (we can leverage alert queries from different datasource types etc). Along with this we want to keep the practice of having our alerts in code - as it allows us to own and approve alerting changes respectively as opposed to alerts being changed ad-hoc in UI where it is hard to track.
 
 # References
 
