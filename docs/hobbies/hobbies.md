@@ -23,6 +23,29 @@ title: Hobbies
 >			- [[hey_there_delilah]]
 >			- [[love_yourself]]
 >			- [[summer_breeze]]
+>		- [[triads]]
+>- **plants**
+>	- [[Money Tree]]
+>	- [[Monstera]]
+>	- [[Pothos]]
+>
+>%% End Waypoint %%
+>- **[[gaming]]**
+>	- **minecraft**
+>		- [[mods]]
+>	- **osrs**
+>		- [[goals]]
+>	- **valorant**
+>		- [[resources]]
+>- **[[music]]**
+>	- **guitar**
+>		- [[log]]
+>		- **tabs**
+>			- [[blackbird]]
+>			- [[from_the_start]]
+>			- [[hey_there_delilah]]
+>			- [[love_yourself]]
+>			- [[summer_breeze]]
 >
 >%% End Waypoint %%
 >- **gaming**
