@@ -3,12 +3,10 @@ tags:
   - review
   - WIP
   - location
-  - cuisine
-  - ⭐⭐⭐⭐⭐
-  - 💸💸💸💸💸
+  - mac and cheese
   - gauntlet
 date: "2025-08-18"
-title: the_frozen_mac_and_cheese_gauntlet_2025
+title: The Frozen Mac And Cheese Gauntlet 2025
 ---
 
 > [!info]

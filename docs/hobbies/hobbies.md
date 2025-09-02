@@ -13,7 +13,7 @@ title: Hobbies
 >	- **osrs**
 >		- [[goals]]
 >	- **valorant**
->		- [[resources]]
+>		- [[hobbies/gaming/valorant/resources]]
 >- **[[music]]**
 >	- **guitar**
 >		- [[log]]
@@ -36,7 +36,7 @@ title: Hobbies
 >	- **osrs**
 >		- [[goals]]
 >	- **valorant**
->		- [[resources]]
+>		- [[hobbies/gaming/valorant/resources]]
 >- **[[music]]**
 >	- **guitar**
 >		- [[log]]
@@ -55,7 +55,7 @@ title: Hobbies
 >	- **osrs**
 >		- [[goals]]
 >	- **valorant**
->		- [[resources]]
+>		- [[hobbies/gaming/valorant/resources]]
 >- **[[music]]**
 >	- **guitar**
 >		- [[log]]
@@ -74,7 +74,7 @@ title: Hobbies
 >	- **osrs**
 >		- [[goals]]
 >	- **valorant**
->		- [[resources]]
+>		- [[hobbies/gaming/valorant/resources]]
 >- **music**
 >	- **guitar**
 >		- [[log]]
