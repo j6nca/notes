@@ -7,6 +7,34 @@ title: Hobbies
 
 > [!info]- Contents: 
 >%% Begin Waypoint %%
+>- **fishing**
+>	- [[resources]]
+>	- [[setup]]
+>- **[[gaming]]**
+>	- **minecraft**
+>		- [[mods]]
+>	- **osrs**
+>		- [[goals]]
+>	- **valorant**
+>		- [[resources]]
+>- **[[music]]**
+>	- **beats**
+>		- [[hatred_2025]]
+>	- **guitar**
+>		- [[log]]
+>		- **tabs**
+>			- [[blackbird]]
+>			- [[from_the_start]]
+>			- [[hey_there_delilah]]
+>			- [[love_yourself]]
+>			- [[summer_breeze]]
+>		- [[triads]]
+>- **plants**
+>	- [[Money Tree]]
+>	- [[Monstera]]
+>	- [[Pothos]]
+>
+>%% End Waypoint %%
 >- **[[gaming]]**
 >	- **minecraft**
 >		- [[mods]]
