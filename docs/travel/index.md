@@ -6,6 +6,6 @@ title: Travel
 ---
 
 
-Stubbing out this section to leave notes and share photos + experiences from travels
+Notes, photos + experiences from travels
 
 
