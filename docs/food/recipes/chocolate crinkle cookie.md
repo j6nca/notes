@@ -2,8 +2,8 @@
 tags:
   - recipe
   - WIP
-date: 2024-07-30
-title: Beef Barbacoa
+date: 2025-11-23
+title: chocolate crinkle cookie
 ---
 
 > [!info]
@@ -11,23 +11,23 @@ title: Beef Barbacoa
 > Prep time:
 > Cooking time:
 
-## Macros
+# Macros
 
 |  | Carbs (g) | Proteins (g) | Fats (g) | Cals (kcal) |
 | --- | --- | --- | --- | --- |
 |  |  |  |  |  |
 |  |  |  |  |  |
 
-## Ingredients
+# Ingredients
 
-## Kitchen Items
+# Kitchen Items
 
-## Preparation
+# Preparation
 
-## Photos
+# Photos
 
-## Notes
+# Notes
 
-## References
+# References
 
 - []()

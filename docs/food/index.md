@@ -11,24 +11,19 @@ title: Food
 >- **[[reviews]]**
 >
 >%% End Waypoint %%
->- **[[recipes]]**
->- **[[reviews]]**
->
->%% End Waypoint %%
->- **[[recipes]]**
->- **[[reviews]]**
->
->%% End Waypoint %%
->- **[[recipes]]**
->- **[[reviews]]**
->
->%% End Waypoint %%
->- **[[recipes]]**
->- **[[reviews]]**
->
->%% End Waypoint %%
 
 This space is to share my love of food. I plan to include [[recipes|recipes]] that I've made or am interested in trying, as well as reviews of [[reviews|restaurants I've been to]].
+
+## Favourite Creators
+
+Some of my favour cotent creators in the food space:
+
+- [Alton Brown](https://www.youtube.com/@AltonBrown)
+- [Outdoor Chef Life](https://www.youtube.com/@OutdoorChefLife)
+- [Ethan Chlebowski](https://www.youtube.com/@EthanChlebowski)
+- [Ted's Zaza](https://www.youtube.com/@teds_zaza)
+- [Mythical Kitchen](https://www.youtube.com/@mythicalkitchen)
+
 
 ## Additional Resources
 
