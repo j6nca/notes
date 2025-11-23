@@ -6,7 +6,7 @@ tags:
   - icecream
   - ninja_creami
 date: 2024-07-19
-title: Recipes
+title: Ninja Creami
 ---
 
 > [!info]- Contents: 
