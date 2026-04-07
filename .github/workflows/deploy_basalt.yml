@@ -1,0 +1,23 @@
+name: Deploy Basalt
+
+on:
+  push:
+    branches:
+      - main
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  basalt_render:
+    uses: gravityctl/basalt/.github/workflows/deploy.yml@main
+    with:
+      vault_repo: j6nca/notes
+      vault_directory: docs
+      output_directory: output
+      site_name: Jon's Blog
+
