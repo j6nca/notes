@@ -13,7 +13,7 @@ I've always liked the idea of keeping notes organized and together (whether that
 
 I needed something that could:
 - Easily integrate with my notes
-	- Ideally my notes can be kept separate, and all I need to d
+	- Ideally my notes can be kept separate, and all I need to do, is run the program against my Obsidian vault
 - Ideally bring some functionality from Obsidian itself
 	- Namely the visualizations and tagging, I liked how the graph drew links between relevant notes
 
@@ -23,7 +23,11 @@ I initially started with a barebones mkdocs setup, a popular static site generat
 
 ## Rev. 2
 
-I eventually came across Quartz which does some of the visualizations out of the box. I was also a fan of its design and decided to switch SSGs.
+I eventually came across Quartz which does some of the visualizations out of the box. I was also a fan of its design and decided to switch site generators.
+
+## Rev. 3
+
+The latest iteration of my blog uses [Basalt](https://basalt.j6n.dev), my own vibe-coded passion project to build the static site that fits my needs.
 
 # References
 
