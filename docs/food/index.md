@@ -5,14 +5,7 @@ date: 2024-07-29
 title: Food
 ---
 
-> [!info]- Contents: 
->%% Begin Waypoint %%
->- **[[recipes]]**
->- **[[reviews]]**
->
->%% End Waypoint %%
-
-This space is to share my love of food. I plan to include [[recipes|recipes]] that I've made or am interested in trying, as well as reviews of [[reviews|restaurants I've been to]].
+This space is to share my love of food. I plan to include [[food/recipes/index|recipes]] that I've made or am interested in trying, as well as reviews of [[food/reviews/index|restaurants I've been to]].
 
 ## Favourite Creators
 
