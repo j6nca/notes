@@ -6,6 +6,3 @@ title: {{title}}
 ---
 
 # Contents
-
-> [!info]- Contents: 
->%% \Waypoint %%
