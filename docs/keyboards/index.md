@@ -7,21 +7,6 @@ date: 2024-07-20
 title: Keyboards
 ---
 
-> [!info]- Contents: 
->%% Begin Waypoint %%
->- **my_designs**
->	- [[j6n43]]
->	- [[j6n47]]
->- **recommendations**
->	- [[4X]]
->	- [[6X]]
->	- [[7X]]
->	- [[8X]]
->	- [[9X]]
->	- [[index]]
->
->%% End Waypoint %%
-
 Here I discuss keyboards, including boards that I've purchased as well as boards I have designed from scratch. I also try to provide some buying [[keyboards/recommendations/index|recommendations]] for those in the market for a new keyboard.
 
 ## Typing
