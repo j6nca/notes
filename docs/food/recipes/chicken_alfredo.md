@@ -4,7 +4,7 @@ tags:
   - meal
   - protein
   - airfryer
-  - meal prep
+  - meal_prep
 ---
 # Chicken Alfredo
 

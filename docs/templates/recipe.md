@@ -5,7 +5,7 @@ tags:
   # - meal, dessert, sides, drink, snack
   # - low carb, protein
   # - airfryer, oven
-  # - meal prep
+  # - meal_prep
 date: "{{date}}"
 title: {{title}}
 ---

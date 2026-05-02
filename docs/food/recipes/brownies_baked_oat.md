@@ -5,7 +5,7 @@ tags:
   - dessert
   - protein
   - oven
-  - meal prep
+  - meal_prep
 ---
 # Recipe Name
 

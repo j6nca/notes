@@ -4,7 +4,7 @@ tags:
   - WIP
   - protein
   - meal
-  - meal prep
+  - meal_prep
 date: 2025-08-28
 title: Protein Chicken Pasta
 ---

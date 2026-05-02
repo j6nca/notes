@@ -1,11 +1,9 @@
 ---
 tags:
   - recipe
-  - WIP
-  # - meal, dessert, sides, drink, snack
-  # - low carb, protein
-  # - airfryer, oven
-  # - meal prep
+  - dessert
+  - protein
+  - ninja_creami
 date: "2026-05-02"
 title: Fudgy Oreo
 ---
