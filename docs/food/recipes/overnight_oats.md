@@ -17,13 +17,13 @@ title: overnight_oats
 
 # Macros
 
-|  | Carbs (g) | Proteins (g) | Fats (g) | Cals (kcal) |
+| Item | Carbs (g) | Proteins (g) | Fats (g) | Cals (kcal) |
 | --- | --- | --- | --- | --- |
-| Rolled oats 100g | 66 | 17 | 7 | 390 |
-| Milk 100g | 1 | 6 | 9 | 64 |
-| Protein powder 20g | 1 | 20 | 1 | 80 |
-| Water | 0 | 0 | 0 | 0 |
+| Rolled oats (100g) | 66 | 17 | 7 | 390 |
+| Milk, 2% (200g) | 10 | 7 | 4 | 100 |
+| Protein powder (20g) | 1 | 20 | 1 | 80 |
 | Zero cal maple syrup | 0 | 0 | 0 | 0 |
+| **Total** | **77** | **44** | **12** | **570** |
 
 # Ingredients
 

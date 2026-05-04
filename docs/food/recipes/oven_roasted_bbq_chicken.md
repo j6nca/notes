@@ -15,12 +15,12 @@ title: oven_roasted_bbq_chicken
 > Prep time:
 > Cooking time:
 
-# Macros
-
-|  | Carbs (g) | Proteins (g) | Fats (g) | Cals (kcal) |
+| Item | Carbs (g) | Proteins (g) | Fats (g) | Cals (kcal) |
 | --- | --- | --- | --- | --- |
-|  |  |  |  |  |
-|  |  |  |  |  |
+| Chicken thighs | 0 | 104 | 40 | 760 |
+| BBQ sauce | 9 | 0.3 | 0.1 | 36 |
+| **Total** | **9** | **104.3** | **40.1** | **796** |
+
 
 # Ingredients
 

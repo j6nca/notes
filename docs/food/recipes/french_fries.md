@@ -11,12 +11,12 @@ tags:
 > Prep time: 10 min
 > Cooking time: 30 min
 
-## Macros
-
-|  | Carbs (g) | Proteins (g) | Fats (g) | Cals (kcal) |
+| Item | Carbs (g) | Proteins (g) | Fats (g) | Cals (kcal) |
 | --- | --- | --- | --- | --- |
-|  |  |  |  |  |
-|  |  |  |  |  |
+| Potato | 51 | 6 | 0.3 | 231 |
+| Olive oil | 0 | 0 | 10 | 88 |
+| **Total** | **51** | **6** | **10.3** | **319** |
+
 
 ## Ingredients
 

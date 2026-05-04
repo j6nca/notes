@@ -11,12 +11,18 @@ tags:
 > Prep time: 30 mins
 > Cooking time: 20 mins
 
-## Macros
-
-|  | Carbs (g) | Proteins (g) | Fats (g) | Cals (kcal) |
+| Item | Carbs (g) | Proteins (g) | Fats (g) | Cals (kcal) |
 | --- | --- | --- | --- | --- |
-|  |  |  |  |  |
-|  |  |  |  |  |
+| Mushroom | 11.5 | 10.8 | 1.1 | 77 |
+| Shallot | 6.8 | 1 | 0 | 29 |
+| Garlic | 2 | 0.4 | 0 | 9 |
+| Spinach | 1.1 | 0.9 | 0.1 | 7 |
+| Cream cheese | 2.9 | 56.2 | 74.2 | 900 |
+| Panko | 17.8 | 3.2 | 1.5 | 99 |
+| Butter | 0 | 0 | 48.6 | 430 |
+| Parmesan | 1.6 | 15.2 | 11.6 | 172 |
+| **Total** | **43.7** | **87.7** | **137.1** | **1723** |
+
 
 ## Ingredients
 
