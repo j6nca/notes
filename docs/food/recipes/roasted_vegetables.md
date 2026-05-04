@@ -11,12 +11,15 @@ tags:
 > Prep time: 15 mins
 > Cooking time: 20-40 mins
 
-## Macros
-
-|  | Carbs (g) | Proteins (g) | Fats (g) | Cals (kcal) |
+| Item | Carbs (g) | Proteins (g) | Fats (g) | Cals (kcal) |
 | --- | --- | --- | --- | --- |
-|  |  |  |  |  |
-|  |  |  |  |  |
+| Carrot | 20 | 1.8 | 0.4 | 82 |
+| Potato | 34 | 4 | 0.2 | 154 |
+| Broccoli | 10.5 | 4.2 | 0.6 | 51 |
+| Brussel sprout | 13.5 | 5.1 | 0.4 | 65 |
+| Olive oil | 0 | 0 | 15 | 133 |
+| **Total** | **78** | **15.1** | **16.6** | **485** |
+
 
 ## Ingredients
 

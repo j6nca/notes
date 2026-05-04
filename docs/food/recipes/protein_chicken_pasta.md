@@ -14,12 +14,17 @@ title: Protein Chicken Pasta
 > Prep time: 10min
 > Cooking time: 20min
 
-# Macros
-
-|  | Carbs (g) | Proteins (g) | Fats (g) | Cals (kcal) |
+| Item | Carbs (g) | Proteins (g) | Fats (g) | Cals (kcal) |
 | --- | --- | --- | --- | --- |
-|  |  |  |  |  |
-|  |  |  |  |  |
+| Chicken breast | 0 | 310 | 36 | 1650 |
+| Bone broth | 0 | 8.8 | 0 | 27 |
+| Cottage cheese | 6.5 | 125 | 165 | 2000 |
+| Sun-dried tomatoes | 3.9 | 0.9 | 0.2 | 18 |
+| Parmesan | 2 | 19 | 14.5 | 215 |
+| Pasta (dry) | 125 | 25 | 5.5 | 655 |
+| Spinach | 7.2 | 5.8 | 0.8 | 46 |
+| **Total** | **144.6** | **494.5** | **222** | **4611** |
+
 
 # Ingredients
 

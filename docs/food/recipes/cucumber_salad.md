@@ -14,12 +14,14 @@ tags:
 
 This is a quick and easy recipe to have a refreshing cucumber salad, note most of the ingredients are optional depending on what you may have in your pantry.
 
-## Macros
+| Item | Carbs (g) | Proteins (g) | Fats (g) | Cals (kcal) |
+| --- | --- | --- | --- | --- |
+| Cucumber | 7.2 | 1.4 | 0.2 | 30 |
+| Vinegar | 0 | 0 | 0 | 3 |
+| Soy sauce | 0.6 | 0.8 | 0 | 5 |
+| Lao gan ma | 2.5 | 0.2 | 0.5 | 15 |
+| **Total** | **10.3** | **2.4** | **0.7** | **53** |
 
-|     | Carbs (g) | Proteins (g) | Fats (g) | Cals (kcal) |
-| --- | --------- | ------------ | -------- | ----------- |
-|     |           |              |          |             |
-|     |           |              |          |             |
 
 ## Ingredients
 

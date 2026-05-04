@@ -15,12 +15,15 @@ This is my go-to recipe for a flavour and nutrient packed carb to go alongside v
 
 Add some more veggies and tomato sauce and you can probably turn this into a simple vegan chilli-style dish.
 
-## Macros
-
-|  | Carbs (g) | Proteins (g) | Fats (g) | Cals (kcal) |
+| Item | Carbs (g) | Proteins (g) | Fats (g) | Cals (kcal) |
 | --- | --- | --- | --- | --- |
-|  |  |  |  |  |
-|  |  |  |  |  |
+| Rice (cooked) | 42 | 3.9 | 0.4 | 195 |
+| Lentils | 10 | 4.5 | 0.2 | 58 |
+| Black beans | 10.5 | 4 | 0.2 | 59 |
+| Turmeric | 1.3 | 0.2 | 0.1 | 6 |
+| Cilantro | 0.4 | 0.2 | 0.1 | 2 |
+| **Total** | **64.2** | **12.8** | **1** | **320** |
+
 
 ## Ingredients
 

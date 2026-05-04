@@ -13,12 +13,13 @@ tags:
 
 I'm a firm believer of "strawberry jam makes everything sweet taste better" so you'll find I slip that in as an optional ingredient a lot of times
 
-## Macros
-
-|  | Carbs (g) | Proteins (g) | Fats (g) | Cals (kcal) |
+| Item | Carbs (g) | Proteins (g) | Fats (g) | Cals (kcal) |
 | --- | --- | --- | --- | --- |
-|  |  |  |  |  |
-|  |  |  |  |  |
+| Milk (2%) | 10 | 6.6 | 6.6 | 120 |
+| Matcha powder | 0.1 | 0.9 | 0 | 4 |
+| Ice | 0 | 0 | 0 | 0 |
+| **Total** | **10.1** | **7.5** | **6.6** | **124** |
+
 
 ## Ingredients
 

@@ -10,12 +10,13 @@ tags:
 > Prep time: N/A
 > Cooking time: 15 min
 
-## Macros
+| Item | Carbs (g) | Proteins (g) | Fats (g) | Cals (kcal) |
+| --- | --- | --- | --- | --- |
+| Whole eggs (2) | 0.7 | 6.3 | 5 | 72 |
+| Chicken broth | 2.5 | 2.5 | 0 | 20 |
+| Cornstarch | 7.3 | 0 | 0 | 31 |
+| **Total** | **10.5** | **8.8** | **5** | **123** |
 
-|     | Carbs (g) | Proteins (g) | Fats (g) | Cals (kcal) |
-| --- | --------- | ------------ | -------- | ----------- |
-|     |           |              |          |             |
-|     |           |              |          |             |
 
 ## Ingredients
 
