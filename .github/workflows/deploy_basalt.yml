@@ -24,3 +24,4 @@ jobs:
       output_directory: output
       site_name: Jon's Blog 👨🏻‍💻
       ignored_dirs: "templates,scripts,.obsidian,assets,diagrams,drafts"
+      graph_mode: nebula
