@@ -1,4 +1,4 @@
-name: Deploy Basalt
+name: Deploy Nebula
 
 on:
   workflow_dispatch:
@@ -16,8 +16,8 @@ permissions:
   id-token: write
 
 jobs:
-  basalt_render:
-    uses: ctrl-research/basalt/.github/workflows/deploy.yml@main
+  nebula_render:
+    uses: ctrl-research/nebula-md/.github/workflows/deploy.yml@main
     with:
       vault_repo: j6nca/notes
       vault_directory: docs
