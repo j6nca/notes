@@ -1,0 +1,12 @@
+# Normalize all text files to LF in the repo. Obsidian writes LF on save, so
+# without this, files originally committed with CRLF show up as whole-file diffs
+# the moment they are opened and saved.
+* text=auto eol=lf
+
+# Binary assets — never touch line endings.
+*.ico binary
+*.gif binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary

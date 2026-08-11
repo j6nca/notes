@@ -1,3 +1,9 @@
 docs/wip/
 docs/ignore/
 docs/.obsidian/workspace.json*
+
+# Rewritten by Obsidian on every pan/zoom of the graph view — pure diff noise.
+docs/.obsidian/graph.json
+
+# Local tool scratch state.
+docs/.nanocoder/
