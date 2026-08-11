@@ -10,6 +10,8 @@ title: Gemini
 
 # Gemini
 
+![[gemini_constellation.svg]]
+
 ## Background
 
 The Gemini is my first foray at designing a split keyboard. Most of the concepts from previous projects still apply just that we now get to work flexibly with two halves.

@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="1000" height="600" role="img" aria-labelledby="gemTitle gemDesc">
+  <title id="gemTitle">The constellation Gemini, with the twin figures traced over the stars</title>
+  <desc id="gemDesc">Star positions are the real J2000 coordinates of the Gemini constellation, projected to the canvas. Castor and Pollux mark the heads of the twins; Alhena and Alzirr mark the feet of one twin, Tejat and Propus the feet of the other.</desc>
+
+  <defs>
+    <radialGradient id="sky" cx="42%" cy="38%" r="78%">
+      <stop offset="0%"   stop-color="#131a35"/>
+      <stop offset="55%"  stop-color="#0a0e20"/>
+      <stop offset="100%" stop-color="#04060e"/>
+    </radialGradient>
+
+    <filter id="starGlow" x="-300%" y="-300%" width="700%" height="700%">
+      <feGaussianBlur stdDeviation="3.2" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="lineGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="600" fill="url(#sky)"/>
+
+  <!-- Faint background field -->
+  <g fill="#dce7ff">
+    <circle cx="60"  cy="55"  r="1.1" opacity=".50"/>
+    <circle cx="128" cy="92"  r="0.8" opacity=".35"/>
+    <circle cx="196" cy="42"  r="1.3" opacity=".55"/>
+    <circle cx="75"  cy="180" r="0.9" opacity=".40"/>
+    <circle cx="150" cy="255" r="1.1" opacity=".45"/>
+    <circle cx="42"  cy="320" r="0.8" opacity=".30"/>
+    <circle cx="110" cy="400" r="1.2" opacity=".50"/>
+    <circle cx="185" cy="470" r="0.9" opacity=".35"/>
+    <circle cx="68"  cy="520" r="1.1" opacity=".45"/>
+    <circle cx="140" cy="570" r="0.8" opacity=".30"/>
+    <circle cx="215" cy="340" r="0.9" opacity=".35"/>
+    <circle cx="230" cy="545" r="1.2" opacity=".45"/>
+    <circle cx="300" cy="500" r="0.8" opacity=".30"/>
+    <circle cx="325" cy="585" r="1.0" opacity=".40"/>
+    <circle cx="390" cy="40"  r="1.1" opacity=".45"/>
+    <circle cx="455" cy="80"  r="0.8" opacity=".30"/>
+    <circle cx="470" cy="230" r="1.0" opacity=".40"/>
+    <circle cx="520" cy="150" r="0.9" opacity=".35"/>
+    <circle cx="505" cy="420" r="1.1" opacity=".45"/>
+    <circle cx="545" cy="330" r="0.8" opacity=".30"/>
+    <circle cx="560" cy="505" r="1.0" opacity=".40"/>
+    <circle cx="620" cy="80"  r="1.2" opacity=".50"/>
+    <circle cx="650" cy="160" r="0.9" opacity=".35"/>
+    <circle cx="700" cy="60"  r="0.8" opacity=".30"/>
+    <circle cx="735" cy="140" r="1.1" opacity=".45"/>
+    <circle cx="690" cy="470" r="1.0" opacity=".40"/>
+    <circle cx="760" cy="410" r="0.9" opacity=".35"/>
+    <circle cx="800" cy="90"  r="1.2" opacity=".50"/>
+    <circle cx="830" cy="200" r="0.8" opacity=".30"/>
+    <circle cx="870" cy="45"  r="1.0" opacity=".40"/>
+    <circle cx="905" cy="130" r="1.1" opacity=".45"/>
+    <circle cx="940" cy="70"  r="0.8" opacity=".30"/>
+    <circle cx="960" cy="210" r="1.2" opacity=".50"/>
+    <circle cx="845" cy="320" r="0.9" opacity=".35"/>
+    <circle cx="890" cy="400" r="1.1" opacity=".45"/>
+    <circle cx="935" cy="340" r="0.8" opacity=".30"/>
+    <circle cx="970" cy="450" r="1.0" opacity=".40"/>
+    <circle cx="820" cy="520" r="1.2" opacity=".50"/>
+    <circle cx="880" cy="570" r="0.9" opacity=".35"/>
+    <circle cx="955" cy="555" r="1.0" opacity=".40"/>
+    <circle cx="410" cy="545" r="0.9" opacity=".30"/>
+    <circle cx="280" cy="60"  r="1.0" opacity=".40"/>
+    <circle cx="355" cy="300" r="0.8" opacity=".28"/>
+    <circle cx="630" cy="555" r="0.9" opacity=".32"/>
+    <circle cx="745" cy="240" r="0.8" opacity=".30"/>
+    <circle cx="30"  cy="240" r="1.0" opacity=".38"/>
+    <circle cx="180" cy="140" r="0.9" opacity=".30"/>
+    <circle cx="500" cy="580" r="0.8" opacity=".28"/>
+    <circle cx="600" cy="200" r="0.85" opacity=".30"/>
+    <circle cx="770" cy="560" r="1.0" opacity=".36"/>
+    <circle cx="25"  cy="430" r="0.9" opacity=".34"/>
+    <circle cx="990" cy="290" r="0.9" opacity=".34"/>
+    <circle cx="450" cy="470" r="0.8" opacity=".26"/>
+    <circle cx="660" cy="300" r="0.75" opacity=".25"/>
+    <circle cx="240" cy="430" r="0.85" opacity=".30"/>
+  </g>
+
+  <!-- ===== Constellation lines ===== -->
+  <g fill="none" stroke="#6ea8ff" stroke-width="1.5" stroke-linecap="round" opacity="0.30" filter="url(#lineGlow)">
+    <path d="M 312 97 L 253 189 L 304 216 L 258 276"/>
+    <path d="M 304 216 L 391 334 L 478 368 L 622 468"/>
+    <path d="M 391 334 L 402 465 L 581 552"/>
+    <path d="M 312 97 L 440 136 L 540 47"/>
+    <path d="M 440 136 L 588 259 L 703 322 L 747 322"/>
+  </g>
+  <g fill="none" stroke="#bcd6ff" stroke-width="1.15" stroke-linecap="round" opacity="0.62">
+    <path d="M 312 97 L 253 189 L 304 216 L 258 276"/>
+    <path d="M 304 216 L 391 334 L 478 368 L 622 468"/>
+    <path d="M 391 334 L 402 465 L 581 552"/>
+    <path d="M 312 97 L 440 136 L 540 47"/>
+    <path d="M 440 136 L 588 259 L 703 322 L 747 322"/>
+  </g>
+
+  <!-- ===== Stars, sized by apparent magnitude ===== -->
+  <g fill="#ffffff" filter="url(#starGlow)">
+    <circle cx="253" cy="189" r="5.75"/>                    <!-- Pollux   beta  1.14 -->
+    <circle cx="312" cy="97"  r="5.26"/>                    <!-- Castor   alpha 1.58 -->
+    <circle cx="622" cy="468" r="4.88"/>                    <!-- Alhena   gamma 1.93 -->
+    <circle cx="703" cy="322" r="3.84"/>                    <!-- Tejat    mu    2.87 -->
+    <circle cx="588" cy="259" r="3.72"/>                    <!-- Mebsuta  eps   2.98 -->
+    <circle cx="747" cy="322" r="3.39"/>                    <!-- Propus   eta   3.28 -->
+    <circle cx="581" cy="552" r="3.30"/>                    <!-- Alzirr   xi    3.36 -->
+    <circle cx="391" cy="334" r="3.12"/>                    <!-- Wasat    delta 3.53 -->
+    <circle cx="258" cy="276" r="3.07"/>                    <!-- kappa          3.57 -->
+    <circle cx="402" cy="465" r="3.06"/>                    <!-- lambda         3.58 -->
+    <circle cx="540" cy="47"  r="3.04"/>                    <!-- theta          3.60 -->
+    <circle cx="478" cy="368" r="2.83"/>                    <!-- Mekbuda  zeta  3.79 -->
+    <circle cx="360" cy="195" r="2.83"/>                    <!-- iota           3.79 -->
+    <circle cx="304" cy="216" r="2.53"/>                    <!-- upsilon        4.06 -->
+    <circle cx="670" cy="377" r="2.44"/>                    <!-- nu             4.15 -->
+    <circle cx="342" cy="99"  r="2.40"/>                    <!-- rho            4.18 -->
+    <circle cx="264" cy="169" r="2.29"/>                    <!-- sigma          4.28 -->
+    <circle cx="440" cy="136" r="2.15"/>                    <!-- tau            4.41 -->
+  </g>
+
+  <!-- ===== Labels ===== -->
+  <g font-family="Georgia, 'Times New Roman', serif" fill="#d3e2fb">
+    <g font-size="15" letter-spacing="1.6">
+      <text x="312" y="70"  text-anchor="middle">CASTOR</text>
+      <text x="232" y="194" text-anchor="end">POLLUX</text>
+      <text x="638" y="488" text-anchor="start">ALHENA</text>
+      <text x="596" y="570" text-anchor="start">ALZIRR</text>
+      <text x="693" y="303" text-anchor="end">TEJAT</text>
+      <text x="757" y="303" text-anchor="start">PROPUS</text>
+      <text x="572" y="250" text-anchor="end">MEBSUTA</text>
+      <text x="375" y="330" text-anchor="end">WASAT</text>
+      <text x="478" y="392" text-anchor="middle">MEKBUDA</text>
+    </g>
+    <g font-size="14" font-style="italic" opacity="0.5">
+      <text x="276" y="160" text-anchor="start">σ</text>
+      <text x="316" y="212" text-anchor="start">υ</text>
+      <text x="244" y="281" text-anchor="end">κ</text>
+      <text x="354" y="94"  text-anchor="start">ρ</text>
+      <text x="372" y="191" text-anchor="start">ι</text>
+      <text x="440" y="120" text-anchor="middle">τ</text>
+      <text x="540" y="31"  text-anchor="middle">θ</text>
+      <text x="386" y="462" text-anchor="end">λ</text>
+      <text x="670" y="400" text-anchor="middle">ν</text>
+    </g>
+  </g>
+
+  <!-- ===== Wordmark ===== -->
+  <g font-family="Georgia, 'Times New Roman', serif">
+    <text x="62" y="536" font-size="52" letter-spacing="11" fill="#eaf2ff" opacity="0.94">GEMINI</text>
+    <text x="66" y="562" font-size="14" letter-spacing="4.6" fill="#8fb0dd" opacity="0.8">THE TWINS</text>
+  </g>
+</svg>
