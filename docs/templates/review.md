@@ -4,6 +4,7 @@ tags:
   - WIP
   - location
   - cuisine
+  - cafe,brunch,winterlicious,happyhour
   - ⭐⭐⭐⭐⭐
   - 💸💸💸💸💸
 date: "{{date}}"
