@@ -10,275 +10,236 @@ title: strix_halo_ai_box
 ---
 
 > [!faq]- Disclaimer:
-> Same caveat as [[ai_workspace|AI workspace]] — the gfx1151 software stack (ROCm, llama.cpp, vLLM) moves week to week. Treat every version number below as a snapshot, not a pin. The point of codifying this in mise/chezmoi is so churn is cheap.
+> Same caveat as [[ai_workspace|AI workspace]] — the gfx1151 software stack (ROCm, llama.cpp, ComfyUI/PyTorch) moves week to week. Treat every version number below as a snapshot, not a pin. The point of codifying this in mise/chezmoi is so churn is cheap.
 
 # Goal
 
-Turn the Strix Halo box into an **AI-first development machine**: the thing I SSH into (or sit at) to do real work, where local inference is a first-class local service rather than a science project. Two jobs, deliberately kept separate:
+`mentat` is a **headless inference appliance**. Not a dev box: nothing is developed on it, and no toolchain lives on it beyond what serves a model. It runs exactly two workloads, both as containerised toolboxes:
 
-1. **Inference host** — serves models over an OpenAI-compatible endpoint to everything else on the network, including workloads in the [[k8s_cluster|Kubernetes cluster]].
-2. **Dev box** — my normal shell, editor, language runtimes and agent harnesses, provisioned identically to my other machines.
+1. **llama.cpp** — LLM serving over an OpenAI-compatible endpoint, consumed by my editor, agent harnesses, MCP servers ([[ai_workspace|AI workspace]]) and workloads in the [[k8s_cluster|Kubernetes cluster]].
+2. **ComfyUI** — image and video generation (Flux, Qwen Image, Wan 2.2, HunyuanVideo).
 
-Non-goal: making this a cluster node. See [Relationship to the k8s cluster](#relationship-to-the-k8s-cluster).
+Everything else is in service of those two sharing one memory pool without stepping on each other. Non-goal: joining the cluster — see [Relationship to the k8s cluster](#relationship-to-the-k8s-cluster).
 
 # Hardware
 
-**BosGame M5** — AMD Ryzen AI Max+ 395 (Zen 5) with an integrated Radeon 8060S (RDNA 3.5, **gfx1151**) and an XDNA 2 NPU, on a **unified memory** architecture: CPU and iGPU share one LPDDR5X pool at ~256 GB/s theoretical. Listed under Compute — AI in [[hardware|homelab hardware]]; the only node there that isn't part of the [[k8s_cluster|Kubernetes cluster]].
+**BosGame M5**, hostname **`mentat`** — AMD Ryzen AI Max+ 395 (Zen 5) with an integrated Radeon 8060S (RDNA 3.5, **gfx1151**) and an XDNA 2 NPU, 128 GB on a **unified memory** architecture: CPU and iGPU share one LPDDR5X pool at ~256 GB/s theoretical. Listed under Compute — AI in [[hardware|homelab hardware]]; the only node there that isn't part of the [[k8s_cluster|Kubernetes cluster]].
 
-The unified memory pool is the whole reason this machine is interesting and also the source of nearly every configuration gotcha below. There is no discrete VRAM to allocate; there's one pool, and the job is convincing the kernel to let the GPU address most of it.
-
-> [!todo] Confirm the final RAM/storage config — the GTT math in Phase 2 assumes 128 GB, and every number in that table rescales if it isn't.
+The unified memory pool is the whole reason this machine is interesting and also the source of nearly every configuration gotcha below. There is no discrete VRAM to allocate; there's one pool, and the job is convincing the kernel to let the GPU address most of it — then dividing it between two hungry workloads.
 
 # Design decisions
 
-Three choices that shape everything else:
+**Ubuntu Server 26.04 LTS, headless, appliance-only.** No display stack, no language runtimes, no editors. Every GiB and every watt goes to inference. The LTS kernel also solves the problem that made a rolling distro attractive in the first place; see Phase 1.
 
-**Containers are the GPU runtime boundary.** Every guide worth reading says the same thing: *do not install packaged ROCm SDKs from the Arch repos or the AUR* for gfx1151 — they lag too far behind for this GPU. The alternative to hand-rolling TheRock nightlies into `/opt/rocm7.x` is to let someone else do it: [`kyuz0/amd-strix-halo-toolboxes`](https://github.com/kyuz0/amd-strix-halo-toolboxes) publishes containers with matched ROCm/Vulkan + llama.cpp builds for gfx1151, rebuilt against llama.cpp master. The host stays clean (kernel + `amdgpu` + podman), and swapping backends is `distrobox create`, not a reinstall. This is the main reason to prefer the toolboxes over a native build.
+**Containers are the GPU runtime boundary.** Distro-packaged ROCm lags badly for gfx1151 — AMD's own matrix only lists ROCm 6.4.4 for the AI Max+ 395, while the useful llama.cpp and PyTorch builds track 7.x. Rather than hand-rolling TheRock nightlies into `/opt`, [kyuz0](https://github.com/kyuz0) publishes matched toolboxes for [llama.cpp](https://github.com/kyuz0/amd-strix-halo-toolboxes) and [ComfyUI](https://github.com/kyuz0/amd-strix-halo-comfyui-toolboxes) on gfx1151. The host stays minimal (kernel + `amdgpu` + podman), and swapping backends is `distrobox create`, not a reinstall.
 
-**Vulkan first, ROCm when measured.** RADV needs no extra host setup and is competitive with (sometimes better than) ROCm for token generation at normal context lengths on gfx1151. ROCm's win is prompt processing on long inputs. Start on Vulkan, keep both toolboxes, benchmark before committing.
+This decision does most of the work of the appliance framing: **ComfyUI's entire Python/PyTorch/ROCm stack lives inside its container**, so the host never grows a Python environment. That's the single biggest reason not to install a dev toolchain here — the workloads bring their own.
 
-**The host is disposable, the config is not.** Everything below should be reachable from a fresh CachyOS install by `chezmoi init` + one `mise run` — including the root-owned `/etc` bits. See [Automation](#automation--replicability).
+**Vulkan first for LLMs, ROCm when measured.** RADV needs no extra host setup and is competitive with (sometimes better than) ROCm for token generation at normal context lengths. ROCm's win is prompt processing on long inputs. ComfyUI has no such choice: it's ROCm-only.
+
+**The host is disposable, the config is not.** Everything below should be reachable from a fresh Ubuntu Server install by `chezmoi init` + one `mise run`. See [Automation](#automation--replicability).
 
 # Phase 0 — Firmware & BIOS
 
 Do this first; it's the part no amount of config management can automate.
 
-- **UMA Frame Buffer Size → 512 MB** (minimum). Counterintuitive but correct: the BIOS carveout is GPU-*exclusive* and wasted. Setting it low forces the iGPU to source memory from GTT instead, which is the large, dynamically shared pool.
+- **UMA Frame Buffer Size → 512 MB** (or the vendor minimum, sometimes 2 GB). Counterintuitive but correct: the BIOS carveout is GPU-*exclusive* and wasted. Setting it low forces the iGPU to source memory from GTT instead, which is the large, dynamically shared pool.
   - Path: `Advanced → AMD CBS → NBIO Common Options → GFX Configuration`
-- **IOMMU → Disabled** — worth ~6–7% memory bandwidth (~234 vs ~221 GB/s reported) and a similar prompt-processing gain. Only do this if I don't need VFIO passthrough or hardware-isolated VMs on this box. Given it's not a cluster node, that's fine. Revisit if that changes.
+- **IOMMU → Disabled** — worth ~6–7% memory bandwidth (~234 vs ~221 GB/s reported) and a similar prompt-processing gain. Headless with no VFIO passthrough makes this free.
   - Path: `Advanced → AMD CBS → NBIO Common Options → IOMMU`
 - Update BIOS/EC to latest before benchmarking anything. Early Strix Halo firmware had memory-clock and power-limit bugs.
-- Record the final BIOS revision and settings in this doc — this is the one piece of state that lives outside git.
+- Record the final BIOS revision and settings here — the one piece of state that lives outside git.
 
 # Phase 1 — Base OS
 
-CachyOS, mainline `linux-cachyos` (**not** `-lts`). Kernel floor matters more than usual here:
+**Ubuntu Server 26.04 LTS.** The kernel floor is the thing to get right, and 26.04 clears it without any work:
 
-| Constraint | Why |
+| Constraint | Status on 26.04 LTS |
 |---|---|
-| Kernel ≥ 6.18.9 | Older kernels (incl. 6.18.4) have a gfx1151 stability bug |
-| Avoid `linux-firmware-20251125` | Breaks ROCm on Strix Halo — crashes/instability |
-| Kernel ≥ 6.14 | `amd-xdna` driver, if I ever want the NPU |
+| Kernel ≥ 6.18.9 (older, incl. 6.18.4, has a gfx1151 stability bug) | ✅ ships **Linux 7.0** GA |
+| Kernel ≥ 6.14 for `amd-xdna` (NPU) | ✅ |
+| Avoid `linux-firmware-20251125` — breaks ROCm on Strix Halo | Check installed version; `apt-mark hold` if needed |
 
-Pin firmware away from the known-bad version in `/etc/pacman.conf` `IgnorePkg` only as a temporary measure, and leave a dated comment — a stale ignore on `linux-firmware` is a footgun six months from now.
+No chasing mainline, no kernel pinning gymnastics, five years of support. The tradeoff is the inverse risk — an **unattended kernel upgrade regressing gfx1151**. Policy: leave `unattended-upgrades` on for security (it's network-reachable), run `mise run verify` after every reboot, and rely on the throughput baseline to catch a silent regression. Hold `linux-image-*`/`linux-firmware` only in response to an actual known-bad version, with a dated comment — a stale indefinite hold is a worse footgun.
 
-Host packages, deliberately minimal:
+Host packages, deliberately minimal — note what's *absent*:
 
 ```
-podman distrobox              # the GPU runtime boundary
-rocm-smi-lib                  # host-side monitoring only, not the SDK
-vulkan-radv mesa              # RADV for the Vulkan backend
+podman crun distrobox          # the GPU runtime boundary — crun is not optional, see Phase 3
+mesa-vulkan-drivers            # RADV for llama.cpp's Vulkan backend (works fine headless)
+rocm-smi                       # host-side monitoring only, NOT the ROCm SDK
 ```
 
-Add my user to `video` and `render`. Verify `/dev/dri` and `/dev/kfd` exist and are group-accessible before touching containers.
+No Python, no PyTorch, no ROCm SDK, no compilers, no editors. If something needs those, it belongs in a toolbox.
 
-## Headless or not?
+## Headless appliance
 
-Leaning **headless + Tailscale**, driven from the laptop, with a desktop session available but not the primary interface. Keeps the memory pool for models instead of a compositor. Decide before Phase 2 — it changes the GTT headroom math.
+Consequences worth planning around:
+
+- **More memory for models.** No display stack means the OS headroom in Phase 2 can be tighter than a workstation would allow.
+- **Both workloads are web UIs / APIs**, so there's nothing to sit in front of anyway. Administration is SSH.
+- **Networking via Netplan**, with Tailscale for reachability. Services bind loopback and are published to the tailnet.
+- **systemd *user* units need lingering** — `loginctl enable-linger` — or the stack won't start until I log in. Easy to forget on a headless box; presents as a mysterious post-reboot failure.
+- RADV is still required. Vulkan compute works headless; it does not need a display server.
 
 # Phase 2 — Memory topology
 
-The highest-leverage configuration on this machine. Three interacting knobs.
+The highest-leverage configuration on this machine.
 
 ## GTT sizing
 
-GTT is how much of the shared pool the iGPU may address. Two ways to set it; use one, not both:
+GTT is how much of the shared pool the iGPU may address. On Ubuntu, set it via a **`grub.d` drop-in** rather than editing `/etc/default/grub` in place. Ubuntu's `grub-mkconfig` sources `/etc/default/grub.d/*.cfg` after the main file (Ubuntu ships `50-cloudimg-settings.cfg` by exactly this route), so appending is a whole-file write with no `sed`, and a release upgrade that rewrites `/etc/default/grub` can't silently drop the parameters:
 
-```
-# module option — /etc/modprobe.d/amdgpu_llm_optimized.conf
-options ttm pages_limit=29360128
-```
-
-```
-# or boot params, alongside the IOMMU disable
-amd_iommu=off amdgpu.gttsize=126976 ttm.pages_limit=32505856
+```sh
+# /etc/default/grub.d/99-mentat-amdgpu.cfg
+GRUB_CMDLINE_LINUX_DEFAULT="$GRUB_CMDLINE_LINUX_DEFAULT amd_iommu=off amdgpu.gttsize=122880 ttm.pages_limit=31457280"
 ```
 
-The arithmetic, because the units differ and every guide quotes a different total:
+Then `sudo update-grub` and reboot.
+
+The arithmetic, because the units differ and published guides routinely contradict each other:
 
 - `ttm.pages_limit` is in **4 KiB pages** → `pages = GiB × 262144`
 - `amdgpu.gttsize` is in **MiB** → `MiB = GiB × 1024`
 
-So on 128 GB:
-
 | Reserve for GPU | `ttm.pages_limit` | `amdgpu.gttsize` | OS headroom |
 |---|---|---|---|
-| 112 GiB | 29360128 | 114688 | ~16 GiB |
-| 124 GiB | 32505856 | 126976 | ~4 GiB |
+| 112 GiB | 29360128 | 114688 | 16 GiB |
+| 116 GiB | 30408704 | 118784 | 12 GiB |
+| **120 GiB** | **31457280** | **122880** | **8 GiB** |
+| 124 GiB | 32505856 | 126976 | 4 GiB |
 
-Start at **112 GiB**. The 124 GiB figure comes from Fedora appliance-style setups; 4 GiB of headroom on a machine that's also my dev box (browser, LSPs, containers, builds) invites the OOM killer. Tighten later if measurements justify it.
+**120 GiB.** Dropping the dev-box role is worth a straight 4 GiB over the 116 GiB a machine running builds and LSPs would want — there's no compiler, no language server and no project container competing any more. The remaining 8 GiB covers the OS, podman, journald and page cache for streaming multi-GB safetensors off disk. Upstream's ComfyUI toolbox suggests 124 GiB; that's a Fedora single-purpose appliance and leaves 4 GiB, which I'd rather not do on a box running two services and reading very large files.
 
-After editing modprobe config: `sudo mkinitcpio -P`.
+> [!warning] One widely-circulated guide pairs `amdgpu.gttsize=131072` (128 GiB) with `ttm.pages_limit=31457280` (120 GiB) — the two knobs disagree by 8 GiB. This is why the chezmoi setup derives both from a single `gpu_reserve_gib` value instead of copying pairs out of blog posts.
 
-## ZRAM
+## Swap
 
-CachyOS ships aggressive ZRAM defaults that fight the GTT setup — under memory pressure the kernel will happily compress model weights into swap, which is catastrophic for throughput. Shrink it and de-prioritise it:
+Ubuntu Server has **no zram by default**, which removes a whole class of problem. Two things to get right:
 
-```
-# /usr/lib/systemd/zram-generator.conf.d/10-zram-override.conf
-[zram0]
-compression-algorithm = zstd lz4 (type=huge)
-zram-size = ram / 8
-swap-priority = 100
-fs-type = swap
-```
-
-## Swappiness
-
-CachyOS's udev rule sets a high `vm.swappiness` when ZRAM comes up. Copy it to `/etc/udev/rules.d/99-zram.rules` (higher precedence) and drop swappiness to `10`, so swap is a pressure-relief valve rather than a routine destination.
-
-> [!warning] CachyOS overwrites files it manages during updates. Anything in `/usr/lib` is system-owned — prefer the `/etc` equivalent where one exists, and treat the `/usr/lib` drop-in above as needing a post-update `chezmoi apply` to survive. The verification task in Phase 6 exists to catch exactly this drift.
+- **Do not install `zram-tools`.** Compressing model weights into RAM-backed swap is the worst possible outcome for throughput.
+- Keep the installer's swapfile as an OOM pressure valve, but set `vm.swappiness=10`. With 128 GB and a hard GTT ceiling, healthy operation should never touch it — if it does, the GTT reserve is too aggressive.
 
 ## Verify
 
 ```bash
-rocm-smi --showmeminfo all      # GTT heap should report ~112 GiB
-vulkaninfo | grep -i heap
+rocm-smi --showmeminfo all      # GTT heap should report ~120 GiB
+vulkaninfo --summary | grep -i heap
 ```
 
-# Phase 3 — Inference runtime
+# Phase 3 — The two toolboxes
 
-## llama.cpp toolboxes
+## The rootless podman group trap
 
-The toolboxes are Fedora-based and documented for Fedora's `toolbox`; on Arch/CachyOS use `distrobox` over `podman`. Variants:
+Read this before copying any `create` command. Under **rootless** podman, `--group-add video` / `--group-add render` are resolved against the *container's* `/etc/group`; the resulting GID lives inside the user namespace and never maps to the host's — so it grants **no access to `/dev/kfd`**. Both upstream READMEs use named groups because Fedora's `toolbox` handles this differently.
+
+The fix is `--group-add keep-groups`, which is crun's `keep_original_groups` and passes the real host supplementary groups through. That is why `crun` is in the Phase 1 package list — with the default runtime this silently fails, and it presents as *"the GPU isn't there"*, not as a permissions error. This applies to **both** toolboxes.
+
+ROCm needs **both** `/dev/kfd` and `/dev/dri`.
+
+## llama.cpp
 
 | Tag | Notes |
 |---|---|
 | `vulkan-radv` | Most compatible. **Start here.** |
 | `vulkan-amdvlk` | Fastest Vulkan, but a 2 GiB buffer limit — rules out big single tensors |
-| `rocm-7.14` | Current ROCm line (Fedora 44 base) |
-| `rocm-6.4.4` | Older, occasionally more stable |
+| `rocm-7.14` | Current ROCm line |
+| `rocm-6.4.4` | Older, occasionally more stable; matches AMD's official support matrix |
 
-```bash
-distrobox create -n llama-vulkan-radv \
-  --image docker.io/kyuz0/amd-strix-halo-toolboxes:vulkan-radv \
-  --additional-flags "--device /dev/dri --group-add video --security-opt seccomp=unconfined"
-
-distrobox create -n llama-rocm \
-  --image docker.io/kyuz0/amd-strix-halo-toolboxes:rocm-7.14 \
-  --additional-flags "--device /dev/dri --device /dev/kfd --group-add video --group-add render --security-opt seccomp=unconfined"
-```
-
-Two flags are **required** on gfx1151 or llama.cpp crashes — `-fa 1` (flash attention) and `--no-mmap`:
+Two flags are **required** on gfx1151 or llama.cpp crashes — `-fa 1` (flash attention) and `--no-mmap`. With unified memory, mmap'd weights and GTT interact badly. Bake both into every launch config.
 
 ```bash
 llama-server -m <model> -c 8192 -ngl 999 -fa 1 --no-mmap
-llama-cli --list-devices     # confirm the iGPU is actually visible
+llama-cli --list-devices     # confirm the iGPU is visible, not CPU-only
 ```
 
-`--no-mmap` is not a tuning preference here — with unified memory, mmap'd weights and GTT interact badly. Bake both into every launch config so I can't forget.
+The repo also ships `gguf-vram-estimator.py` (context-aware footprint estimates — useful for deciding what fits alongside ComfyUI) and `refresh-toolboxes.sh`.
 
-The repo also ships `gguf-vram-estimator.py` (context-aware footprint estimates — useful for deciding what actually fits) and `refresh-toolboxes.sh`.
+## ComfyUI
 
-## vLLM (later)
+Image `docker.io/kyuz0/amd-strix-halo-comfyui:latest` — a full ROCm 7 environment with PyTorch, ComfyUI and helper scripts in `/opt`. ROCm-only; there's no Vulkan alternative here.
 
-[`kyuz0/amd-strix-halo-vllm-toolboxes`](https://github.com/kyuz0/amd-strix-halo-vllm-toolboxes) — `kyuz0/vllm-therock-gfx1151:latest`, Ubuntu 24.04 + ROCm 7.14 + stable vLLM, with a `start-vllm` TUI that handles launch flags. Worth it for continuous batching and serving AWQ 4-bit models; overkill for single-user interactive work. **Phase 3b at the earliest** — get llama.cpp solid first.
+- Launch inside the toolbox via `start_comfy_ui`, which defaults to `--bf16-vae --disable-mmap --cache-none`.
+- `--disable-mmap` is the same lesson as llama.cpp's `--no-mmap`, for the same unified-memory reason. `--cache-none` matters for coexistence — see Phase 4.
+- Models live in `~/comfy-models`, wired into the container by `/opt/set_extra_paths.sh`. Workflows at `/opt/comfy-workflows`.
+- Validated workflows: Qwen Image / Qwen Image Edit, Wan 2.2 (with 4-step Lightning LoRA), HunyuanVideo 1.5, MiniMax-H3.
+- Default port 8188.
+
+> [!warning] `start_comfy_ui` is a shell **alias**, so it won't resolve in a non-interactive `distrobox enter -- …` used by a systemd unit. Either invoke it through a login shell (`bash -lc`) or call the underlying script in `/opt` directly. Worth checking which, because a unit that fails this way looks like a broken container rather than a missing alias.
 
 ## Model storage
 
-Models on a dedicated dataset/subvolume, `HF_HOME` pointed at it, excluded from backups (re-downloadable). Toolboxes share `$HOME`, so one cache serves every backend — worth getting right early to avoid three copies of a 70 GB model.
+Two stores, both on a dedicated filesystem and both excluded from backups (re-downloadable): GGUFs for llama.cpp and `~/comfy-models` for ComfyUI. Toolboxes share `$HOME`, so one copy of each serves everything — worth getting right early to avoid three copies of a 70 GB model.
 
-# Phase 4 — Serving layer
+# Phase 4 — Coexistence
 
-The dev box shouldn't care which backend is running. Target: one stable endpoint on the tailnet.
+The genuinely new problem created by running two GPU workloads on one pool: a resident 70B LLM and a video-generation run will not both fit in 120 GiB.
 
-- **Model routing** — `llama-swap` in front of `llama-server` to load/unload models on demand by name. Without it, switching models means restarting things by hand, which kills the "AI-first" premise.
-- **Lifecycle** — user-level systemd units generated by `distrobox generate-entrypoint`, so the stack survives reboots. Not root services; keep it in the user session.
-- **Exposure** — bind to the tailnet interface only, never `0.0.0.0`. If a firewall rule opening a port ever feels necessary, that's the signal I've mis-scoped the interface binding.
-- **Consumers** — editor/agent config, MCP servers ([[ai_workspace|AI workspace]]), and cluster workloads all point at the one endpoint.
+The good news is that **both workloads are lazy**, so co-residency is cheap even though co-*execution* isn't:
 
-# Phase 5 — Dev box layer
+- `llama-swap` loads a model on first request and can unload it after a TTL. Set a TTL so an idle LLM releases the pool rather than squatting on it.
+- ComfyUI's `--cache-none` avoids holding models between runs.
 
-The part that makes it a *development* machine and not an appliance:
+So the design is: both services run permanently, neither holds memory when idle, and the failure mode is confined to genuinely concurrent heavy use. That's a much better position than hard-conflicting the two units, which would make the common case (chat while nothing is rendering) needlessly exclusive.
 
-- **mise** — language runtimes and CLI tools, per-project and global.
-- **chezmoi** — shell, editor, git, agent harness configs, shared with my other machines.
-- Agent harnesses configured against both hosted models and the local endpoint, so I can switch by env var.
-- Container tooling for actual project work — note this competes with the model pool for memory. Budget for it in the Phase 2 headroom.
+What still needs deciding is the policy for concurrent use — whether to accept occasional OOM, cap the LLM to something small enough to coexist with a video run, or serialise heavy jobs. Wants measurement first.
+
+## Serving
+
+- **`llama-swap`** in front of `llama-server`, routing by model name, with per-model TTL. Runs on the host and shells into the toolbox per model.
+- **ComfyUI** on 8188, run inside its toolbox.
+- **Lifecycle** — user-level systemd units plus `loginctl enable-linger` so both survive reboot on a box nobody logs into.
+- **Exposure** — bind loopback, publish to the tailnet with `tailscale serve`. Never `0.0.0.0`; if a firewall rule opening a port feels necessary, the interface binding is wrong.
 
 # Automation & replicability
 
-The interesting design problem: **chezmoi owns `$HOME`, but the highest-value config on this machine lives in `/etc`, `/usr/lib` and the BIOS.** Split by layer:
+The interesting design problem: **chezmoi owns `$HOME`, but the highest-value config lives in `/etc` and the BIOS.** Split by layer:
 
 | Layer | Owner | Mechanism |
 |---|---|---|
 | BIOS/firmware | Me, manually | Documented in Phase 0. Unavoidable. |
-| `/etc`, `/usr/lib` (GTT, zram, udev) | chezmoi → sudo scripts | `run_onchange_before_` scripts |
+| `/etc` (GRUB cmdline, sysctl) | chezmoi → sudo scripts | `run_onchange_before_` scripts |
 | Toolbox containers | mise tasks | Idempotent create/refresh |
-| systemd user units | chezmoi | Plain files under `~/.config/systemd/user/` |
-| `$HOME` dotfiles | chezmoi | Normal chezmoi |
-| Runtimes & CLI tools | mise | `mise.toml` |
+| systemd user units + linger | chezmoi | Files under `~/.config/systemd/user/` |
+| Service config (models, workflows) | chezmoi | Templated from host facts |
+| `llama-swap` binary | mise | Version-pinned via lockfile |
 
-## chezmoi
+Ubuntu's `/etc` is unmanaged between releases, so this layer is simpler than on a rolling distro — files stay put and don't get reverted on update. The one thing to watch is a release upgrade rewriting `/etc/default/grub`, which the drop-in above already defends against.
 
-Keep the system files as `.chezmoitemplates/` content and install them from `.chezmoiscripts/run_onchange_before_*.sh.tmpl`. The trick that makes it correct: embed a hash of the template in a comment so chezmoi reruns the script when — and only when — the content changes.
+Dropping the dev-box role shrinks mise's job but doesn't remove it: it still pins `llama-swap` and, more importantly, **is the operational interface** — every routine action on this box is a `mise run`.
 
-```
-# .chezmoiscripts/run_onchange_before_10-amdgpu-memory.sh.tmpl
-# template hash: {{ include ".chezmoitemplates/etc/modprobe.d/amdgpu_llm_optimized.conf" | sha256sum }}
-```
+Two rules worth stating once:
 
-Gate all of it on the host so my laptop never tries to set GTT parameters:
+- **Derive, don't duplicate.** The GiB→pages/MiB arithmetic lives in `.chezmoidata.yaml` as a single `gpu_reserve_gib`, with both kernel knobs templated from it. One number to change, no chance of the two disagreeing.
+- **`verify` is the load-bearing task.** On an LTS with unattended upgrades enabled, post-reboot is exactly when the machine will have changed underneath me. Boolean checks aren't enough on their own: everything can look healthy while inference has silently fallen back to CPU, so a recorded `llama-bench` baseline is the real regression detector.
 
-```
-{{ if eq .chezmoi.hostname "<strix-host>" }}
-```
-
-Put the GiB→pages arithmetic in `.chezmoidata.yaml` as a single `gpu_reserve_gib` value and template both `ttm.pages_limit` and `amdgpu.gttsize` from it. One number to change, no chance of the two knobs disagreeing — which is a genuinely easy mistake to make by hand.
-
-Also worth having: a `.chezmoiexternal.toml` entry for the toolbox repo's helper scripts, so `gguf-vram-estimator.py` and `refresh-toolboxes.sh` come along without vendoring them.
-
-The `/etc` scripts need `sudo`, so this is an interactive `chezmoi apply`, not something to run from a cron job.
-
-## mise
-
-A `mise.toml` in the dotfiles repo with tasks as the operational interface:
-
-| Task | Does |
-|---|---|
-| `bootstrap` | Host packages, groups, podman — the fresh-install path |
-| `toolbox:create` | Create/refresh all toolbox containers idempotently |
-| `serve` | Start/reload the llama-swap + llama-server units |
-| `bench` | Run `llama-bench` across backends, write results to a dated file |
-| `verify` | Assert the invariants below and exit non-zero on drift |
-
-`verify` is the one that earns its keep. Post-kernel-update or post-CachyOS-update, it answers "is this machine still configured the way I think it is?" without me remembering five commands.
-
-## Acceptance checks
-
-`mise run verify` should assert:
-
-- Kernel ≥ 6.18.9; `linux-firmware` is not the known-bad build
-- GTT heap ≈ configured `gpu_reserve_gib` (`rocm-smi --showmeminfo all`)
-- `vm.swappiness == 10`; ZRAM size ≈ RAM/8
-- `amd_iommu=off` present in `/proc/cmdline`
-- `llama-cli --list-devices` inside each toolbox reports the iGPU, not CPU-only
-- The endpoint answers a trivial completion over the tailnet
-- Recorded `llama-bench` tok/s within tolerance of the last-known-good baseline
-
-That last one is the real regression detector. Everything can look healthy while inference has silently fallen back to CPU — a throughput baseline catches what boolean checks can't.
+> [!info] The implementation — every file, script and command — is in [[mentat_provisioning|Provisioning mentat]]. This section stays a statement of intent so the two don't drift.
 
 # Relationship to the k8s cluster
 
-**Recommendation: keep this node out of the cluster.** Scheduling against a unified memory pool means the GPU "device" and node memory are the same resource, which the standard AMD device plugin doesn't model — I'd be fighting the scheduler to protect the model's memory. Meanwhile all the benefit (cluster workloads using local inference) is available by just exposing an endpoint.
+**Recommendation: keep this node out of the cluster.** Scheduling against a unified memory pool means the GPU "device" and node memory are the same resource, which the standard AMD device plugin doesn't model — I'd be fighting the scheduler to protect the model's memory. The capacity table in [[hardware|homelab hardware]] makes the mismatch concrete: this one box holds more RAM than all seven cluster nodes combined, so a scheduler would see one node it could never fill and seven it could. Meanwhile all the benefit (cluster workloads using local inference) is available by just exposing an endpoint.
 
 Revisit if I ever add a second Strix Halo box and want scheduled multi-node inference — the toolbox repo ships `run_distributed_llama.py` for SSH-based multi-node, which would be the cheaper experiment first.
 
 # Open questions
 
-- Headless vs desktop session (Phase 1) — gates the GTT headroom number.
-- Is 112 GiB right, or does my actual dev workload push it to 104?
-- Does ROCm's long-context prompt-processing advantage matter for how I actually work, or is `vulkan-radv` sufficient permanently?
-- NPU (`amd-xdna`) — currently a curiosity, not a workload. Anything real to do with it?
-- Does the vLLM toolbox belong here at all, given single-user usage?
+- Concurrency policy between llama.cpp and ComfyUI (Phase 4) — accept OOM, cap the LLM, or serialise? Needs measurement.
+- Is 120 GiB right for an appliance, or does 124 work now that nothing else runs here?
+- Does ROCm's long-context prompt-processing advantage matter for how I actually use the LLM, or is `vulkan-radv` sufficient permanently?
+- IOMMU off — confirm the bandwidth gain on *this* board rather than trusting a reported figure.
+- Is `start_comfy_ui` a wrapper around something directly callable from a systemd unit?
+- NPU (`amd-xdna`) — currently a curiosity, not a workload.
+- vLLM ([toolboxes here](https://github.com/kyuz0/amd-strix-halo-vllm-toolboxes)) would add continuous batching and AWQ serving. Overkill for single-user use, but it's the obvious third toolbox if that changes.
 
 # Media
 
 # References
 
 - [kyuz0/amd-strix-halo-toolboxes](https://github.com/kyuz0/amd-strix-halo-toolboxes) — llama.cpp toolboxes for gfx1151 ([benchmarks](https://kyuz0.github.io/amd-strix-halo-toolboxes/))
-- [kyuz0/amd-strix-halo-vllm-toolboxes](https://github.com/kyuz0/amd-strix-halo-vllm-toolboxes) — vLLM on gfx1151
-- [Configuring CachyOS for LLMs on Strix Halo](https://brian.th3rogers.com/posts/strixhalo-cachyos/) — the closest match to this setup
-- [Building a LLM server based on CachyOS and AMD Ryzen AI Max 395](https://codepitbull.medium.com/building-a-llm-server-based-on-cachyos-and-amd-ryzen-ai-max-395-strix-halo-1a2260337a8e) — zram/swappiness specifics
-- [Framework-strix-halo-llm-setup](https://github.com/Gygeek/Framework-strix-halo-llm-setup) — BIOS and kernel config
-- [Pushing AMD Strix Halo to 120GB Unified VRAM under Linux](https://zyphersystems.com/blog/strix-halo-setup.html)
+- [kyuz0/amd-strix-halo-comfyui-toolboxes](https://github.com/kyuz0/amd-strix-halo-comfyui-toolboxes) — ComfyUI/ROCm toolbox ([benchmarks](https://kyuz0.github.io/amd-strix-halo-comfyui-toolboxes/))
+- [Strix Halo AI Toolboxes](https://strix-halo-toolboxes.com/) — index of the whole toolbox family
+- [Ubuntu 26.04 LTS release notes](https://documentation.ubuntu.com/release-notes/26.04/summary-for-lts-users/) — kernel 7.0 GA
+- [Strix Halo Local LLM Setup guide](https://hogeheer499-commits.github.io/strix-halo-guide/) — Ubuntu-based, BIOS + GRUB params + Vulkan/ROCm benchmarks
+- [How to Run AMD GPU Containers with Podman](https://oneuptime.com/blog/post/2026-03-18-run-amd-gpu-containers-podman/view) — the rootless `keep-groups` trap
+- [ROCm issue #5665](https://github.com/ROCm/ROCm/issues/5665) / [#5750](https://github.com/ROCm/ROCm/issues/5750) — known gfx1151 GPU hang and idle-clock bugs. #5665 is specifically AI workloads *plus* video encoding, which is close to running both toolboxes at once
+- CachyOS-specific writeups whose *memory math* still transfers: [Brian Rogers](https://brian.th3rogers.com/posts/strixhalo-cachyos/), [Jochen Mader](https://codepitbull.medium.com/building-a-llm-server-based-on-cachyos-and-amd-ryzen-ai-max-395-strix-halo-1a2260337a8e)

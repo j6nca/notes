@@ -29,15 +29,15 @@ The seven N100/3550H nodes form the [[k8s_cluster|Kubernetes cluster]]. The BosG
 
 # Compute capacity
 
-| Node | Qty | CPU | Cores/node | Threads/node | Cores | Threads | RAM/node | RAM |
-|---|---|---|---|---|---|---|---|---|
-| Beelink Mini S12 | 3 | Intel N100 | 4 | 4 | 12 | 12 | 16 GB | 48 GB |
-| GMKtec | 2 | Intel N100 | 4 | 4 | 8 | 8 | 8 GB | 16 GB |
-| BosGame E2 | 2 | Ryzen 5 3550H | 4 | 8 | 8 | 16 | 16 GB | 32 GB |
-| **Kubernetes total** | **7** | | | | **28** | **36** | | **96 GB** |
-| BosGame M5 | 1 | Ryzen AI Max+ 395 | 16 | 32 | 16 | 32 | 128 GB | 128 GB |
-| **AI total** | **1** | | | | **16** | **32** | | **128 GB** |
-| **Homelab total** | **8** | | | | **44** | **68** | | **224 GB** |
+| Node | Host | Qty | CPU | Cores/node | Threads/node | Cores | Threads | RAM/node | RAM |
+|---|---|---|---|---|---|---|---|---|---|
+| Beelink Mini S12 | | 3 | Intel N100 | 4 | 4 | 12 | 12 | 16 GB | 48 GB |
+| GMKtec | | 2 | Intel N100 | 4 | 4 | 8 | 8 | 8 GB | 16 GB |
+| BosGame E2 | | 2 | Ryzen 5 3550H | 4 | 8 | 8 | 16 | 16 GB | 32 GB |
+| **Kubernetes total** | | **7** | | | | **28** | **36** | | **96 GB** |
+| BosGame M5 | `mentat` | 1 | Ryzen AI Max+ 395 | 16 | 32 | 16 | 32 | 128 GB | 128 GB |
+| **AI total** | | **1** | | | | **16** | **32** | | **128 GB** |
+| **Homelab total** | | **8** | | | | **44** | **68** | | **224 GB** |
 
 Two things fall out of this:
 
@@ -46,6 +46,8 @@ Two things fall out of this:
 **The N100s are SMT-less.** All four cores are efficiency cores with no hyperthreading, so the cluster's 28 cores yield only 36 threads — the extra 8 come entirely from the two 3550H nodes. Worth remembering when setting CPU requests: there's less thread headroom than the core count suggests.
 
 **The two GMKtec nodes are the memory floor** at 8 GB each. On a 7-node cluster that's where memory-hungry pods will get evicted first; probably worth either upgrading those SODIMMs or tainting them for lightweight workloads.
+
+> [!todo] Cluster hostnames still unassigned. `mentat` opens a Dune naming theme if I want one for the seven cluster nodes — plenty of material for control-plane vs worker roles.
 
 ![Server rack](../../diagrams/homelab_hardware.drawio)
 
