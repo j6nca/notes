@@ -22,6 +22,7 @@ A personal "second brain" / digital notebook — an Obsidian vault containing no
 ## Conventions
 
 - Notes use YAML frontmatter with `tags`, `date`, `title`
+- Notes written primarily by AI must include a `genai` tag in frontmatter. This does not apply when AI only edits, enhances, formats, or tidies up existing human-written notes (e.g. filling in addresses, fixing formatting)
 - Internal links use Obsidian wiki-link syntax: `[[path|label]]`
 - `docs/wip/` and `docs/ignore/` are gitignored — use them for in-progress or private content
 - The Basalt workflow excludes: `templates, scripts, .obsidian, assets, diagrams, drafts` from the rendered site

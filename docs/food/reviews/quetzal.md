@@ -2,7 +2,7 @@
 tags:
   - review
   - WIP
-  - location
+  - toronto
   - cuisine
   - ⭐⭐⭐⭐⭐
   - 💸💸💸💸💸
@@ -11,7 +11,7 @@ title: Quetzal
 ---
 
 > [!info]
->📌: [Address]()
+>📌: [419 College St, Toronto, ON M5T 1T1](https://www.google.com/maps/search/?api=1&query=419+College+St%2C+Toronto%2C+ON+M5T+1T1)
 >💲: 💸💸💸💸
 
 # Rating: ⭐⭐⭐⭐⭐
