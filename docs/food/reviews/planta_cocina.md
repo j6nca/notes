@@ -10,6 +10,9 @@ title: Planta Cocina
 ---
 
 
+> [!failure] Permanently closed
+> This location closed permanently in 2023.
+
 > [!info]
 >📌: [10 Temperance Street, First Floor,  Toronto, ON M5H 1Y4](https://maps.app.goo.gl/AzKPM2t1dLvUiDos7)
 >💲: 💸💸💸💸💸
