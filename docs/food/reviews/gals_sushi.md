@@ -8,6 +8,7 @@ tags:
   - 💸💸
 date: 2024-07-19
 title: Gal's Sushi
+location: [43.854244, -79.337106]
 ---
 
 > [!info]

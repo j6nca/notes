@@ -8,6 +8,7 @@ tags:
   - 💸💸💸💸💸
 date: "2026-02-22"
 title: Quetzal
+location: [43.65647, -79.406875]
 ---
 
 > [!info]

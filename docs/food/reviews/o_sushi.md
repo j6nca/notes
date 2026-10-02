@@ -8,6 +8,7 @@ tags:
   - 💸💸💸💸💸
 date: "2026-09-30"
 title: O Sushi
+location: [43.666607, -79.316818]
 ---
 
 > [!info]

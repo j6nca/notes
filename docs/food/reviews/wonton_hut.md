@@ -8,6 +8,7 @@ tags:
   - 💸💸💸💸💸
 date: "2026-09-30"
 title: Wonton Hut
+location: [43.856642, -79.33231]
 ---
 
 > [!info]

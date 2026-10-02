@@ -8,6 +8,7 @@ tags:
   - 💸💸💸💸💸
 date: 2024-07-28
 title: Watercolour
+location: [43.866989, -79.312159]
 ---
 
 

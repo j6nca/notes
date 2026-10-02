@@ -16,7 +16,27 @@ permissions:
   id-token: write
 
 jobs:
+  geocode_reviews:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Only reviews with an address and no `location` hit the network, so this is
+      # a no-op on most pushes. A lookup failure shouldn't block the deploy.
+      - name: Geocode reviews missing coordinates
+        continue-on-error: true
+        run: python3 scripts/geocode_reviews.py
+
+      - name: Commit coordinates
+        run: |
+          git diff --quiet -- docs/food/reviews && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898729+github-actions[bot]@users.noreply.github.com"
+          git commit -m "geocode reviews" -- docs/food/reviews
+          git push
+
   nebula_render:
+    needs: geocode_reviews
     uses: ctrl-research/nebula-md/.github/workflows/deploy.yml@main
     with:
       vault_repo: j6nca/notes

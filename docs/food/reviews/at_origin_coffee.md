@@ -7,6 +7,7 @@ tags:
   - 💸💸
 date: 2024-07-08
 title: At Origin Coffee
+location: [43.70589, -79.388954]
 ---
 
 > [!info]

@@ -8,6 +8,7 @@ tags:
   - 💸💸💸
 date: 2024-07-26
 title: Elephant Grind Coffee
+location: [43.8536, -79.383973]
 ---
 
 > [!info]

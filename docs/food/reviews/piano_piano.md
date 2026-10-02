@@ -7,6 +7,7 @@ tags:
   - 💸💸💸
 date: July 8, 2024
 title: Piano Piano
+location: [43.704441, -79.38849]
 ---
 
 > [!info]

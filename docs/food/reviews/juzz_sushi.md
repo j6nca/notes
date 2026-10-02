@@ -8,6 +8,7 @@ tags:
   - 💸💸💸💸💸
 date: "2026-09-30"
 title: Juzz Sushi
+location: [43.660522, -79.342999]
 ---
 
 > [!info]
