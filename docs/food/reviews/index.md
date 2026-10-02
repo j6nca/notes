@@ -18,7 +18,7 @@ This is a collection of food reviews from places I've visited. All opinions are 
 
 I'm a data hoarder, so here is a map tracking all those places:
 
-%% map tag=review %%
+%% map tag=review exclude=gauntlet icons=cafe:☕,bar:🍸,pub:🍺,*:🍴 %%
 
 # Legend
 

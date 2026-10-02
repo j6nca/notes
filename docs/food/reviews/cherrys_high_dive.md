@@ -3,7 +3,7 @@ tags:
   - review
   - WIP
   - toronto
-  - cuisine
+  - bar
   - ⭐⭐⭐⭐⭐
   - 💸💸💸💸
 date: 2024-07-25
