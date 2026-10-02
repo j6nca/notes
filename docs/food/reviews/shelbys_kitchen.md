@@ -8,6 +8,7 @@ tags:
   - 💸💸💸💸💸
 date: "2026-09-30"
 title: Shelby's Legendary Shawarma
+location: [43.850452, -79.35766]
 ---
 
 > [!info]

@@ -7,6 +7,7 @@ tags:
   - 💸💸💸💸💸
 date: 2024-07-25
 title: Planta Cocina
+location: [43.651056, -79.379312]
 ---
 
 

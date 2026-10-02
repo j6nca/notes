@@ -8,6 +8,7 @@ tags:
   - 💸💸💸💸💸
 date: "2026-09-30"
 title: Earls Kitchen + Bar
+location: [43.648024, -79.384005]
 ---
 
 > [!info]

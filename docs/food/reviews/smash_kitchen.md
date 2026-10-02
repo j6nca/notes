@@ -5,6 +5,7 @@ tags:
   - brunch
   - ⭐⭐
   - 💸💸💸
+location: [43.859908, -79.315493]
 ---
 
 # Smash Kitchen and Bar

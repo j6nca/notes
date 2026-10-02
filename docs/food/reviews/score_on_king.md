@@ -8,6 +8,7 @@ tags:
   - 💸💸💸💸💸
 date: "2026-09-30"
 title: Score on King
+location: [43.649901, -79.374036]
 ---
 
 > [!info]

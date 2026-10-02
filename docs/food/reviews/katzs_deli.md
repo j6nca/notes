@@ -7,6 +7,7 @@ tags:
   - 💸💸
 date: 2024-07-25
 title: Katz's Deli
+location: [40.722343, -73.987353]
 ---
 
 > [!info]

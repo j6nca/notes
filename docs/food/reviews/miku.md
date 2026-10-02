@@ -8,6 +8,7 @@ tags:
   - 💸💸💸💸💸
 date: "2026-09-30"
 title: Miku
+location: [43.641225, -79.37758]
 ---
 
 > [!info]

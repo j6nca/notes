@@ -8,6 +8,7 @@ tags:
   - 💸💸💸💸
 date: 2024-07-25
 title: Cherry's High Dive
+location: [43.643512, -79.398367]
 ---
 
 > [!info]

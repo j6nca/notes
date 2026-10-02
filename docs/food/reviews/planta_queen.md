@@ -8,6 +8,7 @@ tags:
   - 💸💸💸💸💸
 date: 2024-07-26
 title: Planta Queen
+location: [43.650635, -79.388204]
 ---
 
 

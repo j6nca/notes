@@ -6,6 +6,7 @@ tags:
   - omakase
   - ★★★☆☆
   - 💸💸💸💸💸
+location: [43.854059, -79.3369]
 ---
 
 # Sushi Umi

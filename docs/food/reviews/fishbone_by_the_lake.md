@@ -7,6 +7,7 @@ tags:
   - 💸💸💸💸💸
 date: 2024-07-08
 title: Fishbone by the Lake
+location: [44.034412, -79.272161]
 ---
 
 > [!info]

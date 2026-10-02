@@ -7,6 +7,7 @@ tags:
   - 💸💸💸
 date: 2024-07-25
 title: Sugo
+location: [43.65825, -79.44231]
 ---
 
 

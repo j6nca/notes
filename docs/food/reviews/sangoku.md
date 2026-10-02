@@ -9,6 +9,7 @@ tags:
   - 💸💸💸💸💸
 date: "2026-09-30"
 title: Sangoku Japanese BBQ
+location: [43.821243, -79.325581]
 ---
 
 > [!info]

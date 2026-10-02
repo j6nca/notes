@@ -8,6 +8,7 @@ tags:
   - 💸💸💸
 date: 2024-07-23
 title: The Fourth Man in the Fire
+location: [43.65176, -79.40955]
 ---
 
 

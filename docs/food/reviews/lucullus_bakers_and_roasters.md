@@ -7,6 +7,7 @@ tags:
   - 💸
 date: 2024-07-28
 title: Lucullus Bakers and Roasters
+location: [43.85094, -79.318537]
 ---
 
 > [!info]

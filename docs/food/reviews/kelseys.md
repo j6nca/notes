@@ -5,6 +5,7 @@ tags:
   - pub
   - ⭐⭐⭐
   - 💸💸
+location: [43.850462, -79.354557]
 ---
 
 # Kelsey's

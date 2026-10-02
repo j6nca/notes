@@ -8,6 +8,7 @@ tags:
   - 💸💸💸💸💸
 date: "2026-09-30"
 title: Old Country Inn
+location: [43.86738, -79.312055]
 ---
 
 > [!info]

@@ -5,6 +5,7 @@ tags:
   - brunch
   - ⭐⭐⭐⭐
   - 💸💸💸💸
+location: [43.865345, -79.31036]
 ---
 
 # Nextdoor Restaurant

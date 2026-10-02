@@ -4,6 +4,7 @@ tags:
   - markham
   # - cuisine (i.e italian, mexican)
   - ★★★★☆
+location: [43.872343, -79.267388]
 ---
 
 # Osaka Sushi

@@ -8,6 +8,7 @@ tags:
   - 💸💸💸💸💸
 date: "2026-09-30"
 title: Shawarma Stop
+location: [43.851342, -79.352228]
 ---
 
 > [!failure] Permanently closed
