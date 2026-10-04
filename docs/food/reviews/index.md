@@ -18,7 +18,7 @@ This is a collection of food reviews from places I've visited. All opinions are 
 
 I'm a data hoarder, so here is a map tracking all those places:
 
-%% map tag=review exclude=gauntlet hide=cuisine,location,markham,toronto,new_york,montreal icons=cafe:☕,bar:🍸,pub:🍺,*:🍴:restaurant %%
+%% map tag=review exclude=gauntlet hide=WIP,cuisine,location,markham,toronto,new_york,montreal icons=cafe:☕,bar:🍸,pub:🍺,*:🍴:restaurant %%
 
 # Legend
 
