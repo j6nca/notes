@@ -7,7 +7,7 @@ tags:
   - ⭐⭐⭐⭐
   - 💸💸💸💸💸
 date: "2026-10-11"
-title: stoa_coffee
+title: Stoa Coffee
 location: [43.861452, -79.395065]
 ---
 

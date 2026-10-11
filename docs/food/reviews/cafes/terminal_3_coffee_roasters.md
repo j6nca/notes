@@ -7,7 +7,7 @@ tags:
   - ⭐⭐⭐⭐⭐
   - 💸💸💸💸💸
 date: "2026-10-11"
-title: terminal_3_coffee_roasters
+title: Terminal 3 Coffee Roasters
 location: [43.890825, -79.393047]
 ---
 
