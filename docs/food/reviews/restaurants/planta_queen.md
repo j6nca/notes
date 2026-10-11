@@ -3,7 +3,6 @@ tags:
   - review
   - WIP
   - toronto
-  - cuisine
   - ⭐⭐⭐
   - 💸💸💸💸💸
 date: 2024-07-26
@@ -17,8 +16,7 @@ location: [43.650635, -79.388204]
 
 > [!info]
 >📌: [180 Queen St W, Toronto, ON M5V 3X3](https://www.google.com/maps/search/?api=1&query=180+Queen+St+W%2C+Toronto%2C+ON+M5V+3X3)
->💲: 💸💸💸💸💸
 
-## Rating: ⭐⭐⭐
+## Review
 
 ## Photos

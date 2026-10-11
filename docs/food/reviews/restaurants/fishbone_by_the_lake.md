@@ -12,9 +12,8 @@ location: [44.034412, -79.272161]
 
 > [!info]
 >📌: [155 Cedarvale Blvd, Whitchurch-Stouffville, ON L4A 7X3](https://maps.app.goo.gl/7MbmabLp646KaCcd6)
->💲: 💸💸💸💸💸
 
-## Rating: ⭐⭐⭐⭐
+## Review
 
 Food here is quite good, I'd say my family likes to go here in the summer primarily for the great vibes and great view along the shoreline. Best to be seated around sunset, with a nice view of the lake. The first time we were here, our table wasn't ready yet, and we were seated in a cozy out door lounging area accompanied with drinks. Always a pleasant time (weather permitted). I believe they close if weather is poor, so I would check in advance before coming. Menu is seasonal but some of the recurring items I would recommend getting: deep-fried brussels sprouts and their grilled octopus are divine.
 

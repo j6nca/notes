@@ -13,8 +13,7 @@ location: [43.8536, -79.383973]
 
 > [!info]
 >📌: [10 East Wilmot St Unit 7, Richmond Hill, ON L4B 1G9](https://maps.app.goo.gl/DWdqd7PKbotffECt5)
->💲: 💸💸💸💸💸
 
-## Rating: ⭐⭐⭐⭐⭐
+## Review
 
 ## Photos

@@ -12,9 +12,8 @@ location: [40.722343, -73.987353]
 
 > [!info]
 >📌: [205 E Houston St New York, NY 10002 United States](https://maps.app.goo.gl/4FqZa4wquZyHkRWn6)
->💲: 💸💸
 
-## Rating: ⭐⭐⭐⭐
+## Review
 
 My first stop in NYC, went to meet up with Cece and we headed over to Katz's for lunch, seeking their pastrami #sandwiches. During peak hours, its packed with high energy, everyone waiting in queues to get their orders. The pastrami cutters were very friendly and offer you a sample cut of the pastrami. The sandwich was delicious, the pastrami was the perfect ratio of fatty and moist for a sandwich, between two pieces of soft rye bread. The order also came with a selection of half-sour and full-sour pickles, which gave a refreshing acidic snap. Having had a [[schwartz_deli|similar sandwich in Montreal]], I much prefer this sandwich. Make sure to keep your ticket to pay when you leave!
 

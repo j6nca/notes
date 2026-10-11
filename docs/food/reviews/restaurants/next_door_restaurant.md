@@ -12,9 +12,8 @@ location: [43.865345, -79.31036]
 
 > [!info]
 >📌: [139 Main St Unionville, Markham, ON L3R 2G6](https://maps.app.goo.gl/6Ui6iTxDwkK3xS8R6)
->💲: 💸💸💸💸
 
-## Rating: ⭐⭐⭐⭐
+## Review
 
 Really great spot, get a seat outside on the patio if you get the opportunity. We came here for father's day and were seated in the patio (luckily wonderful weather) and got the brunch tower special as well as a loaded avocado bagel.
 

@@ -14,9 +14,8 @@ location: [43.65176, -79.40955]
 
 > [!info]
 >📌: [832 Dundas St W, Toronto, ON M6J 1V3](https://maps.app.goo.gl/vqqtRNA1zYZN4bVR6)
->💲: 💸💸💸
 
-## Rating: ⭐⭐⭐⭐
+## Review
 
 
 

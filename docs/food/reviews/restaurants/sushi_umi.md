@@ -4,7 +4,7 @@ tags:
   - WIP
   - markham
   - omakase
-  - ★★★☆☆
+  - ⭐⭐⭐
   - 💸💸💸💸💸
 location: [43.854059, -79.3369]
 ---
@@ -12,9 +12,8 @@ location: [43.854059, -79.3369]
 # Sushi Umi
 
 📌: [3621 Hwy 7 Unit 104-105, Markham, ON L3R 0G6](https://maps.app.goo.gl/7ASWPJjDH48aYgsM8)
-💸: 💸💸💸💸💸
 
-## Rating: ★★★☆☆
+## Review
 
 The homemade dessert this time around was a matcha tofu
 

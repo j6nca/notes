@@ -12,9 +12,8 @@ location: [43.850462, -79.354557]
 
 > [!info]
 >📌: [3131 Hwy 7, Markham, ON L3R 0J5](https://maps.app.goo.gl/7pjGNEsDf5QxVSMw7)
->💲: 💸💸
 
-## Rating: ⭐⭐⭐
+## Review
 
 Food is pretty good, I was a big fan of my roast chicken breast, however, my partners chicken alfredo was lacking and didn't really taste like a chicken alfredo. The dessert brownie was great.
 

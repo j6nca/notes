@@ -16,8 +16,7 @@ location: [43.851342, -79.352228]
 
 > [!info]
 >📌: [3150 Highway 7 E, Markham, ON](https://www.google.com/maps/search/?api=1&query=3150+Highway+7+E%2C+Markham%2C+ON)
->💲: 💸💸💸💸💸
 
-# Rating: ⭐⭐⭐⭐⭐
+# Review
 
 # Photos

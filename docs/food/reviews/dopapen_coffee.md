@@ -13,8 +13,7 @@ location: [43.8510, -79.3365]
 
 > [!info]
 >📌: [Warden & Hwy 7, Markham, ON](https://www.google.com/maps/search/?api=1&query=Dopapen+Coffee%2C+Markham%2C+ON)
->💲: 💸💸💸💸💸
 
-# Rating: ⭐⭐⭐⭐⭐
+# Review
 
 # Photos

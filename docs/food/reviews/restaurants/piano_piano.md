@@ -12,9 +12,8 @@ location: [43.704441, -79.38849]
 
 > [!info]
 >📌: [623 Mt Pleasant Rd, Toronto, ON M4S 2M9](https://maps.app.goo.gl/iYT4qZSUsxBx9BKR7)
->💲: 💸💸💸
 
-## Rating: ⭐⭐⭐⭐⭐
+## Review
 
 Wow, where do I even begin, this is one of my favourite #pasta places in Toronto. The store is tucked away in a small corner of X. We were going to be in the area and heard that this place has a great lunch deal for $34. The pasta is homemade fresh and was delicious. It did not disappoint, reminded me of getting pasta at [[sugo]]. Solid portions of pasta as well. Cece ordered the cenestri alla vodka (we love a good vodka sauce pasta), and I ordered the rigatoni and meatballs. For dessert we had a Nutella tiramisu which was also tasty.
 

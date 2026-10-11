@@ -16,9 +16,8 @@ location: [43.651056, -79.379312]
 
 > [!info]
 >📌: [10 Temperance Street, First Floor,  Toronto, ON M5H 1Y4](https://maps.app.goo.gl/AzKPM2t1dLvUiDos7)
->💲: 💸💸💸💸💸
 
-## Rating: ⭐⭐⭐⭐⭐
+## Review
 
 Planta Cocina was an excellent (albeit expensive) first venture into upscale vegan dining. The menu had creative vegan takes on Mexican cuisine, and I found my self enjoying every bite of what I ate, with the taco platter each taco had a unique profile. My standouts were the jackfruit, cauliflower and potato tacos. It was truly an eye-opener and made the idea of going potentially going meat-less one day very approachable. The service was amazing, near the end the waiter asked us if we wanted a top up of chips and guac free of charge (naturally we took the offer), **sooo** good. 
 

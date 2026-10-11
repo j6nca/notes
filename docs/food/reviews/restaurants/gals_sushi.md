@@ -13,9 +13,8 @@ location: [43.854244, -79.337106]
 
 > [!info]
 >📌: [3621 Hwy 7 #106, Markham, ON L3R 0G6](https://maps.app.goo.gl/NcGAPKFkiRehSWA89)
->💲: 💸💸
 
-## Review: ⭐⭐⭐⭐
+## Review
 
 One of my go-to places for a good-value, #sushi lunch set. There are a variety of lunch specials to choose from, with a wide selection of Japanese and Korean components. I usually get takeout from here but I've had equally good experiences dining in.
 
