@@ -17,6 +17,11 @@ I needed something that could:
 - Ideally bring some functionality from Obsidian itself
 	- Namely the visualizations and tagging, I liked how the graph drew links between relevant notes
 
+```mermaid
+flowchart LR
+    vault[("Obsidian vault (git repo)")] -->|"nebula-md GH actions (static site generator)"| r1["GH pages"]
+```
+
 ## Rev. 1
 
 I initially started with a barebones mkdocs setup, a popular static site generator for documentation. I eventually added some Obsidian-esque plugins to make the experience browsing the site as similar.

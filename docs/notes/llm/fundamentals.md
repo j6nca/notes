@@ -163,4 +163,4 @@ Cost is tokens in and tokens out. Latency is prefill for the input plus decode f
 - [Tiktokenizer](https://tiktokenizer.vercel.app/) for seeing how text actually tokenizes
 - [Lost in the Middle](https://arxiv.org/abs/2307.03172) on long-context recall
 - [llama.cpp server docs](https://github.com/ggml-org/llama.cpp/tree/master/tools/server) for `--ctx-size`, prompt caching, and `/tokenize`
-- [[projects/homelab/ai_workspace|ai_workspace]] and [[projects/homelab/strix_halo_ai_box|strix_halo_ai_box]] for where these ideas meet real hardware
+- [[ai stack|ai stack]] and [[projects/homelab/strix_halo_ai_box|strix_halo_ai_box]] for where these ideas meet real hardware

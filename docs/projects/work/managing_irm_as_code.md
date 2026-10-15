@@ -101,6 +101,23 @@ resource "grafana_oncall_escalation" "teamA_step_0" {
 - Primarily done via Slack for general alerts
 - Phone call routing for critical alerts \[TODO\]
 
+How an alert makes its way through the resources defined above (dashed = managed manually in the UI, not in terraform):
+
+```mermaid
+flowchart TD
+    alert["Alert fires<br/>(alerts-as-code)"] --> integration["OnCall integration<br/>module.teamA"]
+    integration --> route{"Route regex matches<br/>commonLabels.slack_channel?"}
+    route -->|"alerts-sev-1"| slack["Slack channel<br/>alerts-sev-1"]
+    route --> chain["Escalation chain<br/>teamA"]
+    chain --> step0["Step 0: notify on-call<br/>from schedule"]
+    step0 --> schedule[("teamA schedule")]
+    schedule --> user["On-call engineer"]
+    chain -.->|"TODO"| phone["Phone call<br/>(critical alerts)"]
+
+    classDef manual stroke-dasharray: 5 5
+    class schedule,phone manual
+```
+
 With a previous alerting setup centered around PromAlerts and AlertManager we wanted to create a new framework that enabled developers to easily reuse their existing Prometheus alert configs. The reason we are moving to Grafana Alerting is due to the additional features from Grafana alerting (we can leverage alert queries from different datasource types etc). Along with this we want to keep the practice of having our alerts in code - as it allows us to own and approve alerting changes respectively as opposed to alerts being changed ad-hoc in UI where it is hard to track.
 
 # References

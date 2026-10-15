@@ -10,9 +10,9 @@ title: pi_workflow
 ---
 
 > [!faq]- Disclaimer:
-> Same caveat as [[ai_workspace|AI workspace]] — harnesses are churning fast. This page is a running outline of *decisions and reasoning*, not a finished runbook. Expect it to be wrong in six months.
+> Same caveat as [[ai stack|AI workspace]] — harnesses are churning fast. This page is a running outline of *decisions and reasoning*, not a finished runbook. Expect it to be wrong in six months.
 
-The Agents/Harnesses slot in [[ai_workspace|AI workspace]], filled in. `pi` is the harness; this page is why, and what a deliberately-built workflow on top of it looks like.
+The Agents/Harnesses slot in [[ai stack|AI workspace]], filled in. `pi` is the harness; this page is why, and what a deliberately-built workflow on top of it looks like.
 
 Upstream: [pi.dev](https://pi.dev) / `earendil-works/pi-mono`, TypeScript, MIT. Installed via mise (`github:badlogic/pi-mono`). Config lives in `dotfiles` at `chezmoi/dot_pi/agent/`.
 
@@ -59,6 +59,19 @@ Four customization surfaces, ordered by effort and by how much they can hurt:
 | **Extensions** | `extensions/*.ts` | real | you need to *intercept, block, or render* something |
 
 The routing rule: retyped text → template. Needs judgement and docs → skill. Needs to say *no* → extension.
+
+```mermaid
+flowchart TD
+    need["Something I want pi to do differently"] --> wiring{"Just wiring existing<br/>things together?"}
+    wiring -->|"yes"| settings["Settings<br/>settings.json"]
+    wiring -->|"no"| sayNo{"Needs to intercept,<br/>block, or render?"}
+    sayNo -->|"yes"| ext["Extension<br/>extensions/*.ts"]
+    sayNo -->|"no"| judgement{"Needs judgement<br/>+ reference docs?"}
+    judgement -->|"yes"| skill["Skill<br/>SKILL.md dir"]
+    judgement -->|"no"| retyped{"Retyped the same<br/>paragraph 3×?"}
+    retyped -->|"yes"| tmpl["Prompt template<br/>prompts/*.md"]
+    retyped -->|"no"| wait["Not yet: note it<br/>for the Stage 2 backlog"]
+```
 
 ## Settings worth setting
 
@@ -119,7 +132,7 @@ Payoff: versioned, pinned, testable in CI, shareable, and reproducible on a new 
 - Does the memory-graph idea from jcode matter enough to rebuild a thin version as a pi extension, or is `/compact` + `/tree` + good `AGENTS.md` genuinely sufficient? *Suspect the latter, but that's untested.*
 - Is there value pointing pi at `mentat` directly ([[mentat_provisioning|mentat provisioning]]) instead of through litellm, or is the gateway worth the hop for routing and key management?
 - Local model viability: are `deepseek-v4-flash` / `MiniMax-M3` good enough to drive extension authoring, or does that work want a frontier model?
-- MCP is absent by design. Does anything in [[ai_workspace|AI workspace]] actually need it, or is a custom pi tool the better answer each time?
+- MCP is absent by design. Does anything in [[ai stack|AI workspace]] actually need it, or is a custom pi tool the better answer each time?
 
 # Gotchas
 
@@ -135,6 +148,6 @@ Payoff: versioned, pinned, testable in CI, shareable, and reproducible on a new 
 - [pi docs](https://pi.dev) — and the copy shipped in the installed package, which is the version-accurate one
 - `examples/extensions/` and `examples/sdk/` in the installed package — the actual starting point for anything non-trivial
 - [Agent Skills specification](https://agentskills.io/specification) — pi implements it, leniently
-- [[ai_workspace|AI workspace]] — the umbrella this page sits under
+- [[ai stack|AI workspace]] — the umbrella this page sits under
 - [[chezmoi_profiles|chezmoi profiles]] — how the config gets gated per machine
 - [[mentat_provisioning|mentat provisioning]] — where the local models actually run

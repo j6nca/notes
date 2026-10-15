@@ -14,6 +14,48 @@ This post focuses on setting up and managing secrets in a Kubernetes environment
 
 This article goes over my process for bootstrapping a kubernetes cluster for secrets management using SOPS.
 
+The end-to-end flow, from encrypting the Connect credentials to a secret landing in a pod:
+
+```mermaid
+flowchart TD
+    subgraph local["Workstation"]
+        age["age-keygen<br/>age.agekey"]
+        sops["sops --encrypt"]
+    end
+
+    subgraph git["Git repo"]
+        enc["SOPS-encrypted<br/>op-credentials manifest"]
+    end
+
+    subgraph cluster["Kubernetes cluster"]
+        ageSecret["Secret: sops-age<br/>(flux-system)"]
+        flux["Flux<br/>kustomize-controller"]
+        opCreds["Secret: op-credentials<br/>(secret-ops)"]
+        connect["1Password Connect"]
+        store["ClusterSecretStore"]
+        eso["external-secrets-operator"]
+        es["ExternalSecret"]
+        k8sSecret["Kubernetes Secret"]
+        pod["Workload pod"]
+    end
+
+    vault[("1Password vault")]
+
+    age -->|"kubectl create secret"| ageSecret
+    age -.->|"public key"| sops
+    sops --> enc
+    enc -->|"reconcile"| flux
+    ageSecret -->|"decryption key"| flux
+    flux -->|"apply decrypted"| opCreds
+    opCreds -->|"credentials"| connect
+    connect <--> vault
+    es --> eso
+    eso --> store
+    store --> connect
+    eso -->|"create / sync"| k8sSecret
+    k8sSecret --> pod
+```
+
 # Configuring FluxCD with sops-age
 
 First I generate a sops key to use for encryption.

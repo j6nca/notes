@@ -10,13 +10,13 @@ title: strix_halo_ai_box
 ---
 
 > [!faq]- Disclaimer:
-> Same caveat as [[ai_workspace|AI workspace]] — the gfx1151 software stack (ROCm, llama.cpp, ComfyUI/PyTorch) moves week to week. Treat every version number below as a snapshot, not a pin. The point of codifying this in a git repo is so churn is cheap.
+> Same caveat as [[ai stack|AI workspace]] — the gfx1151 software stack (ROCm, llama.cpp, ComfyUI/PyTorch) moves week to week. Treat every version number below as a snapshot, not a pin. The point of codifying this in a git repo is so churn is cheap.
 
 # Goal
 
 `mentat` is a **headless inference appliance**. Not a dev box: nothing is developed on it, and no toolchain lives on it beyond what serves a model. It runs exactly two workloads, both as containerised toolboxes:
 
-1. **llama.cpp** — LLM serving over an OpenAI-compatible endpoint, several models available at once, consumed by my editor, agent harnesses, MCP servers ([[ai_workspace|AI workspace]]) and workloads in the [[k8s_cluster|Kubernetes cluster]].
+1. **llama.cpp** — LLM serving over an OpenAI-compatible endpoint, several models available at once, consumed by my editor, agent harnesses, MCP servers ([[ai stack|AI workspace]]) and workloads in the [[k8s_cluster|Kubernetes cluster]].
 2. **ComfyUI** — image and video generation (Flux, Qwen Image, Wan 2.2, HunyuanVideo).
 
 Everything else is in service of those two sharing one memory pool without stepping on each other. Non-goal: joining the cluster — see [Relationship to the k8s cluster](#relationship-to-the-k8s-cluster).
@@ -37,15 +37,15 @@ This decision does most of the work of the appliance framing: **ComfyUI's entire
 
 **Vulkan first for LLMs, ROCm when measured.** RADV needs no extra host setup and is competitive with (sometimes better than) ROCm for token generation at normal context lengths. ROCm's win is prompt processing on long inputs. ComfyUI has no such choice: it's ROCm-only.
 
-## llama.cpp + llama-swap, not vLLM
+## llama.cpp router mode, not vLLM
 
 Worth recording properly, because vLLM's reputation as *the* serving engine makes this look like the wrong call:
 
-| | llama.cpp + llama-swap | vLLM |
+| | llama.cpp router mode | vLLM |
 |---|---|---|
 | Single-stream on gfx1151 | ~48–80 tok/s | ~20 tok/s |
 | Models per process | many, load-on-demand | one |
-| Idle memory | released on TTL | KV cache pre-allocated, held |
+| Idle memory | model + KV unloaded on idle | KV cache pre-allocated, held |
 | New-release quants | GGUF, hours | AWQ/GPTQ, weeks or never |
 
 vLLM's headline 162–181 tok/s on this hardware is *aggregate* throughput at 64 concurrent sequences; its own benchmark output warns that isn't single-request speed. For one user, it's a ~3× latency regression.
@@ -154,12 +154,16 @@ ROCm needs **both** `/dev/kfd` and `/dev/dri`.
 
 ## llama.cpp
 
-| Tag | Notes |
-|---|---|
-| `vulkan-radv` | Most compatible. **Start here.** |
-| `vulkan-amdvlk` | Fastest Vulkan, but a 2 GiB buffer limit — rules out big single tensors |
-| `rocm-7.14` | Current ROCm line |
-| `rocm-6.4.4` | Older, occasionally more stable; matches AMD's official support matrix |
+Upstream maintains a small **stable** set and a long experimental tail. Only the stable two are worth running here:
+
+| Tag | Status | Notes |
+|---|---|---|
+| `vulkan-radv` | stable | "Most stable and compatible." **This is what serves.** |
+| `rocm-10.0` | stable | Fedora 44, AMD's supported gfx1151 package set. Labelled the performance pick — but currently ships a local patch for [llama.cpp #25992](https://github.com/ggml-org/llama.cpp/issues/25992) to stop it selecting ROCm host buffers on an iGPU. Kept for benchmarking, not serving. |
+| `vulkan-amdvlk` | — | Fastest Vulkan, but a 2 GiB buffer limit — rules out big single tensors |
+| `rocm-7.14`, `-performance`, `-rocmfpx`, `therock-nightly` | experimental | Forks and nightlies. `rocm-7.14` and `rocm-6.4.4` *were* the stable line; they've since been demoted |
+
+The tag churn is the lesson: read the README's stable table, not the Docker Hub tag list, and expect the answer to have moved. Both stable images are rebuilt automatically whenever llama.cpp master updates, so the tag you pinned is not the image you pulled last month — which is why `make refresh` compares digests and why a throughput baseline exists at all.
 
 Two flags are **required** on gfx1151 or llama.cpp crashes — `-fa 1` (flash attention) and `--no-mmap`. With unified memory, mmap'd weights and GTT interact badly. Bake both into every launch config.
 
@@ -183,47 +187,54 @@ Two stores, both on a dedicated filesystem and both excluded from backups (re-do
 
 # Phase 4 — Coexistence
 
-Three things want the same 120 GiB: a large LLM, a small always-on LLM, and ComfyUI. The engine choice above is what makes this tractable, because **everything is evictable**.
+Three things want the same 120 GiB: a large LLM, a small always-on LLM, and ComfyUI. Everything is evictable, which is what makes this tractable — but with the current generation of models the honest framing is **two of the three at a time**, not all three. The heavy model is simply too large for a comfortable three-way split, and that is a property of where open models have gone, not a flaw in the design.
 
 ## Multiple LLMs at once
 
-`llama-swap` groups express the "one large, one small" shape directly:
+`llama-server` started with **no model** is itself a router: it holds a catalogue, loads on demand, forwards each request by the `model` field, and unloads on idle. An earlier draft of this page put **llama-swap** in front of it for exactly these features; llama.cpp has since absorbed them, so the extra process no longer earns its place. Two knobs express the "one large, one small" shape:
 
-```yaml
-groups:
-  "always-on":
-    persistent: true      # other groups can't unload this one
-    swap: false           # members run concurrently
-    exclusive: false      # loading it doesn't unload anything else
-    members: ["small"]
+- `--models-max N` — how many may be resident at once.
+- `sleep-idle-seconds`, per model in `models.ini` — `-1` for the always-on tier, a timeout for the heavy one.
 
-  "heavy":
-    swap: true            # only one big model at a time
-    exclusive: false      # critical: true would evict always-on
-    members: ["large-a", "large-b"]
-```
+The difference from llama-swap is worth being honest about: llama-swap had a *declarative policy* (`persistent: true` guarantees the small model survives any load), whereas sleeping is a per-model *timeout* with no cross-model guarantee. The shapes coincide here because only two tiers exist and `--models-max 2` admits both. If this ever grows to several heavy models competing for one slot, that equivalence breaks and llama-swap's group solver becomes the right tool again.
 
-The two keys that matter are `persistent: true` on the small group and `exclusive: false` on the heavy one. Get `exclusive` wrong and the small model vanishes whenever a big one is requested — which looks like a crash, not a config error.
-
-Newer llama-swap has a `matrix` DSL: declare which combinations may coexist and a solver evicts as few models as possible, preferring to keep the costliest loaded. More expressive if this grows past two tiers.
+Keep llama-swap in mind for two other cases it still owns: fronting non-llama.cpp servers (vLLM, whisper.cpp, stable-diffusion.cpp), and routing different models to different *backends* — Vulkan for one, ROCm for another — which router mode cannot do because it is a single process in a single container.
 
 ## Against ComfyUI
 
 Both sides release memory when idle, which is what makes co-residency cheap even though co-*execution* isn't:
 
-- `ttl` on the heavy models — an idle large LLM is evicted and the pool returns to the GPU.
-- No `ttl` on the small persistent model; it's meant to stay.
+- `sleep-idle-seconds` on the heavy model — after the timeout llama.cpp unloads **the model and its KV cache**, which on unified memory is what actually returns GTT to the pool. Keep this short (5 min): the heavy model is holding most of the pool, and ComfyUI wants it back.
+- `sleep-idle-seconds = -1` on the small model; it's meant to stay.
 - ComfyUI's `--cache-none` avoids holding models between runs.
+- **`--models-max` caps count, not footprint.** Two heavies would both be admitted and then exhaust the pool. Safe with one small and one heavy; not a guard beyond that. This is the one thing llama-swap's group policy expressed that router mode cannot.
 
-Rough budget: an 8B Q6 (~10 GiB with KV) plus a 70B Q4_K_M (~48 GiB with KV at 32k) is ~58 GiB, leaving ~60 GiB for ComfyUI — comfortable even for video workflows. KV cache scales with context and grows fast at 128k, so check a specific pairing with `gguf-vram-estimator.py` before committing.
+Budget with the models actually chosen (both August 2026, the current generation):
+
+| | Weights | Left of 120 GiB |
+|---|---|---|
+| `Qwen3.8-27B` UD-Q4_K_M — always resident | 15.3 GiB | 104.7 |
+| `Qwen3.8-Flash-Next` UD-IQ3_XXS — sleeps at 5 min | ~76 GiB | **~28 GiB** |
+
+~28 GiB is enough for ComfyUI image workflows and not enough for video. Choosing Flash-Next's quant *is* choosing the coexistence story:
+
+| Flash-Next quant | Size | Consequence |
+|---|---|---|
+| `UD-Q2_K_XL` / `UD-IQ3_XXS` | 73–76 GiB | coexists with ComfyUI image work |
+| `UD-Q3_K_XL` / `UD-IQ4_XS` | 84–87 GiB | tight; ComfyUI effectively excluded |
+| `UD-Q4_K_XL` | ~104 GiB | sole occupant |
+
+Low-bit quantization degrades a 512-expert MoE more than a dense model, so this is a quality decision, not just a size one. Test on real prompts rather than picking by arithmetic.
+
+**KV is no longer the thing to fear.** This generation sets `full_attention_interval: 4` — three linear-attention layers with constant state for every one full-attention layer — so a 256k context costs a fraction of what it would on a classic transformer. Weights dominate; context is nearly free. Earlier drafts of this page warned the opposite, which was true of `Qwen3Moe` and no longer applies.
 
 ## Serving
 
-- **`llama-swap`** in front of `llama-server`, routing by model name, groups for concurrency, TTL for eviction. Runs on the host as a single static binary and shells into the toolbox per model.
+- **`llama-server` in router mode**, routing by model name, `--models-max` for concurrency, per-model idle sleep for eviction. Runs *inside* the toolbox — nothing on the host at all.
 - **ComfyUI** on 8188, inside its toolbox.
 - **Lifecycle** — user-level systemd units plus `loginctl enable-linger` so both survive reboot on a box nobody logs into.
 - **Exposure** — bind loopback, publish to the tailnet with `tailscale serve`. Never `0.0.0.0`; if a firewall rule opening a port feels necessary, the interface binding is wrong.
-- **Metrics** — llama-swap exposes `/metrics` for Prometheus, which plugs into [[observability|the observability stack]].
+- **Metrics** — `/metrics?model=<id>` for Prometheus, which plugs into [[observability|the observability stack]].
 
 # Automation & replicability
 
@@ -235,8 +246,8 @@ The interesting design problem: **the highest-value config lives in `/etc` and t
 | `/etc` (GRUB cmdline, sysctl) | repo + `make` | Generate → `cmp` → `install`, side effects on change only |
 | Toolbox containers | repo + `make` | Idempotent create/refresh |
 | systemd user units + linger | repo + `make` | Files copied to `~/.config/systemd/user/` |
-| Service config (models, workflows) | repo | Plain YAML, no templating needed |
-| `llama-swap` binary | repo | Version pinned in `vars.sh` |
+| Service config (models, workflows) | repo | Plain INI, no templating needed |
+| Model weights | not in git | `bin/models add` → shared HF cache on `/srv` |
 
 An earlier draft of this used chezmoi and mise. Both were dropped: chezmoi's value is managing `$HOME` across *several* machines with templating, and this is one appliance with no dotfiles to speak of; mise was pinning exactly one Go binary and acting as a task runner. A git repo, a `Makefile` and `install(1)` cover the same ground with nothing extra installed — which is Principle 5 (nothing on the host a toolbox could carry) applied to the automation itself.
 
@@ -271,7 +282,8 @@ Revisit if I ever add a second Strix Halo box and want scheduled multi-node infe
 - [kyuz0/amd-strix-halo-toolboxes](https://github.com/kyuz0/amd-strix-halo-toolboxes) — llama.cpp toolboxes for gfx1151 ([benchmarks](https://kyuz0.github.io/amd-strix-halo-toolboxes/))
 - [kyuz0/amd-strix-halo-comfyui-toolboxes](https://github.com/kyuz0/amd-strix-halo-comfyui-toolboxes) — ComfyUI/ROCm toolbox ([benchmarks](https://kyuz0.github.io/amd-strix-halo-comfyui-toolboxes/))
 - [Strix Halo AI Toolboxes](https://strix-halo-toolboxes.com/) — index of the whole toolbox family
-- [llama-swap: groups and swapping policies](https://deepwiki.com/mostlygeek/llama-swap/3.4-groups-and-swapping-policies) — `swap` / `exclusive` / `persistent` semantics
+- [llama-server router mode](https://github.com/ggml-org/llama.cpp/blob/master/tools/server/README.md#router-mode) — `--models-preset`, `--models-max`, and [sleep on idle](https://github.com/ggml-org/llama.cpp/pull/18228)
+- [llama-swap: groups and swapping policies](https://deepwiki.com/mostlygeek/llama-swap/3.4-groups-and-swapping-policies) — `swap` / `exclusive` / `persistent` semantics; no longer used here, but the reference if several heavy models ever compete for one slot
 - [AMD Strix Halo (gfx1151) vLLM benchmarks](https://kyuz0.github.io/amd-strix-halo-vllm-toolboxes/) and [known-good llama.cpp stack](https://github.com/ggml-org/llama.cpp/discussions/20856) — the numbers behind the engine decision
 - [Ubuntu 26.04 LTS release notes](https://documentation.ubuntu.com/release-notes/26.04/summary-for-lts-users/) — kernel 7.0 GA
 - [How to Run AMD GPU Containers with Podman](https://oneuptime.com/blog/post/2026-03-18-run-amd-gpu-containers-podman/view) — the rootless `keep-groups` trap

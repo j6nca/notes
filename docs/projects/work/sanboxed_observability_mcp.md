@@ -33,6 +33,25 @@ We ended up spinning a sandboxed environment, containing a Grafana server and MC
 
 The standalone Grafana MCP server contains several tools for working with metrics, dashboards, logs, profiles etc. However, Tempo has it's own MCP tooling built-in to it's cluster which Grafana MCP does not have, so we must run Tempo MCP and proxy these tools over to Grafana MCP.
 
+```mermaid
+flowchart LR
+    users["Users<br/>(AI tools)"] --> gmcp
+
+    subgraph sandbox["Sandboxed environment"]
+        gmcp["Grafana MCP server"] --> grafana["Grafana<br/>provisioned, stateless,<br/>anonymous viewer"]
+    end
+
+    subgraph tempoCluster["Tempo cluster"]
+        tmcp["Tempo MCP"]
+    end
+
+    gmcp -->|"proxied tools"| tmcp
+    grafana --> prom["Prometheus"] & am["AlertManager"] & loki["Loki"] & pyro["Pyroscope"] & tempoCluster
+
+    main["Main Grafana<br/>clickops dashboards,<br/>all datasources"]
+    users -.-x|"no MCP access"| main
+```
+
 # References
 
 - 

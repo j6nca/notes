@@ -42,6 +42,27 @@ Four mechanisms, roughly in order of how much work they do:
 3. **`.chezmoiignore`** — drop whole files or directories on machines that shouldn't have them.
 4. **`.chezmoidata` / `.chezmoitemplates`** — shared values and shared fragments, defined once.
 
+How they fit together when a machine is bootstrapped and applied:
+
+```mermaid
+flowchart TD
+    init["chezmoi init --apply"] --> cfgTmpl[".chezmoi.toml.tmpl"]
+    cfgTmpl --> isSet{"machine already<br/>in config?"}
+    isSet -->|"no"| prompt["promptChoiceOnce<br/>work / personal"]
+    isSet -->|"yes"| reuse["Reuse existing value"]
+    prompt --> cfg[("~/.config/chezmoi/chezmoi.toml<br/>machine = ...")]
+    reuse --> cfg
+    cfg --> apply["chezmoi apply"]
+    apply --> each["Each file in the source tree"]
+    each --> ignored{"Listed in rendered<br/>.chezmoiignore?"}
+    ignored -->|"yes"| skip["Never created"]
+    ignored -->|"no"| isTmpl{"Source name<br/>ends in .tmpl?"}
+    isTmpl -->|"no"| verbatim["Written verbatim"]
+    isTmpl -->|"yes"| render["Rendered with .machine, .chezmoi.*,<br/>.chezmoidata and .chezmoitemplates"]
+    verbatim --> target["File in $HOME"]
+    render --> target
+```
+
 ## 1. The profile selector
 
 `.chezmoi.toml.tmpl` is rendered exactly once per machine, at `chezmoi init`, and the result is written to `~/.config/chezmoi/chezmoi.toml`. That file — not the repo — is what makes a machine "work" or "personal".
