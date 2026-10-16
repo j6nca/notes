@@ -11,4 +11,4 @@ title: Hello World
 
 Welcome to my digital notebook. I've created this space as a second brain for myself to document and share my interests in [[notes/index|learning]], [[food/index|food]], [[keyboards/index|keyboards]], [[photography/index|photos]], [[projects/index|projects]], and [[hobbies/index|hobbies]]. Hope you enjoy your stay!
 
-This site is generated via [nebula-md](https://ctrl-research.github.io/nebula-md). I use [Obsidian.md](https://obsidian.md) to write and organize my notes.
+This site is generated via [nebula-md](https://thanoslabs.github.io/nebula-md). I use [Obsidian.md](https://obsidian.md) to write and organize my notes.

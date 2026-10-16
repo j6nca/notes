@@ -32,7 +32,7 @@ I eventually came across Quartz which does some of the visualizations out of the
 
 ## Rev. 3
 
-The latest iteration of my blog uses [nebula-md](https://ctrl-research.github.io/nebula-md), my own vibe-coded passion project to build the static site that fits my needs.
+The latest iteration of my blog uses [nebula-md](https://thanoslabs.github.io/nebula-md), my own vibe-coded passion project to build the static site that fits my needs.
 
 # References
 

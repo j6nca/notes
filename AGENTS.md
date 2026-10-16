@@ -7,7 +7,7 @@ A personal "second brain" / digital notebook — an Obsidian vault containing no
 ## Tech stack
 
 - **Authoring**: Obsidian (vault rooted at `docs/`)
-- **Publishing**: [Nebula](https://github.com/ctrl-research/nebula-md) static site generator, run via GitHub Actions (`.github/workflows/deploy_nebula.yml`) on push to `main`
+- **Publishing**: [Nebula](https://github.com/thanoslabs/nebula-md) static site generator, run via GitHub Actions (`.github/workflows/deploy_nebula.yml`) on push to `main`
 
 ## Structure
 
@@ -16,7 +16,7 @@ A personal "second brain" / digital notebook — an Obsidian vault containing no
   - `templates/`, `assets/`, `diagrams/`, `drafts/`, `wip/`, `ignore/`, `.obsidian/` — excluded from publish (see workflow `ignored_dirs` and `.gitignore`)
   - `index.md` — site landing page
   - `tags.md` — tag index
-- `.github/workflows/deploy_nebula.yml` — deploy pipeline (calls `ctrl-research/nebula-md` reusable workflow)
+- `.github/workflows/deploy_nebula.yml` — deploy pipeline (calls `thanoslabs/nebula-md` reusable workflow)
 - `scripts/` — repo tooling, not part of the vault (e.g. `geocode_reviews.py`)
 - `CNAME` — custom domain config for GitHub Pages
 

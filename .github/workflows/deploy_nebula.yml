@@ -37,7 +37,7 @@ jobs:
 
   nebula_render:
     needs: geocode_reviews
-    uses: ctrl-research/nebula-md/.github/workflows/deploy.yml@main
+    uses: thanoslabs/nebula-md/.github/workflows/deploy.yml@main
     with:
       vault_repo: j6nca/notes
       vault_directory: docs
