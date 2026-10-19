@@ -13,7 +13,7 @@ title: Thanos Tabs
 
 This plugin takes your currently open tabs (excluding pinned tabs) and halves them periodically. Just like that 🫰!
 
-You can check out the project on [github](http://github.com/gravityctl/thanos-tabs) or download the extension from the [Chrome store](https://chromewebstore.google.com/detail/thanos-tabs/fapkhicekebpdjgaoeijhdcmfhboolpb).
+You can check out the project on [github](http://github.com/thanoslabs/thanos-tabs) or download the extension from the [Chrome store](https://chromewebstore.google.com/detail/thanos-tabs/fapkhicekebpdjgaoeijhdcmfhboolpb).
 
 # Media
 
